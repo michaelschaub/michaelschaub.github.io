@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <title>M Schaub</title>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+        <link rel="stylesheet" type="text/css" href="bluebliss.css" />
+    </head>
+    <body>
+        <div id="mainContentArea">
+            <div id="contentBox">
+                <div id="title"> </div>
+
+                <div id="linkGroup">
+                    <a href="index.html" class="link">Home</a>
+                    <a href="research.html" class="link">Publications</a>
+                    <a href="code.html" class="link">Code</a>
+                    <a href="links.html" class="link">Links</a>
+
+                </div>
+
+                <div id="blueBox"> 
+                    <div id="header"></div>
+                    <div class="contentTitle">Code</div>
+                    <a name="top"> </a>
+                    <div class="pageContent">
+                        <h1>Slow Switching Assemblies in Structured networks</h1>
+                        <p>Understanding how the complex orchestration of neuronal firing activity is determined by the structure of the underlying network (i.e., its wiring) is an important step towards comprehending how neural computation is manifested, especially given the growing experimental access to temporal record- ings and connectomics. I a recent work [1] we investigated the link between network structure and the dynamics of neuronal assemblies in the context of leaky-integrate-and-fire (LIF) networks. We show how structural features in the wiring of the network can introduce additional time-scales to the dynamics, and how such structured wiring can lead to spatio-temporally segregated, coherent activity of groups of neurons, including both inhibitory and excitatory neurons </p>
+                        <img class="centered" width="411px" src="./SlowDynamics.png"/><br>
+
+
+                        <p> Matlab code for reproducing our results can be found here:  <u><a href="https://github.com/CellAssembly/SSA-Dynamics">https://github.com/CellAssembly/SSA-Dynamics</a></u>. 
+                        Feel free to send me an email with any suggestions, questions etc. regarding the code.</p>
+
+                        <p>[1]<i> "Emergence of Slow-Switching Assemblies in Structured Neuronal Networks"</i>, Michael T. Schaub*, Yazan N. Billeh*, Costas A. Anastassiou, Christof Koch and  Mauricio Barahona, <a href ="http://dx.doi.org/10.1371/journal.pcbi.1004196" target="_blank">PLoS Computational Biology 11(7), <b>2015</b>, pp. e1004196</a> (* denotes equal contribution) see also <a href="http://arxiv.org/abs/1502.05656" target="_blank">arXiv:1502.05656</a>)
+                        </p>
+                        <hr>
+                        <h1>Detecting Cell Assemblies in Neural Spike trains</h1>
+                        <p>Give a set of recorded spike trains, how can we detect possible structured activity in the data, possibly stemming from neural cell assemblies? Using the Markov stability framework in combination with a new functional connectivity measure, we have provided a tool for solving this problem in a recent publication [1]. Our dynamics driven methodology is able to extract patterns in the spike trains a multiple scales, without any prior knowledge of their expected size. </p>
+                        <img class="centered" width="411px" src="./CellAssemblyDetect.png"/><br>
+
+
+                        <p> Matlab code can be found here:  <u><a href="https://github.com/CellAssembly/Detection">https://github.com/CellAssembly/Detection</a></u>.</p>
+
+                        <p>[1]<i> "Revealing cell assemblies at multiple levels of granularity"</i>, Yazan N. Billeh*, Michael T. Schaub*, Costas A. Anastassiou,  Mauricio Barahona, and Christof Koch,  <a href ="http://dx.doi.org/10.1016/j.jneumeth.2014.08.011" target="_blank">Journal of Neuroscience Methods 236(0), <b>2014</b>, pp. 92-106 </a> (* denotes equal contribution; see also <a href="http://arxiv.org/abs/1411.2103" target="_blank">arXiv:1411.2103</a>
+                        </p>
+                        <hr>
+                        <h1>Quantifying Edge-to-Edge relations</h1>
+                        <p>Most network analysis considers the nodes as the primary entities of importance. However, there are arguable a number of cases in which relations between edges are of interest, in particular if there is a flow occuring on th edges. In Ref. [1], we have presented graph-theoretical measures to quantify edge-to-edge relations. Our measures can reveal the dynamical interplay between the edges of a network, including potentially non-local interactions.</p>
+                        <img class="centered" width="411px" src="./FR_schematic2.png"/><br>
+
+
+                        <p> Matlab code implementing our edge-measures can be found <u><a href="./data_and_code/computeEdge2EdgeMeasures.m">HERE</a></u>.<br> 
+                        There is a python implementation available as well <u><a href="./data_and_code/computeEdge2EdgeMeasures.py">HERE</a></u>, thanks to Jeff Alstott (Cambridge)! 
+                        <p>Feel free to send me an email with any suggestions, questions etc. regarding the code.</p>
+
+                        <p>[1]<i> "Structure of complex networks: Quantifying edge-to-edge relations by failure-induced flow redistribution"</i>, Michael T. Schaub, Jörg Lehmann, Sophia N. Yaliraki, Mauricio Barahona, <a href ="http://dx.doi.org/10.1017/nws.2014.4" target="_blank">Network Science 2(1), <b>2014</b>, pp. 66--89</a>; see also <a href="http://arxiv.org/abs/1303.6241" target="_blank">arXiv:0707.0609</a>
+                        </p>
+                        <hr>
+
+                        <h1>Markov Zooming Map Equation</h1>
+                        <p>In some recent work we have presented a dynamical extension to the so called "map equation" framework by Rosvall and coworkers [1]. Within this work [2] we could show that the standard map equation is prone to show a so called field of view limit [2,3], which effectively results in an overclustering of a network if the community structure is not sufficiently dense. By endowing the map equation with an explicitely time-dependent flow model one can scan across all scales in a natural manner and thus effectively evade the field of view problem [2].</p>
+                        <img class="centered" width="450px" src="./MarkovMap.jpg"/><br>
+
+                        <p>A recent zip archive of the code can be found <u><a href="https://github.com/michaelschaub/MarkovZoomingMap/zipball/master">HERE</a></u>. The most up-to-date code will also be available via a public code repository on github and the associated homepage.<br><br> 
+                        <a href="https://github.com/michaelschaub/MarkovZoomingMap" target="_blank"> https://github.com/michaelschaub/MarkovZoomingMap </a> -- git repository <br>
+                        <a href="http://michaelschaub.github.com/MarkovZoomingMap/" target="_blank"> http://michaelschaub.github.com/MarkovZoomingMap/ </a> -- associated homepage</p>
+
+                        <p>Feel free to send me an email with any suggestions, questions etc. regarding the code or make use of the repository to contribute.</p>
+
+                        <p>[1]<i> "Maps of information flow reveal community structure in complex networks"</i>, Martin Rosvall and Carl T. Bergstrom, PNAS 105, 1118 <b>(2008)</b>; see also <a href="http://arxiv.org/abs/0707.0609" target="_blank">arXiv:0707.0609</a><br>
+                        [2]<i> "Encoding dynamics for multiscale community detection: Markov time sweeping for the Map equation"</i>, M.T. Schaub,<br /> R. Lambiotte, M. Barahona, <a href="http://dx.doi.org/10.1103/PhysRevE.86.026112" target="_blank">Phys. Rev. E., Aug, <b>2012</b>. Vol. 86, pp. 026112. American Physical Society;</a> see also <a href="http://arxiv.org/abs/1109.6642">arXiv:1109.6642</a><br>
+                        [3] <i> "Markov dynamics as a zooming lens for multiscale community detection: non clique-like communities and the field-of-view limit"</i>, Schaub, M. T.; Delvenne, J.-C.; Yaliraki, S. N. & Barahona, M. <a href="http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0032210" target="_blank"> PLoS ONE, Public Library of Science, <b>2012</b>, 7, e32210</a>
+                        <a class="linktotop" href="#top"> top </a>
+                        </p>
+
+                        <hr>
+                        <h1>Stability of a graph partition</h1>
+                        <p>Looking for code of the stability method? You can find it here: <br><a href="http://www2.imperial.ac.uk/~mpbara/Partition_Stability/" target="_blank">http://www2.imperial.ac.uk/~mpbara/Partition_Stability/</a></p>
+                        <img class="centered" width="500px" src="./screenshot.png"/>
+                        <a class="linktotop" href="#top"> top </a>
+                    </div>
+                    <div id="footer"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
