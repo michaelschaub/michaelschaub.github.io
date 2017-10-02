@@ -13,4 +13,4 @@ The official publication pages can be accessed through the link given \[DOI].
 If a preprint version is available it can be found by clicking on \[URL].
 Links to press coverage are listed under \[Review].
 
-A list of my publications are also available on [Google Scholar](https://scholar.google.com/citations?hl=en&user=FCGOxvYAAAAJ&view_op=list_works){:target="_blank"}. 
+A list of my publications is also available on [Google Scholar](https://scholar.google.com/citations?hl=en&user=FCGOxvYAAAAJ&view_op=list_works){:target="_blank"}. 
