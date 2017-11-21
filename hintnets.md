@@ -19,10 +19,10 @@ The objective of this interdisciplinary project is to investigate such non-binar
 ## Presentations, Communication and Outreach
 Research related to the present project was presented at the following places / events.
 
-* Université catholique de Louvain, Applied Mathematics Seminar / ICTEAM, Louvain-la-Neuve, Belgium, November 2017
-* University of Oxford, Oxford, SysSoS group seminar, United Kingdom, November 2017
-* Imperial College London, Biomathematics Seminar, London, United Kingdom, November 2017
-* St. Ursula Gymnasium, Outreach Talk, Bruehl, Germany, November 2017
+* Université catholique de Louvain, Applied Mathematics Seminar / ICTEAM, Belgium, November 2017
+* University of Oxford, SysSoS group seminar, United Kingdom, November 2017
+* Imperial College London, Biomathematics Seminar, United Kingdom, November 2017
+* St. Ursula Gymnasium Bruehl, Outreach Talk, Germany, November 2017
 
 ## Contact
 Michael Schaub  
