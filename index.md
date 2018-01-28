@@ -23,5 +23,5 @@ Institute for Data, Systems, and Society
 Massachusetts Institute of Technology  
 77 Massachusetts Avenue,  
 Office: E18-425C  
-Cambridge, MA, 02139 
+Cambridge, MA, 02139   
 mschaub[at]mit.edu
