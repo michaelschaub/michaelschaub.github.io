@@ -38,8 +38,6 @@ Research related to the present project was presented at the following places / 
 **June 12, 2018**, Workshop on Higher-Order Models in Network Science (part of Netsci 2018).
 
 ## Contact
-Michael Schaub  
-
 **@MIT**   
 Institute for Data, Systems, and Society  
 Massachusetts Institute of Technology  
