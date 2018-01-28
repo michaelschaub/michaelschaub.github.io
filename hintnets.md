@@ -35,19 +35,19 @@ Research related to the present project was presented at the following places / 
 * St. Ursula Gymnasium Bruehl, Outreach Talk, Germany, November 2017
 
 ## Events
-*June 12, 2018*, Workshop on Higher-Order Models in Network Science (part of Netsci 2018).
+**June 12, 2018**, Workshop on Higher-Order Models in Network Science (part of Netsci 2018).
 
 ## Contact
 Michael Schaub  
 
-_@MIT_
+**@MIT**   
 Institute for Data, Systems, and Society  
 Massachusetts Institute of Technology  
 77 Massachusetts Avenue,  
 Office: E18-425C  
 Cambridge, MA, 02139 
 
-_@Oxford_
+**@Oxford**   
 Department of Engineering Science
 University of Oxford
 Parks Road
