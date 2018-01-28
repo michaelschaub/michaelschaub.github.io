@@ -48,7 +48,7 @@ Office: E18-425C
 Cambridge, MA, 02139 
 
 **@Oxford**   
-Department of Engineering Science
-University of Oxford
-Parks Road
-Oxford,OX1 3PJ
+Department of Engineering Science   
+University of Oxford   
+Parks Road   
+Oxford,OX1 3PJ 
