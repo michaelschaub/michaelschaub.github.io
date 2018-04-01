@@ -26,13 +26,18 @@ We will thus further investigate techniques to infer (generalized) networks and 
 The overarching goal of this research is to elucidate relations between structure, dynamics and function in complex systems.
 
 
-## Presentations, Communication and Outreach
+## Presentations and Communication 
 Research related to the present project was presented at the following places / events.
 
 * Université catholique de Louvain, Applied Mathematics Seminar / ICTEAM, Belgium, November 2017
 * University of Oxford, SysSoS group seminar, United Kingdom, November 2017
 * Imperial College London, Biomathematics Seminar, United Kingdom, November 2017
+* Complenet 2018, Boston, MA, March 2018
+* Netsci 2018, Paris, France, June 2018
+
+## Outreach
 * St. Ursula Gymnasium Bruehl, Outreach Talk, Germany, November 2017
+* MIT Spark Programme, Cambridge, MA, March 2018
 
 ## Events
 **June 12, 2018**, Workshop on Higher-Order Models in Network Science (part of Netsci 2018).
