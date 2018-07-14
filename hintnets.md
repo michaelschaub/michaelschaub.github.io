@@ -34,6 +34,7 @@ Research related to the present project was presented at the following places / 
 * Imperial College London, Biomathematics Seminar, United Kingdom, November 2017
 * Complenet 2018, Boston, MA, March 2018
 * Netsci 2018, Paris, France, June 2018
+* International Conference on Complex Networks (ICCS) 2018, Boston, USA, July 2018
 
 ## Outreach
 * St. Ursula Gymnasium Bruehl, Outreach Talk, Germany, November 2017
