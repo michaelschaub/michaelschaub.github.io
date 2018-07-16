@@ -1,23 +1,22 @@
 % Encoding: UTF-8
 
-
 @Article{Amor2016,
-  Title                    = {{P}rediction of allosteric sites and mediating interactions through bond-to-bond propensities},
-  Author                   = {Benjamin R. C. Amor and Michael T. Schaub and Sophia N. Yaliraki and Mauricio Barahona},
-  Journal                  = {Nature Communications},
-  Year                     = {2016},
-  Month                    = {August},
-  Number                   = {12477},
-  Volume                   = {7},
-  Abstract                 = {Allostery is a fundamental mechanism of biological regulation, in which binding of a molecule at a distant location affects the active site of a protein. Allosteric sites provide targets to fine-tune protein activity, yet we lack computational methodologies to predict them. Here we present an efficient graph-theoretical framework to reveal allosteric interactions (atoms and communication pathways strongly coupled to the active site) without a priori information of their location. Using an atomistic graph with energy-weighted covalent and weak bonds, we define a bond-to-bond propensity quantifying the non-local effect of instantaneous bond fluctuations propagating through the protein. Significant interactions are then identified using quantile regression. We exemplify our method with three biologically important proteins: caspase-1, CheY, and h-Ras, correctly predicting key allosteric interactions, whose significance is additionally confirmed against a reference set of 100 proteins. The almost-linear scaling of our method renders it suitable for high-throughput searches for candidate allosteric sites.},
-  DOI                      = {10.1038/ncomms12477},
-  Owner                    = {mschaub},
-  Review                   = {News articles:
+  author    = {Benjamin R. C. Amor and Michael T. Schaub and Sophia N. Yaliraki and Mauricio Barahona},
+  title     = {{P}rediction of allosteric sites and mediating interactions through bond-to-bond propensities},
+  journal   = {Nature Communications},
+  year      = {2016},
+  volume    = {7},
+  number    = {12477},
+  month     = {August},
+  abstract  = {Allostery is a fundamental mechanism of biological regulation, in which binding of a molecule at a distant location affects the active site of a protein. Allosteric sites provide targets to fine-tune protein activity, yet we lack computational methodologies to predict them. Here we present an efficient graph-theoretical framework to reveal allosteric interactions (atoms and communication pathways strongly coupled to the active site) without a priori information of their location. Using an atomistic graph with energy-weighted covalent and weak bonds, we define a bond-to-bond propensity quantifying the non-local effect of instantaneous bond fluctuations propagating through the protein. Significant interactions are then identified using quantile regression. We exemplify our method with three biologically important proteins: caspase-1, CheY, and h-Ras, correctly predicting key allosteric interactions, whose significance is additionally confirmed against a reference set of 100 proteins. The almost-linear scaling of our method renders it suitable for high-throughput searches for candidate allosteric sites.},
+  comment   = {News articles:
 http://www3.imperial.ac.uk/newsandeventspggrp/imperialcollege/newssummary/news_25-8-2016-15-3-8
 http://phys.org/news/2016-08-paths-proteins-reveal-drug.html
 http://naturalsciencenews.com/2016/08/27/mathematical-models-used-to-study-traffic-jams-can-help-researchers-understand-proteins/?platform=hootsuite},
-  Timestamp                = {2016.08.25},
-  URL                      = {http://dx.doi.org/10.1101/056275}
+  doi       = {10.1038/ncomms12477},
+  owner     = {mschaub},
+  timestamp = {2016.08.25},
+  url       = {http://dx.doi.org/10.1101/056275},
 }
 
 @Article{Bacik2016,
@@ -321,6 +320,47 @@ http://naturalsciencenews.com/2016/08/27/mathematical-models-used-to-study-traff
   owner     = {mschaub},
   timestamp = {2018.03.31},
   url       = {https://arxiv.org/abs/1802.06916},
+}
+
+@Misc{Schaub2018c,
+  author       = {Michael T. Schaub and Austin R. Benson and Paul Horn and Gabor Lippner and Ali Jadbabaie},
+  title        = {Random walks on simplicial complexes and the normalized Hodge Laplacian},
+  howpublished = {submitted},
+  month        = jul,
+  year         = {2018},
+  abstract     = {Modeling complex systems and data with graphs has been a mainstay of the applied mathematics community. The nodes in the graph represent entities and the edges model the relations between them. Simplicial complexes, a mathematical object common in topological data analysis, have emerged as a model for multi-nodal interactions that occur in several complex systems; for example, biological interactions occur between a set of molecules rather than just two, and commu- nication systems can have group messages and not just person-to-person messages. While simplicial complexes can model multi-nodal interactions, many ideas from network analysis concerning dynam- ical processes lack a proper correspondence in the a simplicial complex model. In particular, diffusion processes and random walks, which underpin large parts of the network analysis toolbox including centrality measures and ranking, community detection, and contagion models, have so far been only scarcely studied for simplicial complexes. Here we develop a diffusion process on simplicial com- plexes that can serve as a foundation for making simplicial complex models more effective. Our key idea is to generalize the well-known relationship between the normalized graph Laplacian operator and random walks on graphs by devising an appropriate normalization for the Hodge Laplacian, the analog of the graph Laplacian for simplicial complexes. We demonstrate how our diffusion process can be used for system analysis by developing a generalization of PageRank for edges in simplicial complexes and analyzing a book co-purchasing dataset.},
+  timestamp    = {2018-07-16},
+  url          = {https://arxiv.org/abs/1807.05044},
+}
+
+@Misc{Schaub2018a,
+  author       = {Michael T. Schaub and Jean-Charles Delvenne and Renaud Lambiotte and Mauricio Barahona},
+  title        = {Multiscale Dynamical Embeddings of Complex Networks},
+  howpublished = {submitted},
+  month        = apr,
+  year         = {2018},
+  abstract     = {Complex systems and relational data are often abstracted as dynamical processes on networks. To understand, predict and control their behavior a crucial step is to extract reduced descriptions of such networks. Inspired by notions from Control Theory, here we propose a time-dependent dynamical similarity measure between nodes, which quantifies the effect that a node input has on the network over time. This dynamical similarity induces an embedding that can be employed for several analysis tasks. Here we focus on (i) dimensionality reduction, by projecting nodes onto a low dimensional space capturing dynamic similarity at different time scales, and (ii) how to exploit our embeddings to uncover functional modules. We exemplify our ideas through case studies focusing on directed networks without strong connectivity, and signed networks. We further highlight how several ideas from community detection can be generalized in terms of our embedding perspective and linked to ideas from Control Theory. },
+  owner        = {mschaub},
+  timestamp    = {2018.05.12},
+  url          = {https://arxiv.org/abs/1804.03733},
+}
+
+@Misc{Schaub2018,
+  author    = {Michael T. Schaub and Jean-Charles Delvenne and Renaud Lambiotte and Mauricio Barahona},
+  title     = {Advances in network clustering and blockmodeling (forthcoming)},
+  year      = {2018},
+  abstract  = {This chapter discusses the interplay between structure and dynamics in complex networks. Given a particular network with an endowed dynamics, our goal is to find partitions aligned with the dynamical process acting on top of the network. We thus aim to gain a reduced description of the system that takes into account both its structure and dynamics.
+In the first part, we introduce the general mathematical setup for the types of dynamics we consider throughout the chapter. We provide two guiding examples, namely consensus dynamics and diffusion processes (random walks), motivating their connection to social network analysis, and provide a brief discussion on the general dynamical framework and its possible extensions.
+In the second part, we focus on the influence of graph structure on the dynamics taking place on the network, focussing on three concepts that allow us to gain insight into this notion. First, we describe how time scale separation can appear in the dynamics on a network as a consequence of graph structure. Second, we discuss how the presence of particular symmetries in the network give rise to invariant dynamical subspaces that can be precisely described by graph partitions. Third, we show how this dynamical viewpoint can be extended to study dynamics on networks with signed edges, which allow us to discuss connections to concepts in social network analysis, such as structural balance.
+In the third part, we discuss how to use dynamical processes unfolding on the network to detect meaningful network substruc- tures. We then show how such dynamical measures can be related to seemingly different algorithm for community detection and coarse-graining proposed in the literature. We conclude with a brief summary and highlight interesting open future directions.
+},
+  chapter   = {Structured networks and coarse-grained descriptions: a dynamical perspective},
+  editor    = {Patrick Doreian and Vladimir Batagelj and Anuska Ferligoj},
+  owner     = {mschaub},
+  pages     = {(forthcoming)},
+  publisher = {Wiley},
+  timestamp = {2018.05.12},
+  url       = {https://arxiv.org/abs/1804.06268},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
