@@ -35,6 +35,7 @@ Research related to the present project was presented at the following places / 
 * Complenet 2018, Boston, MA, March 2018
 * Netsci 2018, Paris, France, June 2018
 * International Conference on Complex Networks (ICCS) 2018, Boston, USA, July 2018
+* PostDoc Lunch Seminar, Institute of Data, Systems and Society, Cambridge, USA, August 2018
 
 ## Outreach
 * St. Ursula Gymnasium Bruehl, Outreach Talk, Germany, November 2017
