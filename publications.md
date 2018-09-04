@@ -5,9 +5,10 @@ permalink: /Publications/
 #mathjax: true comment in to enable math
 ---
 
-Finished publications and public preprint are listed below. 
+Finished publications and public preprints are listed below. 
 Click on \[Abstract] to obtain more information. 
 Bibliographical information is available by clicking on \[BibTeX].
+
 You can search in the abstracts using the quicksearch box below.
 The official publication pages can be accessed through the link given \[DOI]. 
 If a preprint version is available it can be found by clicking on \[URL].
