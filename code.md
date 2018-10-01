@@ -5,6 +5,24 @@ permalink: /Code/
 ---
 ## Slow Switching Assemblies in Structured networks
 
+Complex systems and relational data are often abstracted as dynamical processes on networks. To understand, predict and control their behavior a crucial step is to extract reduced descriptions of such networks. Inspired by notions from Control Theory, we have proposed a time-dependent dynamical similarity measure between nodes, which quantifies the effect that a node input has on the network over time.
+Using this embedding we can try to partition the graph into dynamical modules, capturing dynamic similarity between nodes at different time scales.
+
+
+<div style="border: 1px solid black; padding: 0px;" markdown="1">
+![image-center](/images/GenLouvain.png){: .align-center}
+</div>
+
+
+Matlab/C++ code for the associated generalized Louvain optimization scheme can be found here:
+[https://github.com/michaelschaub/generalizedLouvain](https://github.com/michaelschaub/generalizedLouvain){:target="_blank"}
+
+Feel free to send me an email with any suggestions, questions etc. regarding the code.  
+
+\[1] "Multiscale Dynamical Embeddings of Complex Networks", Michael T. Schaub, J.-C. Delvenne, R. Lambiotte, and Mauricio Barahona, https://arxiv.org/abs/1804.03733
+
+## Slow Switching Assemblies in Structured networks
+
 Understanding how the complex orchestration of neuronal firing activity is determined by the structure of the underlying network (i.e., its wiring) is an important step towards comprehending how neural computation is manifested, especially given the growing experimental access to temporal record- ings and connectomics. I a recent work \[1] we investigated the link between network structure and the dynamics of neuronal assemblies in the context of leaky-integrate-and-fire (LIF) networks. We show how structural features in the wiring of the network can introduce additional time-scales to the dynamics, and how such structured wiring can lead to spatio-temporally segregated, coherent activity of groups of neurons, including both inhibitory and excitatory neurons 
 
 <div style="border: 1px solid black; padding: 0px;" markdown="1">
