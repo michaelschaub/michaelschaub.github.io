@@ -3,7 +3,7 @@ layout: archive
 title: Code
 permalink: /Code/
 ---
-## Slow Switching Assemblies in Structured networks
+## Dynamical Modules in Complex Systems / Generalized Louvain optimization
 
 Complex systems and relational data are often abstracted as dynamical processes on networks. To understand, predict and control their behavior a crucial step is to extract reduced descriptions of such networks. Inspired by notions from Control Theory, we have proposed a time-dependent dynamical similarity measure between nodes, which quantifies the effect that a node input has on the network over time.
 Using this embedding we can try to partition the graph into dynamical modules, capturing dynamic similarity between nodes at different time scales.
