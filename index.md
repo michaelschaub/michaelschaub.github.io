@@ -1,6 +1,7 @@
 ---
-layout: single
+layout: archive
 title: About
+author_profile: true
 #mathjax: true comment in to enable math
 ---
 
