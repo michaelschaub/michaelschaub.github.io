@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: single
 title: About
 #mathjax: true comment in to enable math
 ---
