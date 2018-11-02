@@ -83,12 +83,8 @@ author:
   avatar           : "/images/MichaelBW.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Marie Skłodowska Curie Fellow @MIT / Oxford"
   location         : "Cambridge, USA"
-  email            : mschaub(at)mit.edu
-  github           : michaelschaub
-  links:
-      - label: "Github"
-        icon: "fab fa-fw fa-github"
-        url: "https://github.com/michaelschaub"
+  email            : "mschaub(at)mit.edu"
+  github           : "michaelschaub"
 
 
 # Reading Files
