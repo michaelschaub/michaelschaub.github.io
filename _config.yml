@@ -108,12 +108,12 @@ author:
   email            : "mschaub(at)mit.edu"
   home: "https://michaelschaub.github.io"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: mailto:mschaub[at]mit.edu
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/michaelschaub"
+    - label: "Google Scholar"
+      icon: "fas fa-graduation-cap"
+      url: "https://scholar.google.com/citations?hl=en&user=FCGOxvYAAAAJ"
 
 # Site Footer
 footer:
