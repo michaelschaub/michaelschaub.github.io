@@ -85,6 +85,10 @@ author:
   location         : "Cambridge, USA"
   email            : mschaub(at)mit.edu
   github           : michaelschaub
+  links:
+      - label: "Github"
+        icon: "fab fa-fw fa-github"
+        url: "https://github.com/michaelschaub"
 
 
 # Reading Files
