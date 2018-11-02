@@ -109,10 +109,10 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:mschaub[at]mit.edu
+      url: mailto:mschaub[at]mit.edu
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/michaelschaub/michaelschaub.github.io"
+      url: "https://github.com/michaelschaub/michaelschaub.github.io"
 
 # Site Footer
 footer:
