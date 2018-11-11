@@ -3,6 +3,36 @@ layout: archive
 title: Code
 permalink: /Code/
 ---
+{: #top }
+Below you find brief descriptions and the links to code related to several projects.
+
+* [Simplicial closure and higher-order link prediction](#SCCLOSURE)
+* Generalized Louvain algorithm
+* Creating slow switching cell assemblies
+* Detecting cell assemblies in neural data
+* Quantifying Edge-to-Edge relationships in complex networks
+* Markov zooming map-equation
+* Markov Stability
+
+## Simplicial closure and higher-order link prediction
+{: #SCCLOSURE}
+Many complex systems includes interactions that take place among more than two nodes at once.
+For example, communication within a group rather than person to person, col- laboration among a team rather than a pair of coauthors 
+We study 19 datasets from biology, medicine, social networks, and the web and characterize how higher-order structure emerges and differs between domains. 
+We further propose a framework for evaluating higher-order data models based on link prediction:the prediction of future interactions based on a system’s structure and past history.
+
+<div style="border: 1px solid black; padding: 0px;" markdown="1">
+![image-center](/images/SCexample.png){: .align-center}
+</div>
+
+The associated code and datasets can be found here:
+[https://github.com/arbenson/ScHoLP-Tutorial](https://github.com/arbenson/ScHoLP-Tutorial){:target="_blank"}
+
+\[1] Benson, A. R.; Abebe, R.; Schaub, M. T.; Jadbabaie, A. & Kleinberg, J.
+" Simplicial closure and higher-order link prediction" 
+*Proceedings of the National Academy of Sciences*, 2018, [DOI: 10.1073/pnas.1800683115](https://doi.org/10.1073/pnas.1800683115)   
+
+-------------------------
 ## Dynamical Modules in Complex Systems / Generalized Louvain optimization
 
 Complex systems and relational data are often abstracted as dynamical processes on networks. To understand, predict and control their behavior a crucial step is to extract reduced descriptions of such networks. Inspired by notions from Control Theory, we have proposed a time-dependent dynamical similarity measure between nodes, which quantifies the effect that a node input has on the network over time.
@@ -21,6 +51,7 @@ Feel free to send me an email with any suggestions, questions etc. regarding the
 
 \[1] "Multiscale Dynamical Embeddings of Complex Networks", Michael T. Schaub, J.-C. Delvenne, R. Lambiotte, and Mauricio Barahona, https://arxiv.org/abs/1804.03733
 
+-------------------------
 ## Slow Switching Assemblies in Structured networks
 
 Understanding how the complex orchestration of neuronal firing activity is determined by the structure of the underlying network (i.e., its wiring) is an important step towards comprehending how neural computation is manifested, especially given the growing experimental access to temporal record- ings and connectomics. I a recent work \[1] we investigated the link between network structure and the dynamics of neuronal assemblies in the context of leaky-integrate-and-fire (LIF) networks. We show how structural features in the wiring of the network can introduce additional time-scales to the dynamics, and how such structured wiring can lead to spatio-temporally segregated, coherent activity of groups of neurons, including both inhibitory and excitatory neurons 
