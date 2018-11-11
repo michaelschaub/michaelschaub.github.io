@@ -10,7 +10,7 @@ permalink: /HIntNets/
 [Marie Skłodowska-Curie Individual Fellowships](http://cordis.europa.eu/project/rcn/207743_en.html){:target="_blank"}  
 (MSCA-IF-GF - Global Fellowships, Project ID: 702410)   
 
-This page will collect all information about the project "HIntNets".  
+This page collects information about the project "HIntNets".  
 
 ## Overview
 Complex networks are an essential ingredient of modern life, and underpin integral parts of our biological, physical, technological and socio-economic universe. 
@@ -28,6 +28,7 @@ The overarching goal of this research is to elucidate relations between structur
 ## Events
 **June 12, 2018**, Workshop on Higher-Order Models in Network Science (part of Netsci 2018).
 
+--------------
 ## Selected Projects
 
 ### Simplicial Complexes as modelling tools for complex systems
@@ -50,6 +51,8 @@ Like the graph Laplacian in the node domain, its higher order equivalents enable
 \[2] Schaub, M. T.; Benson, A. R.; Horn, P.; Lippner, G. & Jadbabaie, A. "Random walks on simplicial complexes and the normalized Hodge Laplacian", 2018,
 [arXiv:1807.05044](https://arxiv.org/abs/1807.05044)     
 
+
+---------------
 ## Presentations and Communication 
 Research related to the present project was presented at the following places / events.
 

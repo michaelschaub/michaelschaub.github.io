@@ -20,7 +20,6 @@ permalink: /Code/
     height: 30px;
   }
 </style>
-{: #top }
 Below you find brief descriptions and the links to code related to several projects.
 
 * [Simplicial closure and higher-order link prediction](#SCCLOSURE)
