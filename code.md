@@ -3,16 +3,33 @@ layout: archive
 title: Code
 permalink: /Code/
 ---
+<script>addBackToTop({
+  backgroundColor: '#fff',
+  innerHTML: 'Back to Top',
+  textColor: '#333'
+})</script>
+<style>
+  #back-to-top {
+    border: 1px solid #ccc;
+    border-radius: 0;
+    font-family: sans-serif;
+    font-size: 14px;
+    width: 100px;
+    text-align: center;
+    line-height: 30px;
+    height: 30px;
+  }
+</style>
 {: #top }
 Below you find brief descriptions and the links to code related to several projects.
 
 * [Simplicial closure and higher-order link prediction](#SCCLOSURE)
-* Generalized Louvain algorithm
-* Creating slow switching cell assemblies
-* Detecting cell assemblies in neural data
-* Quantifying Edge-to-Edge relationships in complex networks
-* Markov zooming map-equation
-* Markov Stability
+* [Generalized Louvain algorithm](#GENLOUVAIN)
+* [Creating slow switching cell assemblies](#SSA)
+* [Detecting cell assemblies in neural data](#DETECTCA)
+* [Quantifying Edge-to-Edge relationships in complex networks](#EDGETOEDGE)
+* [Markov zooming map-equation](#MARKOVMAP)
+* [Markov Stability](#MARKOVSTABILITY)
 
 ## Simplicial closure and higher-order link prediction
 {: #SCCLOSURE}
@@ -34,6 +51,7 @@ The associated code and datasets can be found here:
 
 -------------------------
 ## Dynamical Modules in Complex Systems / Generalized Louvain optimization
+{: #GENLOUVAIN}
 
 Complex systems and relational data are often abstracted as dynamical processes on networks. To understand, predict and control their behavior a crucial step is to extract reduced descriptions of such networks. Inspired by notions from Control Theory, we have proposed a time-dependent dynamical similarity measure between nodes, which quantifies the effect that a node input has on the network over time.
 Using this embedding we can try to partition the graph into dynamical modules, capturing dynamic similarity between nodes at different time scales.
@@ -53,6 +71,7 @@ Feel free to send me an email with any suggestions, questions etc. regarding the
 
 -------------------------
 ## Slow Switching Assemblies in Structured networks
+{: #SSA}
 
 Understanding how the complex orchestration of neuronal firing activity is determined by the structure of the underlying network (i.e., its wiring) is an important step towards comprehending how neural computation is manifested, especially given the growing experimental access to temporal record- ings and connectomics. I a recent work \[1] we investigated the link between network structure and the dynamics of neuronal assemblies in the context of leaky-integrate-and-fire (LIF) networks. We show how structural features in the wiring of the network can introduce additional time-scales to the dynamics, and how such structured wiring can lead to spatio-temporally segregated, coherent activity of groups of neurons, including both inhibitory and excitatory neurons 
 
@@ -71,6 +90,7 @@ Feel free to send me an email with any suggestions, questions etc. regarding the
 
 -------------------------
 ## Detecting Cell Assemblies in Neural Spike trains
+{: #DETECTCA}
 
 Give a set of recorded spike trains, how can we detect possible structured activity in the data, possibly stemming from neural cell assemblies? Using the Markov stability framework in combination with a new functional connectivity measure, we have provided a tool for solving this problem in a recent publication \[1]. Our dynamics driven methodology is able to extract patterns in the spike trains a multiple scales, without any prior knowledge of their expected size. 
 
@@ -84,6 +104,7 @@ Matlab code can be found here: [https://github.com/CellAssembly/Detection](https
 
 -----------------------
 ## Quantifying Edge-to-Edge relations
+{: #EDGETOEDGE}
 
 Most network analysis considers the nodes as the primary entities of importance. However, there are arguable a number of cases in which relations between edges are of interest, in particular if there is a flow occuring on th edges. In Ref. \[1], we have presented graph-theoretical measures to quantify edge-to-edge relations. Our measures can reveal the dynamical interplay between the edges of a network, including potentially non-local interactions.
 
@@ -100,6 +121,7 @@ Feel free to send me an email with any suggestions, questions etc. regarding the
 
 --------------------------
 ## Markov Zooming Map Equation
+{: #MARKOVMAP}
 
 In some recent work we have presented a dynamical extension to the so called "map equation" framework by Rosvall and coworkers \[1]. Within this work \[2] we could show that the standard map equation is prone to show a so called field of view limit \[2,3], which effectively results in an overclustering of a network if the community structure is not sufficiently dense. By endowing the map equation with an explicitely time-dependent flow model one can scan across all scales in a natural manner and thus effectively evade the field of view problem \[2].
 
@@ -121,6 +143,7 @@ R. Lambiotte, M. Barahona, Phys. Rev. E., Aug, 2012. Vol. 86, pp. 026112. Americ
 
 ----------------------------------
 ## Stability of a graph partition
+{: #MARKOVSTABILITY}
 
 Looking for code of the stability method?  
 You can find it here:

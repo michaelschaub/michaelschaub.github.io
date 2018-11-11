@@ -32,11 +32,11 @@ The overarching goal of this research is to elucidate relations between structur
 
 ### Simplicial Complexes as modelling tools for complex systems
 
+![image-right](/images/SCexample.png){: .align-right}
 To integrate higher order interactions into network models, a framework is needed to extend standard graph based approaches.
 Hypergraphs can provide such a general framework. 
 We concentrate on a particular form of hypergraphs called simplicial complexes (SCs), i.e., finite collections of simplices (nodes, edges, triangular faces, etc.) closed under intersections.
 We show how simplicial complexes can be used as a natural data model for a variety of systems, study their temporal evolution, and introduce higher-order link prediction as a benchmark problem to assess models and algorithms that predict higher-order structure [1].  
-![image-right](/images/SCexample.png){: .align-right}
 
 Compared to generic hypergraphs, SC have favourable additional algebraic structure, which we aim to exploit in this project.
 A key ingredient in this context is the hierarchy of the so-called boundary maps and their adjoint co-boundary maps which couple higher-order to lower-order entities (e.g. edges to vertices). Combining these maps in an appropriate manner gives rise to higher-order Laplacian operators. 
