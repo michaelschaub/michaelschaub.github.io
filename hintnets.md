@@ -25,11 +25,14 @@ We will thus further investigate techniques to infer (generalized) networks and 
 
 The overarching goal of this research is to elucidate relations between structure, dynamics and function in complex systems.
 
+## Events
+**June 12, 2018**, Workshop on Higher-Order Models in Network Science (part of Netsci 2018).
+
 ## Selected Projects
 
 ### Simplicial Complexes as modelling tools for complex systems
-![image-left](/images/SCexample.png){: .align-left}
 
+![image-left](/images/SCexample.png){: .align-left}
 To integrate higher order interactions into network models, a framework is needed to extend standard graph based approaches.
 Hypergraphs can provide such a general framework. 
 We concentrate on a particular form of hypergraphs called simplicial complexes (SCs), i.e., finite collections of simplices (nodes, edges, triangular faces, etc.) closed under intersections.
@@ -43,7 +46,7 @@ Like the graph Laplacian in the node domain, its higher order equivalents enable
 #### Related Publications
 [1] Benson, A. R.; Abebe, R.; Schaub, M. T.; Jadbabaie, A. & Kleinberg, J.
 " Simplicial closure and higher-order link prediction" 
-***Proceedings of the National Academy of Sciences***, 2018, [DOI: 10.1073/pnas.1800683115](https://doi.org/10.1073/pnas.1800683115)   
+*Proceedings of the National Academy of Sciences*, 2018, [DOI: 10.1073/pnas.1800683115](https://doi.org/10.1073/pnas.1800683115)   
 [2] Schaub, M. T.; Benson, A. R.; Horn, P.; Lippner, G. & Jadbabaie, A. "Random walks on simplicial complexes and the normalized Hodge Laplacian", 2018,
 [arXiv:1807.05044](https://arxiv.org/abs/1807.05044)     
 
@@ -62,9 +65,6 @@ Research related to the present project was presented at the following places / 
 ## Outreach
 * St. Ursula Gymnasium Bruehl, Outreach Talk, Germany, November 2017
 * MIT Spark Programme, Cambridge, MA, March 2018
-
-## Events
-**June 12, 2018**, Workshop on Higher-Order Models in Network Science (part of Netsci 2018).
 
 ## Contact
 **@MIT**   
