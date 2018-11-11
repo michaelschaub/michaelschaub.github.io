@@ -25,6 +25,27 @@ We will thus further investigate techniques to infer (generalized) networks and 
 
 The overarching goal of this research is to elucidate relations between structure, dynamics and function in complex systems.
 
+## Selected Projects
+
+### Simplicial Complexes as modelling tools for complex systems
+![image-left](/images/SCexample.png){: .align-left}
+
+To integrate higher order interactions into network models, a framework is needed to extend standard graph based approaches.
+Hypergraphs can provide such a general framework. 
+We concentrate on a particular form of hypergraphs called simplicial complexes (SCs), i.e., finite collections of simplices (nodes, edges, triangular faces, etc.) closed under intersections.
+We show how simplicial complexes can be used as a natural data model for a variety of systems, study their temporal evolution, and introduce higher-order link prediction as a benchmark problem to assess models and algorithms that predict higher-order structure [1].  
+
+Compared to generic hypergraphs, SC have favourable additional algebraic structure, which we aim to exploit in this project.
+A key ingredient in this context is the hierarchy of the so-called boundary maps and their adjoint co-boundary maps which couple higher-order to lower-order entities (e.g. edges to vertices). Combining these maps in an appropriate manner gives rise to higher-order Laplacian operators. 
+The first order operator is the well-known graph Laplacian matrix, which is paramount for the analysis of networked systems. 
+Like the graph Laplacian in the node domain, its higher order equivalents enable the rigorous definition of diffusive processes (random walks and consensus dynamics) in the domain of edges (node-pairs) and higher order entities [2].
+
+#### Related Publications
+[1] Benson, A. R.; Abebe, R.; Schaub, M. T.; Jadbabaie, A. & Kleinberg, J.
+" Simplicial closure and higher-order link prediction" 
+***Proceedings of the National Academy of Sciences***, 2018, [DOI: 10.1073/pnas.1800683115](https://doi.org/10.1073/pnas.1800683115)   
+[2] Schaub, M. T.; Benson, A. R.; Horn, P.; Lippner, G. & Jadbabaie, A. "Random walks on simplicial complexes and the normalized Hodge Laplacian", 2018,
+[arXiv:1807.05044](https://arxiv.org/abs/1807.05044)     
 
 ## Presentations and Communication 
 Research related to the present project was presented at the following places / events.

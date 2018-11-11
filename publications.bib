@@ -9,29 +9,29 @@
   number    = {12477},
   month     = {August},
   abstract  = {Allostery is a fundamental mechanism of biological regulation, in which binding of a molecule at a distant location affects the active site of a protein. Allosteric sites provide targets to fine-tune protein activity, yet we lack computational methodologies to predict them. Here we present an efficient graph-theoretical framework to reveal allosteric interactions (atoms and communication pathways strongly coupled to the active site) without a priori information of their location. Using an atomistic graph with energy-weighted covalent and weak bonds, we define a bond-to-bond propensity quantifying the non-local effect of instantaneous bond fluctuations propagating through the protein. Significant interactions are then identified using quantile regression. We exemplify our method with three biologically important proteins: caspase-1, CheY, and h-Ras, correctly predicting key allosteric interactions, whose significance is additionally confirmed against a reference set of 100 proteins. The almost-linear scaling of our method renders it suitable for high-throughput searches for candidate allosteric sites.},
-  doi       = {10.1038/ncomms12477},
-  owner     = {mschaub},
-  review    = {News articles:
+  comment   = {News articles:
 http://www3.imperial.ac.uk/newsandeventspggrp/imperialcollege/newssummary/news_25-8-2016-15-3-8
 http://phys.org/news/2016-08-paths-proteins-reveal-drug.html
 http://naturalsciencenews.com/2016/08/27/mathematical-models-used-to-study-traffic-jams-can-help-researchers-understand-proteins/?platform=hootsuite},
+  doi       = {10.1038/ncomms12477},
+  owner     = {mschaub},
   timestamp = {2016.08.25},
   url       = {http://dx.doi.org/10.1101/056275},
 }
 
 @Article{Bacik2016,
-  Title                    = {{F}low-{B}ased {N}etwork {A}nalysis of the {C}aenorhabditis elegans {C}onnectome},
-  Author                   = {Bacik, Karol A. AND Schaub, Michael T. AND Beguerisse-Díaz, Mariano AND Billeh, Yazan N. AND Barahona, Mauricio},
-  Journal                  = {PLoS Computational Biology},
-  Year                     = {2016},
-  Month                    = {August},
-  Number                   = {8},
-  Pages                    = {1-27},
-  Volume                   = {12},
-  Abstract                 = {We exploit flow propagation on the directed neuronal network of the nematode C. elegans to reveal dynamically relevant features of its connectome. We find flow-based groupings of neurons at different levels of granularity, which we relate to functional and anatomical con- stituents of its nervous system. A systematic in silico evaluation of the full set of single and double neuron ablations is used to identify deletions that induce the most severe disruptions of the multi-resolution flow structure. Such ablations are linked to functionally relevant neu- rons, and suggest potential candidates for further in vivo investigation. In addition, we use the directional patterns of incoming and outgoing network flows at all scales to identify flow profiles for the neurons in the connectome, without pre-imposing a priori categories. The four flow roles identified are linked to signal propagation motivated by biological input- response scenarios.},
-  DOI                      = {10.1371/journal.pcbi.1005055},
-  Timestamp                = {2016.08.05},
-  URL                      = {http://arxiv.org/abs/1511.00673}
+  author    = {Bacik, Karol A. AND Schaub, Michael T. AND Beguerisse-Diaz, Mariano AND Billeh, Yazan N. AND Barahona, Mauricio},
+  title     = {{F}low-{B}ased {N}etwork {A}nalysis of the {C}aenorhabditis elegans {C}onnectome},
+  journal   = {PLoS Computational Biology},
+  year      = {2016},
+  volume    = {12},
+  number    = {8},
+  pages     = {1-27},
+  month     = {August},
+  abstract  = {We exploit flow propagation on the directed neuronal network of the nematode C. elegans to reveal dynamically relevant features of its connectome. We find flow-based groupings of neurons at different levels of granularity, which we relate to functional and anatomical con- stituents of its nervous system. A systematic in silico evaluation of the full set of single and double neuron ablations is used to identify deletions that induce the most severe disruptions of the multi-resolution flow structure. Such ablations are linked to functionally relevant neu- rons, and suggest potential candidates for further in vivo investigation. In addition, we use the directional patterns of incoming and outgoing network flows at all scales to identify flow profiles for the neurons in the connectome, without pre-imposing a priori categories. The four flow roles identified are linked to signal propagation motivated by biological input- response scenarios.},
+  doi       = {10.1371/journal.pcbi.1005055},
+  timestamp = {2016.08.05},
+  url       = {http://arxiv.org/abs/1511.00673},
 }
 
 @Article{Billeh*2014,
@@ -312,13 +312,15 @@ http://naturalsciencenews.com/2016/08/27/mathematical-models-used-to-study-traff
 }
 
 @Article{Benson2018,
-  author    = {Austin Benson and Rediet Abebe and Michael T. Schaub and Ali Jadbabaie and John Kleinberg},
-  title     = {Simplicial closure and higher order link prediction},
+  author    = {Benson, Austin R. and Abebe, Rediet and Schaub, Michael T. and Jadbabaie, Ali and Kleinberg, Jon},
+  title     = {Simplicial closure and higher-order link prediction},
+  journal   = {Proceedings of the National Academy of Sciences},
   year      = {2018},
-  month     = jan,
-  abstract  = {Networks provide a powerful formalism for modeling complex systems, by representing the underlying set of pairwise interactions. But much of the structure within these systems involves interactions that take place among more than two nodes at once; for example, communication within a group rather than person-to-person, collaboration among a team rather than a pair of co-authors, or biological interaction between a set of molecules rather than just two. We refer to these type of simultaneous interactions on sets of more than two nodes as higher-order interactions; they are ubiquitous, but the empirical study of them has lacked a general framework for evaluating higher-order models. Here we introduce such a framework, based on link prediction, a fundamental problem in network analysis. The traditional link prediction problem seeks to predict the appearance of new links in a network, and here we adapt it to predict which (larger) sets of elements will have future interactions. We study the temporal evolution of 19 datasets from a variety of domains, and use our higher-order formulation of link prediction to assess the types of structural features that are most predictive of new multi-way interactions. Among our results, we find that different domains vary considerably in their distribution of higher-order structural parameters, and that the higher-order link prediction problem exhibits some fundamental differences from traditional pairwise link prediction, with a greater role for local rather than long-range information in predicting the appearance of new interactions. },
-  owner     = {mschaub},
-  timestamp = {2018.03.31},
+  month     = nov,
+  issn      = {0027-8424},
+  abstract  = {Networks provide a powerful abstraction for complex systems throughout the sciences by representing the underlying set of pairwise interactions, but much of the structure within these systems involves interactions that take place among more than two nodes at once. While these higher-order interactions are ubiquitous, an evaluation of the basic properties and organizational principles in such systems is missing. Here we study 19 datasets from biology, medicine, social networks, and the web and characterize how higher-order structure emerges and differs between domains. We then propose a general framework for evaluating higher-order data models based on link prediction, a task in which we seek to predict future interactions from a system{\textquoteright}s structure and past history.Networks provide a powerful formalism for modeling complex systems by using a model of pairwise interactions. But much of the structure within these systems involves interactions that take place among more than two nodes at once{\textemdash}for example, communication within a group rather than person to person, collaboration among a team rather than a pair of coauthors, or biological interaction between a set of molecules rather than just two. Such higher-order interactions are ubiquitous, but their empirical study has received limited attention, and little is known about possible organizational principles of such structures. Here we study the temporal evolution of 19 datasets with explicit accounting for higher-order interactions. We show that there is a rich variety of structure in our datasets but datasets from the same system types have consistent patterns of higher-order structure. Furthermore, we find that tie strength and edge density are competing positive indicators of higher-order organization, and these trends are consistent across interactions involving differing numbers of nodes. To systematically further the study of theories for such higher-order structures, we propose higher-order link prediction as a benchmark problem to assess models and algorithms that predict higher-order structure. We find a fundamental difference from traditional pairwise link prediction, with a greater role for local rather than long-range information in predicting the appearance of new interactions.},
+  doi       = {10.1073/pnas.1800683115},
+  timestamp = {2018-11-09},
   url       = {https://arxiv.org/abs/1802.06916},
 }
 
