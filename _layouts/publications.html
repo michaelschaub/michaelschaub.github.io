@@ -204,7 +204,7 @@ function stripDiacritics(str){
 // http://stackoverflow.com/questions/3446170/escape-string-for-use-in-javascript-regex
 // NOTE: must escape every \\ in the export code because of the JabRef Export...
 function escapeRegExp(str) {
-  return str.replace(/[-\\[\\]\\/\\{\\}\\(\\)\\*\\+\\?\\.\\\\\\^\\$\\|]/g, "\\\\$&");
+  return str.replace(/[-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&");
 }
 
 function toggleInfo(articleid,info) {
