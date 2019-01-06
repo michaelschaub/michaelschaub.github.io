@@ -64,6 +64,7 @@ Research related to the present project was presented at the following places / 
 * International Conference on Complex Networks (ICCS) 2018, Boston, USA, July 2018
 * PostDoc Lunch Seminar, Institute of Data, Systems and Society, Cambridge, USA, August 2018
 * Growth Lab Seminar, Center for International Development, Harvard University, Cambridge, USA, September 2018
+* Complex Networks 2018, Cambridge, UK, December 2018
 
 ## Outreach
 * St. Ursula Gymnasium Bruehl, Outreach Talk, Germany, November 2017
