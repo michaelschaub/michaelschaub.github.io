@@ -26,7 +26,9 @@ We will thus further investigate techniques to infer (generalized) networks and 
 The overarching goal of this research is to elucidate relations between structure, dynamics and function in complex systems.
 
 ## Events
-**June 12, 2018**, Workshop on Higher-Order Models in Network Science (part of Netsci 2018).
+**June 12, 2018**, Workshop on Higher-Order Models in Network Science [HONS 2018](https://uzhdag.github.io/hons_web/2018/index.html) (part of Netsci 2018).  
+**May 28, 2019**, Workshop on Higher-Order Models in Network Science [HONS 2019](https://uzhdag.github.io/hons_web) (part of Netsci 2019).  
+**Sep 9-11, 2019**, Workshop on Higher-Order Interaction Networks: [Dynamics, Structure, Data](https://www.maths.ox.ac.uk/groups/networks/events/higher-order-interaction-workshop) (part of Netsci 2019).  
 
 --------------
 ## Selected Projects
@@ -51,6 +53,20 @@ Like the graph Laplacian in the node domain, its higher order equivalents enable
 \[2] Schaub, M. T.; Benson, A. R.; Horn, P.; Lippner, G. & Jadbabaie, A. "Random walks on simplicial complexes and the normalized Hodge Laplacian", 2018,
 [arXiv:1807.05044](https://arxiv.org/abs/1807.05044)     
 
+### Flow decompositions, machine learning and signal processing on graphs and simplicial complexes
+
+![image-right](/images/ToyExampleFlowFiltering.png){: .align-left}
+In many problems modeled using graphs, the data of interest is located on the edges (as opposed to the nodes). A typical scenario of practical interest is a flow on the edges – signal, mass, energy, information – of a graph that is measured and has to be analyzed further, such as traffic flow associated with the edges of a traffic network
+To analyze these types of signal we have developed techniques for analyzing the edge-space of graphs and simplicial complexes in more detail [1,2]
+An important tool in this context is the Hodge decomposition, a decomposition of edge flows into intuitively interpretable components that are analogous to notions such as gradient flows or rotational flows from vector calculus. 
+We have demonstrated how this decomposition can be leveraged for data analytics that extract information about the edge-space that complements and extends typical graph-based analysis.
+
+#### Related Publications
+\[1] Schaub, M. T.; Benson, A. R.; Horn, P.; Lippner, G. & Jadbabaie, A. "Random walks on simplicial complexes and the normalized Hodge Laplacian", 2018,
+[arXiv:1807.05044](https://arxiv.org/abs/1807.05044)     
+\[2] Schaub M. T.; Segarra, S. "Flow smoothing and denoising: graph signal processing in the edge-space". 2018 IEEE Global Conference on Signal and Information Processing (GlobalSIP), Anaheim, CA, USA, 2018, pp. 735-739. [DOI: 10.1109/GlobalSIP.2018.8646701](https://doi.org/10.1109/GlobalSIP.2018.8646701)
+
+
 
 ---------------
 ## Presentations and Communication 
@@ -62,9 +78,10 @@ Research related to the present project was presented at the following places / 
 * Complenet 2018, Boston, MA, March 2018
 * Netsci 2018, Paris, France, June 2018
 * International Conference on Complex Networks (ICCS) 2018, Boston, USA, July 2018
-* PostDoc Lunch Seminar, Institute of Data, Systems and Society, Cambridge, USA, August 2018
+* PostDoc Lunch Seminar, Institute of Data, Systems and Society, MIT, Cambridge, USA, August 2018
 * Growth Lab Seminar, Center for International Development, Harvard University, Cambridge, USA, September 2018
 * Complex Networks 2018, Cambridge, UK, December 2018
+* Algebra Statistics and Optimization Seminar, MIT, Cambridge MA, USA, April 2019
 
 ## Outreach
 * St. Ursula Gymnasium Bruehl, Outreach Talk, Germany, November 2017
