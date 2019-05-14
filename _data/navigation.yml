@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "Research"
+    url: /Research/
   - title: "Publications"
     url: /Publications/
   - title: "Code"
