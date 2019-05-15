@@ -62,7 +62,7 @@ Problems of interest in this area include i) understanding the emergence of patt
 ### Simplicial complexes and higher-order network models
 ![image-right](/images/SCexample.png){: .align-right}{:style="border: 0px solid black; padding: 10px"}
 Thus far, networks are mostly represented mathematically via graphs.
-However, while graphs can capture pairwise interactions between nodes, fundamental interactions in networks often take place between multiple nodes. 
+However, while graphs can capture pairwise interactions between nodes, fundamental interactions in networks often take place between multiple nodes.  
 For example, in a biochemical network a reaction often involves more than two species ($$A + B \rightarrow C + D$$), or two reagents might interact only in the presence of an enzyme. 
 
 In this line of research our goal is to investigate new types of models such as hypergraphs and simplicial complexes that account for interactions between groups of nodes (triplets, quadruplets, etc.).
