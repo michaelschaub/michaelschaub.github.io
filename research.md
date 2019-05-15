@@ -22,9 +22,9 @@ mathjax: true
   }
 </style>
 # Research
-My research interest are broad, but have one common denominator: the use of networks to analyse a variety of systems and data.
-As networks have become an almost ubiquitous modeling tool in a range of different disciplines, this enables us to naturally connect to a wide range of applications.
-The modeling perspective applied in these application areas can be quite different, however.
+My research interests are broad, but have one common denominator: the use of networks to analyse a variety of systems and data.
+As networks have become an almost ubiquitous modeling tool in a range of different disciplines, this has enabled me to connect to a wide range of interdisciplinary applications.
+The modeling perspectives applied in these application areas can be quite different, however.
 My work may be partitioned into the following (overlapping) themes.
 For more details please also refer to [Publications]({{ site.baseurl }}{% link publications.md %}) and [Code]({{ site.baseurl }}{% link code.md %}).
 
