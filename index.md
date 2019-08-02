@@ -20,9 +20,8 @@ For more information on my Marie Curie Project see [HIntNets]({{ site.baseurl }}
 CV available upon request.
 
 ## Address
-Institute for Data, Systems, and Society  
-Massachusetts Institute of Technology  
-77 Massachusetts Avenue,  
-Office: E18-425C  
-Cambridge, MA, 02139   
+Department of Engineering Science
+University of Oxford
+Parks Road
+Oxford, OX1 3PJ
 mschaub[at]mit.edu

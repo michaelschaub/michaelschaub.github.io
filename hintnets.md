@@ -65,8 +65,8 @@ We have demonstrated how this decomposition can be leveraged for data analytics 
 #### Related Publications
 \[1] Schaub, M. T.; Benson, A. R.; Horn, P.; Lippner, G. & Jadbabaie, A. "Random walks on simplicial complexes and the normalized Hodge Laplacian", 2018,
 [arXiv:1807.05044](https://arxiv.org/abs/1807.05044)     
-\[2] Schaub M. T.; Segarra, S. "Flow smoothing and denoising: graph signal processing in the edge-space". 2018 IEEE Global Conference on Signal and Information Processing (GlobalSIP), Anaheim, CA, USA, 2018, pp. 735-739. [DOI: 10.1109/GlobalSIP.2018.8646701](https://doi.org/10.1109/GlobalSIP.2018.8646701)
-
+\[2] Schaub M. T.; Segarra, S. "Flow smoothing and denoising: graph signal processing in the edge-space". 2018 IEEE Global Conference on Signal and Information Processing (GlobalSIP), Anaheim, CA, USA, 2018, pp. 735-739. [DOI: 10.1109/GlobalSIP.2018.8646701](https://doi.org/10.1109/GlobalSIP.2018.8646701)   
+\[3] Jia, J.; Segarra, S.; Schaub, M. T. & Benson, A. R. "Graph-based Semi-Supervised & Active Learning for Edge Flows". Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD 2019), ACM, 2019 [DOI: 10.1145/3292500.3330872](https://doi.org/10.1145/3292500.3330872)     
 
 
 ---------------
