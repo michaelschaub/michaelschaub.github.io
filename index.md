@@ -20,8 +20,8 @@ For more information on my Marie Curie Project see [HIntNets]({{ site.baseurl }}
 CV available upon request.
 
 ## Address
-Department of Engineering Science
-University of Oxford
-Parks Road
-Oxford, OX1 3PJ
+Department of Engineering Science   
+University of Oxford   
+Parks Road   
+Oxford, OX1 3PJ   
 mschaub[at]mit.edu
