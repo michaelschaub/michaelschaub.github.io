@@ -26,7 +26,7 @@ We will thus further investigate techniques to infer (generalized) networks and 
 The overarching goal of this research is to elucidate relations between structure, dynamics and function in complex systems.
 
 ## Events
-**Sep 9 - 11, 2019**, Workshop on Higher-Order Interaction Networks: [Dynamics, Structure, Data](https://www.maths.ox.ac.uk/groups/networks/events/higher-order-interaction-workshop)
+**Sep 9 - 11, 2019**, Workshop on Higher-Order Interaction Networks: [Dynamics, Structure, Data](https://www.maths.ox.ac.uk/groups/networks/events/higher-order-interaction-workshop)  
 **May 28, 2019**, Workshop on Higher-Order Models in Network Science [HONS 2019](https://uzhdag.github.io/hons_web) (part of Netsci 2019).  
 **June 12, 2018**, Workshop on Higher-Order Models in Network Science [HONS 2018](https://uzhdag.github.io/hons_web/2018/index.html) (part of Netsci 2018).  
 
