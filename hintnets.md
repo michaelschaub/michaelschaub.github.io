@@ -26,9 +26,9 @@ We will thus further investigate techniques to infer (generalized) networks and 
 The overarching goal of this research is to elucidate relations between structure, dynamics and function in complex systems.
 
 ## Events
-**June 12, 2018**, Workshop on Higher-Order Models in Network Science [HONS 2018](https://uzhdag.github.io/hons_web/2018/index.html) (part of Netsci 2018).  
-**May 28, 2019**, Workshop on Higher-Order Models in Network Science [HONS 2019](https://uzhdag.github.io/hons_web) (part of Netsci 2019).  
 **Sep 9 - 11, 2019**, Workshop on Higher-Order Interaction Networks: [Dynamics, Structure, Data](https://www.maths.ox.ac.uk/groups/networks/events/higher-order-interaction-workshop)
+**May 28, 2019**, Workshop on Higher-Order Models in Network Science [HONS 2019](https://uzhdag.github.io/hons_web) (part of Netsci 2019).  
+**June 12, 2018**, Workshop on Higher-Order Models in Network Science [HONS 2018](https://uzhdag.github.io/hons_web/2018/index.html) (part of Netsci 2018).  
 
 --------------
 ## Selected Projects
@@ -73,20 +73,26 @@ We have demonstrated how this decomposition can be leveraged for data analytics 
 ## Presentations and Communication 
 Research related to the present project was presented at the following places / events.
 
-* Université catholique de Louvain, Applied Mathematics Seminar / ICTEAM, Belgium, November 2017
-* University of Oxford, SysSoS group seminar, United Kingdom, November 2017
-* Imperial College London, Biomathematics Seminar, United Kingdom, November 2017
-* Complenet 2018, Boston, MA, March 2018
-* Netsci 2018, Paris, France, June 2018
-* International Conference on Complex Networks (ICCS) 2018, Boston, USA, July 2018
-* PostDoc Lunch Seminar, Institute of Data, Systems and Society, MIT, Cambridge, USA, August 2018
-* Growth Lab Seminar, Center for International Development, Harvard University, Cambridge, USA, September 2018
-* Complex Networks 2018, Cambridge, UK, December 2018
 * Algebra Statistics and Optimization Seminar, MIT, Cambridge MA, USA, April 2019
+* University Utrecht, Netherlands, April 2019.
+* University of Oxford, United Kingdom, March 2019.
+* Institute for Computational Biology, Helmholtz Zentrum München, Germany. February 2019. 
+* FZ Jülich, Germany. December 2018.
+* Complex Networks 2018, Cambridge, United Kingdom, December 2018
+* Growth Lab Seminar, Center for International Development, Harvard University, Cambridge, USA, September 2018
+* PostDoc Lunch Seminar, Institute of Data, Systems and Society, MIT, Cambridge MA, USA, August 2018
+* International Conference on Complex Networks (ICCS) 2018, Boston MA, USA, July 2018
+* Imperial College London, Biomathematics Seminar, United Kingdom, November 2017
+* Netsci 2018 - Machine Learning in Network Science Workshop, Paris, France, June 2018
+* Netsci 2018, Paris, France, June 2018
+* Complenet 2018, Boston MA, USA, March 2018
+* University of Oxford, SysSoS group seminar, United Kingdom, November 2017
+* Université catholique de Louvain, Applied Mathematics Seminar / ICTEAM, Belgium, November 2017
+
 
 ## Outreach
-* St. Ursula Gymnasium Bruehl, Outreach Talk, Germany, November 2017
 * MIT Spark Programme, Cambridge, MA, March 2018
+* St. Ursula Gymnasium Bruehl, Outreach Talk, Germany, November 2017
 
 ## Contact
 **@MIT**   
