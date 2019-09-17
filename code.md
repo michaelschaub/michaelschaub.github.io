@@ -22,6 +22,7 @@ permalink: /Code/
 </style>
 Below you find brief descriptions and the links to code related to several projects.
 
+* [Semi-supervised and active learning for edge-flows](#SCFLOW)
 * [Simplicial closure and higher-order link prediction](#SCCLOSURE)
 * [Generalized Louvain algorithm](#GENLOUVAIN)
 * [Creating slow switching cell assemblies](#SSA)
@@ -29,6 +30,22 @@ Below you find brief descriptions and the links to code related to several proje
 * [Quantifying Edge-to-Edge relationships in complex networks](#EDGETOEDGE)
 * [Markov zooming map-equation](#MARKOVMAP)
 * [Markov Stability](#MARKOVSTABILITY)
+
+## Semi-supervised and active learning for edge-flows
+{: #SCFLOW}
+In many problems modeled using graphs, the data of interest is located on the edges (as opposed to the nodes). 
+A typical scenario of practical interest is a flow on the edges – signal, mass, energy, information – of a graph that is measured and has to be analyzed further, such as traffic flow associated with the edges of a traffic network. 
+To analyze these types of signals we have developed techniques for analyzing the edge-space of graphs and simplicial complexes in more detail.
+
+<div style="border: 1px solid black; padding: 0px;" markdown="1">
+![image-center](/images/SCflow.png){: .align-center}
+</div>
+
+The associated code and datasets can be found here:
+[https://github.com/000Justin000/ssl_edge](https://github.com/000Justin000/ssl_edge){:target="_blank"}
+
+\[1] Jia, J.; Segarra, S.; Schaub, M.T. & Benson, A.R., "Graph-based Semi-Supervised & Active Learning for Edge Flows", In Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD 2019), December, 2019. ACM. [DOI: 10.1145/3292500.3330872](https://doi.org/10.1145/3292500.3330872)   
+\[2] Schaub, M.T. & Segarra, S. (2018), "Flow Smoothing And Denoising: Graph Signal Processing In The Edge-space", In 2018 IEEE Global Conference on Signal and Information Processing (GlobalSIP), Nov, 2018 , pp. 735-739. [DOI: 10.1109/GlobalSIP.2018.8646701](https://doi.org/10.1109/GlobalSIP.2018.8646701)  
 
 ## Simplicial closure and higher-order link prediction
 {: #SCCLOSURE}
