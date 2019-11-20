@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "Michael Schaub"
 title_separator          : "-"
 name                     : "Michael Schaub"
-description              : "Research homepage of Michael Schaub"
+description              : "Research Homepage of Michael Schaub"
 url                      : https://michaelschaub.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : michaelschaub/michaelschaub.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -93,10 +93,10 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : "google-gtag" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
-    anonymize_ip         : # true, false (default)
+    tracking_id          : "UA-152956827-1"
+    anonymize_ip         : true
 
 
 # Site Author
@@ -104,8 +104,8 @@ author:
   name             : "Michael Schaub"
   avatar           : "/images/MichaelBW.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Marie Skłodowska Curie Fellow @MIT / Oxford"
-  location         : "Cambridge, USA"
-  email            : "mschaub(at)mit.edu"
+  location         : "Oxford, UK"
+  email            : "michael.schaub(at)eng.ox.ac.uk"
   home: "https://michaelschaub.github.io"
   links:
     - label: "GitHub"

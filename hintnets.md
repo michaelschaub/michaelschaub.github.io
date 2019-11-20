@@ -73,6 +73,8 @@ We have demonstrated how this decomposition can be leveraged for data analytics 
 ## Presentations and Communication 
 Research related to the present project was presented at the following places / events.
 
+* Control and Optimization Journal Club, University of Oxford, UK, October 2019
+* Networks Seminar, Mathematical Institute, University of Oxford, UK, October 2019
 * Algebra Statistics and Optimization Seminar, MIT, Cambridge MA, USA, April 2019
 * University Utrecht, Netherlands, April 2019.
 * University of Oxford, United Kingdom, March 2019.
