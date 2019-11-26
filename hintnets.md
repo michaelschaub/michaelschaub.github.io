@@ -11,6 +11,7 @@ permalink: /HIntNets/
 (MSCA-IF-GF - Global Fellowships, Project ID: 702410)   
 
 This page collects information about the project "HIntNets".  
+This project has received funding from the European Union’s Horizon 2020 research and innovation programme under the Marie Sklodowska-Curie grant agreement No 702410.
 
 ## Overview
 Complex networks are an essential ingredient of modern life, and underpin integral parts of our biological, physical, technological and socio-economic universe. 
