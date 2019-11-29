@@ -74,6 +74,7 @@ We have demonstrated how this decomposition can be leveraged for data analytics 
 ## Presentations and Communication 
 Research related to the present project was presented at the following places / events.
 
+* Centre for Topological Data Analysis Meeting, University of Oxford, UK, November 2019
 * Control and Optimization Journal Club, University of Oxford, UK, October 2019
 * Networks Seminar, Mathematical Institute, University of Oxford, UK, October 2019
 * Algebra Statistics and Optimization Seminar, MIT, Cambridge MA, USA, April 2019
