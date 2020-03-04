@@ -74,6 +74,10 @@ We have demonstrated how this decomposition can be leveraged for data analytics 
 ## Presentations and Communication 
 Research related to the present project was presented at the following places / events.
 
+* Applied Topology Seminar, EPFL, Switzerland, February 2020
+* Department of Mathematics, University of Exeter, UK, January 2020
+* Computer Science Colloquium, RWTH Aaachen, Germany, January 2020
+* Complexity Oxford Imperial workship (COXIC 2019) , Imperial College London, UK, December 2019
 * Centre for Topological Data Analysis Meeting, University of Oxford, UK, November 2019
 * Control and Optimization Journal Club, University of Oxford, UK, October 2019
 * Networks Seminar, Mathematical Institute, University of Oxford, UK, October 2019
