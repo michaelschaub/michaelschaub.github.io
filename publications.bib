@@ -2,18 +2,17 @@
 
 @Article{Amor2016,
   author    = {Benjamin R. C. Amor and Michael T. Schaub and Sophia N. Yaliraki and Mauricio Barahona},
-  title     = {{P}rediction of allosteric sites and mediating interactions through bond-to-bond propensities},
   journal   = {Nature Communications},
+  title     = {{P}rediction of allosteric sites and mediating interactions through bond-to-bond propensities},
   year      = {2016},
-  volume    = {7},
-  number    = {12477},
   month     = {August},
+  number    = {12477},
+  volume    = {7},
   abstract  = {Allostery is a fundamental mechanism of biological regulation, in which binding of a molecule at a distant location affects the active site of a protein. Allosteric sites provide targets to fine-tune protein activity, yet we lack computational methodologies to predict them. Here we present an efficient graph-theoretical framework to reveal allosteric interactions (atoms and communication pathways strongly coupled to the active site) without a priori information of their location. Using an atomistic graph with energy-weighted covalent and weak bonds, we define a bond-to-bond propensity quantifying the non-local effect of instantaneous bond fluctuations propagating through the protein. Significant interactions are then identified using quantile regression. We exemplify our method with three biologically important proteins: caspase-1, CheY, and h-Ras, correctly predicting key allosteric interactions, whose significance is additionally confirmed against a reference set of 100 proteins. The almost-linear scaling of our method renders it suitable for high-throughput searches for candidate allosteric sites.},
   comment   = {News articles:
 http://www3.imperial.ac.uk/newsandeventspggrp/imperialcollege/newssummary/news_25-8-2016-15-3-8
 http://phys.org/news/2016-08-paths-proteins-reveal-drug.html
-http://naturalsciencenews.com/2016/08/27/mathematical-models-used-to-study-traffic-jams-can-help-researchers-understand-proteins/?platform=hootsuite
-},
+http://naturalsciencenews.com/2016/08/27/mathematical-models-used-to-study-traffic-jams-can-help-researchers-understand-proteins/?platform=hootsuite},
   doi       = {10.1038/ncomms12477},
   owner     = {mschaub},
   timestamp = {2016.08.25},
@@ -275,17 +274,20 @@ http://naturalsciencenews.com/2016/08/27/mathematical-models-used-to-study-traff
   url       = {https://arxiv.org/abs/1708.05329},
 }
 
-@Article{Avella-Medina2018,
+@Article{Avella-Medina2020,
   author    = {M. {Avella-Medina} and F. {Parise} and M. {Schaub} and S. {Segarra}},
   title     = {{Centrality measures for graphons: Accounting for uncertainty in networks}},
   journal   = {IEEE Transactions on Network Science and Engineering},
-  year      = {2018},
-  pages     = {1-1},
-  issn      = {2327-4697},
+  year      = {2020},
+  volume    = {7},
+  number    = {1},
+  pages     = {520-537},
+  month     = {Jan},
+  issn      = {2334-329X},
   abstract  = {As relational datasets modeled as graphs keep increasing in size and their data-acquisition is permeated by uncertainty, graph-based analysis techniques can become computationally and conceptually challenging. In particular, node centrality measures rely on the assumption that the graph is perfectly known --- a premise not necessarily fulfilled for large, uncertain networks. Accordingly, centrality measures may fail to faithfully extract the importance of nodes in the presence of uncertainty. To mitigate these problems, we suggest a statistical approach based on graphon theory: we introduce formal definitions of centrality measures for graphons and establish their connections to classical graph centrality measures. A key advantage of this approach is that centrality measures defined at the modeling level of graphons are inherently robust to stochastic variations of specific graph realizations. Using the theory of linear integral operators, we define degree, eigenvector, Katz and PageRank centrality functions for graphons and establish concentration inequalities demonstrating that graphon centrality functions arise naturally as limits of their counterparts defined on sequences of graphs of increasing size. The same concentration inequalities also provide high-probability bounds between the graphon centrality functions and the centrality measures on any sampled graph, thereby establishing a measure of uncertainty of the measured centrality score.},
   doi       = {10.1109/TNSE.2018.2884235},
   owner     = {mschaub},
-  timestamp = {2019-02-06},
+  timestamp = {2017.08.13},
   url       = {https://arxiv.org/abs/1707.09350},
 }
 
@@ -303,17 +305,20 @@ http://naturalsciencenews.com/2016/08/27/mathematical-models-used-to-study-traff
   url       = {https://arxiv.org/abs/1711.01987},
 }
 
-@Misc{Rosvall2017,
-  author    = {Martin Rosvall and Jean-Charles Delvenne and Michael T Schaub and Renaud Lambiotte},
-  title     = {Advances in network clustering and blockmodeling (forthcoming)},
-  month     = dec,
-  year      = {2017},
-  abstract  = {A precise definition of what constitutes a community in networks has remained elusive. Consequently, network scientists have compared community detection algorithms on benchmark networks with a particular form of community structure and classified them based on the mathematical techniques they employ. However, this comparison can be misleading because apparent similarities in their mathematical machinery can disguise different reasons for why we would want to employ community detection in the first place. Here we provide a focused review of these different motivations that underpin community detection. This problem-driven classification is useful in applied network science, where it is important to select an appropriate algorithm for the given purpose. Moreover, highlighting the different approaches to community detection also delineates the many lines of research and points out open directions and avenues for future research. },
-  chapter   = {Different approaches to community detection},
+@InCollection{Rosvall2019,
+  author    = {Rosvall, Martin and Delvenne, Jean-Charles and Schaub, Michael T. and Lambiotte, Renaud},
+  booktitle = {Advances in Network Clustering and Blockmodeling},
+  publisher = {John Wiley \& Sons, Ltd},
+  title     = {Different Approaches to Community Detection},
+  year      = {2019},
+  chapter   = {4},
   editor    = {Patrick Doreian and Vladimir Batagelj and Anuska Ferligoj},
+  isbn      = {9781119483298},
+  pages     = {105-119},
+  abstract  = {A precise definition of what constitutes a community in networks has remained elusive. Consequently, network scientists have compared community detection algorithms on benchmark networks with a particular form of community structure and classified them based on the mathematical techniques they employ. However, this comparison can be misleading because apparent similarities in their mathematical machinery can disguise different reasons for why we would want to employ community detection in the first place. Here we provide a focused review of these different motivations that underpin community detection. This problem-driven classification is useful in applied network science, where it is important to select an appropriate algorithm for the given purpose. Moreover, highlighting the different approaches to community detection also delineates the many lines of research and points out open directions and avenues for future research.},
+  doi       = {10.1002/9781119483298.ch4},
   owner     = {mschaub},
-  publisher = {Wiley},
-  timestamp = {2018.01.28},
+  timestamp = {2018.05.12},
   url       = {https://arxiv.org/abs/1712.06468},
 }
 
@@ -344,20 +349,22 @@ http://naturalsciencenews.com/2016/08/27/mathematical-models-used-to-study-traff
   url          = {https://arxiv.org/abs/1807.05044},
 }
 
-@Misc{Schaub2018,
+@InCollection{Schaub2019c,
   author    = {Michael T. Schaub and Jean-Charles Delvenne and Renaud Lambiotte and Mauricio Barahona},
-  title     = {Advances in network clustering and blockmodeling (forthcoming)},
-  year      = {2018},
+  booktitle = {Advances in Network Clustering and Blockmodeling},
+  publisher = {John Wiley \& Sons, Ltd},
+  title     = {Structured Networks and Coarse-Grained Descriptions},
+  year      = {2019},
+  chapter   = {12},
+  editor    = {Patrick Doreian and Vladimir Batagelj and Anuska Ferligoj},
+  isbn      = {9781119483298},
+  pages     = {333-361},
   abstract  = {This chapter discusses the interplay between structure and dynamics in complex networks. Given a particular network with an endowed dynamics, our goal is to find partitions aligned with the dynamical process acting on top of the network. We thus aim to gain a reduced description of the system that takes into account both its structure and dynamics.
 In the first part, we introduce the general mathematical setup for the types of dynamics we consider throughout the chapter. We provide two guiding examples, namely consensus dynamics and diffusion processes (random walks), motivating their connection to social network analysis, and provide a brief discussion on the general dynamical framework and its possible extensions.
 In the second part, we focus on the influence of graph structure on the dynamics taking place on the network, focussing on three concepts that allow us to gain insight into this notion. First, we describe how time scale separation can appear in the dynamics on a network as a consequence of graph structure. Second, we discuss how the presence of particular symmetries in the network give rise to invariant dynamical subspaces that can be precisely described by graph partitions. Third, we show how this dynamical viewpoint can be extended to study dynamics on networks with signed edges, which allow us to discuss connections to concepts in social network analysis, such as structural balance.
-In the third part, we discuss how to use dynamical processes unfolding on the network to detect meaningful network substruc- tures. We then show how such dynamical measures can be related to seemingly different algorithm for community detection and coarse-graining proposed in the literature. We conclude with a brief summary and highlight interesting open future directions.
-},
-  chapter   = {Structured networks and coarse-grained descriptions: a dynamical perspective},
-  editor    = {Patrick Doreian and Vladimir Batagelj and Anuska Ferligoj},
+In the third part, we discuss how to use dynamical processes unfolding on the network to detect meaningful network substruc- tures. We then show how such dynamical measures can be related to seemingly different algorithm for community detection and coarse-graining proposed in the literature. We conclude with a brief summary and highlight interesting open future directions.},
+  doi       = {10.1002/9781119483298.ch12},
   owner     = {mschaub},
-  pages     = {(forthcoming)},
-  publisher = {Wiley},
   timestamp = {2018.05.12},
   url       = {https://arxiv.org/abs/1804.06268},
 }
@@ -389,28 +396,15 @@ In the third part, we discuss how to use dynamical processes unfolding on the ne
   url       = {https://arxiv.org/abs/1904.11930},
 }
 
-@InProceedings{Jia2019,
-  author    = {Jia, Junteng and Segarra, Santiago and Schaub, Michael T. and Benson, Austin R.},
-  title     = {{Graph-based Semi-Supervised \& Active Learning for Edge Flows}},
-  booktitle = {Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD 2019)},
-  year      = {2019},
-  month     = aug,
-  publisher = {ACM},
-  abstract  = {We present a graph-based semi-supervised learning (SSL) method for learning edge flows defined on a graph. Specifically, given flow measurements on a subset of edges, we want to predict the flows on the remaining edges. To this end, we develop a computational framework that imposes certain constraints on the overall flows,such as (approximate) flow conservation. These constraints render our approach different from classical graph-based SSL for vertex labels, which posits that tightly connected nodes share similar labels and leverages the graph structure accordingly to extrapolate from a few vertex labels to the unlabeled vertices.We derive bounds for our method’s reconstruction error and demonstrate its strong performance on synthetic and real-world flow networks from transportation, physical infrastructure, and the Web. Furthermore, we provide two active learning algorithms for selecting informative edges on which to measure flow, which has applications for optimal sensor deployment. The first strategy selects edges to minimize the reconstruction error bound and works well on flows that are approximately divergence-free. The second approach clusters the graph and selects bottleneck edges that cross cluster-boundaries, which works well on flows with global trends.},
-  doi       = {10.1145/3292500.3330872},
-  timestamp = {2019-08-01},
-  url       = {https://arxiv.org/abs/1905.07451},
-}
-
 @Article{Schaub2019a,
   author    = {Schaub, Michael T. and Delvenne, Jean-Charles and Lambiotte, Renaud and Barahona, Mauricio},
-  title     = {{Multiscale Dynamical Embeddings of Complex Networks}},
   journal   = {Phys. Rev. E},
+  title     = {{Multiscale Dynamical Embeddings of Complex Networks}},
   year      = {2019},
-  volume    = {99},
-  pages     = {062308},
   month     = {Jun},
-  abstract  = {Complex systems and relational data are often abstracted as dynamical processes on networks. To understand, predict and control their behavior, a crucial step is to extract reduced descriptions of such networks. Inspired by notions from Control Theory, we propose a time-dependent dynamical similarity measure between nodes, which quantifies the effect a node-input has on the network. This dynamical similarity induces an embedding that can be employed for several analysis tasks. Here we focus on (i) dimensionality reduction, i.e., projecting nodes onto a low dimensional space that captures dynamic similarity at different time scales, and (ii) how to exploit our embeddings to uncover functional modules. We exemplify our ideas through case studies focusing on directed networks without strong connectivity, and signed networks. We further highlight how certain ideas from community detection can be generalized and linked to Control Theory, by using the here developed dynamical perspective. },
+  pages     = {062308},
+  volume    = {99},
+  abstract  = {Complex systems and relational data are often abstracted as dynamical processes on networks. To understand, predict and control their behavior, a crucial step is to extract reduced descriptions of such networks. Inspired by notions from Control Theory, we propose a time-dependent dynamical similarity measure between nodes, which quantifies the effect a node-input has on the network. This dynamical similarity induces an embedding that can be employed for several analysis tasks. Here we focus on (i) dimensionality reduction, i.e., projecting nodes onto a low dimensional space that captures dynamic similarity at different time scales, and (ii) how to exploit our embeddings to uncover functional modules. We exemplify our ideas through case studies focusing on directed networks without strong connectivity, and signed networks. We further highlight how certain ideas from community detection can be generalized and linked to Control Theory, by using the here developed dynamical perspective.},
   doi       = {10.1103/PhysRevE.99.062308},
   issue     = {6},
   numpages  = {18},
@@ -422,11 +416,11 @@ In the third part, we discuss how to use dynamical processes unfolding on the ne
 
 @Misc{Schaub2019b,
   author       = {Michael T. Schaub and Santiago Segarra and John N. Tsitsiklis},
-  title        = {Blind identification of stochastic blockmodels from dynamical observations},
   howpublished = {submitted},
   month        = may,
+  title        = {Blind identification of stochastic blockmodels from dynamical observations},
   year         = {2019},
-  abstract     = {We consider a blind identification problem in which we aim to recover a statistical model of a network without knowledge of the network's edges, but based solely on nodal observations of a certain process. More concretely, we focus on observations that consist of snapshots of a diffusive process that evolves over the unknown network. We model the network as generated from an independent draw from a latent stochastic block model (SBM), and our goal is to infer both the partition of the nodes into blocks, as well as the parameters of this SBM. We present simple spectral algorithms that provably solve the partition recovery and parameter estimation problems with high accuracy. Our analysis relies on recent results in random matrix theory and covariance estimation, and associated concentration inequalities. We illustrate our results with several numerical experiments. },
+  abstract     = {We consider a blind identification problem in which we aim to recover a statistical model of a network without knowledge of the network's edges, but based solely on nodal observations of a certain process. More concretely, we focus on observations that consist of snapshots of a diffusive process that evolves over the unknown network. We model the network as generated from an independent draw from a latent stochastic block model (SBM), and our goal is to infer both the partition of the nodes into blocks, as well as the parameters of this SBM. We present simple spectral algorithms that provably solve the partition recovery and parameter estimation problems with high accuracy. Our analysis relies on recent results in random matrix theory and covariance estimation, and associated concentration inequalities. We illustrate our results with several numerical experiments.},
   timestamp    = {2019-05-01},
   url          = {https://arxiv.org/abs/1905.09107},
 }
@@ -439,6 +433,35 @@ In the third part, we discuss how to use dynamical processes unfolding on the ne
   year         = {2019},
   timestamp    = {2019-08-04},
   url          = {https://arxiv.org/abs/1908.01393},
+}
+
+@Misc{Roddenberry2020,
+  author       = {T. Mitchell Roddenberry and Michael T. Schaub and Hoi-To Wai and Santiago Segarra},
+  title        = {Exact Blind Community Detection from Signals on Multiple Graphs},
+  howpublished = {submitted},
+  month        = jan,
+  year         = {2020},
+  timestamp    = {2020-01-30},
+  url          = {https://arxiv.org/abs/2001.10944},
+}
+
+@InProceedings{Jia2019,
+  author    = {Jia, Junteng and Segarra, Santiago and Schaub, Michael T. and Benson, Austin R.},
+  booktitle = {Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD 2019)},
+  title     = {{Graph-based Semi-Supervised \& Active Learning for Edge Flows}},
+  year      = {2019},
+  address   = {New York, NY, USA},
+  month     = aug,
+  pages     = {761–771},
+  publisher = {ACM},
+  series    = {KDD ’19},
+  abstract  = {We present a graph-based semi-supervised learning (SSL) method for learning edge flows defined on a graph. Specifically, given flow measurements on a subset of edges, we want to predict the flows on the remaining edges. To this end, we develop a computational framework that imposes certain constraints on the overall flows,such as (approximate) flow conservation. These constraints render our approach different from classical graph-based SSL for vertex labels, which posits that tightly connected nodes share similar labels and leverages the graph structure accordingly to extrapolate from a few vertex labels to the unlabeled vertices.We derive bounds for our method’s reconstruction error and demonstrate its strong performance on synthetic and real-world flow networks from transportation, physical infrastructure, and the Web. Furthermore, we provide two active learning algorithms for selecting informative edges on which to measure flow, which has applications for optimal sensor deployment. The first strategy selects edges to minimize the reconstruction error bound and works well on flows that are approximately divergence-free. The second approach clusters the graph and selects bottleneck edges that cross cluster-boundaries, which works well on flows with global trends.},
+  doi       = {10.1145/3292500.3330872},
+  isbn      = {9781450362016},
+  location  = {Anchorage, AK, USA},
+  numpages  = {11},
+  timestamp = {2019-08-01},
+  url       = {https://arxiv.org/abs/1905.07451},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

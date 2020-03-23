@@ -422,25 +422,49 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
   <!--BEGIN PUBLICATIOON INSERT HERE-->
 <table id="qs_table" border="1">
 <tbody>
-<tr id="Zhu2019" class="entry">
-	<td> [1] Zhu Y, Schaub MT, Jadbabaie A and Segarra S (2019), <i>"Network Inference from Consensus Dynamics with Unknown Parameters"</i>, submitted. August, 2019.
-	<p class="infolinks"> [<a href="javascript:toggleInfo('Zhu2019','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/1908.01393" target="_blank">URL</a>]</p>
+<tr id="Avella-Medina2020" class="entry">
+    <td> [1] Avella-Medina, M.; Parise, F.; Schaub, M. &amp; Segarra, S. (2020), <i>"Centrality measures for graphons: Accounting for uncertainty in networks"</i>, IEEE Transactions on Network Science and Engineering., Jan, 2020.  Vol. 7(1), pp. 520-537.
+        <p class="infolinks">[<a href="javascript:toggleInfo('Avella-Medina2020','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Avella-Medina2020','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1109/TNSE.2018.2884235" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/1707.09350" target="_blank">URL</a>]</p>
+    </td>
+</tr>
+<tr id="abs_Avella-Medina2020" class="abstract noshow">
+    <td><b>Abstract</b>: As relational datasets modeled as graphs keep increasing in size and their data-acquisition is permeated by uncertainty, graph-based analysis techniques can become computationally and conceptually challenging. In particular, node centrality measures rely on the assumption that the graph is perfectly known --- a premise not necessarily fulfilled for large, uncertain networks. Accordingly, centrality measures may fail to faithfully extract the importance of nodes in the presence of uncertainty. To mitigate these problems, we suggest a statistical approach based on graphon theory: we introduce formal definitions of centrality measures for graphons and establish their connections to classical graph centrality measures. A key advantage of this approach is that centrality measures defined at the modeling level of graphons are inherently robust to stochastic variations of specific graph realizations. Using the theory of linear integral operators, we define degree, eigenvector, Katz and PageRank centrality functions for graphons and establish concentration inequalities demonstrating that graphon centrality functions arise naturally as limits of their counterparts defined on sequences of graphs of increasing size. The same concentration inequalities also provide high-probability bounds between the graphon centrality functions and the centrality measures on any sampled graph, thereby establishing a measure of uncertainty of the measured centrality score.</td>
+</tr>
+<tr id="bib_Avella-Medina2020" class="bibtex noshow">
+    <td><b>BibTeX</b>:
+        <pre>
+@article{Avella-Medina2020,
+    author = {M. Avella-Medina and F. Parise and M. Schaub and S. Segarra},
+           title = {Centrality measures for graphons: Accounting for uncertainty in networks},
+           journal = {IEEE Transactions on Network Science and Engineering},
+           year = {2020},
+           volume = {7},
+           number = {1},
+           pages = {520-537},
+           url = {https://arxiv.org/abs/1707.09350},
+           doi = {10.1109/TNSE.2018.2884235}
+}
+    </pre></td>
+</tr>
+<tr id="Roddenberry2020" class="entry">
+	<td> [2] Roddenberry TM, Schaub MT, Wai H-T and Segarra S (2020), <i>"Exact Blind Community Detection from Signals on Multiple Graphs"</i>, submitted. January, 2020.
+	<p class="infolinks"> [<a href="javascript:toggleInfo('Roddenberry2020','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2001.10944" target="_blank">URL</a>]</p>
 	</td>
 </tr>
-<tr id="bib_Zhu2019" class="bibtex noshow">
+<tr id="bib_Roddenberry2020" class="bibtex noshow">
 <td><b>BibTeX</b>:
 <pre>
-@misc{Zhu2019,
-  author = {Yu Zhu and Michael T. Schaub and Ali Jadbabaie and Santiago Segarra},
-  title = {Network Inference from Consensus Dynamics with Unknown Parameters},
+@misc{Roddenberry2020,
+  author = {T. Mitchell Roddenberry and Michael T. Schaub and Hoi-To Wai and Santiago Segarra},
+  title = {Exact Blind Community Detection from Signals on Multiple Graphs},
   howpublished = {submitted},
-  year = {2019},
-  url = {https://arxiv.org/abs/1908.01393}
+  year = {2020},
+  url = {https://arxiv.org/abs/2001.10944}
 }
 </pre></td>
 </tr>
 <tr id="Jia2019" class="entry">
-    <td> [2] Jia, J.; Segarra, S.; Schaub, M.T. &amp; Benson, A.R. (2019), <i>"Graph-based Semi-Supervised &amp; Active Learning for Edge Flows"</i>, In Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD 2019)., August, 2019.  ACM.
+    <td> [3] Jia, J.; Segarra, S.; Schaub, M.T. &amp; Benson, A.R. (2019), <i>"Graph-based Semi-Supervised &amp; Active Learning for Edge Flows"</i>, In Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD 2019). New York, NY, USA, August, 2019. , pp. 761–771. ACM.
         <p class="infolinks">[<a href="javascript:toggleInfo('Jia2019','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Jia2019','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1145/3292500.3330872" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/1905.07451" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -456,13 +480,75 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
            booktitle = {Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD 2019)},
            publisher = {ACM},
            year = {2019},
+           pages = {761–771},
            url = {https://arxiv.org/abs/1905.07451},
            doi = {10.1145/3292500.3330872}
 }
     </pre></td>
 </tr>
+<tr id="Zhu2019" class="entry">
+	<td> [4] Zhu Y, Schaub MT, Jadbabaie A and Segarra S (2019), <i>"Network Inference from Consensus Dynamics with Unknown Parameters"</i>, submitted. August, 2019.
+	<p class="infolinks"> [<a href="javascript:toggleInfo('Zhu2019','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/1908.01393" target="_blank">URL</a>]</p>
+	</td>
+</tr>
+<tr id="bib_Zhu2019" class="bibtex noshow">
+<td><b>BibTeX</b>:
+<pre>
+@misc{Zhu2019,
+  author = {Yu Zhu and Michael T. Schaub and Ali Jadbabaie and Santiago Segarra},
+  title = {Network Inference from Consensus Dynamics with Unknown Parameters},
+  howpublished = {submitted},
+  year = {2019},
+  url = {https://arxiv.org/abs/1908.01393}
+}
+</pre></td>
+</tr>
+<tr id="Schaub2019a" class="entry">
+    <td> [5] Schaub, M.T.; Delvenne, J.-C.; Lambiotte, R. &amp; Barahona, M. (2019), <i>"Multiscale Dynamical Embeddings of Complex Networks"</i>, Phys. Rev. E., Jun, 2019.  Vol. 99, pp. 062308. American Physical Society.
+        <p class="infolinks">[<a href="javascript:toggleInfo('Schaub2019a','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Schaub2019a','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1103/PhysRevE.99.062308" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/1804.03733" target="_blank">URL</a>]</p>
+    </td>
+</tr>
+<tr id="abs_Schaub2019a" class="abstract noshow">
+    <td><b>Abstract</b>: Complex systems and relational data are often abstracted as dynamical processes on networks. To understand, predict and control their behavior, a crucial step is to extract reduced descriptions of such networks. Inspired by notions from Control Theory, we propose a time-dependent dynamical similarity measure between nodes, which quantifies the effect a node-input has on the network. This dynamical similarity induces an embedding that can be employed for several analysis tasks. Here we focus on (i) dimensionality reduction, i.e., projecting nodes onto a low dimensional space that captures dynamic similarity at different time scales, and (ii) how to exploit our embeddings to uncover functional modules. We exemplify our ideas through case studies focusing on directed networks without strong connectivity, and signed networks. We further highlight how certain ideas from community detection can be generalized and linked to Control Theory, by using the here developed dynamical perspective.</td>
+</tr>
+<tr id="bib_Schaub2019a" class="bibtex noshow">
+    <td><b>BibTeX</b>:
+        <pre>
+@article{Schaub2019a,
+    author = {Schaub, Michael T. and Delvenne, Jean-Charles and Lambiotte, Renaud and Barahona, Mauricio},
+           title = {Multiscale Dynamical Embeddings of Complex Networks},
+           journal = {Phys. Rev. E},
+           publisher = {American Physical Society},
+           year = {2019},
+           volume = {99},
+           pages = {062308},
+           url = {https://arxiv.org/abs/1804.03733},
+           doi = {10.1103/PhysRevE.99.062308}
+}
+    </pre></td>
+</tr>
+<tr id="Schaub2019b" class="entry">
+	<td> [6] Schaub MT, Segarra S and Tsitsiklis JN (2019), <i>"Blind identification of stochastic blockmodels from dynamical observations"</i>, submitted. May, 2019.
+	<p class="infolinks">[<a href="javascript:toggleInfo('Schaub2019b','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Schaub2019b','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/1905.09107" target="_blank">URL</a>]</p>
+	</td>
+</tr>
+<tr id="abs_Schaub2019b" class="abstract noshow">
+	<td><b>Abstract</b>: We consider a blind identification problem in which we aim to recover a statistical model of a network without knowledge of the network's edges, but based solely on nodal observations of a certain process. More concretely, we focus on observations that consist of snapshots of a diffusive process that evolves over the unknown network. We model the network as generated from an independent draw from a latent stochastic block model (SBM), and our goal is to infer both the partition of the nodes into blocks, as well as the parameters of this SBM. We present simple spectral algorithms that provably solve the partition recovery and parameter estimation problems with high accuracy. Our analysis relies on recent results in random matrix theory and covariance estimation, and associated concentration inequalities. We illustrate our results with several numerical experiments.</td>
+</tr>
+<tr id="bib_Schaub2019b" class="bibtex noshow">
+<td><b>BibTeX</b>:
+<pre>
+@misc{Schaub2019b,
+  author = {Michael T. Schaub and Santiago Segarra and John N. Tsitsiklis},
+  title = {Blind identification of stochastic blockmodels from dynamical observations},
+  howpublished = {submitted},
+  year = {2019},
+  url = {https://arxiv.org/abs/1905.09107}
+}
+</pre></td>
+</tr>
 <tr id="Schaub2019" class="entry">
-    <td> [3] Schaub, M.T.; Segarra, S. &amp; Wai, H. (2019), <i>"Spectral Partitioning of Time-varying Networks with Unobserved Edges"</i>, In 2019 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2019)., May, 2019. , pp. 4938-4942.
+    <td> [7] Schaub, M.T.; Segarra, S. &amp; Wai, H. (2019), <i>"Spectral Partitioning of Time-varying Networks with Unobserved Edges"</i>, In 2019 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2019)., May, 2019. , pp. 4938-4942.
         <p class="infolinks">[<a href="javascript:toggleInfo('Schaub2019','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Schaub2019','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1109/ICASSP.2019.8682815" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/1904.11930" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -483,28 +569,56 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 }
     </pre></td>
 </tr>
-<tr id="Schaub2019b" class="entry">
-	<td> [4] Schaub MT, Segarra S and Tsitsiklis JN (2019), <i>"Blind identification of stochastic blockmodels from dynamical observations"</i>, submitted. May, 2019.
-	<p class="infolinks">[<a href="javascript:toggleInfo('Schaub2019b','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Schaub2019b','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/1905.09107" target="_blank">URL</a>]</p>
-	</td>
+<tr id="Rosvall2019" class="entry">
+    <td> [8] Rosvall, M.; Delvenne, J.-C.; Schaub, M.T. &amp; Lambiotte, R. (2019), <i>"Different Approaches to Community Detection"</i>, In Advances in Network Clustering and Blockmodeling. , pp. 105-119. John Wiley &amp; Sons, Ltd.
+        <p class="infolinks">[<a href="javascript:toggleInfo('Rosvall2019','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Rosvall2019','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1002/9781119483298.ch4" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/1712.06468" target="_blank">URL</a>]</p>
+    </td>
 </tr>
-<tr id="abs_Schaub2019b" class="abstract noshow">
-	<td><b>Abstract</b>: We consider a blind identification problem in which we aim to recover a statistical model of a network without knowledge of the network's edges, but based solely on nodal observations of a certain process. More concretely, we focus on observations that consist of snapshots of a diffusive process that evolves over the unknown network. We model the network as generated from an independent draw from a latent stochastic block model (SBM), and our goal is to infer both the partition of the nodes into blocks, as well as the parameters of this SBM. We present simple spectral algorithms that provably solve the partition recovery and parameter estimation problems with high accuracy. Our analysis relies on recent results in random matrix theory and covariance estimation, and associated concentration inequalities. We illustrate our results with several numerical experiments. </td>
+<tr id="abs_Rosvall2019" class="abstract noshow">
+    <td><b>Abstract</b>: A precise definition of what constitutes a community in networks has remained elusive. Consequently, network scientists have compared community detection algorithms on benchmark networks with a particular form of community structure and classified them based on the mathematical techniques they employ. However, this comparison can be misleading because apparent similarities in their mathematical machinery can disguise different reasons for why we would want to employ community detection in the first place. Here we provide a focused review of these different motivations that underpin community detection. This problem-driven classification is useful in applied network science, where it is important to select an appropriate algorithm for the given purpose. Moreover, highlighting the different approaches to community detection also delineates the many lines of research and points out open directions and avenues for future research.</td>
 </tr>
-<tr id="bib_Schaub2019b" class="bibtex noshow">
-<td><b>BibTeX</b>:
-<pre>
-@misc{Schaub2019b,
-  author = {Michael T. Schaub and Santiago Segarra and John N. Tsitsiklis},
-  title = {Blind identification of stochastic blockmodels from dynamical observations},
-  howpublished = {submitted},
-  year = {2019},
-  url = {https://arxiv.org/abs/1905.09107}
+<tr id="bib_Rosvall2019" class="bibtex noshow">
+    <td><b>BibTeX</b>:
+        <pre>
+@incollection{Rosvall2019,
+    author = {Rosvall, Martin and Delvenne, Jean-Charles and Schaub, Michael T. and Lambiotte, Renaud},
+           editor = {Patrick Doreian and Vladimir Batagelj and Anuska Ferligoj},
+           title = {Different Approaches to Community Detection},
+           booktitle = {Advances in Network Clustering and Blockmodeling},
+           publisher = {John Wiley &amp; Sons, Ltd},
+           year = {2019},
+           pages = {105-119},
+           url = {https://arxiv.org/abs/1712.06468},
+           doi = {10.1002/9781119483298.ch4}
 }
-</pre></td>
+    </pre></td>
+</tr>
+<tr id="Schaub2019c" class="entry">
+    <td> [9] Schaub, M.T.; Delvenne, J.-C.; Lambiotte, R. &amp; Barahona, M. (2019), <i>"Structured Networks and Coarse-Grained Descriptions"</i>, In Advances in Network Clustering and Blockmodeling. , pp. 333-361. John Wiley &amp; Sons, Ltd.
+        <p class="infolinks">[<a href="javascript:toggleInfo('Schaub2019c','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Schaub2019c','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1002/9781119483298.ch12" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/1804.06268" target="_blank">URL</a>]</p>
+    </td>
+</tr>
+<tr id="abs_Schaub2019c" class="abstract noshow">
+    <td><b>Abstract</b>: This chapter discusses the interplay between structure and dynamics in complex networks. Given a particular network with an endowed dynamics, our goal is to find partitions aligned with the dynamical process acting on top of the network. We thus aim to gain a reduced description of the system that takes into account both its structure and dynamics.<br>In the first part, we introduce the general mathematical setup for the types of dynamics we consider throughout the chapter. We provide two guiding examples, namely consensus dynamics and diffusion processes (random walks), motivating their connection to social network analysis, and provide a brief discussion on the general dynamical framework and its possible extensions.<br>In the second part, we focus on the influence of graph structure on the dynamics taking place on the network, focussing on three concepts that allow us to gain insight into this notion. First, we describe how time scale separation can appear in the dynamics on a network as a consequence of graph structure. Second, we discuss how the presence of particular symmetries in the network give rise to invariant dynamical subspaces that can be precisely described by graph partitions. Third, we show how this dynamical viewpoint can be extended to study dynamics on networks with signed edges, which allow us to discuss connections to concepts in social network analysis, such as structural balance.<br>In the third part, we discuss how to use dynamical processes unfolding on the network to detect meaningful network substruc- tures. We then show how such dynamical measures can be related to seemingly different algorithm for community detection and coarse-graining proposed in the literature. We conclude with a brief summary and highlight interesting open future directions.</td>
+</tr>
+<tr id="bib_Schaub2019c" class="bibtex noshow">
+    <td><b>BibTeX</b>:
+        <pre>
+@incollection{Schaub2019c,
+    author = {Michael T. Schaub and Jean-Charles Delvenne and Renaud Lambiotte and Mauricio Barahona},
+           editor = {Patrick Doreian and Vladimir Batagelj and Anuska Ferligoj},
+           title = {Structured Networks and Coarse-Grained Descriptions},
+           booktitle = {Advances in Network Clustering and Blockmodeling},
+           publisher = {John Wiley &amp; Sons, Ltd},
+           year = {2019},
+           pages = {333-361},
+           url = {https://arxiv.org/abs/1804.06268},
+           doi = {10.1002/9781119483298.ch12}
+}
+    </pre></td>
 </tr>
 <tr id="Schaub2018b" class="entry">
-    <td> [5] Schaub, M.T. &amp; Segarra, S. (2018), <i>"Flow Smoothing And Denoising: Graph Signal Processing In The Edge-space"</i>, In 2018 IEEE Global Conference on Signal and Information Processing (GlobalSIP)., Nov, 2018. , pp. 735-739.
+    <td> [10] Schaub, M.T. &amp; Segarra, S. (2018), <i>"Flow Smoothing And Denoising: Graph Signal Processing In The Edge-space"</i>, In 2018 IEEE Global Conference on Signal and Information Processing (GlobalSIP)., Nov, 2018. , pp. 735-739.
         <p class="infolinks">[<a href="javascript:toggleInfo('Schaub2018b','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Schaub2018b','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1109/GlobalSIP.2018.8646701" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/1808.02111" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -525,30 +639,8 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 }
     </pre></td>
 </tr>
-<tr id="Avella-Medina2018" class="entry">
-    <td> [6] Avella-Medina, M.; Parise, F.; Schaub, M. &amp; Segarra, S. (2018), <i>"Centrality measures for graphons: Accounting for uncertainty in networks"</i>, IEEE Transactions on Network Science and Engineering. , pp. 1-1.
-        <p class="infolinks">[<a href="javascript:toggleInfo('Avella-Medina2018','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Avella-Medina2018','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1109/TNSE.2018.2884235" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/1707.09350" target="_blank">URL</a>]</p>
-    </td>
-</tr>
-<tr id="abs_Avella-Medina2018" class="abstract noshow">
-    <td><b>Abstract</b>: As relational datasets modeled as graphs keep increasing in size and their data-acquisition is permeated by uncertainty, graph-based analysis techniques can become computationally and conceptually challenging. In particular, node centrality measures rely on the assumption that the graph is perfectly known --- a premise not necessarily fulfilled for large, uncertain networks. Accordingly, centrality measures may fail to faithfully extract the importance of nodes in the presence of uncertainty. To mitigate these problems, we suggest a statistical approach based on graphon theory: we introduce formal definitions of centrality measures for graphons and establish their connections to classical graph centrality measures. A key advantage of this approach is that centrality measures defined at the modeling level of graphons are inherently robust to stochastic variations of specific graph realizations. Using the theory of linear integral operators, we define degree, eigenvector, Katz and PageRank centrality functions for graphons and establish concentration inequalities demonstrating that graphon centrality functions arise naturally as limits of their counterparts defined on sequences of graphs of increasing size. The same concentration inequalities also provide high-probability bounds between the graphon centrality functions and the centrality measures on any sampled graph, thereby establishing a measure of uncertainty of the measured centrality score.</td>
-</tr>
-<tr id="bib_Avella-Medina2018" class="bibtex noshow">
-    <td><b>BibTeX</b>:
-        <pre>
-@article{Avella-Medina2018,
-    author = {M. Avella-Medina and F. Parise and M. Schaub and S. Segarra},
-           title = {Centrality measures for graphons: Accounting for uncertainty in networks},
-           journal = {IEEE Transactions on Network Science and Engineering},
-           year = {2018},
-           pages = {1-1},
-           url = {https://arxiv.org/abs/1707.09350},
-           doi = {10.1109/TNSE.2018.2884235}
-}
-    </pre></td>
-</tr>
 <tr id="Benson2018" class="entry">
-    <td> [7] Benson, A.R.; Abebe, R.; Schaub, M.T.; Jadbabaie, A. &amp; Kleinberg, J. (2018), <i>"Simplicial closure and higher-order link prediction"</i>, Proceedings of the National Academy of Sciences., November, 2018.  Vol. 115(48), pp. E11221-E11230.
+    <td> [11] Benson, A.R.; Abebe, R.; Schaub, M.T.; Jadbabaie, A. &amp; Kleinberg, J. (2018), <i>"Simplicial closure and higher-order link prediction"</i>, Proceedings of the National Academy of Sciences., November, 2018.  Vol. 115(48), pp. E11221-E11230.
         <p class="infolinks">[<a href="javascript:toggleInfo('Benson2018','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Benson2018','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1073/pnas.1800683115" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/1802.06916" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -572,7 +664,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
     </pre></td>
 </tr>
 <tr id="Schaub2018c" class="entry">
-	<td> [8] Schaub MT, Benson AR, Horn P, Lippner G and Jadbabaie A (2018), <i>"Random walks on simplicial complexes and the normalized Hodge Laplacian"</i>, accepted for publication in SIAM Review. July, 2018.
+	<td> [12] Schaub MT, Benson AR, Horn P, Lippner G and Jadbabaie A (2018), <i>"Random walks on simplicial complexes and the normalized Hodge Laplacian"</i>, accepted for publication in SIAM Review. July, 2018.
 	<p class="infolinks">[<a href="javascript:toggleInfo('Schaub2018c','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Schaub2018c','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/1807.05044" target="_blank">URL</a>]</p>
 	</td>
 </tr>
@@ -591,54 +683,8 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 }
 </pre></td>
 </tr>
-<tr id="Schaub2018" class="entry">
-	<td> [9] Schaub MT, Delvenne J-C, Lambiotte R and Barahona M (2018), <i>"Advances in network clustering and blockmodeling (forthcoming)"</i>. 
-	<p class="infolinks">[<a href="javascript:toggleInfo('Schaub2018','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Schaub2018','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/1804.06268" target="_blank">URL</a>]</p>
-	</td>
-</tr>
-<tr id="abs_Schaub2018" class="abstract noshow">
-	<td><b>Abstract</b>: This chapter discusses the interplay between structure and dynamics in complex networks. Given a particular network with an endowed dynamics, our goal is to find partitions aligned with the dynamical process acting on top of the network. We thus aim to gain a reduced description of the system that takes into account both its structure and dynamics.<br>In the first part, we introduce the general mathematical setup for the types of dynamics we consider throughout the chapter. We provide two guiding examples, namely consensus dynamics and diffusion processes (random walks), motivating their connection to social network analysis, and provide a brief discussion on the general dynamical framework and its possible extensions.<br>In the second part, we focus on the influence of graph structure on the dynamics taking place on the network, focussing on three concepts that allow us to gain insight into this notion. First, we describe how time scale separation can appear in the dynamics on a network as a consequence of graph structure. Second, we discuss how the presence of particular symmetries in the network give rise to invariant dynamical subspaces that can be precisely described by graph partitions. Third, we show how this dynamical viewpoint can be extended to study dynamics on networks with signed edges, which allow us to discuss connections to concepts in social network analysis, such as structural balance.<br>In the third part, we discuss how to use dynamical processes unfolding on the network to detect meaningful network substruc- tures. We then show how such dynamical measures can be related to seemingly different algorithm for community detection and coarse-graining proposed in the literature. We conclude with a brief summary and highlight interesting open future directions.<br></td>
-</tr>
-<tr id="bib_Schaub2018" class="bibtex noshow">
-<td><b>BibTeX</b>:
-<pre>
-@misc{Schaub2018,
-  author = {Michael T. Schaub and Jean-Charles Delvenne and Renaud Lambiotte and Mauricio Barahona},
-  editor = {Patrick Doreian and Vladimir Batagelj and Anuska Ferligoj},
-  title = {Advances in network clustering and blockmodeling (forthcoming)},
-  publisher = {Wiley},
-  year = {2018},
-  pages = {(forthcoming)},
-  url = {https://arxiv.org/abs/1804.06268}
-}
-</pre></td>
-</tr>
-<tr id="Schaub2019a" class="entry">
-    <td> [10] Schaub, M.T.; Delvenne, J.-C.; Lambiotte, R. &amp; Barahona, M. (2019), <i>"Multiscale Dynamical Embeddings of Complex Networks"</i>, Phys. Rev. E., Jun, 2019.  Vol. 99, pp. 062308. American Physical Society.
-        <p class="infolinks">[<a href="javascript:toggleInfo('Schaub2019a','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Schaub2019a','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1103/PhysRevE.99.062308" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/1804.03733" target="_blank">URL</a>]</p>
-    </td>
-</tr>
-<tr id="abs_Schaub2019a" class="abstract noshow">
-    <td><b>Abstract</b>: Complex systems and relational data are often abstracted as dynamical processes on networks. To understand, predict and control their behavior, a crucial step is to extract reduced descriptions of such networks. Inspired by notions from Control Theory, we propose a time-dependent dynamical similarity measure between nodes, which quantifies the effect a node-input has on the network. This dynamical similarity induces an embedding that can be employed for several analysis tasks. Here we focus on (i) dimensionality reduction, i.e., projecting nodes onto a low dimensional space that captures dynamic similarity at different time scales, and (ii) how to exploit our embeddings to uncover functional modules. We exemplify our ideas through case studies focusing on directed networks without strong connectivity, and signed networks. We further highlight how certain ideas from community detection can be generalized and linked to Control Theory, by using the here developed dynamical perspective. </td>
-</tr>
-<tr id="bib_Schaub2019a" class="bibtex noshow">
-    <td><b>BibTeX</b>:
-        <pre>
-@article{Schaub2019a,
-    author = {Schaub, Michael T. and Delvenne, Jean-Charles and Lambiotte, Renaud and Barahona, Mauricio},
-           title = {Multiscale Dynamical Embeddings of Complex Networks},
-           journal = {Phys. Rev. E},
-           publisher = {American Physical Society},
-           year = {2019},
-           volume = {99},
-           pages = {062308},
-           url = {https://arxiv.org/abs/1804.03733},
-           doi = {10.1103/PhysRevE.99.062308}
-}
-    </pre></td>
-</tr>
 <tr id="Billeh2018" class="entry">
-    <td> [11] Billeh, Y.N. &amp; Schaub, M.T. (2018), <i>"Feedforward architectures driven by inhibitory interaction patterns"</i>, Journal of Computational Neuroscience., February, 2018.  Vol. 44(1), pp. 63-74.
+    <td> [13] Billeh, Y.N. &amp; Schaub, M.T. (2018), <i>"Feedforward architectures driven by inhibitory interaction patterns"</i>, Journal of Computational Neuroscience., February, 2018.  Vol. 44(1), pp. 63-74.
         <p class="infolinks">[<a href="javascript:toggleInfo('Billeh2018','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Billeh2018','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1007/s10827-017-0669-1" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/1701.04905" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -658,49 +704,6 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
            pages = {63-74},
            url = {https://arxiv.org/abs/1701.04905},
            doi = {10.1007/s10827-017-0669-1}
-}
-    </pre></td>
-</tr>
-<tr id="Rosvall2017" class="entry">
-	<td> [12] Rosvall M, Delvenne J-C, Schaub MT and Lambiotte R (2017), <i>"Advances in network clustering and blockmodeling (forthcoming)"</i>. December, 2017.
-	<p class="infolinks">[<a href="javascript:toggleInfo('Rosvall2017','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Rosvall2017','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/1712.06468" target="_blank">URL</a>]</p>
-	</td>
-</tr>
-<tr id="abs_Rosvall2017" class="abstract noshow">
-	<td><b>Abstract</b>: A precise definition of what constitutes a community in networks has remained elusive. Consequently, network scientists have compared community detection algorithms on benchmark networks with a particular form of community structure and classified them based on the mathematical techniques they employ. However, this comparison can be misleading because apparent similarities in their mathematical machinery can disguise different reasons for why we would want to employ community detection in the first place. Here we provide a focused review of these different motivations that underpin community detection. This problem-driven classification is useful in applied network science, where it is important to select an appropriate algorithm for the given purpose. Moreover, highlighting the different approaches to community detection also delineates the many lines of research and points out open directions and avenues for future research. </td>
-</tr>
-<tr id="bib_Rosvall2017" class="bibtex noshow">
-<td><b>BibTeX</b>:
-<pre>
-@misc{Rosvall2017,
-  author = {Martin Rosvall and Jean-Charles Delvenne and Michael T Schaub and Renaud Lambiotte},
-  editor = {Patrick Doreian and Vladimir Batagelj and Anuska Ferligoj},
-  title = {Advances in network clustering and blockmodeling (forthcoming)},
-  publisher = {Wiley},
-  year = {2017},
-  url = {https://arxiv.org/abs/1712.06468}
-}
-</pre></td>
-</tr>
-<tr id="Segarra2017" class="entry">
-    <td> [13] Segarra, S.; Schaub, M.T. &amp; Jadbabaie, A. (2017), <i>"Network Inference from Consensus Dynamics"</i>, 56th IEEE Conference on Decision and Control (CDC 2017)., June, 2017. , pp. 3212-3217.
-        <p class="infolinks">[<a href="javascript:toggleInfo('Segarra2017','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Segarra2017','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1109/CDC.2017.8264130" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/1708.05329" target="_blank">URL</a>]</p>
-    </td>
-</tr>
-<tr id="abs_Segarra2017" class="abstract noshow">
-    <td><b>Abstract</b>: We consider the problem of identifying the topology of a weighted, undirected network G from observing snapshots of multiple independent consensus dynamics. Specifically, we observe the opinion profiles of a group of agents for a set of M independent topics and our goal is to recover the precise relationships between the agents, as specified by the unknown network G. In order to overcome the under- determinacy of the problem at hand, we leverage concepts from spectral graph theory and convex optimization to unveil the underlying network structure. More precisely, we formulate the network inference problem as a convex optimization that seeks to endow the network with certain desired properties – such as sparsity – while being consistent with the spectral information extracted from the observed opinions. This is complemented with theoretical results proving consistency as the number M of topics grows large. We further illustrate our method by numerical experiments, which showcase the effectiveness of the technique in recovering synthetic and real-world networks.</td>
-</tr>
-<tr id="bib_Segarra2017" class="bibtex noshow">
-    <td><b>BibTeX</b>:
-        <pre>
-@article{Segarra2017,
-    author = {Santiago Segarra and Michael T. Schaub and Ali Jadbabaie},
-           title = {Network Inference from Consensus Dynamics},
-           journal = {56th IEEE Conference on Decision and Control (CDC 2017)},
-           year = {2017},
-           pages = {3212-3217},
-           url = {https://arxiv.org/abs/1708.05329},
-           doi = {10.1109/CDC.2017.8264130}
 }
     </pre></td>
 </tr>
@@ -726,32 +729,52 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 }
     </pre></td>
 </tr>
-<tr id="Schaub*2017" class="entry">
-    <td> [15] Schaub*, M.T.; Trefois*, M.; Dooren, P.V. &amp; Delvenne, J.-C. (2017), <i>"Sparse Matrix Factorizations For Fast Iterative Linear Solvers With Application To Laplacian Systems"</i>, SIAM Journal on Matrix Analysis and Applications.  Vol. 38(2), pp. 505-529.
-        <p class="infolinks">[<a href="javascript:toggleInfo('Schaub*2017','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Schaub*2017','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1137/16M1077398" target="_blank">DOI</a>] [<a href="http://arxiv.org/abs/1605.09148" target="_blank">URL</a>]</p>
+<tr id="Estrada2017" class="entry">
+    <td> [15] Estrada, E.; Delvenne, J.-C.; Hatano, N.; Mateos, J.L.; Metzler, R.; Riascos, A.P. &amp; Schaub, M.T. (2017), <i>"Random Multi-Hopper Model. Super-Fast Random Walks on Graphs"</i>, Journal of Complex Networks., October, 2017. , pp. cnx043.
+        <p class="infolinks">[<a href="javascript:toggleInfo('Estrada2017','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Estrada2017','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1093/comnet/cnx043" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/1612.08631" target="_blank">URL</a>]</p>
     </td>
 </tr>
-<tr id="abs_Schaub*2017" class="abstract noshow">
-    <td><b>Abstract</b>: In solving a linear system with iterative methods, one is usually confronted with the dilemma of having to choose between cheap, inefficient iterates over sparse search directions (e.g., coordinate descent), or expensive iterates in well-chosen search directions (e.g., conjugate gradients). In this paper, we propose to interpolate between these two extremes, and show how to perform cheap iterations along non-sparse search directions, provided that these directions admit a new kind of sparse factorization. For example, if the search directions are the columns of a hierarchical matrix, then the cost of each iteration is typically logarithmic in the number of variables. Using some graph-theoretical results on low-stretch spanning trees, we deduce as a special case a nearly-linear time algorithm to approximate the minimal norm solution of a linear system Bx=b where B is the incidence matrix of a graph. We thereby can connect our results to recently proposed nearly-linear time solvers for Laplacian systems, which emerge here as a particular application of our sparse matrix factorization.</td>
+<tr id="abs_Estrada2017" class="abstract noshow">
+    <td><b>Abstract</b>: We develop a model for a random walker with long-range hops on general graphs. This random multi-hopper jumps from a node to any other node in the graph with a probability that decays as a function of the shortest-path distance between the two nodes. We consider here two decaying functions in the form of the Laplace and Mellin transforms of the shortest-path distances. Remarkably, when the parameters of these transforms approach zero asymptotically, the multi-hopper's hitting times between any two nodes in the graph converge to their minimum possible value, given by the hitting times of a normal random walker on a complete graph. Stated differently, for small parameter values the multi-hopper explores a general graph as fast as possible when compared to a random walker on a full graph. Using computational experiments we show that compared to the normal random walker, the multi-hopper indeed explores graphs with clusters or skewed degree distributions more efficiently for a large parameter range. We provide further computational evidence of the speed-up attained by the random multi-hopper model with respect to the normal random walker by studying deterministic, random and real-world networks.</td>
 </tr>
-<tr id="bib_Schaub*2017" class="bibtex noshow">
+<tr id="bib_Estrada2017" class="bibtex noshow">
     <td><b>BibTeX</b>:
         <pre>
-@article{Schaub*2017,
-    author = {Michael T. Schaub* and Maguy Trefois* and Paul Van Dooren and Jean-Charles Delvenne},
-           title = {Sparse Matrix Factorizations For Fast Iterative Linear Solvers With Application To Laplacian Systems},
-           journal = {SIAM Journal on Matrix Analysis and Applications},
+@article{Estrada2017,
+    author = {Estrada, E. and Delvenne, J.-C. and Hatano, N. and Mateos, J.&nbsp;L. and Metzler, R. and Riascos, A.&nbsp;P. and Schaub, M.&nbsp;T.},
+           title = {Random Multi-Hopper Model. Super-Fast Random Walks on Graphs},
+           journal = {Journal of Complex Networks},
            year = {2017},
-           volume = {38},
-           number = {2},
-           pages = {505-529},
-           url = {http://arxiv.org/abs/1605.09148},
-           doi = {10.1137/16M1077398}
+           pages = {cnx043},
+           url = {https://arxiv.org/abs/1612.08631},
+           doi = {10.1093/comnet/cnx043}
+}
+    </pre></td>
+</tr>
+<tr id="Segarra2017" class="entry">
+    <td> [16] Segarra, S.; Schaub, M.T. &amp; Jadbabaie, A. (2017), <i>"Network Inference from Consensus Dynamics"</i>, 56th IEEE Conference on Decision and Control (CDC 2017)., June, 2017. , pp. 3212-3217.
+        <p class="infolinks">[<a href="javascript:toggleInfo('Segarra2017','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Segarra2017','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1109/CDC.2017.8264130" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/1708.05329" target="_blank">URL</a>]</p>
+    </td>
+</tr>
+<tr id="abs_Segarra2017" class="abstract noshow">
+    <td><b>Abstract</b>: We consider the problem of identifying the topology of a weighted, undirected network G from observing snapshots of multiple independent consensus dynamics. Specifically, we observe the opinion profiles of a group of agents for a set of M independent topics and our goal is to recover the precise relationships between the agents, as specified by the unknown network G. In order to overcome the under- determinacy of the problem at hand, we leverage concepts from spectral graph theory and convex optimization to unveil the underlying network structure. More precisely, we formulate the network inference problem as a convex optimization that seeks to endow the network with certain desired properties – such as sparsity – while being consistent with the spectral information extracted from the observed opinions. This is complemented with theoretical results proving consistency as the number M of topics grows large. We further illustrate our method by numerical experiments, which showcase the effectiveness of the technique in recovering synthetic and real-world networks.</td>
+</tr>
+<tr id="bib_Segarra2017" class="bibtex noshow">
+    <td><b>BibTeX</b>:
+        <pre>
+@article{Segarra2017,
+    author = {Santiago Segarra and Michael T. Schaub and Ali Jadbabaie},
+           title = {Network Inference from Consensus Dynamics},
+           journal = {56th IEEE Conference on Decision and Control (CDC 2017)},
+           year = {2017},
+           pages = {3212-3217},
+           url = {https://arxiv.org/abs/1708.05329},
+           doi = {10.1109/CDC.2017.8264130}
 }
     </pre></td>
 </tr>
 <tr id="Kiselev2017" class="entry">
-    <td> [16] Kiselev, V.Y.; Kirschner, K.; Schaub, M.T.; Andrews, T.; Chandra, T.; Natarajan, K.N.; Reik, W.; Barahona, M.; Green, A.R. &amp; Hemberg, M. (2017), <i>"SC3 - consensus clustering of single-cell RNA-Seq data"</i>, Nature Methods., March, 2017.  Vol. 14(5), pp. 483-486.
+    <td> [17] Kiselev, V.Y.; Kirschner, K.; Schaub, M.T.; Andrews, T.; Chandra, T.; Natarajan, K.N.; Reik, W.; Barahona, M.; Green, A.R. &amp; Hemberg, M. (2017), <i>"SC3 - consensus clustering of single-cell RNA-Seq data"</i>, Nature Methods., March, 2017.  Vol. 14(5), pp. 483-486.
         <p class="infolinks">[<a href="javascript:toggleInfo('Kiselev2017','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Kiselev2017','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1038/nmeth.4236" target="_blank">DOI</a>] [<a href="http://dx.doi.org/10.1101/036558" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -774,8 +797,32 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 }
     </pre></td>
 </tr>
+<tr id="Schaub*2017" class="entry">
+    <td> [18] Schaub*, M.T.; Trefois*, M.; Dooren, P.V. &amp; Delvenne, J.-C. (2017), <i>"Sparse Matrix Factorizations For Fast Iterative Linear Solvers With Application To Laplacian Systems"</i>, SIAM Journal on Matrix Analysis and Applications.  Vol. 38(2), pp. 505-529.
+        <p class="infolinks">[<a href="javascript:toggleInfo('Schaub*2017','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Schaub*2017','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1137/16M1077398" target="_blank">DOI</a>] [<a href="http://arxiv.org/abs/1605.09148" target="_blank">URL</a>]</p>
+    </td>
+</tr>
+<tr id="abs_Schaub*2017" class="abstract noshow">
+    <td><b>Abstract</b>: In solving a linear system with iterative methods, one is usually confronted with the dilemma of having to choose between cheap, inefficient iterates over sparse search directions (e.g., coordinate descent), or expensive iterates in well-chosen search directions (e.g., conjugate gradients). In this paper, we propose to interpolate between these two extremes, and show how to perform cheap iterations along non-sparse search directions, provided that these directions admit a new kind of sparse factorization. For example, if the search directions are the columns of a hierarchical matrix, then the cost of each iteration is typically logarithmic in the number of variables. Using some graph-theoretical results on low-stretch spanning trees, we deduce as a special case a nearly-linear time algorithm to approximate the minimal norm solution of a linear system Bx=b where B is the incidence matrix of a graph. We thereby can connect our results to recently proposed nearly-linear time solvers for Laplacian systems, which emerge here as a particular application of our sparse matrix factorization.</td>
+</tr>
+<tr id="bib_Schaub*2017" class="bibtex noshow">
+    <td><b>BibTeX</b>:
+        <pre>
+@article{Schaub*2017,
+    author = {Michael T. Schaub* and Maguy Trefois* and Paul Van Dooren and Jean-Charles Delvenne},
+           title = {Sparse Matrix Factorizations For Fast Iterative Linear Solvers With Application To Laplacian Systems},
+           journal = {SIAM Journal on Matrix Analysis and Applications},
+           year = {2017},
+           volume = {38},
+           number = {2},
+           pages = {505-529},
+           url = {http://arxiv.org/abs/1605.09148},
+           doi = {10.1137/16M1077398}
+}
+    </pre></td>
+</tr>
 <tr id="Schaub2017" class="entry">
-    <td> [17] Schaub, M.T.; Delvenne, J.-C.; Rosvall, M. &amp; Lambiotte, R. (2017), <i>"The many facets of community detection in complex networks"</i>, Applied Network Science.  Vol. 2(1), pp. 4.
+    <td> [19] Schaub, M.T.; Delvenne, J.-C.; Rosvall, M. &amp; Lambiotte, R. (2017), <i>"The many facets of community detection in complex networks"</i>, Applied Network Science.  Vol. 2(1), pp. 4.
         <p class="infolinks">[<a href="javascript:toggleInfo('Schaub2017','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Schaub2017','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1007/s41109-017-0023-6" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/1611.07769" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -798,80 +845,8 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 }
     </pre></td>
 </tr>
-<tr id="Estrada2017" class="entry">
-    <td> [18] Estrada, E.; Delvenne, J.-C.; Hatano, N.; Mateos, J.L.; Metzler, R.; Riascos, A.P. &amp; Schaub, M.T. (2017), <i>"Random Multi-Hopper Model. Super-Fast Random Walks on Graphs"</i>, Journal of Complex Networks., October, 2017. , pp. cnx043.
-        <p class="infolinks">[<a href="javascript:toggleInfo('Estrada2017','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Estrada2017','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1093/comnet/cnx043" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/1612.08631" target="_blank">URL</a>]</p>
-    </td>
-</tr>
-<tr id="abs_Estrada2017" class="abstract noshow">
-    <td><b>Abstract</b>: We develop a model for a random walker with long-range hops on general graphs. This random multi-hopper jumps from a node to any other node in the graph with a probability that decays as a function of the shortest-path distance between the two nodes. We consider here two decaying functions in the form of the Laplace and Mellin transforms of the shortest-path distances. Remarkably, when the parameters of these transforms approach zero asymptotically, the multi-hopper's hitting times between any two nodes in the graph converge to their minimum possible value, given by the hitting times of a normal random walker on a complete graph. Stated differently, for small parameter values the multi-hopper explores a general graph as fast as possible when compared to a random walker on a full graph. Using computational experiments we show that compared to the normal random walker, the multi-hopper indeed explores graphs with clusters or skewed degree distributions more efficiently for a large parameter range. We provide further computational evidence of the speed-up attained by the random multi-hopper model with respect to the normal random walker by studying deterministic, random and real-world networks.</td>
-</tr>
-<tr id="bib_Estrada2017" class="bibtex noshow">
-    <td><b>BibTeX</b>:
-        <pre>
-@article{Estrada2017,
-    author = {Estrada, E. and Delvenne, J.-C. and Hatano, N. and Mateos, J.&nbsp;L. and Metzler, R. and Riascos, A.&nbsp;P. and Schaub, M.&nbsp;T.},
-           title = {Random Multi-Hopper Model. Super-Fast Random Walks on Graphs},
-           journal = {Journal of Complex Networks},
-           year = {2017},
-           pages = {cnx043},
-           url = {https://arxiv.org/abs/1612.08631},
-           doi = {10.1093/comnet/cnx043}
-}
-    </pre></td>
-</tr>
-<tr id="Amor2016" class="entry">
-    <td> [19] Amor, B.R.C.; Schaub, M.T.; Yaliraki, S.N. &amp; Barahona, M. (2016), <i>"Prediction of allosteric sites and mediating interactions through bond-to-bond propensities"</i>, Nature Communications., August, 2016.  Vol. 7(12477)
-        <p class="infolinks">[<a href="javascript:toggleInfo('Amor2016','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Amor2016','comment')">Comment</a>]  [<a href="javascript:toggleInfo('Amor2016','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1038/ncomms12477" target="_blank">DOI</a>] [<a href="http://dx.doi.org/10.1101/056275" target="_blank">URL</a>]</p>
-    </td>
-</tr>
-<tr id="abs_Amor2016" class="abstract noshow">
-    <td><b>Abstract</b>: Allostery is a fundamental mechanism of biological regulation, in which binding of a molecule at a distant location affects the active site of a protein. Allosteric sites provide targets to fine-tune protein activity, yet we lack computational methodologies to predict them. Here we present an efficient graph-theoretical framework to reveal allosteric interactions (atoms and communication pathways strongly coupled to the active site) without a priori information of their location. Using an atomistic graph with energy-weighted covalent and weak bonds, we define a bond-to-bond propensity quantifying the non-local effect of instantaneous bond fluctuations propagating through the protein. Significant interactions are then identified using quantile regression. We exemplify our method with three biologically important proteins: caspase-1, CheY, and h-Ras, correctly predicting key allosteric interactions, whose significance is additionally confirmed against a reference set of 100 proteins. The almost-linear scaling of our method renders it suitable for high-throughput searches for candidate allosteric sites.</td>
-</tr>
-<tr id="rev_Amor2016" class="comment noshow">
-    <td><b>Comment</b>: News articles:<br>http://www3.imperial.ac.uk/newsandeventspggrp/imperialcollege/newssummary/news_25-8-2016-15-3-8<br>http://phys.org/news/2016-08-paths-proteins-reveal-drug.html<br>http://naturalsciencenews.com/2016/08/27/mathematical-models-used-to-study-traffic-jams-can-help-researchers-understand-proteins/?platform=hootsuite<br></td>
-</tr>
-<tr id="bib_Amor2016" class="bibtex noshow">
-    <td><b>BibTeX</b>:
-        <pre>
-@article{Amor2016,
-    author = {Benjamin R. C. Amor and Michael T. Schaub and Sophia N. Yaliraki and Mauricio Barahona},
-           title = {Prediction of allosteric sites and mediating interactions through bond-to-bond propensities},
-           journal = {Nature Communications},
-           year = {2016},
-           volume = {7},
-           number = {12477},
-           url = {http://dx.doi.org/10.1101/056275},
-           doi = {10.1038/ncomms12477}
-}
-    </pre></td>
-</tr>
-<tr id="Schaub2016" class="entry">
-    <td> [20] Schaub, M.; O'Clery, N.; Billeh, Y.N.; Delvenne, J.-C.; Lambiotte, R. &amp; Barahona, M. (2016), <i>"Graph partitions and cluster synchronization in networks of oscillators"</i>, Chaos., August, 2016.  Vol. 26(9), pp. 094821.
-        <p class="infolinks">[<a href="javascript:toggleInfo('Schaub2016','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Schaub2016','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1063/1.4961065" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/1608.04283" target="_blank">URL</a>]</p>
-    </td>
-</tr>
-<tr id="abs_Schaub2016" class="abstract noshow">
-    <td><b>Abstract</b>: Synchronization dynamics depends strongly on the structure of the coupling between the oscillators. When the coupling network presents certain regularities, the dynamics can be coarse-grained into clusters by means of External Equitable Partitions and their associated quotient graphs. We exploit this graph-theoretical concept to study the phenomenon of cluster synchronization, in which different groups of nodes converge to distinct behaviors. We derive conditions and properties of networks in which such clustered behavior emerges, and show that the ensuing dynamics is the result of the localization of the eigenvectors of the associated graph Laplacians linked to the existence of invariant subspaces. The framework is applied to both linear and non- linear models, first for the standard case of networks with positive edges, before being generalized to the case of signed networks with both positive and negative interactions. We illustrate our results with examples of both signed and unsigned graphs for consensus dynamics and for partial synchronization of oscillator networks under the master stability function as well as Kuramoto oscillators.</td>
-</tr>
-<tr id="bib_Schaub2016" class="bibtex noshow">
-    <td><b>BibTeX</b>:
-        <pre>
-@article{Schaub2016,
-    author = {Michael Schaub and Neave O'Clery and Yazan N. Billeh and Jean-Charles Delvenne and Renaud Lambiotte and Mauricio Barahona},
-           title = {Graph partitions and cluster synchronization in networks of oscillators},
-           journal = {Chaos},
-           year = {2016},
-           volume = {26},
-           number = {9},
-           pages = {094821},
-           url = {https://arxiv.org/abs/1608.04283},
-           doi = {10.1063/1.4961065}
-}
-    </pre></td>
-</tr>
 <tr id="Bacik2016" class="entry">
-    <td> [21] Bacik, K.A.; Schaub, M.T.; Beguerisse-Diaz, M.; Billeh, Y.N. &amp; Barahona, M. (2016), <i>"Flow-Based Network Analysis of the Caenorhabditis elegans Connectome"</i>, PLoS Computational Biology., August, 2016.  Vol. 12(8), pp. 1-27.
+    <td> [20] Bacik, K.A.; Schaub, M.T.; Beguerisse-Diaz, M.; Billeh, Y.N. &amp; Barahona, M. (2016), <i>"Flow-Based Network Analysis of the Caenorhabditis elegans Connectome"</i>, PLoS Computational Biology., August, 2016.  Vol. 12(8), pp. 1-27.
         <p class="infolinks">[<a href="javascript:toggleInfo('Bacik2016','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Bacik2016','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1371/journal.pcbi.1005055" target="_blank">DOI</a>] [<a href="http://arxiv.org/abs/1511.00673" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -894,8 +869,58 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 }
     </pre></td>
 </tr>
+<tr id="Schaub2016" class="entry">
+    <td> [21] Schaub, M.; O'Clery, N.; Billeh, Y.N.; Delvenne, J.-C.; Lambiotte, R. &amp; Barahona, M. (2016), <i>"Graph partitions and cluster synchronization in networks of oscillators"</i>, Chaos., August, 2016.  Vol. 26(9), pp. 094821.
+        <p class="infolinks">[<a href="javascript:toggleInfo('Schaub2016','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Schaub2016','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1063/1.4961065" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/1608.04283" target="_blank">URL</a>]</p>
+    </td>
+</tr>
+<tr id="abs_Schaub2016" class="abstract noshow">
+    <td><b>Abstract</b>: Synchronization dynamics depends strongly on the structure of the coupling between the oscillators. When the coupling network presents certain regularities, the dynamics can be coarse-grained into clusters by means of External Equitable Partitions and their associated quotient graphs. We exploit this graph-theoretical concept to study the phenomenon of cluster synchronization, in which different groups of nodes converge to distinct behaviors. We derive conditions and properties of networks in which such clustered behavior emerges, and show that the ensuing dynamics is the result of the localization of the eigenvectors of the associated graph Laplacians linked to the existence of invariant subspaces. The framework is applied to both linear and non- linear models, first for the standard case of networks with positive edges, before being generalized to the case of signed networks with both positive and negative interactions. We illustrate our results with examples of both signed and unsigned graphs for consensus dynamics and for partial synchronization of oscillator networks under the master stability function as well as Kuramoto oscillators.</td>
+</tr>
+<tr id="bib_Schaub2016" class="bibtex noshow">
+    <td><b>BibTeX</b>:
+        <pre>
+@article{Schaub2016,
+    author = {Michael Schaub and Neave O'Clery and Yazan N. Billeh and Jean-Charles Delvenne and Renaud Lambiotte and Mauricio Barahona},
+           title = {Graph partitions and cluster synchronization in networks of oscillators},
+           journal = {Chaos},
+           year = {2016},
+           volume = {26},
+           number = {9},
+           pages = {094821},
+           url = {https://arxiv.org/abs/1608.04283},
+           doi = {10.1063/1.4961065}
+}
+    </pre></td>
+</tr>
+<tr id="Amor2016" class="entry">
+    <td> [22] Amor, B.R.C.; Schaub, M.T.; Yaliraki, S.N. &amp; Barahona, M. (2016), <i>"Prediction of allosteric sites and mediating interactions through bond-to-bond propensities"</i>, Nature Communications., August, 2016.  Vol. 7(12477)
+        <p class="infolinks">[<a href="javascript:toggleInfo('Amor2016','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Amor2016','comment')">Comment</a>]  [<a href="javascript:toggleInfo('Amor2016','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1038/ncomms12477" target="_blank">DOI</a>] [<a href="http://dx.doi.org/10.1101/056275" target="_blank">URL</a>]</p>
+    </td>
+</tr>
+<tr id="abs_Amor2016" class="abstract noshow">
+    <td><b>Abstract</b>: Allostery is a fundamental mechanism of biological regulation, in which binding of a molecule at a distant location affects the active site of a protein. Allosteric sites provide targets to fine-tune protein activity, yet we lack computational methodologies to predict them. Here we present an efficient graph-theoretical framework to reveal allosteric interactions (atoms and communication pathways strongly coupled to the active site) without a priori information of their location. Using an atomistic graph with energy-weighted covalent and weak bonds, we define a bond-to-bond propensity quantifying the non-local effect of instantaneous bond fluctuations propagating through the protein. Significant interactions are then identified using quantile regression. We exemplify our method with three biologically important proteins: caspase-1, CheY, and h-Ras, correctly predicting key allosteric interactions, whose significance is additionally confirmed against a reference set of 100 proteins. The almost-linear scaling of our method renders it suitable for high-throughput searches for candidate allosteric sites.</td>
+</tr>
+<tr id="rev_Amor2016" class="comment noshow">
+    <td><b>Comment</b>: News articles:<br>http://www3.imperial.ac.uk/newsandeventspggrp/imperialcollege/newssummary/news_25-8-2016-15-3-8<br>http://phys.org/news/2016-08-paths-proteins-reveal-drug.html<br>http://naturalsciencenews.com/2016/08/27/mathematical-models-used-to-study-traffic-jams-can-help-researchers-understand-proteins/?platform=hootsuite</td>
+</tr>
+<tr id="bib_Amor2016" class="bibtex noshow">
+    <td><b>BibTeX</b>:
+        <pre>
+@article{Amor2016,
+    author = {Benjamin R. C. Amor and Michael T. Schaub and Sophia N. Yaliraki and Mauricio Barahona},
+           title = {Prediction of allosteric sites and mediating interactions through bond-to-bond propensities},
+           journal = {Nature Communications},
+           year = {2016},
+           volume = {7},
+           number = {12477},
+           url = {http://dx.doi.org/10.1101/056275},
+           doi = {10.1038/ncomms12477}
+}
+    </pre></td>
+</tr>
 <tr id="Salnikov2016" class="entry">
-    <td> [22] Salnikov, V.; Schaub, M.T. &amp; Lambiotte, R. (2016), <i>"Using higher-order Markov models to reveal flow-based communities in networks"</i>, Scientific Reports., March, 2016.  Vol. 6, pp. 23194.
+    <td> [23] Salnikov, V.; Schaub, M.T. &amp; Lambiotte, R. (2016), <i>"Using higher-order Markov models to reveal flow-based communities in networks"</i>, Scientific Reports., March, 2016.  Vol. 6, pp. 23194.
         <p class="infolinks">[<a href="javascript:toggleInfo('Salnikov2016','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Salnikov2016','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1038/srep23194" target="_blank">DOI</a>] [<a href="http://arxiv.org/abs/1601.03516" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -918,7 +943,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
     </pre></td>
 </tr>
 <tr id="Schaub*2015" class="entry">
-    <td> [23] Schaub*, M.T.; Billeh*, Y.; Anastassiou, C.A.; Koch, C. &amp; Barahona, M. (2015), <i>"Emergence of slow-switching assemblies in structured neuronal networks"</i>, PLoS Computational Biology., July, 2015.  Vol. 11(7), pp. e1004196.
+    <td> [24] Schaub*, M.T.; Billeh*, Y.; Anastassiou, C.A.; Koch, C. &amp; Barahona, M. (2015), <i>"Emergence of slow-switching assemblies in structured neuronal networks"</i>, PLoS Computational Biology., July, 2015.  Vol. 11(7), pp. e1004196.
         <p class="infolinks">[<a href="javascript:toggleInfo('Schaub*2015','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Schaub*2015','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1371/journal.pcbi.1004196" target="_blank">DOI</a>] [<a href="http://arxiv.org/abs/1502.05656" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -942,7 +967,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
     </pre></td>
 </tr>
 <tr id="Billeh*2014" class="entry">
-    <td> [24] Billeh*, Y.N.; Schaub*, M.T.; Anastassiou, C.A.; Barahona, M. &amp; Koch, C. (2014), <i>"Revealing cell assemblies at multiple levels of granularity"</i>, Journal of Neuroscience Methods., Oct, 2014.  Vol. 236(0), pp. 92 - 106.
+    <td> [25] Billeh*, Y.N.; Schaub*, M.T.; Anastassiou, C.A.; Barahona, M. &amp; Koch, C. (2014), <i>"Revealing cell assemblies at multiple levels of granularity"</i>, Journal of Neuroscience Methods., Oct, 2014.  Vol. 236(0), pp. 92 - 106.
         <p class="infolinks">[<a href="javascript:toggleInfo('Billeh*2014','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Billeh*2014','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1016/j.jneumeth.2014.08.011" target="_blank">DOI</a>] [<a href="http://arxiv.org/abs/1411.2103" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -966,7 +991,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
     </pre></td>
 </tr>
 <tr id="Schaub2014" class="entry">
-    <td> [25] Schaub, M.T.; Lehmann, J.; Yaliraki, S.N. &amp; Barahona, M. (2014), <i>"Structure of complex networks: Quantifying edge-to-edge relations by failure-induced flow redistribution"</i>, Network Science., April, 2014.  Vol. 2(1), pp. 66-89.
+    <td> [26] Schaub, M.T.; Lehmann, J.; Yaliraki, S.N. &amp; Barahona, M. (2014), <i>"Structure of complex networks: Quantifying edge-to-edge relations by failure-induced flow redistribution"</i>, Network Science., April, 2014.  Vol. 2(1), pp. 66-89.
         <p class="infolinks">[<a href="javascript:toggleInfo('Schaub2014','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Schaub2014','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1017/nws.2014.4" target="_blank">DOI</a>] [<a href="http://arxiv.org/abs/1303.6241" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -990,7 +1015,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
     </pre></td>
 </tr>
 <tr id="Delvenne2013" class="entry">
-    <td> [26] Delvenne, J.-C.; Schaub, M.T.; Yaliraki, S.N. &amp; Barahona, M. (2013), <i>"The Stability of a Graph Partition: A Dynamics-Based Framework for Community Detection"</i>, In Dynamics On and Of Complex Networks, Volume 2., May, 2013. , pp. 221-242. Springer New York.
+    <td> [27] Delvenne, J.-C.; Schaub, M.T.; Yaliraki, S.N. &amp; Barahona, M. (2013), <i>"The Stability of a Graph Partition: A Dynamics-Based Framework for Community Detection"</i>, In Dynamics On and Of Complex Networks, Volume 2., May, 2013. , pp. 221-242. Springer New York.
         <p class="infolinks"> [<a href="javascript:toggleInfo('Delvenne2013','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1007/978-1-4614-6729-8_11" target="_blank">DOI</a>] [<a href="http://arxiv.org/abs/1308.1605" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -1011,7 +1036,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
     </pre></td>
 </tr>
 <tr id="Schaub2012b" class="entry">
-    <td> [27] Schaub, M.T.; Lambiotte, R. &amp; Barahona, M. (2012), <i>"Encoding dynamics for multiscale community detection: Markov time sweeping for the map equation"</i>, Phys. Rev. E., Aug, 2012.  Vol. 86, pp. 026112. American Physical Society.
+    <td> [28] Schaub, M.T.; Lambiotte, R. &amp; Barahona, M. (2012), <i>"Encoding dynamics for multiscale community detection: Markov time sweeping for the map equation"</i>, Phys. Rev. E., Aug, 2012.  Vol. 86, pp. 026112. American Physical Society.
         <p class="infolinks">[<a href="javascript:toggleInfo('Schaub2012b','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Schaub2012b','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1103/PhysRevE.86.026112" target="_blank">DOI</a>] [<a href="http://arxiv.org/abs/1109.6642" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -1035,7 +1060,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
     </pre></td>
 </tr>
 <tr id="Schaub2012" class="entry">
-    <td> [28] Schaub, M.T.; Delvenne, J.-C.; Yaliraki, S.N. &amp; Barahona, M. (2012), <i>"Markov Dynamics as a Zooming Lens for Multiscale Community Detection: Non Clique-Like Communities and the Field-of-View Limit"</i>, PLoS ONE., Feb, 2012.  Vol. 7(2), pp. e32210. Public Library of Science.
+    <td> [29] Schaub, M.T.; Delvenne, J.-C.; Yaliraki, S.N. &amp; Barahona, M. (2012), <i>"Markov Dynamics as a Zooming Lens for Multiscale Community Detection: Non Clique-Like Communities and the Field-of-View Limit"</i>, PLoS ONE., Feb, 2012.  Vol. 7(2), pp. e32210. Public Library of Science.
         <p class="infolinks">[<a href="javascript:toggleInfo('Schaub2012','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Schaub2012','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1371/journal.pone.0032210" target="_blank">DOI</a>] [<a href="http://arxiv.org/abs/1109.5593" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -1060,7 +1085,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
     </pre></td>
 </tr>
 <tr id="Schaub2012a" class="entry">
-    <td> [29] Schaub, M. &amp; Schultz, S. (2012), <i>"The Ising decoder: reading out the activity of large neural ensembles"</i>, Journal of Computational Neuroscience., Feb, 2012.  Vol. 32, pp. 101-118.
+    <td> [30] Schaub, M. &amp; Schultz, S. (2012), <i>"The Ising decoder: reading out the activity of large neural ensembles"</i>, Journal of Computational Neuroscience., Feb, 2012.  Vol. 32, pp. 101-118.
         <p class="infolinks">[<a href="javascript:toggleInfo('Schaub2012a','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Schaub2012a','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1007/s10827-011-0342-z" target="_blank">DOI</a>] [<a href="http://arxiv.org/abs/1009.1828" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -1085,7 +1110,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 </tbody>
 </table>
 <footer>
- <small>Created by <a href="http://jabref.sourceforge.net">JabRef</a> on 17/09/2019.</small>
+ <small>Created by <a href="http://jabref.sourceforge.net">JabRef</a> on 23/03/2020.</small>
 </footer>
   <!--END PUBLICATIOON INSERT HERE-->
  </div>
