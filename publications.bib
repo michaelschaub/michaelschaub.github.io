@@ -342,15 +342,19 @@ http://naturalsciencenews.com/2016/08/27/mathematical-models-used-to-study-traff
   url       = {https://arxiv.org/abs/1802.06916},
 }
 
-@Misc{Schaub2018c,
-  author       = {Schaub, Michael T. and Benson, Austin R. and Horn, Paul and Lippner, Gabor and Jadbabaie, Ali},
-  howpublished = {accepted for publication in SIAM Review},
-  month        = jul,
-  title        = {Random walks on simplicial complexes and the normalized Hodge 1-Laplacian},
-  year         = {2018},
-  abstract     = {Modeling complex systems and data with graphs has been a mainstay of the applied mathematics community. The nodes in the graph represent entities and the edges model the relations between them. Simplicial complexes, a mathematical object common in topological data analysis, have emerged as a model for multi-nodal interactions that occur in several complex systems; for example, biological interactions occur between a set of molecules rather than just two, and commu- nication systems can have group messages and not just person-to-person messages. While simplicial complexes can model multi-nodal interactions, many ideas from network analysis concerning dynam- ical processes lack a proper correspondence in the a simplicial complex model. In particular, diffusion processes and random walks, which underpin large parts of the network analysis toolbox including centrality measures and ranking, community detection, and contagion models, have so far been only scarcely studied for simplicial complexes. Here we develop a diffusion process on simplicial com- plexes that can serve as a foundation for making simplicial complex models more effective. Our key idea is to generalize the well-known relationship between the normalized graph Laplacian operator and random walks on graphs by devising an appropriate normalization for the Hodge Laplacian, the analog of the graph Laplacian for simplicial complexes. We demonstrate how our diffusion process can be used for system analysis by developing a generalization of PageRank for edges in simplicial complexes and analyzing a book co-purchasing dataset.},
-  timestamp    = {2018-07-16},
-  url          = {https://arxiv.org/abs/1807.05044},
+@Article{Schaub2020a,
+  author    = {Schaub, Michael T. and Benson, Austin R. and Horn, Paul and Lippner, Gabor and Jadbabaie, Ali},
+  journal   = {SIAM Review},
+  title     = {Random walks on simplicial complexes and the normalized Hodge 1-Laplacian},
+  year      = {2020},
+  month     = may,
+  number    = {2},
+  pages     = {353-391},
+  volume    = {62},
+  abstract  = {Modeling complex systems and data with graphs has been a mainstay of the applied mathematics community. The nodes in the graph represent entities and the edges model the relations between them. Simplicial complexes, a mathematical object common in topological data analysis, have emerged as a model for multi-nodal interactions that occur in several complex systems; for example, biological interactions occur between a set of molecules rather than just two, and commu- nication systems can have group messages and not just person-to-person messages. While simplicial complexes can model multi-nodal interactions, many ideas from network analysis concerning dynam- ical processes lack a proper correspondence in the a simplicial complex model. In particular, diffusion processes and random walks, which underpin large parts of the network analysis toolbox including centrality measures and ranking, community detection, and contagion models, have so far been only scarcely studied for simplicial complexes. Here we develop a diffusion process on simplicial com- plexes that can serve as a foundation for making simplicial complex models more effective. Our key idea is to generalize the well-known relationship between the normalized graph Laplacian operator and random walks on graphs by devising an appropriate normalization for the Hodge Laplacian, the analog of the graph Laplacian for simplicial complexes. We demonstrate how our diffusion process can be used for system analysis by developing a generalization of PageRank for edges in simplicial complexes and analyzing a book co-purchasing dataset.},
+  doi       = {10.1137/18M1201019},
+  timestamp = {2018-07-16},
+  url       = {https://arxiv.org/abs/1807.05044},
 }
 
 @InCollection{Schaub2019c,
@@ -419,13 +423,17 @@ In the third part, we discuss how to use dynamical processes unfolding on the ne
   url       = {https://arxiv.org/abs/1804.03733},
 }
 
-@Misc{Schaub2020,
+@Article{Schaub2020,
   author       = {Schaub, Michael T. and Segarra, Santiago and Tsitsiklis, John N.},
-  howpublished = {accepted for publication in SIAM Mathematics of Data Science},
-  month        = apr,
   title        = {Blind identification of stochastic blockmodels from dynamical observations},
   year         = {2020},
+  month        = may,
+  number       = {2},
+  pages        = {335-367},
+  volume       = {2},
   abstract     = {We consider a blind identification problem in which we aim to recover a statistical model of a network without knowledge of the network's edges, but based solely on nodal observations of a certain process. More concretely, we focus on observations that consist of snapshots of a diffusive process that evolves over the unknown network. We model the network as generated from an independent draw from a latent stochastic block model (SBM), and our goal is to infer both the partition of the nodes into blocks, as well as the parameters of this SBM. We present simple spectral algorithms that provably solve the partition recovery and parameter estimation problems with high accuracy. Our analysis relies on recent results in random matrix theory and covariance estimation, and associated concentration inequalities. We illustrate our results with several numerical experiments.},
+  doi          = {10.1137/19M1263340},
+  howpublished = {SIAM Journal on Mathematics of Data Science},
   timestamp    = {2020-04-03},
   url          = {https://arxiv.org/abs/1905.09107},
 }
@@ -436,6 +444,8 @@ In the third part, we discuss how to use dynamical processes unfolding on the ne
   title     = {{Network Inference from Consensus Dynamics with Unknown Parameters}},
   year      = {2020},
   month     = apr,
+  pages     = {300-315},
+  volume    = {6},
   abstract  = {We explore the problem of inferring the graph Laplacian of a weighted, undirected network from snapshots of a single or multiple discrete-time consensus dynamics, subject to parameter uncertainty, taking place on the network. Specifically, we consider three problems in which we assume different levels of knowledge about the diffusion rates, observation times, and the input signal power of the dynamics. To solve these underdetermined problems, we propose a set of algorithms that leverage the spectral properties of the observed data and tools from convex optimization. Furthermore, we provide theoretical performance guarantees associated with these algorithms. We complement our theoretical work with numerical experiments, that demonstrate how our proposed methods outperform current state-of-the-art algorithms and showcase their effectiveness in recovering both synthetic and real-world networks.},
   doi       = {10.1109/TSIPN.2020.2984499},
   timestamp = {2019-08-04},
@@ -481,6 +491,17 @@ In the third part, we discuss how to use dynamical processes unfolding on the ne
   abstract     = {We introduce and analyse a three-body consensus model (3CM) for non-linear consensus dynamics on hypergraphs. Our model incorporates reinforcing group effects, which can cause shifts in the average state of the system even in if the underlying graph is complete (corresponding to a mean-field interaction), a phenomena that may be interpreted as a type of peer pressure. We further demonstrate that for systems with two clustered groups, already a small asymmetry in our dynamics can lead to the opinion of one group becoming clearly dominant. We show that the nonlinearity in the model is the essential ingredient to make such group dynamics appear, and demonstrate how our system can otherwise be written as a linear, pairwise interaction system on a rescaled network.},
   timestamp    = {2020-04-05},
   url          = {https://arxiv.org/abs/2004.00901},
+}
+
+@Misc{Faccin2020,
+  author       = {Faccin, M. and Schaub, M. T. and Delvenne, J.-C.},
+  howpublished = {submitted},
+  month        = may,
+  title        = {{State aggregations in Markov chains and block models of networks}},
+  year         = {2020},
+  abstract     = {We consider state aggregation schemes for Markov chains from an information-theoretic perspective. Specifically, we consider aggregating the states of a Markov chain such that the mutual information of the aggregated states separated by T time steps is maximized. We show that for T = 1 this approach recovers the maximum-likelihood estimator of the degree-corrected stochastic block model as a particular case, thereby enabling us to explain certain features of the likelihood landscape of this popular generative network model from a dynamical lens. We further highlight how we can uncover coherent, long-range dynamical modules for which considering a time-scale T >> 1 is essential, using synthetic flows and real-world ocean currents, where we are able to recover the fundamental features of the surface currents of the Oceans.},
+  timestamp    = {2020-05-06},
+  url          = {https://arxiv.org/abs/2005.00337},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
