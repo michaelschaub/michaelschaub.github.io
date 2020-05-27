@@ -4,6 +4,23 @@ permalink: /HIntNets/
 #mathjax: true comment in to enable math
 #Possible further headers: Events, Projects/Results, Communication/Presentation, News
 ---
+<script>addBackToTop({
+  backgroundColor: '#fff',
+  innerHTML: 'Back to Top',
+  textColor: '#333'
+})</script>
+<style>
+  #back-to-top {
+    border: 1px solid #ccc;
+    border-radius: 0;
+    font-family: sans-serif;
+    font-size: 14px;
+    width: 100px;
+    text-align: center;
+    line-height: 30px;
+    height: 30px;
+  }
+</style>
 
 ## HIntNets: Higher-order interactions and Laplacian dynamics in complex networks: structure, dynamics and control
 ![image-right](/images/EuropeFlag.png){: .align-right}
@@ -28,6 +45,7 @@ While in some cases data about group interactions is readily available, in many 
 We will thus further investigate techniques to infer (generalized) networks and group structures from available interaction data.
 
 The overarching goal of this research is to elucidate relations between structure, dynamics and function in complex systems.
+See the video above produced in the context of this projec for a high-level introduction to the topic.
 
 ## Events
 **Sep 9 - 11, 2019**, Workshop on Higher-Order Interaction Networks: [Dynamics, Structure, Data](https://www.maths.ox.ac.uk/groups/networks/events/higher-order-interaction-workshop)  
@@ -54,8 +72,8 @@ Like the graph Laplacian in the node domain, its higher order equivalents enable
 \[1] Benson, A. R.; Abebe, R.; Schaub, M. T.; Jadbabaie, A. & Kleinberg, J.
 " Simplicial closure and higher-order link prediction" 
 *Proceedings of the National Academy of Sciences*, 2018, [DOI: 10.1073/pnas.1800683115](https://doi.org/10.1073/pnas.1800683115)   
-\[2] Schaub, M. T.; Benson, A. R.; Horn, P.; Lippner, G. & Jadbabaie, A. "Random walks on simplicial complexes and the normalized Hodge Laplacian", 2018,
-[arXiv:1807.05044](https://arxiv.org/abs/1807.05044)     
+\[2] Schaub, M. T.; Benson, A. R.; Horn, P.; Lippner, G. & Jadbabaie, A. "Random walks on simplicial complexes and the normalized Hodge 1-Laplacian", *SIAM Review*, 2020. 
+[DOI: 10.1137/18M1201019](https://doi.org/10.1137/18M1201019)     
 
 ### Flow decompositions, machine learning and signal processing on graphs and simplicial complexes
 
@@ -67,8 +85,8 @@ An important tool in this context is the Hodge decomposition, a decomposition of
 We have demonstrated how this decomposition can be leveraged for data analytics that extract information about the edge-space that complements and extends typical graph-based analysis.
 
 #### Related Publications
-\[1] Schaub, M. T.; Benson, A. R.; Horn, P.; Lippner, G. & Jadbabaie, A. "Random walks on simplicial complexes and the normalized Hodge Laplacian", 2018,
-[arXiv:1807.05044](https://arxiv.org/abs/1807.05044)     
+\[1] Schaub, M. T.; Benson, A. R.; Horn, P.; Lippner, G. & Jadbabaie, A. "Random walks on simplicial complexes and the normalized Hodge 1-Laplacian", *SIAM Review*, 2020. 
+[DOI: 10.1137/18M1201019](https://doi.org/10.1137/18M1201019)     
 \[2] Schaub M. T.; Segarra, S. "Flow smoothing and denoising: graph signal processing in the edge-space". 2018 IEEE Global Conference on Signal and Information Processing (GlobalSIP), Anaheim, CA, USA, 2018, pp. 735-739. [DOI: 10.1109/GlobalSIP.2018.8646701](https://doi.org/10.1109/GlobalSIP.2018.8646701)   
 \[3] Jia, J.; Segarra, S.; Schaub, M. T. & Benson, A. R. "Graph-based Semi-Supervised & Active Learning for Edge Flows". Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD 2019), ACM, 2019 [DOI: 10.1145/3292500.3330872](https://doi.org/10.1145/3292500.3330872)     
 
@@ -100,10 +118,33 @@ Research related to the present project was presented at the following places / 
 * University of Oxford, SysSoS group seminar, United Kingdom, November 2017
 * Université catholique de Louvain, Applied Mathematics Seminar / ICTEAM, Belgium, November 2017
 
-
 ## Outreach
 * MIT Spark Programme, Cambridge, MA, March 2018
 * St. Ursula Gymnasium Bruehl, Outreach Talk, Germany, November 2017
+
+-------------
+## Complete Publication list
+A list of all publications that were produced during the period of the fellowship is given below.
+
+
+* Faccin M, Schaub MT and Delvenne J-C (2020), "State aggregations in Markov chains and block models of networks", submitted. May, 2020.
+* Schaub, M.T.; Segarra, S. & Tsitsiklis, J.N. (2020), "Blind identification of stochastic blockmodels from dynamical observations", SIAM Journal on Mathematics of Data Science., May, 2020. Vol. 2(2), pp. 335-367.
+* Schaub, M.T.; Benson, A.R.; Horn, P.; Lippner, G. & Jadbabaie, A. (2020), "Random walks on simplicial complexes and the normalized Hodge 1-Laplacian", SIAM Review., May, 2020. Vol. 62(2), pp. 353-391.
+* Neuhäuser L, Schaub MT, Mellor A and Lambiotte R (2020), "Opinion Dynamics with Multi-Body Interactions", submitted. April, 2020.
+* Zhu, Y.; Schaub, M.T.; Jadbabaie, A. & Segarra, S. (2020), "Network Inference from Consensus Dynamics with Unknown Parameters", IEEE Transactions on Signal and Information Processing over Networks., April, 2020. Vol. 6, pp. 300-315.
+* Roddenberry TM, Schaub MT, Wai H-T and Segarra S (2020), "Exact Blind Community Detection from Signals on Multiple Graphs", submitted. January, 2020.
+* Avella-Medina, M.; Parise, F.; Schaub, M. & Segarra, S. (2020), "Centrality measures for graphons: Accounting for uncertainty in networks", IEEE Transactions on Network Science and Engineering., January, 2020. Vol. 7(1), pp. 520-537.
+* Rosvall, M.; Delvenne, J.-C.; Schaub, M.T. & Lambiotte, R. (2019), "Different Approaches to Community Detection", In Advances in Network Clustering and Blockmodeling., November, 2019. , pp. 105-119. John Wiley & Sons, Ltd.
+* Schaub, M.T.; Delvenne, J.-C.; Lambiotte, R. & Barahona, M. (2019), "Structured Networks and Coarse-Grained Descriptions", In Advances in Network Clustering and Blockmodeling., November, 2019. , pp. 333-361. John Wiley & Sons, Ltd.
+* Jia, J.; Segarra, S.; Schaub, M.T. & Benson, A.R. (2019), "Graph-based Semi-Supervised & Active Learning for Edge Flows", In Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD 2019). New York, NY, USA, August, 2019. , pp. 761-771. ACM.
+* Schaub, M.T.; Delvenne, J.-C.; Lambiotte, R. & Barahona, M. (2019), "Multiscale Dynamical Embeddings of Complex Networks", Phys. Rev. E., June, 2019. Vol. 99, pp. 062308. American Physical Society.
+* Schaub, M.T.; Segarra, S. & Wai, H. (2019), "Spectral Partitioning of Time-varying Networks with Unobserved Edges", In 2019 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2019)., May, 2019. , pp. 4938-4942.
+* Schaub, M.T. & Segarra, S. (2018), "Flow Smoothing And Denoising: Graph Signal Processing In The Edge-space", In 2018 IEEE Global Conference on Signal and Information Processing (GlobalSIP)., November, 2018. , pp. 735-739.
+* Benson, A.R.; Abebe, R.; Schaub, M.T.; Jadbabaie, A. & Kleinberg, J. (2018), "Simplicial closure and higher-order link prediction", Proceedings of the National Academy of Sciences., November, 2018. Vol. 115(48), pp. E11221-E11230.
+* Faccin, M.; Schaub, M.T. & Delvenne, J.-C. (2017), "Entrograms and coarse graining of dynamics on complex networks", Journal of Complex Networks., November, 2017. , pp. cnx055.
+* Estrada, E.; Delvenne, J.-C.; Hatano, N.; Mateos, J.L.; Metzler, R.; Riascos, A.P. & Schaub, M.T. (2017), "Random Multi-Hopper Model. Super-Fast Random Walks on Graphs", Journal of Complex Networks., October, 2017. , pp. cnx043.
+{: .text-justify}
+
 
 ## Contact
 **@MIT**   
