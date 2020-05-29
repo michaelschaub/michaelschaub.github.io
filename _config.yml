@@ -104,9 +104,9 @@ analytics:
 author:
   name             : "Michael Schaub"
   avatar           : "/images/MichaelBW.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Marie Skłodowska Curie Fellow @MIT / Oxford"
-  location         : "Oxford, UK"
-  email            : "michael.schaub(at)eng.ox.ac.uk"
+  bio              : "Computational Network Science @RWTH Aachen University"
+  location         : "Aachen, Germany"
+  email            : "michael.schaub(at)eng.ox.ax.uk"
   home: "https://michaelschaub.github.io"
   links:
     - label: "GitHub"
