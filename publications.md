@@ -26,7 +26,7 @@ Finished publications and public preprints are listed below.
 Click on \[Abstract] to obtain more information. 
 Bibliographical information is available by clicking on \[BibTeX].
 
-You can search in the abstracts using the quicksearch box below.
+You can search in the abstracts using the quicksearch box above.
 The official publication pages can be accessed through the link given \[DOI]. 
 If a preprint version is available it can be found by clicking on \[URL].
 Links to press coverage are listed under \[Comment].
