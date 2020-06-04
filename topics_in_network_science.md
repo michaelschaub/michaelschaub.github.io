@@ -36,7 +36,7 @@ This is a block seminar on a mixture of topics in network theory and analysis. W
 
 ### Organizational Details
 *Lecturer*: Michael Schaub  
-*Contact*: tbc  
+*Contact*: michael.schaub [at] rwth-aachen.dee  
 *Time commitment*: 2 SWS with several deadlines spread throughout the lecture period. Block presentations at the end of the lecture period (or beginning of the lecture-free time)  
 *ECTS credits*: 4   
 *Study programs*: Bachelor  
@@ -103,7 +103,7 @@ Plagiarism of any form is of course unacceptable and will lead to your immediate
 {: .notice--danger}
 
 ### Talks
-In contrast to the paper, the talk is not supposed to describe everything in full detail, but you should provide an overview on your topic, highlighting the important concepts and ideas. Ideally your talk should give the audience a good grasp of the topic you have been focussing one.
+In contrast to the paper, the talk is not supposed to describe everything in full detail, but you should provide an overview on your topic, highlighting the important concepts and ideas. Ideally your talk should give the audience a good grasp of the topic you have been focussing on.
 
 The talk format will be 20 minutes + 5-10 minutes for questions, answers and discussions.
 
