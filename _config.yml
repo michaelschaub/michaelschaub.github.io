@@ -106,7 +106,7 @@ author:
   avatar           : "/images/MichaelBW.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Computational Network Science @RWTH Aachen University"
   location         : "Aachen, Germany"
-  email            : "michael.schaub(at)eng.ox.ax.uk"
+  email            : "michael.schaub(at)rwth-aachen.de"
   home: "https://michaelschaub.github.io"
   links:
     - label: "GitHub"
