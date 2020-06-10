@@ -58,7 +58,7 @@ The dates are not fixed yet, but will most likely be on one or two days at the e
 
 
 ### Schedule of important dates
-Introductory meeting: *Wednesday, September 2 (tentative)*, exact details will be annouced to participants
+Introductory meeting: *Wednesday, September 2, 10:00-12:00 (tentative)*, exact details will be annouced to participants   
 Outline due: tbc  
 Initial paper due: tbc  
 Peer review due: tbc  
