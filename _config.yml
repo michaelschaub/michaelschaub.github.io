@@ -115,6 +115,12 @@ author:
     - label: "Google Scholar"
       icon: "fas fa-graduation-cap"
       url: "https://scholar.google.com/citations?hl=en&user=FCGOxvYAAAAJ"
+    - label: "ResearchGate"
+      icon: "fab fa-researchgate"
+      url: "https://www.researchgate.net/profile/Michael_Schaub5"
+    #- label: "ORCID"
+      #icon: "fab fa-orcid"
+      #url: "https://orcid.org/0000-0003-2426-6404"
 
 # Site Footer
 footer:

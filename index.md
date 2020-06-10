@@ -14,6 +14,14 @@ There are a number of PhD positions available in my group.
 If you are interested, please get in contact.
 {: .notice--success}
 
+### News
+***June 8, 2020*** -- Santiago Segarra, Francesco Tudisco and I are organizing a [virtual minisymposium](https://ftudisco.github.io/MDS2020/) on *Learning from data on networks* as  part of the SIAM conference on Mathematics of Data Science  
+***June 1, 2020*** -- Started new position at RWTH Aachen University  
+***May 7, 2020*** -- Released introductory video on network science and higher-order interactions on youtube
+[here](https://youtu.be/HWbhOf_q0Hs)  
+
+--------------
+
 ### Short Bio
 I studied Electrical Engineering and Information Technology at [ETH Zurich](https://ethz.ch/en.html) with a focus on communication systems. 
 After a MSc in Biomedical Engineering at [Imperial College London](https://www.imperial.ac.uk/) (Neurotechnology stream), I moved to the Mathematics Department to obtain my PhD under the supervision of Prof. Mauricio Barahona and Prof. Sophia Yaliraki. 
