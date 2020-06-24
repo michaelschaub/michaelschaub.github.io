@@ -36,7 +36,7 @@ This is a block seminar on a mixture of topics in network theory and analysis. W
 
 ### Organizational Details
 *Lecturer*: Michael Schaub  
-*Contact*: michael.schaub [at] rwth-aachen.dee  
+*Contact*: michael.schaub [at] rwth-aachen.de  
 *Time commitment*: 2 SWS with several deadlines spread throughout the lecture period. Block presentations at the end of the lecture period (or beginning of the lecture-free time)  
 *ECTS credits*: 5   
 *Study programs*: Bachelor  
