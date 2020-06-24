@@ -45,7 +45,7 @@ While in some cases data about group interactions is readily available, in many 
 We will thus further investigate techniques to infer (generalized) networks and group structures from available interaction data.
 
 The overarching goal of this research is to elucidate relations between structure, dynamics and function in complex systems.
-See the video above produced in the context of this projec for a high-level introduction to the topic.
+See the video above produced in the context of this project for a high-level introduction to the topic.
 
 ## Events
 **Sep 9 - 11, 2019**, Workshop on Higher-Order Interaction Networks: [Dynamics, Structure, Data](https://www.maths.ox.ac.uk/groups/networks/events/higher-order-interaction-workshop)  
