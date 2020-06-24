@@ -81,7 +81,7 @@ Kombinatorische Graphentheorie (Informatik 1), Theorie verteilter und paralleler
 Networks have become a widely adopted paradigm to model a wide range of systems, cutting across science and engineering, ranging from biological systems to social networks and technical systems such as the Internet.
 
 In this seminar you will be exposed to a broad range of topics related to network analysis and modeling, with a primary focus on two perspectives.
-1. Networks as relational data. In this context we are given a network (graph) and would like to quantify and infer potential regularities, pa erns, and various other network features, and assess whether these are consistent with statistical models we may have of our network data. This includes topics such as community detection (graph clustering/partitioning), as well as the study of random graph models etc.
+1. Networks as relational data. In this context we are given a network (graph) and would like to quantify and infer potential regularities, patterns, and various other network features, and assess whether these are consistent with statistical models we may have of our network data. This includes topics such as community detection (graph clustering/partitioning), as well as the study of random graph models etc.
 2. Dynamical Systems on networks. In a range of applications we observe a dynamical process on a network and would like to understand if and how its behavior is influenced by the network structure. This includes topics such as the spread of (mis)information, opinion formation processes, or the spreading of viruses.
 
 ### Requirements
