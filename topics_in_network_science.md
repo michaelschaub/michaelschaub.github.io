@@ -93,7 +93,7 @@ Furthermore, you are expected to engage in discussions about each talk and provi
 
 ### Topics
 Possible topics will be discussed in the first meeting. 
-As in indication, these could include A) random graph models such as stochastic block models, configuration models, or random dot product graphs, topics such as community detection, link prediction, or other data mining tasks.  B) dynamical processes such as diffusion processes on graphs, opinion formation processes or epidemic spreading models.
+As an indication, these could include A) random graph models such as stochastic block models, configuration models, or random dot product graphs, topics such as community detection, link prediction, or other data mining tasks.  B) dynamical processes such as diffusion processes on graphs, opinion formation processes or epidemic spreading models.
 
 ### Paper
 The papers will be written in conference style, using a provided LaTeX template (no word submissions are accepted).
