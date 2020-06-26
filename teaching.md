@@ -23,6 +23,14 @@ permalink: /Teaching/
 </style>
 
 # Teaching
-In the 2020/21 winter semester, we offer the following two seminars:
-* [Topics In Network Science](TopicsInNetworkScience) -- Bachelor level
-* [Advanced Topics In Network Science](AdvancedTopicsInNetworkScience) -- Master level
+
+## Lectures, Seminars, etc.
+*Winter Semester 2020/2021*:
+* Seminar (Bachelor level) -- [Topics In Network Science](TopicsInNetworkScience)
+* Seminar (Master level) -- [Advanced Topics In Network Science](AdvancedTopicsInNetworkScience)
+
+## Bachelor and Master Theses
+We offer a broad range of thesis topics related to Network and Data Science, both at Bachelor and Master level.
+If you are interested in some of our research (please have a look at our homepage for more details), or want to suggest a topic, please get in touch.
+
+Some more specific thesis topics will be listed below soon.
