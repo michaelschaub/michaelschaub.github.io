@@ -141,6 +141,7 @@ A list of all publications that were produced during the period of the fellowshi
 * Schaub, M.T.; Segarra, S. & Wai, H. (2019), "Spectral Partitioning of Time-varying Networks with Unobserved Edges", In 2019 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2019)., May, 2019. , pp. 4938-4942.
 * Schaub, M.T. & Segarra, S. (2018), "Flow Smoothing And Denoising: Graph Signal Processing In The Edge-space", In 2018 IEEE Global Conference on Signal and Information Processing (GlobalSIP)., November, 2018. , pp. 735-739.
 * Benson, A.R.; Abebe, R.; Schaub, M.T.; Jadbabaie, A. & Kleinberg, J. (2018), "Simplicial closure and higher-order link prediction", Proceedings of the National Academy of Sciences., November, 2018. Vol. 115(48), pp. E11221-E11230.
+* Billeh, Y.N. & Schaub, M.T. (2018), "Feedforward architectures driven by inhibitory interaction patterns", Journal of Computational Neuroscience., February, 2018. Vol. 44(1), pp. 63-74. 
 * Faccin, M.; Schaub, M.T. & Delvenne, J.-C. (2017), "Entrograms and coarse graining of dynamics on complex networks", Journal of Complex Networks., November, 2017. , pp. cnx055.
 * Estrada, E.; Delvenne, J.-C.; Hatano, N.; Mateos, J.L.; Metzler, R.; Riascos, A.P. & Schaub, M.T. (2017), "Random Multi-Hopper Model. Super-Fast Random Walks on Graphs", Journal of Complex Networks., October, 2017. , pp. cnx043.
 {: .text-justify}
