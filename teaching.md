@@ -33,4 +33,3 @@ permalink: /Teaching/
 We offer a broad range of thesis topics related to Network and Data Science, both at Bachelor and Master level.
 If you are interested in some of our research (please have a look at our homepage for more details), or want to suggest a topic, please get in touch.
 
-Some more specific thesis topics will be listed below soon.

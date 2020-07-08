@@ -14,7 +14,8 @@ There are a number of PhD positions available in my group.
 If you are interested, please get in contact.
 {: .notice--success}
 
-### News
+### News and Events
+***July 8, 2020*** -- I will be a keynote speaker at the [Toponets](https://sites.google.com/view/toponets2020/home-page) workshop, which will be part of [Netsci 2020](https://netsci2020.netscisociety.net/) (Rome), which is now happening as a virtual conference.   
 ***June 8, 2020*** -- Santiago Segarra, Francesco Tudisco and I are organizing a [virtual minisymposium](https://ftudisco.github.io/MDS2020/) on *Learning from data on networks* as  part of the SIAM conference on Mathematics of Data Science  
 ***June 1, 2020*** -- Started new position at RWTH Aachen University  
 ***May 7, 2020*** -- Released introductory video on network science and higher-order interactions on youtube
