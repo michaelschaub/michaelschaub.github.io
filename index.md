@@ -15,6 +15,7 @@ If you are interested, please get in contact.
 {: .notice--success}
 
 ### News and Events
+***July 9, 2020*** --  The videos from our workshop *Learning from Data on networks* are online now [here](https://www.youtube.com/watch?v=c2-CfmCtvf0&list=PLYF2iz0DFO08cHnP0MqmjiUdXzKvyo9Nw).   
 ***July 8, 2020*** -- I will be a keynote speaker at the [Toponets](https://sites.google.com/view/toponets2020/home-page) workshop, which will be part of [Netsci 2020](https://netsci2020.netscisociety.net/) (Rome), which is now happening as a virtual conference.   
 ***June 8, 2020*** -- Santiago Segarra, Francesco Tudisco and I are organizing a [virtual minisymposium](https://ftudisco.github.io/MDS2020/) on *Learning from data on networks* as  part of the SIAM conference on Mathematics of Data Science  
 ***June 1, 2020*** -- Started new position at RWTH Aachen University  
