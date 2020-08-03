@@ -11,7 +11,7 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-remote_theme           : "mmistakes/minimal-mistakes"
+#remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 #minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
@@ -122,7 +122,7 @@ author:
       icon: "fab fa-youtube"
       url: "https://www.youtube.com/channel/UCkWq4Fzw0L86CTwn4C-SeOQ?view_as=subscriber"
     - label: "ORCID"
-      icon: "fab fa-orcid"
+      icon: "fas fa-id-badge"
       url: "https://orcid.org/0000-0003-2426-6404"
 
 # Site Footer
