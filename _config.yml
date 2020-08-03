@@ -118,9 +118,12 @@ author:
     - label: "ResearchGate"
       icon: "fab fa-researchgate"
       url: "https://www.researchgate.net/profile/Michael_Schaub5"
-    #- label: "ORCID"
-      #icon: "fab fa-orcid"
-      #url: "https://orcid.org/0000-0003-2426-6404"
+    - label: "Youtube"
+      icon: "fab fa-youtube"
+      url: "https://www.youtube.com/channel/UCkWq4Fzw0L86CTwn4C-SeOQ?view_as=subscriber"
+    - label: "ORCID"
+      icon: "fab fa-orcid"
+      url: "https://orcid.org/0000-0003-2426-6404"
 
 # Site Footer
 footer:

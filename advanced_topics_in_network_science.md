@@ -59,12 +59,16 @@ The dates are not fixed yet, but will most likely be on one or two days at the e
 
 ### Schedule of important dates
 Introductory meeting: *Wednesday, September 2, 10:00-12:00 (tentative)*, exact details will be annouced to participants   
-Outline due: tbc  
-Initial paper due: tbc  
-Peer review due: tbc  
-Final paper due: tbc  
-Slides due: tbc  
-Presentations: tbc  
+Initial draft outline due: *Thursday, October 1*  
+Initial draft of paper due: *Wednesday, October 28*    
+Complete draft paper due: *Wednesday, November 25*    
+Peer review submission due: *Wednesday, December 16*    
+Peer review reports due: *Tuesday, January 12*      
+Camera ready paper due: *Tuesday, January 26*   
+Slides due: *Tuesday, February 9*    
+Presentations: tbc (poll)    
+
+(last updated: August 3 -- later announcements to participants may supersede the above information)
 
 ### Selection Process
 As seminar spots are in high-demand, please indicate clearly why you are interested in the seminar and how you and other students may benefit from your participation.
@@ -107,12 +111,24 @@ In contrast to the paper, the talk is not supposed to describe everything in ful
 
 The talk format will be 20 minutes + 5-10 minutes for questions, answers and discussions.
 
-### Material
+## Material
+Some useful information and links.
 
-How to write good papers -- see the advice and links collected by John Tsitsiklis here:  
+### Writing
+* Some good advice on writing and links assembled by John Tsitsiklis (MIT)   
 [https://www.mit.edu/~jnt/write.html](https://www.mit.edu/~jnt/write.html)
+* Scientific Writing for Computer Science students by Wilhelmiina Hämäläinen (University of Joensuu)  
+ [http://www.cs.joensuu.fi/pages/whamalai/sciwri/sciwri.pdf](http://www.cs.joensuu.fi/pages/whamalai/sciwri/sciwri.pdf)
 
-Some introductory books on Network Science
+### Presentations
+* Carter, Matt. Designing science presentations: A visual guide to figures, papers, slides, posters, and more. Academic Press, 2012.   
+* Larremore, Dan. Giving a Talk [(Slides)](https://drive.google.com/file/d/13efH6iA6toPtJ91KBt_QCeAyQBcSN7SA/view)   
+
+### Peer Review
+* Larremore, Dan. Peer Review [(Slides)](https://drive.google.com/file/d/1g7VSbUkF9wBszcjHCeZlGHoHqUqYfDC0/view)   
+
+### General reference material
+Some general introductory books on Network Science
 * Newman, Mark. Networks. Oxford university press, 2018
 * Easley, David, and Jon Kleinberg. Networks, crowds, and markets. Vol. 8. Cambridge: Cambridge university press, 2010. (online version: [https://www.cs.cornell.edu/home/kleinber/networks-book/](https://www.cs.cornell.edu/home/kleinber/networks-book/))
 * Kolaczyk, Eric D., and Gábor Csárdi. Statistical analysis of network data with R. Vol. 65. New York, NY: Springer, 2014.
