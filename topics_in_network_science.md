@@ -115,10 +115,13 @@ The talk format will be 20 minutes + 5-10 minutes for questions, answers and dis
 Some useful information and links.
 
 ### Writing
-* Some good advice on writing and links assembled by John Tsitsiklis (MIT)   
-[https://www.mit.edu/~jnt/write.html](https://www.mit.edu/~jnt/write.html)
-* Scientific Writing for Computer Science students by Wilhelmiina Hämäläinen (University of Joensuu)  
+* Some good advice on writing and links assembled by John Tsitsiklis (MIT), also available as a presentation
+[https://www.mit.edu/~jnt/write.html](https://www.mit.edu/~jnt/write.html)    
+[https://www.youtube.com/watch?v=NDlBy2O3Eu4](https://www.youtube.com/watch?v=NDlBy2O3Eu4)    
+* Scientific Writing for Computer Science students by Wilhelmiina Hämäläinen (University of Joensuu)   
  [http://www.cs.joensuu.fi/pages/whamalai/sciwri/sciwri.pdf](http://www.cs.joensuu.fi/pages/whamalai/sciwri/sciwri.pdf)
+* Ten Simple Rules for Writing a Literature Review    
+[https://doi.org/10.1371/journal.pcbi.1003149](https://doi.org/10.1371/journal.pcbi.1003149)
 
 ### Presentations
 * Carter, Matt. Designing science presentations: A visual guide to figures, papers, slides, posters, and more. Academic Press, 2012.   

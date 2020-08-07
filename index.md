@@ -10,9 +10,9 @@ My research deals with the analysis of complex systems that can be abstracted as
 A central methodological issue underlying my research is how one can study and integrate the multiple levels of organization which are commonly found in a range of systems. 
 My research combines ‘bottom-up’ dynamical models, and ‘top-down’ data-driven approaches, and uses a blend of tools from control theory, dynamical systems, stochastic processes, machine learning and statistics.
 
-There are a number of PhD positions available in my group. 
-If you are interested, please get in contact.
-{: .notice--success}
+<!--There are a number of PhD positions available in my group. -->
+<!--If you are interested, please get in contact.-->
+<!--{: .notice--success}-->
 
 ### News and Events
 ***August 3, 2020*** -- Together with Fabian Schulz from Ministy of Culture and Science (MKW) of NRW, I was interviewed about the NRW return programm by Anne Schreiter from the German Scholars Organization (GSO). You can find the interview [here](https://gsonet.org/karrierewissen/bewerbungstipps-nrw-rueckkehrprogramm/).   
