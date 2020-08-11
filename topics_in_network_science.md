@@ -59,10 +59,10 @@ The dates are not fixed yet, but will most likely be on one or two days at the e
 
 ### Schedule of important dates
 Introductory meeting: *Wednesday, September 2, 10:00-12:00 (tentative)*, exact details will be annouced to participants   
-Initial draft outline due: *Thursday, October 1*  
-Initial draft of paper due: *Wednesday, October 28*    
-Complete draft paper due: *Wednesday, November 25*    
-Peer review submission due: *Wednesday, December 16*    
+Preliminary outline due: *Thursday, October 1*  
+Initial sketch of paper due: *Wednesday, October 28*    
+Complete draft of  paper due: *Wednesday, November 25*    
+Conference submission due: *Wednesday, December 16*    
 Peer review reports due: *Tuesday, January 12*      
 Camera ready paper due: *Tuesday, January 26*   
 Slides due: *Tuesday, February 9*    
