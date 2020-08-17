@@ -15,6 +15,7 @@ My research combines ‘bottom-up’ dynamical models, and ‘top-down’ data-d
 <!--{: .notice--success}-->
 
 ### News and Events
+***August 16, 2020*** --  Our paper "Exact Blind Community Detection from Signals on Multiple Graphs" with Mitch Roddenberry, Hoi-To Wai and Santiago Segarra got published in the IEEE Transactions on Signal Processing [here](https://doi.org/10.1109/TSP.2020.3016494).    
 ***August 3, 2020*** -- Together with Fabian Schulz from Ministy of Culture and Science (MKW) of NRW, I was interviewed about the NRW return programm by Anne Schreiter from the German Scholars Organization (GSO). You can find the interview [here](https://gsonet.org/karrierewissen/bewerbungstipps-nrw-rueckkehrprogramm/).   
 ***July 9, 2020*** --  The videos from our workshop *Learning from Data on networks* are online now [here](https://www.youtube.com/watch?v=c2-CfmCtvf0&list=PLYF2iz0DFO08cHnP0MqmjiUdXzKvyo9Nw).   
 ***July 8, 2020*** -- I will be a keynote speaker at the [Toponets](https://sites.google.com/view/toponets2020/home-page) workshop, which will be part of [Netsci 2020](https://netsci2020.netscisociety.net/) (Rome), which is now happening as a virtual conference.   
@@ -38,7 +39,7 @@ For more information on my Marie Curie Project see [HIntNets]({{ site.baseurl }}
 <!--CV available upon request.-->
 
 ## Contact Address
-Michael Schaub
+Michael Schaub   
 Department of Computer Science   
 RWTH Aachen University  
 Ahornstraße 55, Building E3   

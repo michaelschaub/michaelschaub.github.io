@@ -424,18 +424,18 @@ In the third part, we discuss how to use dynamical processes unfolding on the ne
 }
 
 @Article{Schaub2020,
-  author       = {Schaub, Michael T. and Segarra, Santiago and Tsitsiklis, John N.},
-  title        = {Blind identification of stochastic blockmodels from dynamical observations},
-  year         = {2020},
-  month        = may,
-  number       = {2},
-  pages        = {335-367},
-  volume       = {2},
-  abstract     = {We consider a blind identification problem in which we aim to recover a statistical model of a network without knowledge of the network's edges, but based solely on nodal observations of a certain process. More concretely, we focus on observations that consist of snapshots of a diffusive process that evolves over the unknown network. We model the network as generated from an independent draw from a latent stochastic block model (SBM), and our goal is to infer both the partition of the nodes into blocks, as well as the parameters of this SBM. We present simple spectral algorithms that provably solve the partition recovery and parameter estimation problems with high accuracy. Our analysis relies on recent results in random matrix theory and covariance estimation, and associated concentration inequalities. We illustrate our results with several numerical experiments.},
-  doi          = {10.1137/19M1263340},
-  howpublished = {SIAM Journal on Mathematics of Data Science},
-  timestamp    = {2020-04-03},
-  url          = {https://arxiv.org/abs/1905.09107},
+  author    = {Schaub, Michael T. and Segarra, Santiago and Tsitsiklis, John N.},
+  journal   = {SIAM Journal On Mathematics of Data Science},
+  title     = {Blind identification of stochastic blockmodels from dynamical observations},
+  year      = {2020},
+  month     = may,
+  number    = {2},
+  pages     = {335-367},
+  volume    = {2},
+  abstract  = {We consider a blind identification problem in which we aim to recover a statistical model of a network without knowledge of the network's edges, but based solely on nodal observations of a certain process. More concretely, we focus on observations that consist of snapshots of a diffusive process that evolves over the unknown network. We model the network as generated from an independent draw from a latent stochastic block model (SBM), and our goal is to infer both the partition of the nodes into blocks, as well as the parameters of this SBM. We present simple spectral algorithms that provably solve the partition recovery and parameter estimation problems with high accuracy. Our analysis relies on recent results in random matrix theory and covariance estimation, and associated concentration inequalities. We illustrate our results with several numerical experiments.},
+  doi       = {10.1137/19M1263340},
+  timestamp = {2020-07-21},
+  url       = {https://arxiv.org/abs/1905.09107},
 }
 
 @Article{Zhu2020,
@@ -450,17 +450,6 @@ In the third part, we discuss how to use dynamical processes unfolding on the ne
   doi       = {10.1109/TSIPN.2020.2984499},
   timestamp = {2019-08-04},
   url       = {https://arxiv.org/abs/1908.01393},
-}
-
-@Misc{Roddenberry2020,
-  author       = {Roddenberry, T. Mitchell and Schaub, Michael T. and Wai, Hoi-To and Segarra, Santiago},
-  howpublished = {submitted},
-  month        = jan,
-  title        = {Exact Blind Community Detection from Signals on Multiple Graphs},
-  year         = {2020},
-  abstract     = {Networks and data supported on graphs have become ubiquitous in the sciences and engineering. This paper studies the 'blind' community detection problem, where we seek to infer the community structure of a graph model given the observation of independent graph signals on a set of nodes whose connections are unknown. We model each observation as filtered white noise, where the underlying network structure varies with every observation. These varying network structures are modeled as independent realizations of a latent planted partition model (PPM), justifying our assumption of a constant underlying community structure over all observations. Under certain conditions on the graph filter and PPM parameters, we propose algorithms for determining (i) the number of latent communities and (ii) the associated partitions of the PPM. We then prove statistical guarantees in the asymptotic and non-asymptotic sampling cases. Numerical experiments on real and synthetic data demonstrate the efficacy of our algorithms.},
-  timestamp    = {2020-01-30},
-  url          = {https://arxiv.org/abs/2001.10944},
 }
 
 @InProceedings{Jia2019,
@@ -502,6 +491,18 @@ In the third part, we discuss how to use dynamical processes unfolding on the ne
   abstract     = {We consider state aggregation schemes for Markov chains from an information-theoretic perspective. Specifically, we consider aggregating the states of a Markov chain such that the mutual information of the aggregated states separated by T time steps is maximized. We show that for T = 1 this approach recovers the maximum-likelihood estimator of the degree-corrected stochastic block model as a particular case, thereby enabling us to explain certain features of the likelihood landscape of this popular generative network model from a dynamical lens. We further highlight how we can uncover coherent, long-range dynamical modules for which considering a time-scale T >> 1 is essential, using synthetic flows and real-world ocean currents, where we are able to recover the fundamental features of the surface currents of the Oceans.},
   timestamp    = {2020-05-06},
   url          = {https://arxiv.org/abs/2005.00337},
+}
+
+@Article{Roddenberry2020,
+  author    = {Roddenberry, T. Mitchell and Schaub, Michael T. and Wai, Hoi-To and Segarra, Santiago},
+  journal   = {IEEE Transactions on Signal Processing},
+  title     = {Exact Blind Community Detection from Signals on Multiple Graphs},
+  year      = {2020},
+  month     = jan,
+  abstract  = {Networks and data supported on graphs have become ubiquitous in the sciences and engineering. This paper studies the 'blind' community detection problem, where we seek to infer the community structure of a graph model given the observation of independent graph signals on a set of nodes whose connections are unknown. We model each observation as filtered white noise, where the underlying network structure varies with every observation. These varying network structures are modeled as independent realizations of a latent planted partition model (PPM), justifying our assumption of a constant underlying community structure over all observations. Under certain conditions on the graph filter and PPM parameters, we propose algorithms for determining (i) the number of latent communities and (ii) the associated partitions of the PPM. We then prove statistical guarantees in the asymptotic and non-asymptotic sampling cases. Numerical experiments on real and synthetic data demonstrate the efficacy of our algorithms.},
+  doi       = {10.1109/TSP.2020.3016494},
+  timestamp = {2020-08-17},
+  url       = {https://arxiv.org/abs/2001.10944},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
