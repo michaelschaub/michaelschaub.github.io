@@ -15,6 +15,8 @@ My research combines ‘bottom-up’ dynamical models, and ‘top-down’ data-d
 <!--{: .notice--success}-->
 
 ### News and Events
+***September 17, 2020*** -- Ingo Scholtes, Renaud Lambiotte, Martin Rosvall and I, together with Program Chairs Giona Casiraghi and Laurence Brandenberger, are organizing the [higher-order model in network science workshop (HONS)](https://ftudisco.github.io/MDS2020/) as part of the virtual Netsci 2020.     
+***September 1, 2020*** -- Leonie Neuhäuser starts as PhD student in our group. Welcome Leonie!    
 ***August 16, 2020*** --  Our paper "Exact Blind Community Detection from Signals on Multiple Graphs" with Mitch Roddenberry, Hoi-To Wai and Santiago Segarra got published in the IEEE Transactions on Signal Processing [here](https://doi.org/10.1109/TSP.2020.3016494).    
 ***August 3, 2020*** -- Together with Fabian Schulz from Ministy of Culture and Science (MKW) of NRW, I was interviewed about the NRW return programm by Anne Schreiter from the German Scholars Organization (GSO). You can find the interview [here](https://gsonet.org/karrierewissen/bewerbungstipps-nrw-rueckkehrprogramm/).   
 ***July 9, 2020*** --  The videos from our workshop *Learning from Data on networks* are online now [here](https://www.youtube.com/watch?v=c2-CfmCtvf0&list=PLYF2iz0DFO08cHnP0MqmjiUdXzKvyo9Nw).   
@@ -23,6 +25,7 @@ My research combines ‘bottom-up’ dynamical models, and ‘top-down’ data-d
 ***June 1, 2020*** -- Started new position at RWTH Aachen University  
 ***May 7, 2020*** -- Released introductory video on network science and higher-order interactions on youtube
 [here](https://youtu.be/HWbhOf_q0Hs)  
+{: .news }
 
 --------------
 
@@ -45,4 +48,6 @@ RWTH Aachen University
 Ahornstraße 55, Building E3   
 D-52074 Aachen  
 Germany  
-michael.schaub[at]rwth-aachen.de
+
+michael.schaub[at]rwth-aachen.de  
++49 241 80 21490
