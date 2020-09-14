@@ -15,7 +15,7 @@ My research combines ‘bottom-up’ dynamical models, and ‘top-down’ data-d
 <!--{: .notice--success}-->
 
 ### News and Events
-***September 17, 2020*** -- Ingo Scholtes, Renaud Lambiotte, Martin Rosvall and I, together with Program Chairs Giona Casiraghi and Laurence Brandenberger, are organizing the [higher-order model in network science workshop (HONS)](https://ftudisco.github.io/MDS2020/) as part of the virtual Netsci 2020.     
+***September 17, 2020*** -- Ingo Scholtes, Renaud Lambiotte, Martin Rosvall and I, together with Program Chairs Giona Casiraghi and Laurence Brandenberger, are organizing the [higher-order model in network science workshop (HONS)](https://uzhdag.github.io/hons_web/) as part of the virtual Netsci 2020.     
 ***September 1, 2020*** -- Leonie Neuhäuser starts as PhD student in our group. Welcome Leonie!    
 ***August 16, 2020*** --  Our paper "Exact Blind Community Detection from Signals on Multiple Graphs" with Mitch Roddenberry, Hoi-To Wai and Santiago Segarra got published in the IEEE Transactions on Signal Processing [here](https://doi.org/10.1109/TSP.2020.3016494).    
 ***August 3, 2020*** -- Together with Fabian Schulz from Ministy of Culture and Science (MKW) of NRW, I was interviewed about the NRW return programm by Anne Schreiter from the German Scholars Organization (GSO). You can find the interview [here](https://gsonet.org/karrierewissen/bewerbungstipps-nrw-rueckkehrprogramm/).   
