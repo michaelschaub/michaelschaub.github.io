@@ -15,6 +15,7 @@ My research combines ‘bottom-up’ dynamical models, and ‘top-down’ data-d
 <!--{: .notice--success}-->
 
 ### News and Events
+***September 21, 2020*** -- I gave two talks at Netsci 2020 in the last days. The first about Signal Processing on Simplicial complexes at the Toponets satellite, the second on the blind identification of stochastic block models from dynamical observations. Both talks are available on youtube here: [Talk 1](https://www.youtube.com/watch?v=7iEVAnfV4kY) and [Talk 2](https://www.youtube.com/watch?v=_i8TnChiAp8).     
 ***September 17, 2020*** -- Ingo Scholtes, Renaud Lambiotte, Martin Rosvall and I, together with Program Chairs Giona Casiraghi and Laurence Brandenberger, are organizing the [higher-order model in network science workshop (HONS)](https://uzhdag.github.io/hons_web/) as part of the virtual Netsci 2020.     
 ***September 1, 2020*** -- Leonie Neuhäuser starts as PhD student in our group. Welcome Leonie!    
 ***August 16, 2020*** --  Our paper "Exact Blind Community Detection from Signals on Multiple Graphs" with Mitch Roddenberry, Hoi-To Wai and Santiago Segarra got published in the IEEE Transactions on Signal Processing [here](https://doi.org/10.1109/TSP.2020.3016494).    
