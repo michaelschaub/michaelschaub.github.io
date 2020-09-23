@@ -38,8 +38,48 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 <!--BEGIN PUBLICATIOON INSERT HERE-->
 <table id="qs_table" border="1">
 <tbody>
+<tr id="Peel2020" class="entry">
+	<td> [1] Peel L and Schaub MT (2020), <i>"Detectability of hierarchical communities in networks"</i>, submitted. September, 2020.
+	<p class="infolinks">[<a href="javascript:toggleInfo('Peel2020','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Peel2020','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2009.07525" target="_blank">URL</a>]</p>
+	</td>
+</tr>
+<tr id="abs_Peel2020" class="abstract noshow">
+	<td><b>Abstract</b>: We study the problem of recovering a planted hierarchy of partitions in a network. The detectability of a single planted partition has previously been analysed in detail and a phase transition has been identified below which the partition cannot be detected. Here we show that, in the hierarchical setting, there exist additional phases in which the presence of multiple consistent partitions can either help or hinder detection. Accordingly, the detectability limit for non-hierarchical partitions typically provides insufficient information about the detectability of the complete hierarchical structure, as we highlight with several constructive examples.</td>
+</tr>
+<tr id="bib_Peel2020" class="bibtex noshow">
+<td><b>BibTeX</b>:
+<pre>
+@misc{Peel2020,
+  author = {Leto Peel and Michael T. Schaub},
+  title = {Detectability of hierarchical communities in networks},
+  howpublished = {submitted},
+  year = {2020},
+  url = {https://arxiv.org/abs/2009.07525}
+}
+</pre></td>
+</tr>
+<tr id="Schaub2020b" class="entry">
+	<td> [2] Schaub MT and Peel L (2020), <i>"Hierarchical community structure in networks"</i>, submitted. September, 2020.
+	<p class="infolinks">[<a href="javascript:toggleInfo('Schaub2020b','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Schaub2020b','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2009.07196" target="_blank">URL</a>]</p>
+	</td>
+</tr>
+<tr id="abs_Schaub2020b" class="abstract noshow">
+	<td><b>Abstract</b>: Modular and hierarchical structures are pervasive in real-world complex systems. A great deal of effort has gone into trying to detect and study these structures. Important theoretical advances in the detection of modular, or "community", structures have included identifying fundamental limits of detectability by formally defining community structure using probabilistic generative models. Detecting hierarchical community structure introduces additional challenges alongside those inherited from community detection. Here we present a theoretical study on hierarchical community structure in networks, which has thus far not received the same rigorous attention. We address the following questions: 1)&nbsp;How should we define a valid hierarchy of communities? 2)&nbsp;How should we determine if a hierarchical structure exists in a network? and 3)&nbsp;how can we detect hierarchical structure efficiently? We approach these questions by introducing a definition of hierarchy based on the concept of stochastic externally equitable partitions and their relation to probabilistic models, such as the popular stochastic block model. We enumerate the challenges involved in detecting hierarchies and, by studying the spectral properties of hierarchical structure, present an efficient and principled method for detecting them.</td>
+</tr>
+<tr id="bib_Schaub2020b" class="bibtex noshow">
+<td><b>BibTeX</b>:
+<pre>
+@misc{Schaub2020b,
+  author = {Michael T. Schaub and Leto Peel},
+  title = {Hierarchical community structure in networks},
+  howpublished = {submitted},
+  year = {2020},
+  url = {https://arxiv.org/abs/2009.07196}
+}
+</pre></td>
+</tr>
 <tr id="Roddenberry2020" class="entry">
-    <td> [1] Roddenberry, T.M.; Schaub, M.T.; Wai, H.-T. &amp; Segarra, S. (2020), <i>"Exact Blind Community Detection from Signals on Multiple Graphs"</i>, IEEE Transactions on Signal Processing., August, 2020. 
+    <td> [3] Roddenberry, T.M.; Schaub, M.T.; Wai, H.-T. &amp; Segarra, S. (2020), <i>"Exact Blind Community Detection from Signals on Multiple Graphs"</i>, IEEE Transactions on Signal Processing., August, 2020. 
         <p class="infolinks">[<a href="javascript:toggleInfo('Roddenberry2020','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Roddenberry2020','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1109/TSP.2020.3016494" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2001.10944" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -60,7 +100,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Schaub2020" class="entry">
-    <td> [2] Schaub, M.T.; Segarra, S. &amp; Tsitsiklis, J.N. (2020), <i>"Blind identification of stochastic blockmodels from dynamical observations"</i>, SIAM Journal On Mathematics of Data Science., May, 2020.  Vol. 2(2), pp. 335-367.
+    <td> [4] Schaub, M.T.; Segarra, S. &amp; Tsitsiklis, J.N. (2020), <i>"Blind identification of stochastic blockmodels from dynamical observations"</i>, SIAM Journal On Mathematics of Data Science., May, 2020.  Vol. 2(2), pp. 335-367.
         <p class="infolinks">[<a href="javascript:toggleInfo('Schaub2020','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Schaub2020','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1137/19M1263340" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/1905.09107" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -84,7 +124,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Schaub2020a" class="entry">
-    <td> [3] Schaub, M.T.; Benson, A.R.; Horn, P.; Lippner, G. &amp; Jadbabaie, A. (2020), <i>"Random walks on simplicial complexes and the normalized Hodge 1-Laplacian"</i>, SIAM Review., May, 2020.  Vol. 62(2), pp. 353-391.
+    <td> [5] Schaub, M.T.; Benson, A.R.; Horn, P.; Lippner, G. &amp; Jadbabaie, A. (2020), <i>"Random walks on simplicial complexes and the normalized Hodge 1-Laplacian"</i>, SIAM Review., May, 2020.  Vol. 62(2), pp. 353-391.
         <p class="infolinks">[<a href="javascript:toggleInfo('Schaub2020a','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Schaub2020a','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1137/18M1201019" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/1807.05044" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -108,7 +148,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Faccin2020" class="entry">
-	<td> [4] Faccin M, Schaub MT and Delvenne J-C (2020), <i>"State aggregations in Markov chains and block models of networks"</i>, submitted. May, 2020.
+	<td> [6] Faccin M, Schaub MT and Delvenne J-C (2020), <i>"State aggregations in Markov chains and block models of networks"</i>, submitted. May, 2020.
 	<p class="infolinks">[<a href="javascript:toggleInfo('Faccin2020','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Faccin2020','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2005.00337" target="_blank">URL</a>]</p>
 	</td>
 </tr>
@@ -128,7 +168,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 </pre></td>
 </tr>
 <tr id="Zhu2020" class="entry">
-    <td> [5] Zhu, Y.; Schaub, M.T.; Jadbabaie, A. &amp; Segarra, S. (2020), <i>"Network Inference from Consensus Dynamics with Unknown Parameters"</i>, IEEE Transactions on Signal and Information Processing over Networks., April, 2020.  Vol. 6, pp. 300-315.
+    <td> [7] Zhu, Y.; Schaub, M.T.; Jadbabaie, A. &amp; Segarra, S. (2020), <i>"Network Inference from Consensus Dynamics with Unknown Parameters"</i>, IEEE Transactions on Signal and Information Processing over Networks., April, 2020.  Vol. 6, pp. 300-315.
         <p class="infolinks">[<a href="javascript:toggleInfo('Zhu2020','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Zhu2020','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1109/TSIPN.2020.2984499" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/1908.01393" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -151,7 +191,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Neuhaeuser2020" class="entry">
-	<td> [6] Neuhäuser L, Schaub MT, Mellor A and Lambiotte R (2020), <i>"Opinion Dynamics with Multi-Body Interactions"</i>, submitted. April, 2020.
+	<td> [8] Neuhäuser L, Schaub MT, Mellor A and Lambiotte R (2020), <i>"Opinion Dynamics with Multi-Body Interactions"</i>, submitted. April, 2020.
 	<p class="infolinks">[<a href="javascript:toggleInfo('Neuhaeuser2020','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Neuhaeuser2020','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2004.00901" target="_blank">URL</a>]</p>
 	</td>
 </tr>
@@ -171,7 +211,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 </pre></td>
 </tr>
 <tr id="Avella-Medina2020" class="entry">
-    <td> [7] Avella-Medina, M.; Parise, F.; Schaub, M. &amp; Segarra, S. (2020), <i>"Centrality measures for graphons: Accounting for uncertainty in networks"</i>, IEEE Transactions on Network Science and Engineering., January, 2020.  Vol. 7(1), pp. 520-537.
+    <td> [9] Avella-Medina, M.; Parise, F.; Schaub, M. &amp; Segarra, S. (2020), <i>"Centrality measures for graphons: Accounting for uncertainty in networks"</i>, IEEE Transactions on Network Science and Engineering., January, 2020.  Vol. 7(1), pp. 520-537.
         <p class="infolinks">[<a href="javascript:toggleInfo('Avella-Medina2020','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Avella-Medina2020','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1109/TNSE.2018.2884235" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/1707.09350" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -195,7 +235,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Rosvall2019" class="entry">
-    <td> [8] Rosvall, M.; Delvenne, J.-C.; Schaub, M.T. &amp; Lambiotte, R. (2019), <i>"Different Approaches to Community Detection"</i>, In Advances in Network Clustering and Blockmodeling., November, 2019. , pp. 105-119. John Wiley &amp; Sons, Ltd.
+    <td> [10] Rosvall, M.; Delvenne, J.-C.; Schaub, M.T. &amp; Lambiotte, R. (2019), <i>"Different Approaches to Community Detection"</i>, In Advances in Network Clustering and Blockmodeling., November, 2019. , pp. 105-119. John Wiley &amp; Sons, Ltd.
         <p class="infolinks">[<a href="javascript:toggleInfo('Rosvall2019','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Rosvall2019','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1002/9781119483298.ch4" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/1712.06468" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -219,7 +259,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Schaub2019c" class="entry">
-    <td> [9] Schaub, M.T.; Delvenne, J.-C.; Lambiotte, R. &amp; Barahona, M. (2019), <i>"Structured Networks and Coarse-Grained Descriptions"</i>, In Advances in Network Clustering and Blockmodeling., November, 2019. , pp. 333-361. John Wiley &amp; Sons, Ltd.
+    <td> [11] Schaub, M.T.; Delvenne, J.-C.; Lambiotte, R. &amp; Barahona, M. (2019), <i>"Structured Networks and Coarse-Grained Descriptions"</i>, In Advances in Network Clustering and Blockmodeling., November, 2019. , pp. 333-361. John Wiley &amp; Sons, Ltd.
         <p class="infolinks">[<a href="javascript:toggleInfo('Schaub2019c','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Schaub2019c','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1002/9781119483298.ch12" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/1804.06268" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -243,7 +283,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Jia2019" class="entry">
-    <td> [10] Jia, J.; Segarra, S.; Schaub, M.T. &amp; Benson, A.R. (2019), <i>"Graph-based Semi-Supervised &amp; Active Learning for Edge Flows"</i>, In Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD 2019). New York, NY, USA, August, 2019. , pp. 761-771. ACM.
+    <td> [12] Jia, J.; Segarra, S.; Schaub, M.T. &amp; Benson, A.R. (2019), <i>"Graph-based Semi-Supervised &amp; Active Learning for Edge Flows"</i>, In Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD 2019). New York, NY, USA, August, 2019. , pp. 761-771. ACM.
         <p class="infolinks">[<a href="javascript:toggleInfo('Jia2019','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Jia2019','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1145/3292500.3330872" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/1905.07451" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -266,7 +306,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Schaub2019a" class="entry">
-    <td> [11] Schaub, M.T.; Delvenne, J.-C.; Lambiotte, R. &amp; Barahona, M. (2019), <i>"Multiscale Dynamical Embeddings of Complex Networks"</i>, Phys. Rev. E., June, 2019.  Vol. 99, pp. 062308. American Physical Society.
+    <td> [13] Schaub, M.T.; Delvenne, J.-C.; Lambiotte, R. &amp; Barahona, M. (2019), <i>"Multiscale Dynamical Embeddings of Complex Networks"</i>, Phys. Rev. E., June, 2019.  Vol. 99, pp. 062308. American Physical Society.
         <p class="infolinks">[<a href="javascript:toggleInfo('Schaub2019a','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Schaub2019a','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1103/PhysRevE.99.062308" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/1804.03733" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -290,7 +330,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Schaub2019" class="entry">
-    <td> [12] Schaub, M.T.; Segarra, S. &amp; Wai, H. (2019), <i>"Spectral Partitioning of Time-varying Networks with Unobserved Edges"</i>, In 2019 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2019)., May, 2019. , pp. 4938-4942.
+    <td> [14] Schaub, M.T.; Segarra, S. &amp; Wai, H. (2019), <i>"Spectral Partitioning of Time-varying Networks with Unobserved Edges"</i>, In 2019 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2019)., May, 2019. , pp. 4938-4942.
         <p class="infolinks">[<a href="javascript:toggleInfo('Schaub2019','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Schaub2019','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1109/ICASSP.2019.8682815" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/1904.11930" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -312,7 +352,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Schaub2018b" class="entry">
-    <td> [13] Schaub, M.T. &amp; Segarra, S. (2018), <i>"Flow Smoothing And Denoising: Graph Signal Processing In The Edge-space"</i>, In 2018 IEEE Global Conference on Signal and Information Processing (GlobalSIP)., November, 2018. , pp. 735-739.
+    <td> [15] Schaub, M.T. &amp; Segarra, S. (2018), <i>"Flow Smoothing And Denoising: Graph Signal Processing In The Edge-space"</i>, In 2018 IEEE Global Conference on Signal and Information Processing (GlobalSIP)., November, 2018. , pp. 735-739.
         <p class="infolinks">[<a href="javascript:toggleInfo('Schaub2018b','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Schaub2018b','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1109/GlobalSIP.2018.8646701" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/1808.02111" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -334,7 +374,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Benson2018" class="entry">
-    <td> [14] Benson, A.R.; Abebe, R.; Schaub, M.T.; Jadbabaie, A. &amp; Kleinberg, J. (2018), <i>"Simplicial closure and higher-order link prediction"</i>, Proceedings of the National Academy of Sciences., November, 2018.  Vol. 115(48), pp. E11221-E11230.
+    <td> [16] Benson, A.R.; Abebe, R.; Schaub, M.T.; Jadbabaie, A. &amp; Kleinberg, J. (2018), <i>"Simplicial closure and higher-order link prediction"</i>, Proceedings of the National Academy of Sciences., November, 2018.  Vol. 115(48), pp. E11221-E11230.
         <p class="infolinks">[<a href="javascript:toggleInfo('Benson2018','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Benson2018','comment')">Comment</a>]  [<a href="javascript:toggleInfo('Benson2018','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1073/pnas.1800683115" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/1802.06916" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -361,7 +401,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Billeh2018" class="entry">
-    <td> [15] Billeh, Y.N. &amp; Schaub, M.T. (2018), <i>"Feedforward architectures driven by inhibitory interaction patterns"</i>, Journal of Computational Neuroscience., February, 2018.  Vol. 44(1), pp. 63-74.
+    <td> [17] Billeh, Y.N. &amp; Schaub, M.T. (2018), <i>"Feedforward architectures driven by inhibitory interaction patterns"</i>, Journal of Computational Neuroscience., February, 2018.  Vol. 44(1), pp. 63-74.
         <p class="infolinks">[<a href="javascript:toggleInfo('Billeh2018','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Billeh2018','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1007/s10827-017-0669-1" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/1701.04905" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -385,7 +425,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Faccin2017" class="entry">
-    <td> [16] Faccin, M.; Schaub, M.T. &amp; Delvenne, J.-C. (2017), <i>"Entrograms and coarse graining of dynamics on complex networks"</i>, Journal of Complex Networks., November, 2017. , pp. cnx055.
+    <td> [18] Faccin, M.; Schaub, M.T. &amp; Delvenne, J.-C. (2017), <i>"Entrograms and coarse graining of dynamics on complex networks"</i>, Journal of Complex Networks., November, 2017. , pp. cnx055.
         <p class="infolinks">[<a href="javascript:toggleInfo('Faccin2017','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Faccin2017','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1093/comnet/cnx055" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/1711.01987" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -407,7 +447,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Estrada2017" class="entry">
-    <td> [17] Estrada, E.; Delvenne, J.-C.; Hatano, N.; Mateos, J.L.; Metzler, R.; Riascos, A.P. &amp; Schaub, M.T. (2017), <i>"Random Multi-Hopper Model. Super-Fast Random Walks on Graphs"</i>, Journal of Complex Networks., October, 2017. , pp. cnx043.
+    <td> [19] Estrada, E.; Delvenne, J.-C.; Hatano, N.; Mateos, J.L.; Metzler, R.; Riascos, A.P. &amp; Schaub, M.T. (2017), <i>"Random Multi-Hopper Model. Super-Fast Random Walks on Graphs"</i>, Journal of Complex Networks., October, 2017. , pp. cnx043.
         <p class="infolinks">[<a href="javascript:toggleInfo('Estrada2017','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Estrada2017','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1093/comnet/cnx043" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/1612.08631" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -429,7 +469,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Segarra2017" class="entry">
-    <td> [18] Segarra, S.; Schaub, M.T. &amp; Jadbabaie, A. (2017), <i>"Network Inference from Consensus Dynamics"</i>, 56th IEEE Conference on Decision and Control (CDC 2017)., June, 2017. , pp. 3212-3217.
+    <td> [20] Segarra, S.; Schaub, M.T. &amp; Jadbabaie, A. (2017), <i>"Network Inference from Consensus Dynamics"</i>, 56th IEEE Conference on Decision and Control (CDC 2017)., June, 2017. , pp. 3212-3217.
         <p class="infolinks">[<a href="javascript:toggleInfo('Segarra2017','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Segarra2017','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1109/CDC.2017.8264130" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/1708.05329" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -451,7 +491,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Schaub*2017" class="entry">
-    <td> [19] Schaub*, M.T.; Trefois*, M.; Dooren, P.V. &amp; Delvenne, J.-C. (2017), <i>"Sparse Matrix Factorizations For Fast Iterative Linear Solvers With Application To Laplacian Systems"</i>, SIAM Journal on Matrix Analysis and Applications., June, 2017.  Vol. 38(2), pp. 505-529.
+    <td> [21] Schaub*, M.T.; Trefois*, M.; Dooren, P.V. &amp; Delvenne, J.-C. (2017), <i>"Sparse Matrix Factorizations For Fast Iterative Linear Solvers With Application To Laplacian Systems"</i>, SIAM Journal on Matrix Analysis and Applications., June, 2017.  Vol. 38(2), pp. 505-529.
         <p class="infolinks">[<a href="javascript:toggleInfo('Schaub*2017','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Schaub*2017','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1137/16M1077398" target="_blank">DOI</a>]</p>
     </td>
 </tr>
@@ -474,7 +514,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Kiselev2017" class="entry">
-    <td> [20] Kiselev, V.Y.; Kirschner, K.; Schaub, M.T.; Andrews, T.; Chandra, T.; Natarajan, K.N.; Reik, W.; Barahona, M.; Green, A.R. &amp; Hemberg, M. (2017), <i>"SC3 - consensus clustering of single-cell RNA-Seq data"</i>, Nature Methods., March, 2017.  Vol. 14(5), pp. 483-486.
+    <td> [22] Kiselev, V.Y.; Kirschner, K.; Schaub, M.T.; Andrews, T.; Chandra, T.; Natarajan, K.N.; Reik, W.; Barahona, M.; Green, A.R. &amp; Hemberg, M. (2017), <i>"SC3 - consensus clustering of single-cell RNA-Seq data"</i>, Nature Methods., March, 2017.  Vol. 14(5), pp. 483-486.
         <p class="infolinks">[<a href="javascript:toggleInfo('Kiselev2017','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Kiselev2017','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1038/nmeth.4236" target="_blank">DOI</a>]</p>
     </td>
 </tr>
@@ -497,7 +537,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Schaub2017" class="entry">
-    <td> [21] Schaub, M.T.; Delvenne, J.-C.; Rosvall, M. &amp; Lambiotte, R. (2017), <i>"The many facets of community detection in complex networks"</i>, Applied Network Science., February, 2017.  Vol. 2(1), pp. 4.
+    <td> [23] Schaub, M.T.; Delvenne, J.-C.; Rosvall, M. &amp; Lambiotte, R. (2017), <i>"The many facets of community detection in complex networks"</i>, Applied Network Science., February, 2017.  Vol. 2(1), pp. 4.
         <p class="infolinks">[<a href="javascript:toggleInfo('Schaub2017','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Schaub2017','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1007/s41109-017-0023-6" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/1611.07769" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -521,7 +561,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Bacik2016" class="entry">
-    <td> [22] Bacik, K.A.; Schaub, M.T.; Beguerisse-Diaz, M.; Billeh, Y.N. &amp; Barahona, M. (2016), <i>"Flow-Based Network Analysis of the Caenorhabditis elegans Connectome"</i>, PLoS Computational Biology., August, 2016.  Vol. 12(8), pp. 1-27.
+    <td> [24] Bacik, K.A.; Schaub, M.T.; Beguerisse-Diaz, M.; Billeh, Y.N. &amp; Barahona, M. (2016), <i>"Flow-Based Network Analysis of the Caenorhabditis elegans Connectome"</i>, PLoS Computational Biology., August, 2016.  Vol. 12(8), pp. 1-27.
         <p class="infolinks">[<a href="javascript:toggleInfo('Bacik2016','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Bacik2016','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1371/journal.pcbi.1005055" target="_blank">DOI</a>]</p>
     </td>
 </tr>
@@ -544,7 +584,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Schaub2016" class="entry">
-    <td> [23] Schaub, M.; O'Clery, N.; Billeh, Y.N.; Delvenne, J.-C.; Lambiotte, R. &amp; Barahona, M. (2016), <i>"Graph partitions and cluster synchronization in networks of oscillators"</i>, Chaos., August, 2016.  Vol. 26(9), pp. 094821.
+    <td> [25] Schaub, M.; O'Clery, N.; Billeh, Y.N.; Delvenne, J.-C.; Lambiotte, R. &amp; Barahona, M. (2016), <i>"Graph partitions and cluster synchronization in networks of oscillators"</i>, Chaos., August, 2016.  Vol. 26(9), pp. 094821.
         <p class="infolinks">[<a href="javascript:toggleInfo('Schaub2016','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Schaub2016','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1063/1.4961065" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/1608.04283" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -568,7 +608,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Amor2016" class="entry">
-    <td> [24] Amor, B.R.C.; Schaub, M.T.; Yaliraki, S.N. &amp; Barahona, M. (2016), <i>"Prediction of allosteric sites and mediating interactions through bond-to-bond propensities"</i>, Nature Communications., August, 2016.  Vol. 7(12477)
+    <td> [26] Amor, B.R.C.; Schaub, M.T.; Yaliraki, S.N. &amp; Barahona, M. (2016), <i>"Prediction of allosteric sites and mediating interactions through bond-to-bond propensities"</i>, Nature Communications., August, 2016.  Vol. 7(12477)
         <p class="infolinks">[<a href="javascript:toggleInfo('Amor2016','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Amor2016','comment')">Comment</a>]  [<a href="javascript:toggleInfo('Amor2016','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1038/ncomms12477" target="_blank">DOI</a>]</p>
     </td>
 </tr>
@@ -593,7 +633,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Salnikov2016" class="entry">
-    <td> [25] Salnikov, V.; Schaub, M.T. &amp; Lambiotte, R. (2016), <i>"Using higher-order Markov models to reveal flow-based communities in networks"</i>, Scientific Reports., March, 2016.  Vol. 6, pp. 23194.
+    <td> [27] Salnikov, V.; Schaub, M.T. &amp; Lambiotte, R. (2016), <i>"Using higher-order Markov models to reveal flow-based communities in networks"</i>, Scientific Reports., March, 2016.  Vol. 6, pp. 23194.
         <p class="infolinks">[<a href="javascript:toggleInfo('Salnikov2016','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Salnikov2016','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1038/srep23194" target="_blank">DOI</a>]</p>
     </td>
 </tr>
@@ -615,7 +655,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Schaub*2015" class="entry">
-    <td> [26] Schaub*, M.T.; Billeh*, Y.; Anastassiou, C.A.; Koch, C. &amp; Barahona, M. (2015), <i>"Emergence of slow-switching assemblies in structured neuronal networks"</i>, PLoS Computational Biology., July, 2015.  Vol. 11(7), pp. e1004196.
+    <td> [28] Schaub*, M.T.; Billeh*, Y.; Anastassiou, C.A.; Koch, C. &amp; Barahona, M. (2015), <i>"Emergence of slow-switching assemblies in structured neuronal networks"</i>, PLoS Computational Biology., July, 2015.  Vol. 11(7), pp. e1004196.
         <p class="infolinks">[<a href="javascript:toggleInfo('Schaub*2015','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Schaub*2015','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1371/journal.pcbi.1004196" target="_blank">DOI</a>]</p>
     </td>
 </tr>
@@ -638,7 +678,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Billeh*2014" class="entry">
-    <td> [27] Billeh*, Y.N.; Schaub*, M.T.; Anastassiou, C.A.; Barahona, M. &amp; Koch, C. (2014), <i>"Revealing cell assemblies at multiple levels of granularity"</i>, Journal of Neuroscience Methods., October, 2014.  Vol. 236(0), pp. 92-106.
+    <td> [29] Billeh*, Y.N.; Schaub*, M.T.; Anastassiou, C.A.; Barahona, M. &amp; Koch, C. (2014), <i>"Revealing cell assemblies at multiple levels of granularity"</i>, Journal of Neuroscience Methods., October, 2014.  Vol. 236(0), pp. 92-106.
         <p class="infolinks">[<a href="javascript:toggleInfo('Billeh*2014','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Billeh*2014','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1016/j.jneumeth.2014.08.011" target="_blank">DOI</a>]</p>
     </td>
 </tr>
@@ -661,7 +701,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Schaub2014" class="entry">
-    <td> [28] Schaub, M.T.; Lehmann, J.; Yaliraki, S.N. &amp; Barahona, M. (2014), <i>"Structure of complex networks: Quantifying edge-to-edge relations by failure-induced flow redistribution"</i>, Network Science., April, 2014.  Vol. 2(1), pp. 66-89.
+    <td> [30] Schaub, M.T.; Lehmann, J.; Yaliraki, S.N. &amp; Barahona, M. (2014), <i>"Structure of complex networks: Quantifying edge-to-edge relations by failure-induced flow redistribution"</i>, Network Science., April, 2014.  Vol. 2(1), pp. 66-89.
         <p class="infolinks">[<a href="javascript:toggleInfo('Schaub2014','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Schaub2014','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1017/nws.2014.4" target="_blank">DOI</a>]</p>
     </td>
 </tr>
@@ -684,7 +724,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Delvenne2013" class="entry">
-    <td> [29] Delvenne, J.-C.; Schaub, M.T.; Yaliraki, S.N. &amp; Barahona, M. (2013), <i>"The Stability of a Graph Partition: A Dynamics-Based Framework for Community Detection"</i>, In Dynamics On and Of Complex Networks, Volume 2., May, 2013. , pp. 221-242. Springer New York.
+    <td> [31] Delvenne, J.-C.; Schaub, M.T.; Yaliraki, S.N. &amp; Barahona, M. (2013), <i>"The Stability of a Graph Partition: A Dynamics-Based Framework for Community Detection"</i>, In Dynamics On and Of Complex Networks, Volume 2., May, 2013. , pp. 221-242. Springer New York.
         <p class="infolinks"> [<a href="javascript:toggleInfo('Delvenne2013','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1007/978-1-4614-6729-8_11" target="_blank">DOI</a>]</p>
     </td>
 </tr>
@@ -704,7 +744,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Schaub2012b" class="entry">
-    <td> [30] Schaub, M.T.; Lambiotte, R. &amp; Barahona, M. (2012), <i>"Encoding dynamics for multiscale community detection: Markov time sweeping for the map equation"</i>, Phys. Rev. E., August, 2012.  Vol. 86(2), pp. 026112. American Physical Society.
+    <td> [32] Schaub, M.T.; Lambiotte, R. &amp; Barahona, M. (2012), <i>"Encoding dynamics for multiscale community detection: Markov time sweeping for the map equation"</i>, Phys. Rev. E., August, 2012.  Vol. 86(2), pp. 026112. American Physical Society.
         <p class="infolinks">[<a href="javascript:toggleInfo('Schaub2012b','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Schaub2012b','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1103/PhysRevE.86.026112" target="_blank">DOI</a>]</p>
     </td>
 </tr>
@@ -728,7 +768,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Schaub2012" class="entry">
-    <td> [31] Schaub, M.T.; Delvenne, J.-C.; Yaliraki, S.N. &amp; Barahona, M. (2012), <i>"Markov Dynamics as a Zooming Lens for Multiscale Community Detection: Non Clique-Like Communities and the Field-of-View Limit"</i>, PLoS ONE., February, 2012.  Vol. 7(2), pp. e32210. Public Library of Science.
+    <td> [33] Schaub, M.T.; Delvenne, J.-C.; Yaliraki, S.N. &amp; Barahona, M. (2012), <i>"Markov Dynamics as a Zooming Lens for Multiscale Community Detection: Non Clique-Like Communities and the Field-of-View Limit"</i>, PLoS ONE., February, 2012.  Vol. 7(2), pp. e32210. Public Library of Science.
         <p class="infolinks">[<a href="javascript:toggleInfo('Schaub2012','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Schaub2012','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1371/journal.pone.0032210" target="_blank">DOI</a>]</p>
     </td>
 </tr>
@@ -752,7 +792,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Schaub2012a" class="entry">
-    <td> [32] Schaub, M. &amp; Schultz, S. (2012), <i>"The Ising decoder: reading out the activity of large neural ensembles"</i>, Journal of Computational Neuroscience., February, 2012.  Vol. 32(1), pp. 101-118.
+    <td> [34] Schaub, M. &amp; Schultz, S. (2012), <i>"The Ising decoder: reading out the activity of large neural ensembles"</i>, Journal of Computational Neuroscience., February, 2012.  Vol. 32(1), pp. 101-118.
         <p class="infolinks">[<a href="javascript:toggleInfo('Schaub2012a','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Schaub2012a','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1007/s10827-011-0342-z" target="_blank">DOI</a>]</p>
     </td>
 </tr>
@@ -777,5 +817,5 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 </tbody>
 </table>
 <footer>
- <small>Created by <a href="http://jabref.sourceforge.net">JabRef</a> on 03/09/2020.</small>
+ <small>Created by <a href="http://jabref.sourceforge.net">JabRef</a> on 23/09/2020.</small>
 </footer>
