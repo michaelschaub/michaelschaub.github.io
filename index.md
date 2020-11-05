@@ -15,6 +15,7 @@ My research combines ‘bottom-up’ dynamical models, and ‘top-down’ data-d
 <!--{: .notice--success}-->
 
 ### News and Events
+***November 2, 2020*** -- Michael Scholkemper starts as PhD student in our group. Welcome Michael!   
 ***October 26, 2020*** -- I am among the top 10% of reviewers for NeurIPS 2020... hurray! Furthermore we have a new preprint out on the arxiv here: [\[Preprint\]](https://arxiv.org/abs/2010.11546)   
 ***September 23, 2020*** -- Some further updates: First we got two new preprints online [\[Preprint 1\]](https://arxiv.org/abs/2009.07196) [\[Preprint 2\]](https://arxiv.org/abs/2009.07525) containing joint work with [Leto Peel](https://piratepeel.github.io/) on hierarchical community detection. Second, my PhD student Leonie Neuhäuser gave a great talk at Netsci. You can find the recording [here](https://youtu.be/cc8UxzH6p24).    
 ***September 21, 2020*** -- I gave two talks at Netsci 2020 in the last days. The first about Signal Processing on Simplicial complexes at the Toponets satellite, the second on the blind identification of stochastic block models from dynamical observations. Both talks are available on youtube here: [Talk 1](https://www.youtube.com/watch?v=7iEVAnfV4kY) and [Talk 2](https://www.youtube.com/watch?v=_i8TnChiAp8).     
