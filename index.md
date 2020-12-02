@@ -15,6 +15,7 @@ My research combines ‘bottom-up’ dynamical models, and ‘top-down’ data-d
 <!--{: .notice--success}-->
 
 ### News and Events
+***November 30, 2020*** -- My student Leonie gave a talk at the Oxford Network Science seminar. The video is  [here]https://www.youtube.com/watch?v=Ctt0XuPWnAc).       
 ***November 11, 2020*** -- My student Leonie gave a talk at the Women in Network Science (online) seminar -- you can find the video [here](https://www.youtube.com/watch?v=egcpP7os1yg).    
 ***November 2, 2020*** -- Michael Scholkemper starts as PhD student in our group. Welcome Michael!   
 ***October 26, 2020*** -- I am among the top 10% of reviewers for NeurIPS 2020... hurray! Furthermore we have a new preprint out on the arxiv here: [\[Preprint\]](https://arxiv.org/abs/2010.11546)   
