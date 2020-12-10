@@ -25,6 +25,10 @@ permalink: /Teaching/
 # Teaching
 
 ## Lectures, Seminars, etc.
+*Summer Semester 2021*:
+* Seminar (Master level) -- [Advanced Topics In Network Science](AdvancedTopicsInNetworkScience)   
+* Lecture -- Dynamical Processes on Networks   
+
 *Winter Semester 2020/2021*:
 * Seminar (Bachelor level) -- [Topics In Network Science](TopicsInNetworkScience)
 * Seminar (Master level) -- [Advanced Topics In Network Science](AdvancedTopicsInNetworkScience)
