@@ -5,7 +5,7 @@ author_profile: true
 #mathjax: true comment in to enable math
 ---
 
-I am a tenure track assistant professor (W1) at RWTH Aachen university.
+I am a tenure track assistant professor (W1) at RWTH Aachen University.
 My research deals with the analysis of complex systems that can be abstracted as networks or graphs. 
 A central methodological issue underlying my research is how one can study and integrate the multiple levels of organization which are commonly found in a range of systems. 
 My research combines ‘bottom-up’ dynamical models, and ‘top-down’ data-driven approaches, and uses a blend of tools from control theory, dynamical systems, stochastic processes, machine learning and statistics.
@@ -15,6 +15,7 @@ My research combines ‘bottom-up’ dynamical models, and ‘top-down’ data-d
 <!--{: .notice--success}-->
 
 ### News and Events
+***January  4, 2021*** -- Florian Frantzen starts as PhD student in our group. Welcome Florian!    
 ***November 30, 2020*** -- My student Leonie gave a talk at the Oxford Network Science seminar. The video is  [here](https://www.youtube.com/watch?v=Ctt0XuPWnAc).       
 ***November 11, 2020*** -- My student Leonie gave a talk at the Women in Network Science (online) seminar -- you can find the video [here](https://www.youtube.com/watch?v=egcpP7os1yg).    
 ***November 2, 2020*** -- Michael Scholkemper starts as PhD student in our group. Welcome Michael!   
