@@ -15,6 +15,7 @@ My research combines ‘bottom-up’ dynamical models, and ‘top-down’ data-d
 <!--{: .notice--success}-->
 
 ### News and Events
+***January 12, 2021*** -- New preprint out on the arxiv here: [\[Preprint\]](https://arxiv.org/abs/2101.00503)   
 ***January  4, 2021*** -- Florian Frantzen starts as PhD student in our group. Welcome Florian!    
 ***November 30, 2020*** -- My student Leonie gave a talk at the Oxford Network Science seminar. The video is  [here](https://www.youtube.com/watch?v=Ctt0XuPWnAc).       
 ***November 11, 2020*** -- My student Leonie gave a talk at the Women in Network Science (online) seminar -- you can find the video [here](https://www.youtube.com/watch?v=egcpP7os1yg).    

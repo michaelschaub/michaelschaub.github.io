@@ -3,7 +3,7 @@ layout: single
 toc: true
 toc_label: "Contents"
 toc_sticky: true
-permalink: /Teaching/AdvancedTopicsInNetworkScienceSS2020/
+permalink: /Teaching/AdvancedTopicsInNetworkScienceSS2021/
 #mathjax: true comment in to enable math
 #Possible further headers: Events, Projects/Results, Communication/Presentation, News
 ---
