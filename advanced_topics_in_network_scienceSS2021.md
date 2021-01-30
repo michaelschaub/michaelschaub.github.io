@@ -57,17 +57,17 @@ The dates are not fixed yet, but will most likely be on one or two days at the e
 * For more details see section "Seminar Details" below.
 
 ### Schedule of important dates
-Introductory meeting:  exact details will be annouced to participants   
-Preliminary outline due: tba   
-Initial sketch of paper due: tba   
-Complete draft of  paper due: tba   
-Conference submission due: tba   
-Peer review reports due: tba        
-Camera ready paper due: tba    
-Slides due: tba        
-Presentations: tbc (poll)    
+Introductory meeting:  Mar 1, 2021 10:00 AM (exact details will be annouced to participants)   
+Preliminary outline due: Mar 22, 2021   
+Initial sketch of paper due: Apr 12, 2021    
+Complete draft of  paper due: May 10, 2021    
+Conference submission due: Jun 1, 2021    
+Peer review reports due: Jun 21, 2021    
+Camera ready paper due: Jul 5, 2021    
+Slides due: Jul 18, 2021    
+Presentations: Jul 19-23, 2021 tbc (poll)     
 
-(last updated: Thu 10 Dec -- later announcements to participants may supersede the above information)
+(last updated: Sat 30 Jan -- later announcements to participants may supersede the above information)
 
 ### Selection Process
 As seminar spots are in high-demand, please indicate clearly why you are interested in the seminar and how you and other students may benefit from your participation.
