@@ -39,7 +39,7 @@ This course provides a (mathematical) introduction to such network dynamical sys
 *Contact*: michael.schaub [at] rwth-aachen.de  
 *Time commitment*: The course consists formally of 3 classes of lectures per week and 2 exercise classes. However, the lectures will be held in a 4 hours per week schedule, over a shorter timspan.
 The precise dates will be announced in RWTH Moodle.    
-*ECTS credits*: 5   
+*ECTS credits*: 6   
 *Study programs*: Bachelor / Master    
 *Language*: English   
 {: .text-justify}
