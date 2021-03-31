@@ -15,7 +15,7 @@ My research combines ‘bottom-up’ dynamical models, and ‘top-down’ data-d
 <!--{: .notice--success}-->
 
 ### News and Events
-***24 March, 2021*** -- Preprint on signal processing on simplicial complexes [\[Preprint\]](https://arxiv.org/abs/2103.12587)     
+***March 24, 2021*** -- Preprint on signal processing on simplicial complexes [\[Preprint\]](https://arxiv.org/abs/2103.12587)     
 ***March 16, 2021*** -- Together with Renaud Lambiotte I wrote a book on Modularity and Dynamics on Complex Networks. You can find it here [\[Final Draft Book\]]({{ site.baseurl }}/ModularityAndDynamicsOnComplexNetworks.pdf)     
 ***January 15, 2021*** -- Another preprint, this time on signal processing on higher-order networks: [\[Preprint\]](https://arxiv.org/abs/2101.05510)     
 ***January 12, 2021*** -- New preprint out on the arxiv here: [\[Preprint\]](https://arxiv.org/abs/2101.00503)   
