@@ -50,8 +50,8 @@ Due to the Corona situation, the course will held online via Zoom. A link will b
 
 ### Schedule and important dates
 *First lecture:* April 15, 14:30   
-*Lecture times:* Tuesday, 16:30-18:30, and Thursday, 14:30-16:30 (dates will be announced via Moodle)    
-*Exercises:* Monday, 16:30-18:30   
+*Lecture times:* Tuesday, 16:30-18:00, and Thursday, 14:30-16:00 (dates will be announced via Moodle)    
+*Exercises:* Monday, 16:30-18:00   
 
 (last updated: Fri 19 March -- later announcements to participants will supersede the above information)
 
