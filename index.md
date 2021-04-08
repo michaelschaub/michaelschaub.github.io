@@ -5,7 +5,7 @@ author_profile: true
 #mathjax: true comment in to enable math
 ---
 
-I am a tenure track assistant professor (W1) at RWTH Aachen University.
+I am a tenure track assistant professor (W1/W2) at RWTH Aachen University.
 My research deals with the analysis of complex systems that can be abstracted as networks or graphs. 
 A central methodological issue underlying my research is how one can study and integrate the multiple levels of organization which are commonly found in a range of systems. 
 My research combines ‘bottom-up’ dynamical models, and ‘top-down’ data-driven approaches, and uses a blend of tools from control theory, dynamical systems, stochastic processes, machine learning and statistics.

@@ -40,7 +40,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 <tbody>
 <tr id="Yang2021" class="entry">
 	<td> [1] Yang M, Isufi E, Schaub MT and Leus G (2021), <i>"Finite Impulse Response Filters for Simplicial Complexes"</i>, submitted. March, 2021.
-	<p class="infolinks"> [<a href="javascript:toggleInfo('Yang2021','bibtex')">BibTeX</a>]</p>
+	<p class="infolinks"> [<a href="javascript:toggleInfo('Yang2021','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2103.12587" target="_blank">URL</a>]</p>
 	</td>
 </tr>
 <tr id="bib_Yang2021" class="bibtex noshow">
@@ -51,7 +51,8 @@ A list of my publications is also available on [Google Scholar](https://scholar.
   title = {Finite Impulse Response Filters for Simplicial Complexes},
   booktitle = {Eusipco 2021},
   howpublished = {submitted},
-  year = {2021}
+  year = {2021},
+  url = {https://arxiv.org/abs/2103.12587}
 }
 </pre></td>
 </tr>
@@ -518,8 +519,30 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 }
     </pre></td>
 </tr>
+<tr id="Segarra2017" class="entry">
+    <td> [23] Segarra, S.; Schaub, M.T. &amp; Jadbabaie, A. (2017), <i>"Network Inference from Consensus Dynamics"</i>, 56th IEEE Conference on Decision and Control (CDC 2017)., December, 2017. , pp. 3212-3217.
+        <p class="infolinks">[<a href="javascript:toggleInfo('Segarra2017','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Segarra2017','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1109/CDC.2017.8264130" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/1708.05329" target="_blank">URL</a>]</p>
+    </td>
+</tr>
+<tr id="abs_Segarra2017" class="abstract noshow">
+    <td><b>Abstract</b>: We consider the problem of identifying the topology of a weighted, undirected network G from observing snapshots of multiple independent consensus dynamics. Specifically, we observe the opinion profiles of a group of agents for a set of M independent topics and our goal is to recover the precise relationships between the agents, as specified by the unknown network G. In order to overcome the under- determinacy of the problem at hand, we leverage concepts from spectral graph theory and convex optimization to unveil the underlying network structure. More precisely, we formulate the network inference problem as a convex optimization that seeks to endow the network with certain desired properties – such as sparsity – while being consistent with the spectral information extracted from the observed opinions. This is complemented with theoretical results proving consistency as the number M of topics grows large. We further illustrate our method by numerical experiments, which showcase the effectiveness of the technique in recovering synthetic and real-world networks.</td>
+</tr>
+<tr id="bib_Segarra2017" class="bibtex noshow">
+    <td><b>BibTeX</b>:
+        <pre>
+@article{Segarra2017,
+    author = {Segarra, Santiago and Schaub, Michael T. and Jadbabaie, Ali},
+           title = {Network Inference from Consensus Dynamics},
+           journal = {56th IEEE Conference on Decision and Control (CDC 2017)},
+           year = {2017},
+           pages = {3212--3217},
+           url = {https://arxiv.org/abs/1708.05329},
+           doi = {10.1109/CDC.2017.8264130}
+}
+    </pre></td>
+</tr>
 <tr id="Faccin2017" class="entry">
-    <td> [23] Faccin, M.; Schaub, M.T. &amp; Delvenne, J.-C. (2017), <i>"Entrograms and coarse graining of dynamics on complex networks"</i>, Journal of Complex Networks., November, 2017. , pp. cnx055.
+    <td> [24] Faccin, M.; Schaub, M.T. &amp; Delvenne, J.-C. (2017), <i>"Entrograms and coarse graining of dynamics on complex networks"</i>, Journal of Complex Networks., November, 2017. , pp. cnx055.
         <p class="infolinks">[<a href="javascript:toggleInfo('Faccin2017','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Faccin2017','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1093/comnet/cnx055" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/1711.01987" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -541,7 +564,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Estrada2017" class="entry">
-    <td> [24] Estrada, E.; Delvenne, J.-C.; Hatano, N.; Mateos, J.L.; Metzler, R.; Riascos, A.P. &amp; Schaub, M.T. (2017), <i>"Random Multi-Hopper Model. Super-Fast Random Walks on Graphs"</i>, Journal of Complex Networks., October, 2017. , pp. cnx043.
+    <td> [25] Estrada, E.; Delvenne, J.-C.; Hatano, N.; Mateos, J.L.; Metzler, R.; Riascos, A.P. &amp; Schaub, M.T. (2017), <i>"Random Multi-Hopper Model. Super-Fast Random Walks on Graphs"</i>, Journal of Complex Networks., October, 2017. , pp. cnx043.
         <p class="infolinks">[<a href="javascript:toggleInfo('Estrada2017','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Estrada2017','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1093/comnet/cnx043" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/1612.08631" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -559,28 +582,6 @@ A list of my publications is also available on [Google Scholar](https://scholar.
            pages = {cnx043},
            url = {https://arxiv.org/abs/1612.08631},
            doi = {10.1093/comnet/cnx043}
-}
-    </pre></td>
-</tr>
-<tr id="Segarra2017" class="entry">
-    <td> [25] Segarra, S.; Schaub, M.T. &amp; Jadbabaie, A. (2017), <i>"Network Inference from Consensus Dynamics"</i>, 56th IEEE Conference on Decision and Control (CDC 2017)., June, 2017. , pp. 3212-3217.
-        <p class="infolinks">[<a href="javascript:toggleInfo('Segarra2017','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Segarra2017','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1109/CDC.2017.8264130" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/1708.05329" target="_blank">URL</a>]</p>
-    </td>
-</tr>
-<tr id="abs_Segarra2017" class="abstract noshow">
-    <td><b>Abstract</b>: We consider the problem of identifying the topology of a weighted, undirected network G from observing snapshots of multiple independent consensus dynamics. Specifically, we observe the opinion profiles of a group of agents for a set of M independent topics and our goal is to recover the precise relationships between the agents, as specified by the unknown network G. In order to overcome the under- determinacy of the problem at hand, we leverage concepts from spectral graph theory and convex optimization to unveil the underlying network structure. More precisely, we formulate the network inference problem as a convex optimization that seeks to endow the network with certain desired properties – such as sparsity – while being consistent with the spectral information extracted from the observed opinions. This is complemented with theoretical results proving consistency as the number M of topics grows large. We further illustrate our method by numerical experiments, which showcase the effectiveness of the technique in recovering synthetic and real-world networks.</td>
-</tr>
-<tr id="bib_Segarra2017" class="bibtex noshow">
-    <td><b>BibTeX</b>:
-        <pre>
-@article{Segarra2017,
-    author = {Segarra, Santiago and Schaub, Michael T. and Jadbabaie, Ali},
-           title = {Network Inference from Consensus Dynamics},
-           journal = {56th IEEE Conference on Decision and Control (CDC 2017)},
-           year = {2017},
-           pages = {3212--3217},
-           url = {https://arxiv.org/abs/1708.05329},
-           doi = {10.1109/CDC.2017.8264130}
 }
     </pre></td>
 </tr>
@@ -923,5 +924,5 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 </tbody>
 </table>
 <footer>
- <small>Created by <a href="http://jabref.sourceforge.net">JabRef</a> on 31/03/2021.</small>
+ <small>Created by <a href="http://jabref.sourceforge.net">JabRef</a> on 08/04/2021.</small>
 </footer>
