@@ -16,6 +16,7 @@ My research combines ‘bottom-up’ dynamical models, and ‘top-down’ data-d
 
 ### News and Events
 
+***May 27, 2021*** -- Paper accepted at ICAS 2021. The arxiv version can be found here [\[Preprint\]](https://arxiv.org/abs/2105.12598)     
 ***May 18, 2021*** -- Forgot to add, there is another preprint on the arxiv [\[Preprint\]](https://arxiv.org/abs/2105.01369)     
 ***April 23, 2021*** -- New preprint on higher order networks on arxiv [\[Preprint\]](https://arxiv.org/abs/2104.11329)     
 ***April 20, 2021*** -- New preprint on the Analysis of Ligand Receptor networks out on biorxiv [\[Preprint\]](https://www.biorxiv.org/content/10.1101/2021.01.20.427390v2)     
