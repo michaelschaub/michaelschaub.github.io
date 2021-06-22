@@ -1,12 +1,16 @@
 % Encoding: UTF-8
-@misc{scholkemper2021local,
-      title={Local, global and scale-dependent node roles}, 
-      author={Michael Scholkemper and Michael T. Schaub},
-      year={2021},
-      abstract={This paper re-examines the concept of node equivalences like structural equivalence or automorphic equivalence, which have originally emerged in social network analysis to characterize the role an actor plays within a social system, but have since then been of independent interest for graph-based learning tasks. Traditionally, such exact node equivalences have been defined either in terms of the one hop neighborhood of a node, or in terms of the global graph structure. Here we formalize exact node roles with a scale-parameter, describing up to what distance the ego network of a node should be considered when assigning node roles - motivated by the idea that there can be local roles of a node that should not be determined by nodes arbitrarily far away in the network. We present numerical experiments that show how already "shallow" roles of depth 3 or 4 carry sufficient information to perform node classification tasks with
+
+@InProceedings{Scholkemper2021a,
+  author    = {Michael Scholkemper and Michael T. Schaub},
+  booktitle = {International Conference on Autonomous Systems (ICAS) 2021},
+  title     = {Local, global and scale-dependent node roles},
+  year      = {2021},
+  month     = may,
+  note      = {-- in press},
+  abstract  = {This paper re-examines the concept of node equivalences like structural equivalence or automorphic equivalence, which have originally emerged in social network analysis to characterize the role an actor plays within a social system, but have since then been of independent interest for graph-based learning tasks. Traditionally, such exact node equivalences have been defined either in terms of the one hop neighborhood of a node, or in terms of the global graph structure. Here we formalize exact node roles with a scale-parameter, describing up to what distance the ego network of a node should be considered when assigning node roles - motivated by the idea that there can be local roles of a node that should not be determined by nodes arbitrarily far away in the network. We present numerical experiments that show how already "shallow" roles of depth 3 or 4 carry sufficient information to perform node classification tasks with
            high accuracy. These findings corroborate the success of recent graph-learning approaches that compute approximate node roles in terms of embeddings, by nonlinearly aggregating node features in an (un)supervised manner over relatively small neighborhood sizes. Indeed, based on our ideas we can construct a shallow classifier achieving on par results with recent graph neural network architectures.},
-    url={https://arxiv.org/abs/2105.12598},
-    owner={mschaub},
+  owner     = {mschaub},
+  url       = {https://arxiv.org/abs/2105.12598},
 }
 
 
@@ -609,16 +613,6 @@ Availability and Implementation. CrosstalkeR is an R package available at https:
   abstract  = {In this chapter, we derive and analyse models for consensus dynamics on hypergraphs. As we discuss, unless there are nonlinear node interaction functions, it is always possible to rewrite the system in terms of a new network of effective pairwise node interactions, regardless of the initially underlying multi-way interaction structure. We thus focus on dynamics based on a certain class of non-linear interaction functions, which can model different sociological phenomena such as peer pressure and stubbornness. Unlike for linear consensus dynamics on networks, we show how our nonlinear model dynamics can cause shifts away from the average system state. We examine how these shifts are influenced by the distribution of the initial states, the underlying hypergraph structure and different forms of non-linear scaling of the node interaction function.},
   timestamp = {2021-05-12},
   url       = {https://arxiv.org/abs/2105.01369},
-}
-
-@Misc{Scholkemper2021,
-  author       = {Michael Scholkemper and Michael T. Schaub},
-  howpublished = {submitted},
-  month        = apr,
-  title        = {Local, global and scale-dependent node roles},
-  year         = {2021},
-  abstract     = {This paper re-examines the concept of node equivalences likestruc-tural equivalenceorautomorphic equivalence, which have originallyemerged in social network analysis to characterize the role an actorplays within a social system, but have since then been of independentinterest for graph-based learning tasks. Traditionally, such exact nodeequivalences have been defined either in terms of the one-hop neigh-borhood of a node, or in terms of the global graph structure. Here weformalize exact node roles with a scale-parameter, describing up towhat distance the ego network of a node should be considered whenassigning node roles — motivated by the idea that there can be localroles of a node that should not be determined by nodes arbitrarily faraway in the network. We present numerical experiments that showhow already “shallow” roles of depth3or4carry sufficient informa-tion to perform node classification tasks with high accuracy. Thesefindings corroborate the success of recent graph-learning approachesthat compute approximate node roles in terms of embeddings, bynonlinearly aggregating node features in an (un)supervised mannerover relatively small neighborhood sizes. Indeed, based on our ideaswe can construct a shallow classifier that achieves on par results withrecent graph neural network architectures},
-  timestamp    = {2021-05-12},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

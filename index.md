@@ -5,7 +5,7 @@ author_profile: true
 #mathjax: true comment in to enable math
 ---
 
-I am a tenure track assistant professor (W1/W2) at RWTH Aachen University.
+I am a tenure track assistant professor at RWTH Aachen University.
 My research deals with the analysis of complex systems that can be abstracted as networks or graphs. 
 A central methodological issue underlying my research is how one can study and integrate the multiple levels of organization which are commonly found in a range of systems. 
 My research combines ‘bottom-up’ dynamical models, and ‘top-down’ data-driven approaches, and uses a blend of tools from control theory, dynamical systems, stochastic processes, machine learning and statistics.
@@ -16,6 +16,7 @@ My research combines ‘bottom-up’ dynamical models, and ‘top-down’ data-d
 
 ### News and Events
 
+***June 22, 2021*** -- Two new preprints online [\[Preprint 1\]](https://arxiv.org/abs/2106.07767) [\[Preprint 2\]](https://arxiv.org/abs/2106.07471)      
 ***May 27, 2021*** -- Paper accepted at ICAS 2021. The arxiv version can be found here [\[Preprint\]](https://arxiv.org/abs/2105.12598)     
 ***May 18, 2021*** -- Forgot to add, there is another preprint on the arxiv [\[Preprint\]](https://arxiv.org/abs/2105.01369)     
 ***April 23, 2021*** -- New preprint on higher order networks on arxiv [\[Preprint\]](https://arxiv.org/abs/2104.11329)     
