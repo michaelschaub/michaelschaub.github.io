@@ -38,22 +38,22 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 <!--BEGIN PUBLICATIOON INSERT HERE-->
 <table id="qs_table" border="1">
 <tbody>
-<tr id="scholkemper2021local" class="entry">
-	<td> [1] Scholkemper M and Schaub MT (2021), <i>"Local, global and scale-dependent node roles"</i>. 
-	<p class="infolinks">[<a href="javascript:toggleInfo('scholkemper2021local','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('scholkemper2021local','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2105.12598" target="_blank">URL</a>]</p>
+<tr id="Zhu2021" class="entry">
+	<td> [1] Zhu J, Jin J, Schaub MT and Koutra D (2021), <i>"Improving Robustness of Graph Neural Networks with Heterophily-Inspired Designs"</i>. June, 2021.
+	<p class="infolinks">[<a href="javascript:toggleInfo('Zhu2021','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Zhu2021','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2106.07767" target="_blank">URL</a>]</p>
 	</td>
 </tr>
-<tr id="abs_scholkemper2021local" class="abstract noshow">
-	<td><b>Abstract</b>: This paper re-examines the concept of node equivalences like structural equivalence or automorphic equivalence, which have originally emerged in social network analysis to characterize the role an actor plays within a social system, but have since then been of independent interest for graph-based learning tasks. Traditionally, such exact node equivalences have been defined either in terms of the one hop neighborhood of a node, or in terms of the global graph structure. Here we formalize exact node roles with a scale-parameter, describing up to what distance the ego network of a node should be considered when assigning node roles - motivated by the idea that there can be local roles of a node that should not be determined by nodes arbitrarily far away in the network. We present numerical experiments that show how already "shallow" roles of depth 3 or 4 carry sufficient information to perform node classification tasks with<br>           high accuracy. These findings corroborate the success of recent graph-learning approaches that compute approximate node roles in terms of embeddings, by nonlinearly aggregating node features in an (un)supervised manner over relatively small neighborhood sizes. Indeed, based on our ideas we can construct a shallow classifier achieving on par results with recent graph neural network architectures.</td>
+<tr id="abs_Zhu2021" class="abstract noshow">
+	<td><b>Abstract</b>: Recent studies have exposed that many graph neural networks (GNNs) are sensitive to adversarial attacks, and can suffer from performance loss if the graph structure is intentionally perturbed. A different line of research has shown that many GNN architectures implicitly assume that the underlying graph displays homophily, i.e., connected nodes are more likely to have similar features and class labels, and perform poorly if this assumption is not fulfilled. In this work, we formalize the relation between these two seemingly different issues. We theoretically show that in the standard scenario in which node features exhibit homophily, impactful structural attacks always lead to increased levels of heterophily. Then, inspired by GNN architectures that target heterophily, we present two designs -- (i) separate aggregators for ego- and neighbor-embeddings, and (ii) a reduced scope of aggregation -- that can significantly improve the robustness of GNNs. Our extensive empirical evaluations show that GNNs featuring merely these two designs can achieve significantly improved robustness compared to the best-performing unvaccinated model with 24.99% gain in average performance under targeted attacks, while having smaller computational overhead than existing defense mechanisms. Furthermore, these designs can be readily combined with explicit defense mechanisms to yield state-of-the-art robustness with up to 18.33% increase in performance under attacks compared to the best-performing vaccinated model.</td>
 </tr>
-<tr id="bib_scholkemper2021local" class="bibtex noshow">
+<tr id="bib_Zhu2021" class="bibtex noshow">
 <td><b>BibTeX</b>:
 <pre>
-@misc{scholkemper2021local,
-  author = {Michael Scholkemper and Michael T. Schaub},
-  title = {Local, global and scale-dependent node roles},
+@misc{Zhu2021,
+  author = {Jiong Zhu and Junchen Jin and Michael T. Schaub and Danai Koutra},
+  title = {Improving Robustness of Graph Neural Networks with Heterophily-Inspired Designs},
   year = {2021},
-  url = {https://arxiv.org/abs/2105.12598}
+  url = {https://arxiv.org/abs/2106.07767}
 }
 </pre></td>
 </tr>
@@ -76,8 +76,29 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 }
 </pre></td>
 </tr>
+<tr id="Scholkemper2021a" class="entry">
+    <td> [3] Scholkemper, M. &amp; Schaub, M.T. (2021), <i>"Local, global and scale-dependent node roles"</i>, In International Conference on Autonomous Systems (ICAS) 2021., May, 2021. 
+        <p class="infolinks">[<a href="javascript:toggleInfo('Scholkemper2021a','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Scholkemper2021a','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2105.12598" target="_blank">URL</a>]</p>
+    </td>
+</tr>
+<tr id="abs_Scholkemper2021a" class="abstract noshow">
+    <td><b>Abstract</b>: This paper re-examines the concept of node equivalences like structural equivalence or automorphic equivalence, which have originally emerged in social network analysis to characterize the role an actor plays within a social system, but have since then been of independent interest for graph-based learning tasks. Traditionally, such exact node equivalences have been defined either in terms of the one hop neighborhood of a node, or in terms of the global graph structure. Here we formalize exact node roles with a scale-parameter, describing up to what distance the ego network of a node should be considered when assigning node roles - motivated by the idea that there can be local roles of a node that should not be determined by nodes arbitrarily far away in the network. We present numerical experiments that show how already "shallow" roles of depth 3 or 4 carry sufficient information to perform node classification tasks with<br>           high accuracy. These findings corroborate the success of recent graph-learning approaches that compute approximate node roles in terms of embeddings, by nonlinearly aggregating node features in an (un)supervised manner over relatively small neighborhood sizes. Indeed, based on our ideas we can construct a shallow classifier achieving on par results with recent graph neural network architectures.</td>
+</tr>
+<tr id="bib_Scholkemper2021a" class="bibtex noshow">
+    <td><b>BibTeX</b>:
+        <pre>
+@inproceedings{Scholkemper2021a,
+    author = {Michael Scholkemper and Michael T. Schaub},
+           title = {Local, global and scale-dependent node roles},
+           booktitle = {International Conference on Autonomous Systems (ICAS) 2021},
+           year = {2021},
+           note = {-- in press},
+           url = {https://arxiv.org/abs/2105.12598}
+}
+    </pre></td>
+</tr>
 <tr id="Nagai2021" class="entry">
-    <td> [3] Nagai, J.S.; Leimkühler, N.B.; Schaub, M.T.; Schneider, R.K. &amp; Costa, I.G. (2021), <i>"CrossTalkeR: Analysis and Visualisation of Ligand Receptor Networks"</i>, Bioinformatics., April, 2021. 
+    <td> [4] Nagai, J.S.; Leimkühler, N.B.; Schaub, M.T.; Schneider, R.K. &amp; Costa, I.G. (2021), <i>"CrossTalkeR: Analysis and Visualisation of Ligand Receptor Networks"</i>, Bioinformatics., April, 2021. 
         <p class="infolinks">[<a href="javascript:toggleInfo('Nagai2021','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Nagai2021','bibtex')">BibTeX</a>] [<a href="https://www.biorxiv.org/content/10.1101/2021.01.20.427390v2" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -96,25 +117,6 @@ A list of my publications is also available on [Google Scholar](https://scholar.
            url = {https://www.biorxiv.org/content/10.1101/2021.01.20.427390v2}
 }
     </pre></td>
-</tr>
-<tr id="Scholkemper2021" class="entry">
-	<td> [4] Scholkemper M and Schaub MT (2021), <i>"Local, global and scale-dependent node roles"</i>, submitted. April, 2021.
-	<p class="infolinks">[<a href="javascript:toggleInfo('Scholkemper2021','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Scholkemper2021','bibtex')">BibTeX</a>]</p>
-	</td>
-</tr>
-<tr id="abs_Scholkemper2021" class="abstract noshow">
-	<td><b>Abstract</b>: This paper re-examines the concept of node equivalences likestruc-tural equivalenceorautomorphic equivalence, which have originallyemerged in social network analysis to characterize the role an actorplays within a social system, but have since then been of independentinterest for graph-based learning tasks. Traditionally, such exact nodeequivalences have been defined either in terms of the one-hop neigh-borhood of a node, or in terms of the global graph structure. Here weformalize exact node roles with a scale-parameter, describing up towhat distance the ego network of a node should be considered whenassigning node roles — motivated by the idea that there can be localroles of a node that should not be determined by nodes arbitrarily faraway in the network. We present numerical experiments that showhow already “shallow” roles of depth3or4carry sufficient informa-tion to perform node classification tasks with high accuracy. Thesefindings corroborate the success of recent graph-learning approachesthat compute approximate node roles in terms of embeddings, bynonlinearly aggregating node features in an (un)supervised mannerover relatively small neighborhood sizes. Indeed, based on our ideaswe can construct a shallow classifier that achieves on par results withrecent graph neural network architectures</td>
-</tr>
-<tr id="bib_Scholkemper2021" class="bibtex noshow">
-<td><b>BibTeX</b>:
-<pre>
-@misc{Scholkemper2021,
-  author = {Michael Scholkemper and Michael T. Schaub},
-  title = {Local, global and scale-dependent node roles},
-  howpublished = {submitted},
-  year = {2021}
-}
-</pre></td>
 </tr>
 <tr id="Bick2021" class="entry">
 	<td> [5] Bick C, Gross E, Harrington HA and Schaub MT (2021), <i>"What are higher-order networks?"</i>, submitted. April, 2021.
@@ -198,8 +200,8 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 </pre></td>
 </tr>
 <tr id="Schaub2021" class="entry">
-    <td> [9] Schaub, M.T.; Zhu, Y.; Seby, J.-B.; Roddenberry, T.M. &amp; Segarra, S. (2021), <i>"Signal Processing on Higher-Order Networks: Livin' on the Edge ... and Beyond"</i>, Signal Processing., -- in press., January, 2021. 
-        <p class="infolinks">[<a href="javascript:toggleInfo('Schaub2021','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Schaub2021','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2101.05510" target="_blank">URL</a>]</p>
+    <td> [9] Schaub, M.T.; Zhu, Y.; Seby, J.-B.; Roddenberry, T.M. &amp; Segarra, S. (2021), <i>"Signal Processing on Higher-Order Networks: Livin' on the Edge ... and Beyond"</i>, Signal Processing., January, 2021.  Vol. 187, pp. 108149.
+        <p class="infolinks">[<a href="javascript:toggleInfo('Schaub2021','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Schaub2021','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1016/j.sigpro.2021.108149" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2101.05510" target="_blank">URL</a>]</p>
     </td>
 </tr>
 <tr id="abs_Schaub2021" class="abstract noshow">
@@ -213,7 +215,10 @@ A list of my publications is also available on [Google Scholar](https://scholar.
            title = {Signal Processing on Higher-Order Networks: Livin' on the Edge ... and Beyond},
            journal = {Signal Processing},
            year = {2021},
-           url = {https://arxiv.org/abs/2101.05510}
+           volume = {187},
+           pages = {108149},
+           url = {https://arxiv.org/abs/2101.05510},
+           doi = {10.1016/j.sigpro.2021.108149}
 }
     </pre></td>
 </tr>
@@ -1028,5 +1033,5 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 </tbody>
 </table>
 <footer>
- <small>Created by <a href="http://jabref.sourceforge.net">JabRef</a> on 27/05/2021.</small>
+ <small>Created by <a href="http://jabref.sourceforge.net">JabRef</a> on 23/06/2021.</small>
 </footer>
