@@ -545,19 +545,14 @@ In the third part, we discuss how to use dynamical processes unfolding on the ne
   url          = {https://arxiv.org/abs/2101.00503},
 }
 
-@Article{Schaub2021,
-  author    = {Michael T. Schaub and Yu Zhu and Jean-Baptiste Seby and T. Mitchell Roddenberry and Santiago Segarra},
-  journal   = {Signal Processing},
-  title     = {Signal Processing on Higher-Order Networks: Livin' on the Edge ... and Beyond},
+@Misc{Schaub2021a,
+  author    = {Michael T. Schaub and Jean-Baptiste Seby and T. Mitchell Roddenberry and Yu Zhu and Santiago Segarra},
+  month     = jun,
+  title     = {Signal processing on simplicial complexes},
   year      = {2021},
-  issn      = {0165-1684},
-  month     = jan,
-  pages     = {108149},
-  volume    = {187},
-  abstract  = {This tutorial paper presents a didactic treatment of the emerging topic of signal processing on higher-order networks. Drawing analogies from discrete and graph signal processing, we introduce the building blocks for processing data on simplicial complexes and hypergraphs, two common abstractions of higher-order networks that can incorporate polyadic relationships.We provide basic introductions to simplicial complexes and hypergraphs, making special emphasis on the concepts needed for processing signals on them. Leveraging these concepts, we discuss Fourier analysis, signal denoising, signal interpolation, node embeddings, and non-linear processing through neural networks in these two representations of polyadic relational structures. In the context of simplicial complexes, we specifically focus on signal processing using the Hodge Laplacian matrix, a multi-relational operator that leverages the special structure of simplicial complexes and generalizes desirable properties of the Laplacian matrix in graph signal processing. For hypergraphs, we present both matrix and tensor representations, and discuss the trade-offs in adopting one or the other. We also highlight limitations and potential research avenues, both to inform practitioners and to motivate the contribution of new researchers to the area.},
-  doi       = {10.1016/j.sigpro.2021.108149},
-  timestamp = {2021-01-15},
-  url       = {https://arxiv.org/abs/2101.05510},
+  abstract  = {Higher-order networks have so far been considered primarily in the context of studying the structure of complex systems, i.e., the higher-order or multi-way relations connecting the constituent entities. More recently, a number of studies have considered dynamical processes that explicitly account for such higher-order dependencies, e.g., in the context of epidemic spreading processes or opinion formation. In this chapter, we focus on a closely related, but distinct third perspective: how can we use higher-order relationships to process signals and data supported on higher-order network structures. In particular, we survey how ideas from signal processing of data supported on regular domains, such as time series or images, can be extended to graphs and simplicial complexes. We discuss Fourier analysis, signal denoising, signal interpolation, and nonlinear processing through neural networks based on simplicial complexes. Key to our developments is the Hodge Laplacian matrix, a multi-relational operator that leverages the special structure of simplicial complexes and generalizes desirable properties of the Laplacian matrix in graph signal processing.},
+  timestamp = {2021-06-22},
+  url       = {https://arxiv.org/abs/2106.07471},
 }
 
 @Book{Lambiotte2021,
@@ -623,8 +618,23 @@ Availability and Implementation. CrosstalkeR is an R package available at https:
   month    = jun,
   title    = {Improving Robustness of Graph Neural Networks with Heterophily-Inspired Designs},
   year     = {2021},
-  abstract = {Recent studies have exposed that many graph neural networks (GNNs) are sensitive to adversarial attacks, and can suffer from performance loss if the graph structure is intentionally perturbed. A different line of research has shown that many GNN architectures implicitly assume that the underlying graph displays homophily, i.e., connected nodes are more likely to have similar features and class labels, and perform poorly if this assumption is not fulfilled. In this work, we formalize the relation between these two seemingly different issues. We theoretically show that in the standard scenario in which node features exhibit homophily, impactful structural attacks always lead to increased levels of heterophily. Then, inspired by GNN architectures that target heterophily, we present two designs -- (i) separate aggregators for ego- and neighbor-embeddings, and (ii) a reduced scope of aggregation -- that can significantly improve the robustness of GNNs. Our extensive empirical evaluations show that GNNs featuring merely these two designs can achieve significantly improved robustness compared to the best-performing unvaccinated model with 24.99% gain in average performance under targeted attacks, while having smaller computational overhead than existing defense mechanisms. Furthermore, these designs can be readily combined with explicit defense mechanisms to yield state-of-the-art robustness with up to 18.33% increase in performance under attacks compared to the best-performing vaccinated model.},
+  abstract = {Recent studies have exposed that many graph neural networks (GNNs) are sensitive to adversarial attacks, and can suffer from performance loss if the graph structure is intentionally perturbed. A different line of research has shown that many GNN architectures implicitly assume that the underlying graph displays homophily, i.e., connected nodes are more likely to have similar features and class labels, and perform poorly if this assumption is not fulfilled. In this work, we formalize the relation between these two seemingly different issues. We theoretically show that in the standard scenario in which node features exhibit homophily, impactful structural attacks always lead to increased levels of heterophily. Then, inspired by GNN architectures that target heterophily, we present two designs -- (i) separate aggregators for ego- and neighbor-embeddings, and (ii) a reduced scope of aggregation -- that can significantly improve the robustness of GNNs. Our extensive
+              empirical evaluations show that GNNs featuring merely these two designs can achieve significantly improved robustness compared to the best-performing unvaccinated model with 24.99\% gain in average performance under targeted attacks, while having smaller computational overhead than existing defense mechanisms. Furthermore, these designs can be readily combined with explicit defense mechanisms to yield state-of-the-art robustness with up to 18.33\% increase in performance under attacks compared to the best-performing vaccinated model.},
   url      = {https://arxiv.org/abs/2106.07767},
+}
+
+@Article{Schaub2021,
+  author    = {Michael T. Schaub and Yu Zhu and Jean-Baptiste Seby and T. Mitchell Roddenberry and Santiago Segarra},
+  title     = {Signal Processing on Higher-Order Networks: Livin' on the Edge ... and Beyond},
+  year      = {2021},
+  issn      = {0165-1684},
+  month     = jan,
+  pages     = {108149},
+  volume    = {187},
+  abstract  = {This tutorial paper presents a didactic treatment of the emerging topic of signal processing on higher-order networks. Drawing analogies from discrete and graph signal processing, we introduce the building blocks for processing data on simplicial complexes and hypergraphs, two common abstractions of higher-order networks that can incorporate polyadic relationships.We provide basic introductions to simplicial complexes and hypergraphs, making special emphasis on the concepts needed for processing signals on them. Leveraging these concepts, we discuss Fourier analysis, signal denoising, signal interpolation, node embeddings, and non-linear processing through neural networks in these two representations of polyadic relational structures. In the context of simplicial complexes, we specifically focus on signal processing using the Hodge Laplacian matrix, a multi-relational operator that leverages the special structure of simplicial complexes and generalizes desirable properties of the Laplacian matrix in graph signal processing. For hypergraphs, we present both matrix and tensor representations, and discuss the trade-offs in adopting one or the other. We also highlight limitations and potential research avenues, both to inform practitioners and to motivate the contribution of new researchers to the area.},
+  doi       = {10.1016/j.sigpro.2021.108149},
+  timestamp = {2021-01-15},
+  url       = {https://arxiv.org/abs/2101.05510},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
