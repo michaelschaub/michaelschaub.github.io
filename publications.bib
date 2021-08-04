@@ -480,14 +480,15 @@ In the third part, we discuss how to use dynamical processes unfolding on the ne
   url          = {https://arxiv.org/abs/2004.00901},
 }
 
-@Misc{Faccin2020,
-  author       = {Faccin, M. and Schaub, M. T. and Delvenne, J.-C.},
-  howpublished = {submitted},
-  month        = may,
-  title        = {{State aggregations in Markov chains and block models of networks}},
-  year         = {2020},
-  abstract     = {We consider state aggregation schemes for Markov chains from an information-theoretic perspective. Specifically, we consider aggregating the states of a Markov chain such that the mutual information of the aggregated states separated by T time steps is maximized. We show that for T = 1 this approach recovers the maximum-likelihood estimator of the degree-corrected stochastic block model as a particular case, thereby enabling us to explain certain features of the likelihood landscape of this popular generative network model from a dynamical lens. We further highlight how we can uncover coherent, long-range dynamical modules for which considering a time-scale T >> 1 is essential, using synthetic flows and real-world ocean currents, where we are able to recover the fundamental features of the surface currents of the Oceans.},
-  url          = {https://arxiv.org/abs/2005.00337},
+@Article{Faccin2020,
+  author   = {Faccin, M. and Schaub, M. T. and Delvenne, J.-C.},
+  journal  = {Physical Review Letters},
+  title    = {{State aggregations in Markov chains and block models of networks}},
+  year     = {2021},
+  month    = aug,
+  note     = {-- in press},
+  abstract = {We consider state aggregation schemes for Markov chains from an information-theoretic perspective. Specifically, we consider aggregating the states of a Markov chain such that the mutual information of the aggregated states separated by T time steps is maximized. We show that for T = 1 this approach recovers the maximum-likelihood estimator of the degree-corrected stochastic block model as a particular case, thereby enabling us to explain certain features of the likelihood landscape of this popular generative network model from a dynamical lens. We further highlight how we can uncover coherent, long-range dynamical modules for which considering a time-scale T >> 1 is essential, using synthetic flows and real-world ocean currents, where we are able to recover the fundamental features of the surface currents of the Oceans.},
+  url      = {https://arxiv.org/abs/2005.00337},
 }
 
 @Article{Roddenberry2020,
@@ -578,20 +579,6 @@ In the third part, we discuss how to use dynamical processes unfolding on the ne
   url       = {https://arxiv.org/abs/2103.12587},
 }
 
-@Article{Nagai2021,
-  author    = {James S. Nagai and Nils B. Leimkühler and Michael T. Schaub and Rebekka K. Schneider and Ivan G. Costa},
-  journal   = {Bioinformatics},
-  title     = {CrossTalkeR: Analysis and Visualisation of Ligand Receptor Networks},
-  year      = {2021},
-  month     = apr,
-  note      = {-- in press},
-  abstract  = {Motivation. Ligand-receptor (LR) network analysis allows the characterization of cellular crosstalk based on single cell RNA-seq data. However, current methods typically provide a list of inferred LR interactions and do not allow the researcher to focus on specific cell types, ligands or receptors. In addition, most of these methods cannot quantify changes in crosstalk between two biological phenotypes.
-Results. CrossTalkeR is a framework for network analysis and visualisation of LR interactions. CrossTalkeR identifies relevant ligands, receptors and cell types contributing to changes in cell communication when contrasting two biological phenotypes, i.e. disease vs. homeostasis. A case study on scRNA-seq of human myeloproliferative neoplasms reinforces the strengths of CrossTalkeR for characterisation of changes in cellular crosstalk in disease.
-Availability and Implementation. CrosstalkeR is an R package available at https://github.com/CostaLab/CrossTalkeR.},
-  timestamp = {2021-04-25},
-  url       = {https://www.biorxiv.org/content/10.1101/2021.01.20.427390v2},
-}
-
 @Misc{Bick2021,
   author       = {Christian Bick and Elizabeth Gross and Heather A. Harrington and Michael T. Schaub},
   howpublished = {submitted},
@@ -625,6 +612,7 @@ Availability and Implementation. CrosstalkeR is an R package available at https:
 
 @Article{Schaub2021,
   author    = {Michael T. Schaub and Yu Zhu and Jean-Baptiste Seby and T. Mitchell Roddenberry and Santiago Segarra},
+  journal   = {Signal Processing},
   title     = {Signal Processing on Higher-Order Networks: Livin' on the Edge ... and Beyond},
   year      = {2021},
   issn      = {0165-1684},
@@ -635,6 +623,20 @@ Availability and Implementation. CrosstalkeR is an R package available at https:
   doi       = {10.1016/j.sigpro.2021.108149},
   timestamp = {2021-01-15},
   url       = {https://arxiv.org/abs/2101.05510},
+}
+
+@Article{Nagai2021,
+  author    = {Nagai, James S and Leimkühler, Nils B and Schaub, Michael T and Schneider, Rebekka K and Costa, Ivan G},
+  journal   = {Bioinformatics},
+  title     = {{CrossTalkeR: analysis and visualization of ligand–receptorne tworks}},
+  year      = {2021},
+  issn      = {1367-4803},
+  month     = {05},
+  note      = {btab370},
+  abstract  = {{Ligand–receptor (LR) network analysis allows the characterization of cellular crosstalk based on single cell RNA-seq data. However, current methods typically provide a list of inferred LR interactions and do not allow the researcher to focus on specific cell types, ligands or receptors. In addition, most of these methods cannot quantify changes in crosstalk between two biological phenotypes.CrossTalkeR is a framework for network analysis and visualization of LR interactions. CrossTalkeR identifies relevant ligands, receptors and cell types contributing to changes in cell communication when contrasting two biological phenotypes, i.e. disease versus homeostasis. A case study on scRNA-seq of human myeloproliferative neoplasms reinforces the strengths of CrossTalkeR for characterization of changes in cellular crosstalk in disease.CrosstalkeR is an R package available at: Github: https://github.com/CostaLab/CrossTalkeR.Supplementary data are available at Bioinformatics online.}},
+  doi       = {10.1093/bioinformatics/btab370},
+  timestamp = {2021-04-25},
+  url       = {https://www.biorxiv.org/content/10.1101/2021.01.20.427390v2},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

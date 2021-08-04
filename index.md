@@ -16,6 +16,7 @@ My research combines ‘bottom-up’ dynamical models, and ‘top-down’ data-d
 
 ### News and Events
 
+***August 4, 2021*** -- Two of our works have now been published in [\[Signal Processing\]](https://doi.org/10.1016/j.sigpro.2021.108149) and [\[Bioinformatics\]](https://doi.org/10.1093/bioinformatics/btab370)      
 ***June 22, 2021*** -- Two new preprints online [\[Preprint 1\]](https://arxiv.org/abs/2106.07767) [\[Preprint 2\]](https://arxiv.org/abs/2106.07471)      
 ***May 27, 2021*** -- Paper accepted at ICAS 2021. The arxiv version can be found here [\[Preprint\]](https://arxiv.org/abs/2105.12598)     
 ***May 18, 2021*** -- Forgot to add, there is another preprint on the arxiv [\[Preprint\]](https://arxiv.org/abs/2105.01369)     

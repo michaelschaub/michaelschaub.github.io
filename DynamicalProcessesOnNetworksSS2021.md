@@ -49,11 +49,11 @@ Due to the Corona situation, the course will held online via Zoom. A link will b
 {: .notice--danger}
 
 ### Schedule and important dates
-*First lecture:* April 15, 14:30   
-*Lecture times:* Tuesday, 16:30-18:00, and Thursday, 14:30-16:00 (dates will be announced via Moodle)    
-*Exercises:* Monday, 16:30-18:00   
+*First lecture:* tba
+*Lecture times:* tba (dates will be announced via Moodle)    
+*Exercises:* tba
 
-(last updated: Fri 19 March -- later announcements to participants will supersede the above information)
+(last updated: 4. August 2021 -- later announcements to participants will supersede the above information)
 
 ### Prerequisites 
 There are no formal prerequisites, apart from a certain scientific and mathematical maturity. 
