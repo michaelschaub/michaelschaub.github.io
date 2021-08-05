@@ -45,7 +45,7 @@ toc_sticky: true
 ## Bachelor and Master Theses
 We offer a broad range of thesis topics related to Network and Data Science, both at Bachelor and Master level.
 If you are interested in some of our research (please have a look at our homepage for more details), or want to suggest a topic, please get in touch.
-In some cases we have pre-defined topics, however, in most instances we will try to find a topic tailored to you that fits your and our interests, following the following procedure.
+In some cases we have pre-defined topics, however, in most instances we will try to find a topic tailored to you that fits your and our interests, following essentially the procedure outlined below.
 
 When contacting us for a possible thesis, please try to answer the following questions as well:
 - Is there a topic / paper of our recent research that is of particular interest to you?
