@@ -51,7 +51,7 @@ When contacting us for a possible thesis, please try to answer the following que
 - Is there a topic / paper of our recent research that is of particular interest to you?
 - What kind of Thesis are you looking for (e.g., mostly theory-based, more data-analysis, programming etc.)?
 - What timeframe are we talking about? (ideal start data / end date)
-- Where do you see your strenghts/weaknesses? If possible include a recent Transcript of Records (Notenspiegel).
+- Where do you see your strengths/weaknesses? What relevant courses did you attend? If possible include a recent Transcript of Records (Notenspiegel).
 
 
 ### Procedure
