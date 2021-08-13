@@ -38,24 +38,27 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 <!--BEGIN PUBLICATIOON INSERT HERE-->
 <table id="qs_table" border="1">
 <tbody>
-<tr id="Faccin2020" class="entry">
-    <td> [1] Faccin, M.; Schaub, M.T. &amp; Delvenne, J.-C. (2021), <i>"State aggregations in Markov chains and block models of networks"</i>, Physical Review Letters., August, 2021. 
-        <p class="infolinks">[<a href="javascript:toggleInfo('Faccin2020','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Faccin2020','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2005.00337" target="_blank">URL</a>]</p>
+<tr id="Faccin2021" class="entry">
+    <td> [1] Faccin, M.; Schaub, M.T. &amp; Delvenne, J.-C. (2021), <i>"State aggregations in Markov chains and block models of networks"</i>, Physical Review Letters., August, 2021.  Vol. 127, pp. 078301. American Physical Society.
+        <p class="infolinks">[<a href="javascript:toggleInfo('Faccin2021','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Faccin2021','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1103/PhysRevLett.127.078301" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2005.00337" target="_blank">URL</a>]</p>
     </td>
 </tr>
-<tr id="abs_Faccin2020" class="abstract noshow">
+<tr id="abs_Faccin2021" class="abstract noshow">
     <td><b>Abstract</b>: We consider state aggregation schemes for Markov chains from an information-theoretic perspective. Specifically, we consider aggregating the states of a Markov chain such that the mutual information of the aggregated states separated by T time steps is maximized. We show that for T = 1 this approach recovers the maximum-likelihood estimator of the degree-corrected stochastic block model as a particular case, thereby enabling us to explain certain features of the likelihood landscape of this popular generative network model from a dynamical lens. We further highlight how we can uncover coherent, long-range dynamical modules for which considering a time-scale T >> 1 is essential, using synthetic flows and real-world ocean currents, where we are able to recover the fundamental features of the surface currents of the Oceans.</td>
 </tr>
-<tr id="bib_Faccin2020" class="bibtex noshow">
+<tr id="bib_Faccin2021" class="bibtex noshow">
     <td><b>BibTeX</b>:
         <pre>
-@article{Faccin2020,
+@article{Faccin2021,
     author = {Faccin, M. and Schaub, M. T. and Delvenne, J.-C.},
            title = {State aggregations in Markov chains and block models of networks},
            journal = {Physical Review Letters},
+           publisher = {American Physical Society},
            year = {2021},
-           note = {-- in press},
-           url = {https://arxiv.org/abs/2005.00337}
+           volume = {127},
+           pages = {078301},
+           url = {https://arxiv.org/abs/2005.00337},
+           doi = {10.1103/PhysRevLett.127.078301}
 }
     </pre></td>
 </tr>
@@ -1054,5 +1057,5 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 </tbody>
 </table>
 <footer>
- <small>Created by <a href="http://jabref.sourceforge.net">JabRef</a> on 04/08/2021.</small>
+ <small>Created by <a href="http://jabref.sourceforge.net">JabRef</a> on 13/08/2021.</small>
 </footer>

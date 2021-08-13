@@ -15,7 +15,7 @@ My research combines ‘bottom-up’ dynamical models, and ‘top-down’ data-d
 <!--{: .notice--success}-->
 
 ### News and Events
-
+***August 13, 2021*** -- Our joint work with Mauro Faccin and Jean-Charles Delvenne on State Aggregations of Markov chains has been published in [PRL](https://doi.org/10.1103/PhysRevLett.127.078301)  ... and appears on the [cover](https://journals.aps.org/prl/covers/127/7)!    
 ***August 4, 2021*** -- Two of our works have now been published in [\[Signal Processing\]](https://doi.org/10.1016/j.sigpro.2021.108149) and [\[Bioinformatics\]](https://doi.org/10.1093/bioinformatics/btab370)      
 ***June 22, 2021*** -- Two new preprints online [\[Preprint 1\]](https://arxiv.org/abs/2106.07767) [\[Preprint 2\]](https://arxiv.org/abs/2106.07471)      
 ***May 27, 2021*** -- Paper accepted at ICAS 2021. The arxiv version can be found here [\[Preprint\]](https://arxiv.org/abs/2105.12598)     
