@@ -15,6 +15,7 @@ My research combines ‘bottom-up’ dynamical models, and ‘top-down’ data-d
 <!--{: .notice--success}-->
 
 ### News and Events
+***September 13, 2021*** -- With my student Leonie we have a new preprint out on higher-order consensus dynyamics on temporal hypergraphs [here](http://arxiv.org/abs/2109.04985).      
 ***August 23, 2021*** -- Leonie and I have been interviewed for an article in [Quanta Magazine](https://www.quantamagazine.org/how-big-data-carried-graph-theory-into-new-dimensions-20210819/) on higher-order networks.      
 ***August 13, 2021*** -- Our joint work with Mauro Faccin and Jean-Charles Delvenne on State Aggregations of Markov chains has been published in [PRL](https://doi.org/10.1103/PhysRevLett.127.078301)  ... and appears on the [cover](https://journals.aps.org/prl/covers/127/7)!    
 ***August 4, 2021*** -- Two of our works have now been published in [\[Signal Processing\]](https://doi.org/10.1016/j.sigpro.2021.108149) and [\[Bioinformatics\]](https://doi.org/10.1093/bioinformatics/btab370)      
