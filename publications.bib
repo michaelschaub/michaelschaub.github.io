@@ -470,16 +470,6 @@ In the third part, we discuss how to use dynamical processes unfolding on the ne
   url       = {https://arxiv.org/abs/1905.07451},
 }
 
-@Misc{Neuhaeuser2020,
-  author       = {Neuhäuser, Leonie and Schaub, Michael T. and Mellor, Andrew and Lambiotte, Renaud},
-  howpublished = {submitted},
-  month        = apr,
-  title        = {Opinion Dynamics with Multi-Body Interactions},
-  year         = {2020},
-  abstract     = {We introduce and analyse a three-body consensus model (3CM) for non-linear consensus dynamics on hypergraphs. Our model incorporates reinforcing group effects, which can cause shifts in the average state of the system even in if the underlying graph is complete (corresponding to a mean-field interaction), a phenomena that may be interpreted as a type of peer pressure. We further demonstrate that for systems with two clustered groups, already a small asymmetry in our dynamics can lead to the opinion of one group becoming clearly dominant. We show that the nonlinearity in the model is the essential ingredient to make such group dynamics appear, and demonstrate how our system can otherwise be written as a linear, pairwise interaction system on a rescaled network.},
-  url          = {https://arxiv.org/abs/2004.00901},
-}
-
 @Article{Faccin2021,
   author    = {Faccin, M. and Schaub, M. T. and Delvenne, J.-C.},
   journal   = {Physical Review Letters},
@@ -529,15 +519,16 @@ In the third part, we discuss how to use dynamical processes unfolding on the ne
   url          = {https://arxiv.org/abs/2009.07525},
 }
 
-@Misc{Stamm2020,
-  author       = {Felix I. Stamm and Leonie Neuhäuser and Florian Lemmerich and Michael T. Schaub and Markus Strohmaier},
-  howpublished = {submitted},
-  month        = oct,
-  title        = {Systematic edge uncertainty in attributed social networks and its effects on rankings of minority nodes},
-  year         = {2020},
-  abstract     = {Network analysis provides powerful tools to learn about a variety of social systems. However, most analyses implicitly assume that the considered data is error-free and reliable. Especially if the network consists of multiple groups, this assumption conflicts with the range of systematic reporting biases, measurement errors and other inaccuracies that are well documented in our community. In this paper, we model how such systematic uncertainty on edges of an attributed network can impact network analysis, in particular the ranking of nodes. We discuss how erroneous edge observations can be driven by external node attributes and the relative edge positions in the network, thereby opening a path towards a systematic study of the effects of edge-uncertainty for various network analysis tasks. To show how conclusions drawn from network analyses can get distorted due to such inaccuracies, we focus on the effects of edge-uncertainty on minority group representations in degree-based rankings. For that purpose, we analyze synthetic and real networks with varying homophily and group sizes. We find that introducing edge uncertainty can significantly alter the relative density of networks and result both in a strongly increased or decreased ranking of the minority, depending on the type of edge error and homophily. Our model enables researchers to include systematic edge-uncertainty in their analyses and thereby better account for the role of minorities in social networks.},
-  timestamp    = {2020-10-26},
-  url          = {https://arxiv.org/abs/2010.11546},
+@Article{Stamm2021,
+  author    = {Felix I. Stamm and Leonie Neuhäuser and Florian Lemmerich and Michael T. Schaub and Markus Strohmaier},
+  journal   = {Applied Network Science},
+  title     = {Systematic edge uncertainty in attributed social networks and its effects on rankings of minority nodes},
+  year      = {2021},
+  month     = sep,
+  note      = {-- in press},
+  abstract  = {Network analysis provides powerful tools to learn about a variety of social systems. However, most analyses implicitly assume that the considered data is error-free and reliable. Especially if the network consists of multiple groups, this assumption conflicts with the range of systematic reporting biases, measurement errors and other inaccuracies that are well documented in our community. In this paper, we model how such systematic uncertainty on edges of an attributed network can impact network analysis, in particular the ranking of nodes. We discuss how erroneous edge observations can be driven by external node attributes and the relative edge positions in the network, thereby opening a path towards a systematic study of the effects of edge-uncertainty for various network analysis tasks. To show how conclusions drawn from network analyses can get distorted due to such inaccuracies, we focus on the effects of edge-uncertainty on minority group representations in degree-based rankings. For that purpose, we analyze synthetic and real networks with varying homophily and group sizes. We find that introducing edge uncertainty can significantly alter the relative density of networks and result both in a strongly increased or decreased ranking of the minority, depending on the type of edge error and homophily. Our model enables researchers to include systematic edge-uncertainty in their analyses and thereby better account for the role of minorities in social networks.},
+  timestamp = {2020-10-26},
+  url       = {https://arxiv.org/abs/2010.11546},
 }
 
 @Misc{Klimm2021,
@@ -595,14 +586,13 @@ In the third part, we discuss how to use dynamical processes unfolding on the ne
   url          = {https://arxiv.org/abs/2104.11329},
 }
 
-@Misc{Neuhaeuser2021,
-  author    = {Neuhäuser, Leonie and Lambiotte, Renaud and Schaub, Michael T.},
-  month     = may,
-  title     = {Consensus Dynamics and Opinion Formation on Hypergraphs},
-  year      = {2021},
-  abstract  = {In this chapter, we derive and analyse models for consensus dynamics on hypergraphs. As we discuss, unless there are nonlinear node interaction functions, it is always possible to rewrite the system in terms of a new network of effective pairwise node interactions, regardless of the initially underlying multi-way interaction structure. We thus focus on dynamics based on a certain class of non-linear interaction functions, which can model different sociological phenomena such as peer pressure and stubbornness. Unlike for linear consensus dynamics on networks, we show how our nonlinear model dynamics can cause shifts away from the average system state. We examine how these shifts are influenced by the distribution of the initial states, the underlying hypergraph structure and different forms of non-linear scaling of the node interaction function.},
-  timestamp = {2021-05-12},
-  url       = {https://arxiv.org/abs/2105.01369},
+@Misc{Neuhaeuser2021b,
+  author   = {Neuhäuser, Leonie and Lambiotte, Renaud and Schaub, Michael T.},
+  month    = sep,
+  title    = {Consensus dynamics on temporal hypergraphs},
+  year     = {2021},
+  abstract = {We investigate consensus dynamics on temporal hypergraphs that encode network systems with time-dependent, multi-way interactions. We compare this dynamics with that on appropriate projections of this higher-order network representation that flatten the temporal, the multi-way component, or both. For linear average consensus dynamics, we find that the convergence of a randomly switching time-varying system with multi-way interactions is slower than the convergence of the corresponding system with pairwise interactions, which in turn exhibits a slower convergence rate than a consensus dynamics on the corresponding static network. We then consider a nonlinear consensus dynamics model in the temporal setting. Here we find that in addition to an effect on the convergence speed, the final consensus value of the temporal system can differ strongly from the consensus on the aggregated, static hypergraph. In particular we observe a first-mover advantage in the consensus formation process: If there is a local majority opinion in the hyperedges that are active early on, the majority in these first-mover groups has a higher influence on the final consensus value - a behaviour that is not observable in this form in projections of the temporal hypergraph.},
+  url      = {https://arxiv.org/abs/2109.04985},
 }
 
 @Misc{Zhu2021,
@@ -642,6 +632,42 @@ In the third part, we discuss how to use dynamical processes unfolding on the ne
   doi       = {10.1093/bioinformatics/btab370},
   timestamp = {2021-04-25},
   url       = {https://www.biorxiv.org/content/10.1101/2021.01.20.427390v2},
+}
+
+@InProceedings{Neuhaeuser2021a,
+  author    = {Neuhäuser, Leonie and Schaub, Michael T. and Mellor, Andrew and Lambiotte, Renaud},
+  booktitle = {Network {Games}, {Control} and {Optimization}},
+  title     = {Opinion {Dynamics} with {Multi}-body {Interactions}},
+  year      = {2021},
+  address   = {Cham},
+  editor    = {Lasaulce, Samson and Mertikopoulos, Panayotis and Orda, Ariel},
+  month     = sep,
+  pages     = {261--271},
+  publisher = {Springer International Publishing},
+  series    = {Communications in {Computer} and {Information} {Science}},
+  abstract  = {We introduce and analyse a three-body consensus model (3CM) for non-linear consensus dynamics on hypergraphs. Our model incorporates reinforcing group effects, which can cause shifts in the average state of the system even in if the underlying graph is complete (corresponding to a mean-field interaction), a phenomena that may be interpreted as a type of peer pressure. We further demonstrate that for systems with two clustered groups, already a small asymmetry in our dynamics can lead to the opinion of one group becoming clearly dominant. We show that the nonlinearity in the model is the essential ingredient to make such group dynamics appear, and demonstrate how our system can otherwise be written as a linear, pairwise interaction system on a rescaled network.},
+  doi       = {10.1007/978-3-030-87473-5_23},
+  isbn      = {9783030874735},
+  url       = {https://arxiv.org/abs/2004.00901},
+}
+
+@Misc{Neuhaeuser2021,
+  author    = {Neuhäuser, Leonie and Lambiotte, Renaud and Schaub, Michael T.},
+  month     = may,
+  title     = {Consensus Dynamics and Opinion Formation on Hypergraphs},
+  year      = {2021},
+  abstract  = {In this chapter, we derive and analyse models for consensus dynamics on hypergraphs. As we discuss, unless there are nonlinear node interaction functions, it is always possible to rewrite the system in terms of a new network of effective pairwise node interactions, regardless of the initially underlying multi-way interaction structure. We thus focus on dynamics based on a certain class of non-linear interaction functions, which can model different sociological phenomena such as peer pressure and stubbornness. Unlike for linear consensus dynamics on networks, we show how our nonlinear model dynamics can cause shifts away from the average system state. We examine how these shifts are influenced by the distribution of the initial states, the underlying hypergraph structure and different forms of non-linear scaling of the node interaction function.},
+  timestamp = {2021-05-12},
+  url       = {https://arxiv.org/abs/2105.01369},
+}
+
+@Misc{Roddenberry2021,
+  author   = {T. Mitchell Roddenberry and Florian Frantzen and Michael T. Schaub and Santiago Segarra},
+  month    = sep,
+  title    = {Hodgelets: Localized Spectral Representations of Flows on Simplicial Complexes},
+  year     = {2021},
+  abstract = {We develop wavelet representations for edge-flows on simplicial complexes, using ideas rooted in combinatorial Hodge theory and spectral graph wavelets. We first show that the Hodge Laplacian can be used in lieu of the graph Laplacian to construct a family of wavelets for higher-order signals on simplicial complexes. Then, we refine this idea to construct wavelets that respect the Hodge-Helmholtz decomposition. For these Hodgelets, familiar notions of curl-free and divergence-free flows from vector calculus are preserved. We characterize the representational quality of our Hodgelets for edge flows in terms of frame bounds and demonstrate the use of these spectral wavelets for sparse representation of edge flows on real and synthetic data.},
+  url      = {https://arxiv.org/abs/2109.08728},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
