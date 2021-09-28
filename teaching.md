@@ -31,7 +31,7 @@ toc_sticky: true
 
 ### Winter  Semester 2021/22
 * Seminar (Bachelor / Master level) -- [Topics In Network Science](TopicsInNetworkScienceWS21_22)   
-* Lecture -- [Dynamical Processes on Networks](DynamicalProcessesOnNetworksSS2021)
+* Lecture -- [Dynamical Processes on Networks](DynamicalProcessesOnNetworksWS2021)
 
 ### Summer Semester 2021
 * Seminar (Master level) -- [Advanced Topics In Network Science](AdvancedTopicsInNetworkScienceSS2021)   
