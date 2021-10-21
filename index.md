@@ -15,6 +15,7 @@ My research combines ‘bottom-up’ dynamical models, and ‘top-down’ data-d
 <!--{: .notice--success}-->
 
 ### News and Events
+***October 21, 2021*** -- Forgot to say: since a week we have a new preprint out on signal processing on cell complexes, together with Mitch Roddenberry and Mustafa Hajij. You can find it [here](https://arxiv.org/abs/2110.05614).     
 ***September 29, 2021*** -- I am happy to announce that I have been named a Junior Fellow by the German Society of Informatics (GI).    
 ***September 21, 2021*** -- Together with Mitch Roddenberry and Santiago Segarra (Rice) and my student Florian, we have a new paper on Wavelets for edge-flows [here](https://arxiv.org/abs/2109.08728).    
 ***September 13, 2021*** -- With my student Leonie we have a new preprint out on higher-order consensus dynyamics on temporal hypergraphs [here](http://arxiv.org/abs/2109.04985).      
