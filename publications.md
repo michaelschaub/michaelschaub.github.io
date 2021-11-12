@@ -38,8 +38,31 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 <!--BEGIN PUBLICATIOON INSERT HERE-->
 <table id="qs_table" border="1">
 <tbody>
+<tr id="Stamm2021" class="entry">
+    <td> [1] Neuhäuser, L.; Stamm, F.I.; Lemmerich, F.; Schaub, M.T. &amp; Strohmaier, M. (2021), <i>"Systematic edge uncertainty in attributed social networks and its effects on rankings of minority nodes"</i>, Applied Network Science., November, 2021.  Vol. 6(86)
+        <p class="infolinks">[<a href="javascript:toggleInfo('Stamm2021','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Stamm2021','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1007/s41109-021-00425-z" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2010.11546" target="_blank">URL</a>]</p>
+    </td>
+</tr>
+<tr id="abs_Stamm2021" class="abstract noshow">
+    <td><b>Abstract</b>: Network analysis provides powerful tools to learn about a variety of social systems. However, most analyses implicitly assume that the considered data is error-free and reliable. Especially if the network consists of multiple groups, this assumption conflicts with the range of systematic reporting biases, measurement errors and other inaccuracies that are well documented in our community. In this paper, we model how such systematic uncertainty on edges of an attributed network can impact network analysis, in particular the ranking of nodes. We discuss how erroneous edge observations can be driven by external node attributes and the relative edge positions in the network, thereby opening a path towards a systematic study of the effects of edge-uncertainty for various network analysis tasks. To show how conclusions drawn from network analyses can get distorted due to such inaccuracies, we focus on the effects of edge-uncertainty on minority group representations in degree-based rankings. For that purpose, we analyze synthetic and real networks with varying homophily and group sizes. We find that introducing edge uncertainty can significantly alter the relative density of networks and result both in a strongly increased or decreased ranking of the minority, depending on the type of edge error and homophily. Our model enables researchers to include systematic edge-uncertainty in their analyses and thereby better account for the role of minorities in social networks.</td>
+</tr>
+<tr id="bib_Stamm2021" class="bibtex noshow">
+    <td><b>BibTeX</b>:
+        <pre>
+@article{Stamm2021,
+    author = {Leonie Neuhäuser and Felix I. Stamm and Florian Lemmerich and Michael T. Schaub and Markus Strohmaier},
+           title = {Systematic edge uncertainty in attributed social networks and its effects on rankings of minority nodes},
+           journal = {Applied Network Science},
+           year = {2021},
+           volume = {6},
+           number = {86},
+           url = {https://arxiv.org/abs/2010.11546},
+           doi = {10.1007/s41109-021-00425-z}
+}
+    </pre></td>
+</tr>
 <tr id="Roddenberry2021a" class="entry">
-	<td> [1] Roddenberry MT, Schaub MT and Hajij M (2021), <i>"Signal Processing on Cell complexes"</i>. October, 2021.
+	<td> [2] Roddenberry MT, Schaub MT and Hajij M (2021), <i>"Signal Processing on Cell complexes"</i>. October, 2021.
 	<p class="infolinks"> [<a href="javascript:toggleInfo('Roddenberry2021a','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2110.05614" target="_blank">URL</a>]</p>
 	</td>
 </tr>
@@ -55,7 +78,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 </pre></td>
 </tr>
 <tr id="Neuhaeuser2021b" class="entry">
-	<td> [2] Neuhäuser L, Lambiotte R and Schaub MT (2021), <i>"Consensus dynamics on temporal hypergraphs"</i>. September, 2021.
+	<td> [3] Neuhäuser L, Lambiotte R and Schaub MT (2021), <i>"Consensus dynamics on temporal hypergraphs"</i>. September, 2021.
 	<p class="infolinks">[<a href="javascript:toggleInfo('Neuhaeuser2021b','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Neuhaeuser2021b','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2109.04985" target="_blank">URL</a>]</p>
 	</td>
 </tr>
@@ -74,7 +97,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 </pre></td>
 </tr>
 <tr id="Roddenberry2021" class="entry">
-	<td> [3] Roddenberry TM, Frantzen F, Schaub MT and Segarra S (2021), <i>"Hodgelets: Localized Spectral Representations of Flows on Simplicial Complexes"</i>. September, 2021.
+	<td> [4] Roddenberry TM, Frantzen F, Schaub MT and Segarra S (2021), <i>"Hodgelets: Localized Spectral Representations of Flows on Simplicial Complexes"</i>. September, 2021.
 	<p class="infolinks">[<a href="javascript:toggleInfo('Roddenberry2021','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Roddenberry2021','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2109.08728" target="_blank">URL</a>]</p>
 	</td>
 </tr>
@@ -93,7 +116,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 </pre></td>
 </tr>
 <tr id="Neuhaeuser2021a" class="entry">
-    <td> [4] Neuhäuser, L.; Schaub, M.T.; Mellor, A. &amp; Lambiotte, R. (2021), <i>"Opinion Dynamics with Multi-body Interactions"</i>, In Network Games, Control and Optimization. Cham, September, 2021. , pp. 261-271. Springer International Publishing.
+    <td> [5] Neuhäuser, L.; Schaub, M.T.; Mellor, A. &amp; Lambiotte, R. (2021), <i>"Opinion Dynamics with Multi-body Interactions"</i>, In Network Games, Control and Optimization. Cham, September, 2021. , pp. 261-271. Springer International Publishing.
         <p class="infolinks">[<a href="javascript:toggleInfo('Neuhaeuser2021a','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Neuhaeuser2021a','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1007/978-3-030-87473-5_23" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2004.00901" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -113,27 +136,6 @@ A list of my publications is also available on [Google Scholar](https://scholar.
            pages = {261--271},
            url = {https://arxiv.org/abs/2004.00901},
            doi = {10.1007/978-3-030-87473-5_23}
-}
-    </pre></td>
-</tr>
-<tr id="Stamm2021" class="entry">
-    <td> [5] Stamm, F.I.; Neuhäuser, L.; Lemmerich, F.; Schaub, M.T. &amp; Strohmaier, M. (2021), <i>"Systematic edge uncertainty in attributed social networks and its effects on rankings of minority nodes"</i>, Applied Network Science., September, 2021. 
-        <p class="infolinks">[<a href="javascript:toggleInfo('Stamm2021','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Stamm2021','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2010.11546" target="_blank">URL</a>]</p>
-    </td>
-</tr>
-<tr id="abs_Stamm2021" class="abstract noshow">
-    <td><b>Abstract</b>: Network analysis provides powerful tools to learn about a variety of social systems. However, most analyses implicitly assume that the considered data is error-free and reliable. Especially if the network consists of multiple groups, this assumption conflicts with the range of systematic reporting biases, measurement errors and other inaccuracies that are well documented in our community. In this paper, we model how such systematic uncertainty on edges of an attributed network can impact network analysis, in particular the ranking of nodes. We discuss how erroneous edge observations can be driven by external node attributes and the relative edge positions in the network, thereby opening a path towards a systematic study of the effects of edge-uncertainty for various network analysis tasks. To show how conclusions drawn from network analyses can get distorted due to such inaccuracies, we focus on the effects of edge-uncertainty on minority group representations in degree-based rankings. For that purpose, we analyze synthetic and real networks with varying homophily and group sizes. We find that introducing edge uncertainty can significantly alter the relative density of networks and result both in a strongly increased or decreased ranking of the minority, depending on the type of edge error and homophily. Our model enables researchers to include systematic edge-uncertainty in their analyses and thereby better account for the role of minorities in social networks.</td>
-</tr>
-<tr id="bib_Stamm2021" class="bibtex noshow">
-    <td><b>BibTeX</b>:
-        <pre>
-@article{Stamm2021,
-    author = {Felix I. Stamm and Leonie Neuhäuser and Florian Lemmerich and Michael T. Schaub and Markus Strohmaier},
-           title = {Systematic edge uncertainty in attributed social networks and its effects on rankings of minority nodes},
-           journal = {Applied Network Science},
-           year = {2021},
-           note = {-- in press},
-           url = {https://arxiv.org/abs/2010.11546}
 }
     </pre></td>
 </tr>
@@ -1116,5 +1118,5 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 </tbody>
 </table>
 <footer>
- <small>Created by <a href="http://jabref.sourceforge.net">JabRef</a> on 25/10/2021.</small>
+ <small>Created by <a href="http://jabref.sourceforge.net">JabRef</a> on 12/11/2021.</small>
 </footer>
