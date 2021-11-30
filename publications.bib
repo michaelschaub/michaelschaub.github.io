@@ -673,11 +673,22 @@ In the third part, we discuss how to use dynamical processes unfolding on the ne
 }
 
 @Misc{Roddenberry2021a,
-  author = {Mitchell T. Roddenberry and M. T. Schaub and Mustafa Hajij},
-  month  = oct,
-  title  = {Signal Processing on Cell complexes},
-  year   = {2021},
-  url    = {https://arxiv.org/abs/2110.05614},
+  author   = {Mitchell T. Roddenberry and M. T. Schaub and Mustafa Hajij},
+  month    = oct,
+  title    = {Signal Processing on Cell complexes},
+  year     = {2021},
+  abstract = {The processing of signals supported on non-Euclidean domains has attracted large interest in the last years. Thus far, such non-Euclidean domains have been abstracted primarily as graphs with signals supported on the nodes, though recently the processing of signals on more general structures such as simplicial complexes has also been considered. In this paper, we give an introduction to signal processing on (abstract) regular cell complexes, which provide a unifying framework encompassing graphs, simplicial complexes, cubical complexes and various meshes as special cases. We discuss how appropriate Hodge Laplacians for these cell complexes can be derived. These Hodge Laplacians enable the construction of convolutional filters, which can be employed in linear filtering and non-linear filtering via neural networks defined on cell complexes.},
+  url      = {https://arxiv.org/abs/2110.05614},
+}
+
+@InProceedings{Frantzen2021,
+  author    = {Florian Frantzen and Jean-Baptiste Seby and Michael T. Schaub},
+  booktitle = {2021 Asilomar Conference on Signals, Systems, and Computers},
+  title     = {Outlier Detection for Trajectories via Flow-embeddings},
+  year      = {2021},
+  month     = nov,
+  abstract  = {We propose a method to detect outliers in empirically observed trajectories on a discrete or discretized manifold modeled by a simplicial complex. Our approach is similar to spectral embeddings such as diffusion-maps and Laplacian eigenmaps, that construct vertex embeddings from the eigenvectors of the graph Laplacian associated with low eigenvalues. Here we consider trajectories as edge-flow vectors defined on a simplicial complex, a higher-order generalization of graphs, and use the Hodge 1-Laplacian of the simplicial complex to derive embeddings of these edge-flows. By projecting trajectory vectors onto the eigenspace of the Hodge 1-Laplacian associated to small eigenvalues, we can characterize the behavior of the trajectories relative to the homology of the complex, which corresponds to holes in the underlying space. This enables us to classify trajectories based on simply interpretable, low-dimensional statistics. We show how this technique can single out trajectories that behave (topologically) different compared to typical trajectories, and illustrate the performance of our approach with both synthetic and empirical data.},
+  url       = {https://arxiv.org/abs/2111.13235},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
