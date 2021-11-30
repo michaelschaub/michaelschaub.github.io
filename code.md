@@ -20,7 +20,8 @@ permalink: /Code/
     height: 30px;
   }
 </style>
-Below you find brief descriptions and the links to code related to several projects.
+Below you find brief descriptions and the links to code related to several (older) projects.
+Starting from 2021, a collection of codes associated to paper from my group can be found at the gitlab page [https://git.rwth-aachen.de/netsci](https://git.rwth-aachen.de/netsci).    
 
 * [Semi-supervised and active learning for edge-flows](#SCFLOW)
 * [Simplicial closure and higher-order link prediction](#SCCLOSURE)
