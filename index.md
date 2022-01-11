@@ -15,6 +15,7 @@ My research combines ‘bottom-up’ dynamical models, and ‘top-down’ data-d
 <!--{: .notice--success}-->
 
 ### News and Events
+***December 30, 2021*** -- Paper with Leonie on dynamics on temporal hypergraphs out in PRE [here](https://doi.org/10.1103/PhysRevE.104.064305).     
 ***November 30, 2021*** -- Paper with Florian on outlier detection for trajectories [here](https://arxiv.org/abs/2111.13235).     
 ***November 10, 2021*** -- Paper with Leonie published in Applied Network Science [here](https://doi.org/10.1007/s41109-021-00425-z).     
 ***October 21, 2021*** -- Forgot to say: since a week we have a new preprint out on signal processing on cell complexes, together with Mitch Roddenberry and Mustafa Hajij. You can find it [here](https://arxiv.org/abs/2110.05614).     

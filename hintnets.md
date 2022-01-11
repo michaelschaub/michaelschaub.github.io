@@ -127,7 +127,7 @@ Research related to the present project was presented at the following places / 
 A list of all publications that were produced during the period of the fellowship is given below.
 
 
-* Faccin M, Schaub MT and Delvenne J-C (2020), "State aggregations in Markov chains and block models of networks", submitted. May, 2020.
+* Faccin M, Schaub MT and Delvenne J-C (2020), "State aggregations in Markov chains and block models of networks", Physical Review Letters, Vol. 127(7), Aug. 2020 pp. 078301.  
 * Schaub, M.T.; Segarra, S. & Tsitsiklis, J.N. (2020), "Blind identification of stochastic blockmodels from dynamical observations", SIAM Journal on Mathematics of Data Science., May, 2020. Vol. 2(2), pp. 335-367.
 * Schaub, M.T.; Benson, A.R.; Horn, P.; Lippner, G. & Jadbabaie, A. (2020), "Random walks on simplicial complexes and the normalized Hodge 1-Laplacian", SIAM Review., May, 2020. Vol. 62(2), pp. 353-391.
 * Neuhäuser L, Schaub MT, Mellor A and Lambiotte R (2020), "Opinion Dynamics with Multi-Body Interactions", submitted. April, 2020.
