@@ -15,6 +15,7 @@ My research combines ‘bottom-up’ dynamical models, and ‘top-down’ data-d
 <!--{: .notice--success}-->
 
 ### News and Events
+***January 21, 2022*** -- Three papers accepted at ICASSP, including two with my students Michael and Florian.     
 ***December 30, 2021*** -- Paper with Leonie on dynamics on temporal hypergraphs out in PRE [here](https://doi.org/10.1103/PhysRevE.104.064305).     
 ***November 30, 2021*** -- Paper with Florian on outlier detection for trajectories [here](https://arxiv.org/abs/2111.13235).     
 ***November 10, 2021*** -- Paper with Leonie published in Applied Network Science [here](https://doi.org/10.1007/s41109-021-00425-z).     
@@ -60,7 +61,7 @@ I studied Electrical Engineering and Information Technology at [ETH Zurich](http
 After a MSc in Biomedical Engineering at [Imperial College London](https://www.imperial.ac.uk/) (Neurotechnology stream), I moved to the Mathematics Department to obtain my PhD under the supervision of Prof. Mauricio Barahona and Prof. Sophia Yaliraki. 
 Following my PhD, I worked in Belgium, jointly at the [Université catholique de Louvain](https://uclouvain.be/en/index.html) and at the University of [Namur](https://www.unamur.be/en), as a Postdoctoral Research Fellow. 
 In November 2016, I moved to the [Massachusetts Institute of Technology](https://web.mit.edu/) (MIT) as a Postdoctoral Research Associate. 
-From July 2017 onwards I was a Marie Skłodowska Curie Fellow at [MIT](https://web.mit.edu/) and the [University of Oxford](http://www.ox.ac.uk/), before joining [RWTH Aachen University](https://www.rwth-aachen.de) in June 2020, supported by the [NRW Return Programme](https://www.mkw.nrw/hochschule-und-forschung/foerderungen/rueckkehrprogramm) (2019).
+From July 2017 onwards I was a Marie Skłodowska Curie Fellow at [MIT](https://web.mit.edu/) and the [University of Oxford](http://www.ox.ac.uk/), before joining [RWTH Aachen University](https://www.rwth-aachen.de) in June 2020, supported by the [NRW Return Programme](https://www.mkw.nrw/hochschule-und-forschung/foerderungen/rueckkehrprogramm) (2019). I have been awarded an ERC Starting grant in 2022.
 
 For more information on my Marie Curie Project see [HIntNets]({{ site.baseurl }}{% link hintnets.md %})
 {: .notice--info}
