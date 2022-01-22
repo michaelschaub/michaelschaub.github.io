@@ -16,7 +16,7 @@ My research combines ‘bottom-up’ dynamical models, and ‘top-down’ data-d
 
 ### News and Events
 ***January 21, 2022*** -- Three papers accepted at ICASSP, including two with my students Michael and Florian.     
-***January 11, 2022*** -- A new year has started and I have [high-hopes](https://www.rwth-aachen.de/go/id/srgnk?lidx=1#aaaaaaaaaasrgrb), that something good is on the Horizon (pun intended ;)..
+***January 11, 2022*** -- A new year has started and I have [high-hopes](https://www.rwth-aachen.de/go/id/srgnk?lidx=1#aaaaaaaaaasrgrb), that something good is on the Horizon -- pun intended ;)...    
 ***December 30, 2021*** -- Paper with Leonie on dynamics on temporal hypergraphs out in PRE [here](https://doi.org/10.1103/PhysRevE.104.064305).     
 ***November 30, 2021*** -- Paper with Florian on outlier detection for trajectories [here](https://arxiv.org/abs/2111.13235).     
 ***November 10, 2021*** -- Paper with Leonie published in Applied Network Science [here](https://doi.org/10.1007/s41109-021-00425-z).     
