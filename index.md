@@ -15,6 +15,7 @@ My research combines ‘bottom-up’ dynamical models, and ‘top-down’ data-d
 <!--{: .notice--success}-->
 
 ### News and Events
+***January 21, 2022*** -- New paper on the arxiv on convolutional filters for simplicial complexes [here](https://arxiv.org/abs/2201.11720)      
 ***January 21, 2022*** -- Three papers accepted at ICASSP, including two with my students Michael and Florian.     
 ***January 11, 2022*** -- A new year has started and I have [high-hopes](https://www.rwth-aachen.de/go/id/srgnk?lidx=1#aaaaaaaaaasrgrb) good things are on the Horizon -- pun intended ;)...    
 ***December 30, 2021*** -- Paper with Leonie on dynamics on temporal hypergraphs out in PRE [here](https://doi.org/10.1103/PhysRevE.104.064305).     
