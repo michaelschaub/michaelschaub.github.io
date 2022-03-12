@@ -10,6 +10,7 @@ My research deals with the analysis of complex systems that can be abstracted as
 A central methodological issue underlying my research is how one can study and integrate the multiple levels of organization which are commonly found in a range of systems. 
 My research combines ‘bottom-up’ dynamical models, and ‘top-down’ data-driven approaches, and uses a blend of tools from control theory, dynamical systems, stochastic processes, machine learning and statistics.
 
+Fo more information about my group at RWTH see [here](https://www.netsci.rwth-aachen.de).
 <!--There are a number of PhD positions available in my group. -->
 <!--If you are interested, please get in contact.-->
 <!--{: .notice--success}-->
