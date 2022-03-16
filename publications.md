@@ -189,7 +189,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Yang2021" class="entry">
-    <td> [8] Yang, M.; Isufi, E.; Schaub, M.T. &amp; Leus, G. (2021), <i>"Finite Impulse Response Filters for Simplicial Complexes"</i>, In Eusipco 2021., #August#, 2021. , pp. 2005-2009.
+    <td> [8] Yang, M.; Isufi, E.; Schaub, M.T. &amp; Leus, G. (2021), <i>"Finite Impulse Response Filters for Simplicial Complexes"</i>, In Eusipco 2021., August, 2021. , pp. 2005-2009.
         <p class="infolinks">[<a href="javascript:toggleInfo('Yang2021','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Yang2021','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.23919/EUSIPCO54536.2021.9616185" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2103.12587" target="_blank">URL</a>]</p>
     </td>
 </tr>
