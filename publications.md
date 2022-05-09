@@ -39,27 +39,121 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 <table id="qs_table" border="1">
 <tbody>
 <tr id="Scholkemper2022" class="entry">
-	<td> [1] Scholkemper M and Schaub MT (2022), <i>"Blind Extraction of Equitable Partitions from Graph Signals"</i>, arxiv preprint. March, 2022.
-	<p class="infolinks">[<a href="javascript:toggleInfo('Scholkemper2022','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Scholkemper2022','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2203.05407" target="_blank">URL</a>]</p>
-	</td>
+    <td> [1] Scholkemper, M. &amp; Schaub, M.T. (2022), <i>"Blind Extraction of Equitable Partitions from Graph Signals"</i>, In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)., May, 2022. , pp. 5832-5836.
+        <p class="infolinks">[<a href="javascript:toggleInfo('Scholkemper2022','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Scholkemper2022','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1109/ICASSP43922.2022.9746676" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2203.05407" target="_blank">URL</a>]</p>
+    </td>
 </tr>
 <tr id="abs_Scholkemper2022" class="abstract noshow">
-	<td><b>Abstract</b>: Finding equitable partitions is closely related to the extraction of graph symmetries and of interest in a variety of applications context such as node role detection, cluster synchronization, consensus dynamics, and network control problems. In this work we study a blind identification problem in which we aim to recover an equitable partition of a network without the knowledge of the network's edges but based solely on the observations of the outputs of an unknown graph filter. Specifically, we consider two settings. First, we consider a scenario in which we can control the input to the graph filter and present a method to extract the partition inspired by the well known Weisfeiler-Lehman (color refinement) algorithm. Second, we generalize this idea to a setting where only observe the outputs to random, low-rank excitations of the graph filter, and present a simple spectral algorithm to extract the relevant equitable partitions. Finally, we establish theoretical bounds on the error that this spectral detection scheme incurs and perform numerical experiments that illustrate our theoretical results and compare both algorithms.</td>
+    <td><b>Abstract</b>: Finding equitable partitions is closely related to the extraction of graph symmetries and of interest in a variety of applications context such as node role detection, cluster synchronization, consensus dynamics, and network control problems. In this work we study a blind identification problem in which we aim to recover an equitable partition of a network without the knowledge of the network’s edges but based solely on the observations of the outputs of an unknown graph filter. Specifically, we consider two settings. First, we consider a scenario in which we can control the input to the graph filter and present a method to extract the partition inspired by the well known Weisfeiler-Lehman (color refinement) algorithm. Second, we generalize this idea to a setting where only observe the outputs to random, low-rank excitations of the graph filter, and present a simple spectral algorithm to extract the relevant equitable partitions. Finally, we establish theoretical bounds on the error that this spectral detection scheme incurs and perform numerical experiments that illustrate our theoretical results and compare both algorithms.</td>
 </tr>
 <tr id="bib_Scholkemper2022" class="bibtex noshow">
-<td><b>BibTeX</b>:
-<pre>
-@misc{Scholkemper2022,
-  author = {Michael Scholkemper and Michael T. Schaub},
-  title = {Blind Extraction of Equitable Partitions from Graph Signals},
-  howpublished = {arxiv preprint},
-  year = {2022},
-  url = {https://arxiv.org/abs/2203.05407}
+    <td><b>BibTeX</b>:
+        <pre>
+@inproceedings{Scholkemper2022,
+    author = {Scholkemper, Michael and Schaub, Michael T.},
+           title = {Blind Extraction of Equitable Partitions from Graph Signals},
+           booktitle = {IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+           year = {2022},
+           pages = {5832-5836},
+           url = {https://arxiv.org/abs/2203.05407},
+           doi = {10.1109/ICASSP43922.2022.9746676}
 }
-</pre></td>
+    </pre></td>
+</tr>
+<tr id="Roddenberry2022" class="entry">
+    <td> [2] Roddenberry, T.M.; Frantzen, F.; Schaub, M.T. &amp; Segarra, S. (2022), <i>"Hodgelets: Localized Spectral Representations of Flows On Simplicial Complexes"</i>, In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)., May, 2022. , pp. 5922-5926.
+        <p class="infolinks">[<a href="javascript:toggleInfo('Roddenberry2022','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Roddenberry2022','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1109/ICASSP43922.2022.9747203" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2109.08728" target="_blank">URL</a>]</p>
+    </td>
+</tr>
+<tr id="abs_Roddenberry2022" class="abstract noshow">
+    <td><b>Abstract</b>: We develop wavelet representations for edge-flows on simplicial complexes, using ideas rooted in combinatorial Hodge theory and spectral graph wavelets. We first show that the Hodge Laplacian can be used in lieu of the graph Laplacian to construct a family of wavelets for higher-order signals on simplicial complexes. Then, we refine this idea to construct wavelets that respect the Hodge-Helmholtz decomposition. For these Hodgelets, familiar notions of curl-free and divergence-free flows from vector calculus are preserved. We characterize the representational quality of our Hodgelets for edge flows in terms of frame bounds and demonstrate the use of these spectral wavelets for sparse representation of edge flows on real and synthetic data.</td>
+</tr>
+<tr id="bib_Roddenberry2022" class="bibtex noshow">
+    <td><b>BibTeX</b>:
+        <pre>
+@inproceedings{Roddenberry2022,
+    author = {Roddenberry, T. Mitchell and Frantzen, Florian and Schaub, Michael T. and Segarra, Santiago},
+           title = {Hodgelets: Localized Spectral Representations of Flows On Simplicial Complexes},
+           booktitle = {IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+           year = {2022},
+           pages = {5922-5926},
+           url = {https://arxiv.org/abs/2109.08728},
+           doi = {10.1109/ICASSP43922.2022.9747203}
+}
+    </pre></td>
+</tr>
+<tr id="Roddenberry2022a" class="entry">
+    <td> [3] Roddenberry, T.M.; Schaub, M.T. &amp; Hajij, M. (2022), <i>"Signal Processing On Cell Complexes"</i>, In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)., May, 2022. , pp. 8852-8856.
+        <p class="infolinks">[<a href="javascript:toggleInfo('Roddenberry2022a','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Roddenberry2022a','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1109/ICASSP43922.2022.9747233" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2110.05614" target="_blank">URL</a>]</p>
+    </td>
+</tr>
+<tr id="abs_Roddenberry2022a" class="abstract noshow">
+    <td><b>Abstract</b>: The processing of signals supported on non-Euclidean domains has attracted large interest recently. Thus far, such non-Euclidean domains have been abstracted primarily as graphs with signals supported on the nodes, though the processing of signals on more general structures such as simplicial complexes has also been considered. In this paper, we give an introduction to signal processing on (abstract) regular cell complexes, which provide a unifying framework encompassing graphs, simplicial complexes, cubical complexes and various meshes as special cases. We discuss how appropriate Hodge Laplacians for these cell complexes can be derived. These Hodge Laplacians enable the construction of convolutional filters, which can be employed in linear filtering and non-linear filtering via neural networks defined on cell complexes.</td>
+</tr>
+<tr id="bib_Roddenberry2022a" class="bibtex noshow">
+    <td><b>BibTeX</b>:
+        <pre>
+@inproceedings{Roddenberry2022a,
+    author = {Roddenberry, T. Mitchell and Schaub, Michael T. and Hajij, Mustafa},
+           title = {Signal Processing On Cell Complexes},
+           booktitle = {IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+           year = {2022},
+           pages = {8852-8856},
+           url = {https://arxiv.org/abs/2110.05614},
+           doi = {10.1109/ICASSP43922.2022.9747233}
+}
+    </pre></td>
+</tr>
+<tr id="Neuhaeuser2022" class="entry">
+    <td> [4] Neuhäuser, L.; Lambiotte, R. &amp; Schaub, M.T. (2022), <i>"Consensus Dynamics and Opinion Formation on Hypergraphs"</i>, In Higher-Order Systems. Cham, April, 2022. , pp. 347-376. Springer International Publishing.
+        <p class="infolinks">[<a href="javascript:toggleInfo('Neuhaeuser2022','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Neuhaeuser2022','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1007/978-3-030-91374-8_14" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2105.01369" target="_blank">URL</a>]</p>
+    </td>
+</tr>
+<tr id="abs_Neuhaeuser2022" class="abstract noshow">
+    <td><b>Abstract</b>: In this chapter, we derive and analyse models for consensus dynamics on hypergraphs. As we discuss, unless there are nonlinear node interaction functions, it is always possible to rewrite the system in terms of a new network of effective pairwise node interactions, regardless of the initially underlying multi-way interaction structure. We thus focus on dynamics based on a certain class of non-linear interaction functions, which can model different sociological phenomena such as peer pressure and stubbornness. Unlike for linear consensus dynamics on networks, we show how our nonlinear model dynamics can cause shifts away from the average system state. We examine how these shifts are influenced by the distribution of the initial states, the underlying hypergraph structure and different forms of non-linear scaling of the node interaction function.</td>
+</tr>
+<tr id="bib_Neuhaeuser2022" class="bibtex noshow">
+    <td><b>BibTeX</b>:
+        <pre>
+@incollection{Neuhaeuser2022,
+    author = {Neuhäuser, Leonie and Lambiotte, Renaud and Schaub, Michael T.},
+           editor = {Battiston, Federico and Petri, Giovanni},
+           title = {Consensus Dynamics and Opinion Formation on Hypergraphs},
+           booktitle = {Higher-Order Systems},
+           publisher = {Springer International Publishing},
+           year = {2022},
+           pages = {347--376},
+           url = {https://arxiv.org/abs/2105.01369},
+           doi = {10.1007/978-3-030-91374-8_14}
+}
+    </pre></td>
+</tr>
+<tr id="Schaub2022" class="entry">
+    <td> [5] Schaub, M.T.; Seby, J.-B.; Roddenberry, T.M.; Zhu, Y. &amp; Segarra, S. (2022), <i>"Signal processing on simplicial complexes"</i>, In Higher-Order Systems. Cham, April, 2022. , pp. 301-328. Springer International Publishing.
+        <p class="infolinks">[<a href="javascript:toggleInfo('Schaub2022','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Schaub2022','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1007/978-3-030-91374-8_12" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2106.07471" target="_blank">URL</a>]</p>
+    </td>
+</tr>
+<tr id="abs_Schaub2022" class="abstract noshow">
+    <td><b>Abstract</b>: Higher-order networks have so far been considered primarily in the context of studying the structure of complex systems, i.e., the higher-order or multi-way relations connecting the constituent entities. More recently, a number of studies have considered dynamical processes that explicitly account for such higher-order dependencies, e.g., in the context of epidemic spreading processes or opinion formation. In this chapter, we focus on a closely related, but distinct third perspective: how can we use higher-order relationships to process signals and data supported on higher-order network structures. In particular, we survey how ideas from signal processing of data supported on regular domains, such as time series or images, can be extended to graphs and simplicial complexes. We discuss Fourier analysis, signal denoising, signal interpolation, and nonlinear processing through neural networks based on simplicial complexes. Key to our developments is the Hodge Laplacian matrix, a multi-relational operator that leverages the special structure of simplicial complexes and generalizes desirable properties of the Laplacian matrix in graph signal processing.</td>
+</tr>
+<tr id="bib_Schaub2022" class="bibtex noshow">
+    <td><b>BibTeX</b>:
+        <pre>
+@incollection{Schaub2022,
+    author = {Michael T. Schaub and Jean-Baptiste Seby and T. Mitchell Roddenberry and Yu Zhu and Santiago Segarra},
+           editor = {Battiston, Federico and Petri, Giovanni},
+           title = {Signal processing on simplicial complexes},
+           booktitle = {Higher-Order Systems},
+           publisher = {Springer International Publishing},
+           year = {2022},
+           pages = {301--328},
+           url = {https://arxiv.org/abs/2106.07471},
+           doi = {10.1007/978-3-030-91374-8_12}
+}
+    </pre></td>
 </tr>
 <tr id="Yang2022" class="entry">
-	<td> [2] Yang M, Isufi E, Schaub MT and Leus G (2022), <i>"Simplicial Convolutional Filters"</i>, arxiv preprint. January, 2022.
+	<td> [6] Yang M, Isufi E, Schaub MT and Leus G (2022), <i>"Simplicial Convolutional Filters"</i>, arxiv preprint. January, 2022.
 	<p class="infolinks">[<a href="javascript:toggleInfo('Yang2022','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Yang2022','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2201.11720" target="_blank">URL</a>]</p>
 	</td>
 </tr>
@@ -79,7 +173,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 </pre></td>
 </tr>
 <tr id="Neuhaeuser2021b" class="entry">
-    <td> [3] Neuh&auml;user, L.; Lambiotte, R. &amp; Schaub, M.T. (2021), <i>"Consensus dynamics on temporal hypergraphs"</i>, Phys. Rev. E., December, 2021.  Vol. 104(6), pp. 064305. American Physical Society.
+    <td> [7] Neuh&auml;user, L.; Lambiotte, R. &amp; Schaub, M.T. (2021), <i>"Consensus dynamics on temporal hypergraphs"</i>, Phys. Rev. E., December, 2021.  Vol. 104(6), pp. 064305. American Physical Society.
         <p class="infolinks">[<a href="javascript:toggleInfo('Neuhaeuser2021b','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Neuhaeuser2021b','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1103/PhysRevE.104.064305" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2109.04985" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -103,28 +197,8 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 }
     </pre></td>
 </tr>
-<tr id="Frantzen2021" class="entry">
-    <td> [4] Frantzen, F.; Seby, J.-B. &amp; Schaub, M.T. (2021), <i>"Outlier Detection for Trajectories via Flow-embeddings"</i>, In 2021 Asilomar Conference on Signals, Systems, and Computers., November, 2021. 
-        <p class="infolinks">[<a href="javascript:toggleInfo('Frantzen2021','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Frantzen2021','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2111.13235" target="_blank">URL</a>]</p>
-    </td>
-</tr>
-<tr id="abs_Frantzen2021" class="abstract noshow">
-    <td><b>Abstract</b>: We propose a method to detect outliers in empirically observed trajectories on a discrete or discretized manifold modeled by a simplicial complex. Our approach is similar to spectral embeddings such as diffusion-maps and Laplacian eigenmaps, that construct vertex embeddings from the eigenvectors of the graph Laplacian associated with low eigenvalues. Here we consider trajectories as edge-flow vectors defined on a simplicial complex, a higher-order generalization of graphs, and use the Hodge 1-Laplacian of the simplicial complex to derive embeddings of these edge-flows. By projecting trajectory vectors onto the eigenspace of the Hodge 1-Laplacian associated to small eigenvalues, we can characterize the behavior of the trajectories relative to the homology of the complex, which corresponds to holes in the underlying space. This enables us to classify trajectories based on simply interpretable, low-dimensional statistics. We show how this technique can single out trajectories that behave (topologically) different compared to typical trajectories, and illustrate the performance of our approach with both synthetic and empirical data.</td>
-</tr>
-<tr id="bib_Frantzen2021" class="bibtex noshow">
-    <td><b>BibTeX</b>:
-        <pre>
-@inproceedings{Frantzen2021,
-    author = {Florian Frantzen and Jean-Baptiste Seby and Michael T. Schaub},
-           title = {Outlier Detection for Trajectories via Flow-embeddings},
-           booktitle = {2021 Asilomar Conference on Signals, Systems, and Computers},
-           year = {2021},
-           url = {https://arxiv.org/abs/2111.13235}
-}
-    </pre></td>
-</tr>
 <tr id="Stamm2021" class="entry">
-    <td> [5] Neuhäuser, L.; Stamm, F.I.; Lemmerich, F.; Schaub, M.T. &amp; Strohmaier, M. (2021), <i>"Systematic edge uncertainty in attributed social networks and its effects on rankings of minority nodes"</i>, Applied Network Science., November, 2021.  Vol. 6(86)
+    <td> [8] Neuhäuser, L.; Stamm, F.I.; Lemmerich, F.; Schaub, M.T. &amp; Strohmaier, M. (2021), <i>"Simulating systematic edge uncertainty in attributed social networks and its effects on rankings of minority nodes"</i>, Applied Network Science., November, 2021.  Vol. 6(86)
         <p class="infolinks">[<a href="javascript:toggleInfo('Stamm2021','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Stamm2021','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1007/s41109-021-00425-z" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2010.11546" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -136,7 +210,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
         <pre>
 @article{Stamm2021,
     author = {Leonie Neuhäuser and Felix I. Stamm and Florian Lemmerich and Michael T. Schaub and Markus Strohmaier},
-           title = {Systematic edge uncertainty in attributed social networks and its effects on rankings of minority nodes},
+           title = {Simulating systematic edge uncertainty in attributed social networks and its effects on rankings of minority nodes},
            journal = {Applied Network Science},
            year = {2021},
            volume = {6},
@@ -146,46 +220,30 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 }
     </pre></td>
 </tr>
-<tr id="Roddenberry2021a" class="entry">
-	<td> [6] Roddenberry MT, Schaub MT and Hajij M (2021), <i>"Signal Processing on Cell complexes"</i>. October, 2021.
-	<p class="infolinks">[<a href="javascript:toggleInfo('Roddenberry2021a','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Roddenberry2021a','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2110.05614" target="_blank">URL</a>]</p>
-	</td>
+<tr id="Frantzen2021" class="entry">
+    <td> [9] Frantzen, F.; Seby, J.-B. &amp; Schaub, M.T. (2021), <i>"Outlier Detection for Trajectories via Flow-embeddings"</i>, In 2021 55th Asilomar Conference on Signals, Systems, and Computers., oct, 2021. , pp. 1568-1572.
+        <p class="infolinks">[<a href="javascript:toggleInfo('Frantzen2021','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Frantzen2021','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1109/IEEECONF53345.2021.9723128" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2111.13235" target="_blank">URL</a>]</p>
+    </td>
 </tr>
-<tr id="abs_Roddenberry2021a" class="abstract noshow">
-	<td><b>Abstract</b>: The processing of signals supported on non-Euclidean domains has attracted large interest in the last years. Thus far, such non-Euclidean domains have been abstracted primarily as graphs with signals supported on the nodes, though recently the processing of signals on more general structures such as simplicial complexes has also been considered. In this paper, we give an introduction to signal processing on (abstract) regular cell complexes, which provide a unifying framework encompassing graphs, simplicial complexes, cubical complexes and various meshes as special cases. We discuss how appropriate Hodge Laplacians for these cell complexes can be derived. These Hodge Laplacians enable the construction of convolutional filters, which can be employed in linear filtering and non-linear filtering via neural networks defined on cell complexes.</td>
+<tr id="abs_Frantzen2021" class="abstract noshow">
+    <td><b>Abstract</b>: We propose a method to detect outliers in empirically observed trajectories on a discrete or discretized manifold modeled by a simplicial complex. Our approach is similar to spectral embeddings such as diffusion-maps and Laplacian eigenmaps, that construct vertex embeddings from the eigenvectors of the graph Laplacian associated with low eigenvalues. Here we consider trajectories as edge-flow vectors defined on a simplicial complex, a higher-order generalization of graphs, and use the Hodge 1-Laplacian of the simplicial complex to derive embeddings of these edge-flows. By projecting trajectory vectors onto the eigenspace of the Hodge 1-Laplacian associated to small eigenvalues, we can characterize the behavior of the trajectories relative to the homology of the complex, which corresponds to holes in the underlying space. This enables us to classify trajectories based on simply interpretable, low-dimensional statistics. We show how this technique can single out trajectories that behave (topologically) different compared to typical trajectories, and illustrate the performance of our approach with both synthetic and empirical data.</td>
 </tr>
-<tr id="bib_Roddenberry2021a" class="bibtex noshow">
-<td><b>BibTeX</b>:
-<pre>
-@misc{Roddenberry2021a,
-  author = {Mitchell T. Roddenberry and M. T. Schaub and Mustafa Hajij},
-  title = {Signal Processing on Cell complexes},
-  year = {2021},
-  url = {https://arxiv.org/abs/2110.05614}
+<tr id="bib_Frantzen2021" class="bibtex noshow">
+    <td><b>BibTeX</b>:
+        <pre>
+@inproceedings{Frantzen2021,
+    author = {Frantzen, Florian and Seby, Jean-Baptiste and Schaub, Michael T.},
+           title = {Outlier Detection for Trajectories via Flow-embeddings},
+           booktitle = {2021 55th Asilomar Conference on Signals, Systems, and Computers},
+           year = {2021},
+           pages = {1568-1572},
+           url = {https://arxiv.org/abs/2111.13235},
+           doi = {10.1109/IEEECONF53345.2021.9723128}
 }
-</pre></td>
-</tr>
-<tr id="Roddenberry2021" class="entry">
-	<td> [7] Roddenberry TM, Frantzen F, Schaub MT and Segarra S (2021), <i>"Hodgelets: Localized Spectral Representations of Flows on Simplicial Complexes"</i>. September, 2021.
-	<p class="infolinks">[<a href="javascript:toggleInfo('Roddenberry2021','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Roddenberry2021','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2109.08728" target="_blank">URL</a>]</p>
-	</td>
-</tr>
-<tr id="abs_Roddenberry2021" class="abstract noshow">
-	<td><b>Abstract</b>: We develop wavelet representations for edge-flows on simplicial complexes, using ideas rooted in combinatorial Hodge theory and spectral graph wavelets. We first show that the Hodge Laplacian can be used in lieu of the graph Laplacian to construct a family of wavelets for higher-order signals on simplicial complexes. Then, we refine this idea to construct wavelets that respect the Hodge-Helmholtz decomposition. For these Hodgelets, familiar notions of curl-free and divergence-free flows from vector calculus are preserved. We characterize the representational quality of our Hodgelets for edge flows in terms of frame bounds and demonstrate the use of these spectral wavelets for sparse representation of edge flows on real and synthetic data.</td>
-</tr>
-<tr id="bib_Roddenberry2021" class="bibtex noshow">
-<td><b>BibTeX</b>:
-<pre>
-@misc{Roddenberry2021,
-  author = {T. Mitchell Roddenberry and Florian Frantzen and Michael T. Schaub and Santiago Segarra},
-  title = {Hodgelets: Localized Spectral Representations of Flows on Simplicial Complexes},
-  year = {2021},
-  url = {https://arxiv.org/abs/2109.08728}
-}
-</pre></td>
+    </pre></td>
 </tr>
 <tr id="Neuhaeuser2021a" class="entry">
-    <td> [8] Neuhäuser, L.; Schaub, M.T.; Mellor, A. &amp; Lambiotte, R. (2021), <i>"Opinion Dynamics with Multi-body Interactions"</i>, In Network Games, Control and Optimization. Cham, September, 2021. , pp. 261-271. Springer International Publishing.
+    <td> [10] Neuhäuser, L.; Schaub, M.T.; Mellor, A. &amp; Lambiotte, R. (2021), <i>"Opinion Dynamics with Multi-body Interactions"</i>, In Network Games, Control and Optimization. Cham, September, 2021. , pp. 261-271. Springer International Publishing.
         <p class="infolinks">[<a href="javascript:toggleInfo('Neuhaeuser2021a','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Neuhaeuser2021a','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1007/978-3-030-87473-5_23" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2004.00901" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -209,7 +267,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Yang2021" class="entry">
-    <td> [9] Yang, M.; Isufi, E.; Schaub, M.T. &amp; Leus, G. (2021), <i>"Finite Impulse Response Filters for Simplicial Complexes"</i>, In Eusipco 2021., August, 2021. , pp. 2005-2009.
+    <td> [11] Yang, M.; Isufi, E.; Schaub, M.T. &amp; Leus, G. (2021), <i>"Finite Impulse Response Filters for Simplicial Complexes"</i>, In 29th European Signal Processing Conference (EUSIPCO)., August, 2021. , pp. 2005-2009.
         <p class="infolinks">[<a href="javascript:toggleInfo('Yang2021','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Yang2021','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.23919/EUSIPCO54536.2021.9616185" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2103.12587" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -222,7 +280,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 @inproceedings{Yang2021,
     author = {Maosheng Yang and Elvin Isufi and Michael T. Schaub and Geert Leus},
            title = {Finite Impulse Response Filters for Simplicial Complexes},
-           booktitle = {Eusipco 2021},
+           booktitle = {29th European Signal Processing Conference (EUSIPCO)},
            year = {2021},
            pages = {2005-2009},
            url = {https://arxiv.org/abs/2103.12587},
@@ -231,7 +289,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Scholkemper2021" class="entry">
-    <td> [10] Scholkemper, M. &amp; Schaub, M.T. (2021), <i>"Local, Global And Scale-Dependent Node Roles"</i>, In 2021 IEEE International Conference on Autonomous Systems (ICAS)., August, 2021. , pp. 1-5.
+    <td> [12] Scholkemper, M. &amp; Schaub, M.T. (2021), <i>"Local, Global And Scale-Dependent Node Roles"</i>, In 2021 IEEE International Conference on Autonomous Systems (ICAS)., August, 2021. , pp. 1-5.
         <p class="infolinks">[<a href="javascript:toggleInfo('Scholkemper2021','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Scholkemper2021','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1109/ICAS49788.2021.9551110" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2105.12598" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -253,7 +311,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Faccin2021" class="entry">
-    <td> [11] Faccin, M.; Schaub, M.T. &amp; Delvenne, J.-C. (2021), <i>"State aggregations in Markov chains and block models of networks"</i>, Physical Review Letters., August, 2021.  Vol. 127(7), pp. 078301. American Physical Society.
+    <td> [13] Faccin, M.; Schaub, M.T. &amp; Delvenne, J.-C. (2021), <i>"State aggregations in Markov chains and block models of networks"</i>, Physical Review Letters., August, 2021.  Vol. 127(7), pp. 078301. American Physical Society.
         <p class="infolinks">[<a href="javascript:toggleInfo('Faccin2021','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Faccin2021','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1103/PhysRevLett.127.078301" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2005.00337" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -278,7 +336,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Zhu2021" class="entry">
-	<td> [12] Zhu J, Jin J, Schaub MT and Koutra D (2021), <i>"Improving Robustness of Graph Neural Networks with Heterophily-Inspired Designs"</i>. June, 2021.
+	<td> [14] Zhu J, Jin J, Schaub MT and Koutra D (2021), <i>"Improving Robustness of Graph Neural Networks with Heterophily-Inspired Designs"</i>. June, 2021.
 	<p class="infolinks">[<a href="javascript:toggleInfo('Zhu2021','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Zhu2021','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2106.07767" target="_blank">URL</a>]</p>
 	</td>
 </tr>
@@ -293,44 +351,6 @@ A list of my publications is also available on [Google Scholar](https://scholar.
   title = {Improving Robustness of Graph Neural Networks with Heterophily-Inspired Designs},
   year = {2021},
   url = {https://arxiv.org/abs/2106.07767}
-}
-</pre></td>
-</tr>
-<tr id="Schaub2021a" class="entry">
-	<td> [13] Schaub MT, Seby J-B, Roddenberry TM, Zhu Y and Segarra S (2021), <i>"Signal processing on simplicial complexes"</i>. June, 2021.
-	<p class="infolinks">[<a href="javascript:toggleInfo('Schaub2021a','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Schaub2021a','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2106.07471" target="_blank">URL</a>]</p>
-	</td>
-</tr>
-<tr id="abs_Schaub2021a" class="abstract noshow">
-	<td><b>Abstract</b>: Higher-order networks have so far been considered primarily in the context of studying the structure of complex systems, i.e., the higher-order or multi-way relations connecting the constituent entities. More recently, a number of studies have considered dynamical processes that explicitly account for such higher-order dependencies, e.g., in the context of epidemic spreading processes or opinion formation. In this chapter, we focus on a closely related, but distinct third perspective: how can we use higher-order relationships to process signals and data supported on higher-order network structures. In particular, we survey how ideas from signal processing of data supported on regular domains, such as time series or images, can be extended to graphs and simplicial complexes. We discuss Fourier analysis, signal denoising, signal interpolation, and nonlinear processing through neural networks based on simplicial complexes. Key to our developments is the Hodge Laplacian matrix, a multi-relational operator that leverages the special structure of simplicial complexes and generalizes desirable properties of the Laplacian matrix in graph signal processing.</td>
-</tr>
-<tr id="bib_Schaub2021a" class="bibtex noshow">
-<td><b>BibTeX</b>:
-<pre>
-@misc{Schaub2021a,
-  author = {Michael T. Schaub and Jean-Baptiste Seby and T. Mitchell Roddenberry and Yu Zhu and Santiago Segarra},
-  title = {Signal processing on simplicial complexes},
-  year = {2021},
-  url = {https://arxiv.org/abs/2106.07471}
-}
-</pre></td>
-</tr>
-<tr id="Neuhaeuser2021" class="entry">
-	<td> [14] Neuhäuser L, Lambiotte R and Schaub MT (2021), <i>"Consensus Dynamics and Opinion Formation on Hypergraphs"</i>. May, 2021.
-	<p class="infolinks">[<a href="javascript:toggleInfo('Neuhaeuser2021','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Neuhaeuser2021','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2105.01369" target="_blank">URL</a>]</p>
-	</td>
-</tr>
-<tr id="abs_Neuhaeuser2021" class="abstract noshow">
-	<td><b>Abstract</b>: In this chapter, we derive and analyse models for consensus dynamics on hypergraphs. As we discuss, unless there are nonlinear node interaction functions, it is always possible to rewrite the system in terms of a new network of effective pairwise node interactions, regardless of the initially underlying multi-way interaction structure. We thus focus on dynamics based on a certain class of non-linear interaction functions, which can model different sociological phenomena such as peer pressure and stubbornness. Unlike for linear consensus dynamics on networks, we show how our nonlinear model dynamics can cause shifts away from the average system state. We examine how these shifts are influenced by the distribution of the initial states, the underlying hypergraph structure and different forms of non-linear scaling of the node interaction function.</td>
-</tr>
-<tr id="bib_Neuhaeuser2021" class="bibtex noshow">
-<td><b>BibTeX</b>:
-<pre>
-@misc{Neuhaeuser2021,
-  author = {Neuhäuser, Leonie and Lambiotte, Renaud and Schaub, Michael T.},
-  title = {Consensus Dynamics and Opinion Formation on Hypergraphs},
-  year = {2021},
-  url = {https://arxiv.org/abs/2105.01369}
 }
 </pre></td>
 </tr>
@@ -1191,5 +1211,5 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 </tbody>
 </table>
 <footer>
- <small>Created by <a href="http://jabref.sourceforge.net">JabRef</a> on 18/03/2022.</small>
+ <small>Created by <a href="http://jabref.sourceforge.net">JabRef</a> on 09/05/2022.</small>
 </footer>
