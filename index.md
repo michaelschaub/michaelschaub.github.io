@@ -16,6 +16,7 @@ Fo more information about my group at RWTH see [here](https://www.netsci.rwth-aa
 <!--{: .notice--success}-->
 
 ### News and Events
+***June, 9, 2022*** -- New paper published in Nature Communications [here](https://doi.org/10.1038/s41467-022-30682-0)     
 ***May, 9, 2022*** -- Three papers now published at ICASSP. Check out the Publication section.        
 ***March 18, 2022*** -- New paper on the arxiv with Michael Scholkemper on blind detection of equitable partitions and network roles [here](https://arxiv.org/abs/2203.05407)      
 ***January 28, 2022*** -- New paper on the arxiv on convolutional filters for simplicial complexes [here](https://arxiv.org/abs/2201.11720)      
