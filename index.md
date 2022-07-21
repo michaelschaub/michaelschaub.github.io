@@ -11,11 +11,12 @@ A central methodological issue underlying my research is how one can study and i
 My research combines ‘bottom-up’ dynamical models, and ‘top-down’ data-driven approaches, and uses a blend of tools from control theory, dynamical systems, stochastic processes, machine learning and statistics.
 
 Fo more information about my group at RWTH see [here](https://www.netsci.rwth-aachen.de).
-<!--There are a number of PhD positions available in my group. -->
-<!--If you are interested, please get in contact.-->
-<!--{: .notice--success}-->
+There are positions available in my group. 
+If you are interested, please get in contact.
+{: .notice--success}
 
 ### News and Events
+***July, 11*** New KDD workshop paper, out now on the [arxiv](https://arxiv.org/abs/2207.04376)      
 ***July, 1, 2022*** -- Happy to announce that I have become editorial board member of [Communication Physics](https://www.nature.com/commsphys/editorial-board)     
 ***June, 9, 2022*** -- New paper published in Nature Communications [here](https://doi.org/10.1038/s41467-022-30682-0)     
 ***May, 9, 2022*** -- Three papers now published at ICASSP. Check out the Publication section.        
