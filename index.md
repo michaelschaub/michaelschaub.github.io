@@ -16,8 +16,11 @@ There are positions available in my group.
 If you are interested, please get in contact.
 {: .notice--success}
 
+
+
 ### News and Events
-***July, 11, 2022*** New KDD workshop paper, out now on the [arxiv](https://arxiv.org/abs/2207.04376)      
+***August, 11, 2022*** -- New preprint with Leonie on the [arxiv](https://arxiv.org/abs/2208.03263) on interventions in network growth processes     
+***July, 11, 2022*** -- New KDD workshop paper, out now on the [arxiv](https://arxiv.org/abs/2207.04376)      
 ***July, 1, 2022*** -- Happy to announce that I have become editorial board member of [Communication Physics](https://www.nature.com/commsphys/editorial-board)     
 ***June, 9, 2022*** -- New paper published in Nature Communications [here](https://doi.org/10.1038/s41467-022-30682-0)     
 ***May, 9, 2022*** -- Three papers now published at ICASSP. Check out the Publication section.        
