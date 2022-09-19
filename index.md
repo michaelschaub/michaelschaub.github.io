@@ -19,6 +19,7 @@ If you are interested, please get in contact.
 
 
 ### News and Events
+***September, 19, 2022*** -- Paper with Maosheng Yang, Elvin Isufi and Geert Leus out now at IEEE TSP [here](https://doi.org/10.1109/TSP.2022.3207045)     
 ***August, 11, 2022*** -- New preprint with Leonie on the [arxiv](https://arxiv.org/abs/2208.03263) on interventions in network growth processes     
 ***July, 11, 2022*** -- New KDD workshop paper, out now on the [arxiv](https://arxiv.org/abs/2207.04376)      
 ***July, 1, 2022*** -- Happy to announce that I have become editorial board member of [Communication Physics](https://www.nature.com/commsphys/editorial-board)     
