@@ -12,7 +12,7 @@ My research combines ‘bottom-up’ dynamical models, and ‘top-down’ data-d
 
 Fo more information about my group at RWTH see [here](https://www.netsci.rwth-aachen.de).
 
-There are positions available in my group. 
+There are PhD and PostDoc positions available in my group. 
 If you are interested, please get in contact.
 {: .notice--success}
 

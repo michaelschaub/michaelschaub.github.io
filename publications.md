@@ -38,8 +38,53 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 <!--BEGIN PUBLICATIOON INSERT HERE-->
 <table id="qs_table" border="1">
 <tbody>
+<tr id="Yang2022" class="entry">
+    <td> [1] Yang, M.; Isufi, E.; Schaub, M.T. &amp; Leus, G. (2022), <i>"Simplicial Convolutional Filters"</i>, IEEE Transactions on Signal Processing., September, 2022. , pp. 1-16.
+        <p class="infolinks">[<a href="javascript:toggleInfo('Yang2022','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Yang2022','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1109/TSP.2022.3207045" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2201.11720" target="_blank">URL</a>]</p>
+    </td>
+</tr>
+<tr id="abs_Yang2022" class="abstract noshow">
+    <td><b>Abstract</b>: We study linear filters for processing signals supported on abstract topological spaces modeled as simplicial complexes, which may be interpreted as generalizations of graphs that account for nodes, edges, triangular faces etc. To process such signals, we develop simplicial convolutional filters defined as matrix polynomials of the lower and upper Hodge Laplacians. First, we study the properties of these filters and show that they are linear and shift-invariant, as well as permutation and orientation equivariant. These filters can also be implemented in a distributed fashion with a low computational complexity, as they involve only (multiple rounds of) simplicial shifting between upper and lower adjacent simplices. Second, focusing on edge-flows, we study the frequency responses of these filters and examine how we can use the Hodge-decomposition to delineate gradient, curl and harmonic frequencies. We discuss how these frequencies correspond to the lower- and the upper-adjacent couplings and the kernel of the Hodge Laplacian, respectively, and can be tuned independently by our filter designs. Third, we study different procedures for designing simplicial convolutional filters and discuss their relative advantages. Finally, we corroborate our simplicial filters in several applications: to extract different frequency components of a simplicial signal, to denoise edge flows, and to analyze financial markets and traffic networks.</td>
+</tr>
+<tr id="bib_Yang2022" class="bibtex noshow">
+    <td><b>BibTeX</b>:
+        <pre>
+@article{Yang2022,
+    author = {Maosheng Yang and Elvin Isufi and Michael T. Schaub and Geert Leus},
+           title = {Simplicial Convolutional Filters},
+           journal = {IEEE Transactions on Signal Processing},
+           year = {2022},
+           pages = {1-16},
+           url = {https://arxiv.org/abs/2201.11720},
+           doi = {10.1109/TSP.2022.3207045}
+}
+    </pre></td>
+</tr>
+<tr id="Zhu2022" class="entry">
+    <td> [2] Zhu, J.; Jin, J.; Schaub, M.T.; Koutra, D.; Zhu, J.; Jin, J.; Loveland, D.; Schaub, M.T. &amp; Koutra, D. (2022), <i>"Improving Robustness of Graph Neural Networks with Heterophily-Inspired Designs"</i>, In Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining. New York, NY, USA, August, 2022. , pp. 2637–2647. Association for Computing Machinery.
+        <p class="infolinks">[<a href="javascript:toggleInfo('Zhu2022','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Zhu2022','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1145/3534678.3539418" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2106.07767" target="_blank">URL</a>]</p>
+    </td>
+</tr>
+<tr id="abs_Zhu2022" class="abstract noshow">
+    <td><b>Abstract</b>: We bridge two research directions on graph neural networks (GNNs), by formalizing the relation between heterophily of node labels (i.e., connected nodes tend to have dissimilar labels) and the robustness of GNNs to adversarial attacks. Our theoretical and empirical analyses show that for homophilous graph data, impactful structural attacks always lead to reduced homophily, while for heterophilous graph data the change in the homophily level depends on the node degrees. These insights have practical implications for defending against attacks on real-world graphs: we deduce that separate aggregators for ego- and neighbor-embeddings, a design principle which has been identified to significantly improve prediction for heterophilous graph data, can also offer increased robustness to GNNs. Our comprehensive experiments show that GNNs merely adopting this design achieve improved empirical and certifiable robustness compared to the best-performing unvaccinated model. Additionally, combining this design with explicit defense mechanisms against adversarial attacks leads to an improved robustness with up to 18.33% performance increase under attacks compared to the best-performing vaccinated model.</td>
+</tr>
+<tr id="bib_Zhu2022" class="bibtex noshow">
+    <td><b>BibTeX</b>:
+        <pre>
+@inproceedings{Zhu2022,
+    author = {Jiong Zhu and Junchen Jin and Michael T. Schaub and Danai Koutra and Zhu, Jiong and Jin, Junchen and Loveland, Donald and Schaub, Michael T. and Koutra, Danai},
+           title = {Improving Robustness of Graph Neural Networks with Heterophily-Inspired Designs},
+           booktitle = {Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+           publisher = {Association for Computing Machinery},
+           year = {2022},
+           pages = {2637–2647},
+           url = {https://arxiv.org/abs/2106.07767},
+           doi = {10.1145/3534678.3539418}
+}
+    </pre></td>
+</tr>
 <tr id="Neuhaeuser2022a" class="entry">
-	<td> [1] Neuhäuser L, Karimi F, Bachmann J, Strohmaier M and Schaub MT (2022), <i>"Improving the visibility of minorities through network growth interventions"</i>. August, 2022.
+	<td> [3] Neuhäuser L, Karimi F, Bachmann J, Strohmaier M and Schaub MT (2022), <i>"Improving the visibility of minorities through network growth interventions"</i>. August, 2022.
 	<p class="infolinks">[<a href="javascript:toggleInfo('Neuhaeuser2022a','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Neuhaeuser2022a','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2208.03263" target="_blank">URL</a>]</p>
 	</td>
 </tr>
@@ -58,7 +103,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 </pre></td>
 </tr>
 <tr id="Loveland2022" class="entry">
-	<td> [2] Loveland D, Zhu J, Heimann M, Fish B, Schaub MT and Koutra D (2022), <i>"On Graph Neural Network Fairness in the Presence of Heterophilous Neighborhoods"</i>. July, 2022.
+	<td> [4] Loveland D, Zhu J, Heimann M, Fish B, Schaub MT and Koutra D (2022), <i>"On Graph Neural Network Fairness in the Presence of Heterophilous Neighborhoods"</i>. July, 2022.
 	<p class="infolinks">[<a href="javascript:toggleInfo('Loveland2022','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Loveland2022','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2207.04376" target="_blank">URL</a>]</p>
 	</td>
 </tr>
@@ -77,7 +122,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 </pre></td>
 </tr>
 <tr id="Scholkemper2022" class="entry">
-    <td> [3] Scholkemper, M. &amp; Schaub, M.T. (2022), <i>"Blind Extraction of Equitable Partitions from Graph Signals"</i>, In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)., May, 2022. , pp. 5832-5836.
+    <td> [5] Scholkemper, M. &amp; Schaub, M.T. (2022), <i>"Blind Extraction of Equitable Partitions from Graph Signals"</i>, In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)., May, 2022. , pp. 5832-5836.
         <p class="infolinks">[<a href="javascript:toggleInfo('Scholkemper2022','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Scholkemper2022','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1109/ICASSP43922.2022.9746676" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2203.05407" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -99,7 +144,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Roddenberry2022" class="entry">
-    <td> [4] Roddenberry, T.M.; Frantzen, F.; Schaub, M.T. &amp; Segarra, S. (2022), <i>"Hodgelets: Localized Spectral Representations of Flows On Simplicial Complexes"</i>, In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)., May, 2022. , pp. 5922-5926.
+    <td> [6] Roddenberry, T.M.; Frantzen, F.; Schaub, M.T. &amp; Segarra, S. (2022), <i>"Hodgelets: Localized Spectral Representations of Flows On Simplicial Complexes"</i>, In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)., May, 2022. , pp. 5922-5926.
         <p class="infolinks">[<a href="javascript:toggleInfo('Roddenberry2022','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Roddenberry2022','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1109/ICASSP43922.2022.9747203" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2109.08728" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -121,7 +166,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Peisker2022" class="entry">
-    <td> [5] Peisker, F.; Halder, M.; Nagai, J.; Ziegler, S.; Kaesler, N.; Hoeft, K.; Li, R.; Bindels, E.M.J.; Kuppe, C.; Moellmann, J. &amp; others (2022), <i>"Mapping the cardiac vascular niche in heart failure"</i>, Nature Communications., May, 2022.  Vol. 13(1), pp. 1-20. Nature Publishing Group.
+    <td> [7] Peisker, F.; Halder, M.; Nagai, J.; Ziegler, S.; Kaesler, N.; Hoeft, K.; Li, R.; Bindels, E.M.J.; Kuppe, C.; Moellmann, J. &amp; others (2022), <i>"Mapping the cardiac vascular niche in heart failure"</i>, Nature Communications., May, 2022.  Vol. 13(1), pp. 1-20. Nature Publishing Group.
         <p class="infolinks">[<a href="javascript:toggleInfo('Peisker2022','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Peisker2022','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1038/s41467-022-30682-0" target="_blank">DOI</a>]</p>
     </td>
 </tr>
@@ -145,7 +190,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Roddenberry2022a" class="entry">
-    <td> [6] Roddenberry, T.M.; Schaub, M.T. &amp; Hajij, M. (2022), <i>"Signal Processing On Cell Complexes"</i>, In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)., May, 2022. , pp. 8852-8856.
+    <td> [8] Roddenberry, T.M.; Schaub, M.T. &amp; Hajij, M. (2022), <i>"Signal Processing On Cell Complexes"</i>, In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)., May, 2022. , pp. 8852-8856.
         <p class="infolinks">[<a href="javascript:toggleInfo('Roddenberry2022a','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Roddenberry2022a','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1109/ICASSP43922.2022.9747233" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2110.05614" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -167,7 +212,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Neuhaeuser2022" class="entry">
-    <td> [7] Neuhäuser, L.; Lambiotte, R. &amp; Schaub, M.T. (2022), <i>"Consensus Dynamics and Opinion Formation on Hypergraphs"</i>, In Higher-Order Systems. Cham, April, 2022. , pp. 347-376. Springer International Publishing.
+    <td> [9] Neuhäuser, L.; Lambiotte, R. &amp; Schaub, M.T. (2022), <i>"Consensus Dynamics and Opinion Formation on Hypergraphs"</i>, In Higher-Order Systems. Cham, April, 2022. , pp. 347-376. Springer International Publishing.
         <p class="infolinks">[<a href="javascript:toggleInfo('Neuhaeuser2022','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Neuhaeuser2022','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1007/978-3-030-91374-8_14" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2105.01369" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -191,7 +236,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Schaub2022" class="entry">
-    <td> [8] Schaub, M.T.; Seby, J.-B.; Roddenberry, T.M.; Zhu, Y. &amp; Segarra, S. (2022), <i>"Signal processing on simplicial complexes"</i>, In Higher-Order Systems. Cham, April, 2022. , pp. 301-328. Springer International Publishing.
+    <td> [10] Schaub, M.T.; Seby, J.-B.; Roddenberry, T.M.; Zhu, Y. &amp; Segarra, S. (2022), <i>"Signal processing on simplicial complexes"</i>, In Higher-Order Systems. Cham, April, 2022. , pp. 301-328. Springer International Publishing.
         <p class="infolinks">[<a href="javascript:toggleInfo('Schaub2022','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Schaub2022','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1007/978-3-030-91374-8_12" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2106.07471" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -214,28 +259,8 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 }
     </pre></td>
 </tr>
-<tr id="Yang2022" class="entry">
-	<td> [9] Yang M, Isufi E, Schaub MT and Leus G (2022), <i>"Simplicial Convolutional Filters"</i>, arxiv preprint. January, 2022.
-	<p class="infolinks">[<a href="javascript:toggleInfo('Yang2022','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Yang2022','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2201.11720" target="_blank">URL</a>]</p>
-	</td>
-</tr>
-<tr id="abs_Yang2022" class="abstract noshow">
-	<td><b>Abstract</b>: We study linear filters for processing signals supported on abstract topological spaces modeled as simplicial complexes, which may be interpreted as generalizations of graphs that account for nodes, edges, triangular faces etc. To process such signals, we develop simplicial convolutional filters defined as matrix polynomials of the lower and upper Hodge Laplacians. First, we study the properties of these filters and show that they are linear and shift-invariant, as well as permutation and orientation equivariant. These filters can also be implemented in a distributed fashion with a low computational complexity, as they involve only (multiple rounds of) simplicial shifting between upper and lower adjacent simplices. Second, focusing on edge-flows, we study the frequency responses of these filters and examine how we can use the Hodge-decomposition to delineate gradient, curl and harmonic frequencies. We discuss how these frequencies correspond to the lower- and the upper-adjacent couplings and the kernel of the Hodge Laplacian, respectively, and can be tuned independently by our filter designs. Third, we study different procedures for designing simplicial convolutional filters and discuss their relative advantages. Finally, we corroborate our simplicial filters in several applications: to extract different frequency components of a simplicial signal, to denoise edge flows, and to analyze financial markets and traffic networks.</td>
-</tr>
-<tr id="bib_Yang2022" class="bibtex noshow">
-<td><b>BibTeX</b>:
-<pre>
-@misc{Yang2022,
-  author = {Maosheng Yang and Elvin Isufi and Michael T. Schaub and Geert Leus},
-  title = {Simplicial Convolutional Filters},
-  howpublished = {arxiv preprint},
-  year = {2022},
-  url = {https://arxiv.org/abs/2201.11720}
-}
-</pre></td>
-</tr>
 <tr id="Neuhaeuser2021b" class="entry">
-    <td> [10] Neuh&auml;user, L.; Lambiotte, R. &amp; Schaub, M.T. (2021), <i>"Consensus dynamics on temporal hypergraphs"</i>, Phys. Rev. E., December, 2021.  Vol. 104(6), pp. 064305. American Physical Society.
+    <td> [11] Neuh&auml;user, L.; Lambiotte, R. &amp; Schaub, M.T. (2021), <i>"Consensus dynamics on temporal hypergraphs"</i>, Phys. Rev. E., December, 2021.  Vol. 104(6), pp. 064305. American Physical Society.
         <p class="infolinks">[<a href="javascript:toggleInfo('Neuhaeuser2021b','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Neuhaeuser2021b','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1103/PhysRevE.104.064305" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2109.04985" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -260,7 +285,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Lambiotte2021" class="entry">
-    <td> [11] Lambiotte, R. &amp; Schaub, M.T. (2021), <i>"Modularity and Dynamics on Complex Networks"</i>, December, 2021.  Cambridge University Press.
+    <td> [12] Lambiotte, R. &amp; Schaub, M.T. (2021), <i>"Modularity and Dynamics on Complex Networks"</i>, December, 2021.  Cambridge University Press.
         <p class="infolinks">[<a href="javascript:toggleInfo('Lambiotte2021','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Lambiotte2021','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1017/9781108774116" target="_blank">DOI</a>] [<a href="https://michaelschaub.github.io/ModularityAndDynamicsOnComplexNetworks.pdf" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -281,7 +306,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Stamm2021" class="entry">
-    <td> [12] Neuhäuser, L.; Stamm, F.I.; Lemmerich, F.; Schaub, M.T. &amp; Strohmaier, M. (2021), <i>"Simulating systematic edge uncertainty in attributed social networks and its effects on rankings of minority nodes"</i>, Applied Network Science., November, 2021.  Vol. 6(86)
+    <td> [13] Neuhäuser, L.; Stamm, F.I.; Lemmerich, F.; Schaub, M.T. &amp; Strohmaier, M. (2021), <i>"Simulating systematic edge uncertainty in attributed social networks and its effects on rankings of minority nodes"</i>, Applied Network Science., November, 2021.  Vol. 6(86)
         <p class="infolinks">[<a href="javascript:toggleInfo('Stamm2021','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Stamm2021','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1007/s41109-021-00425-z" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2010.11546" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -304,7 +329,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Frantzen2021" class="entry">
-    <td> [13] Frantzen, F.; Seby, J.-B. &amp; Schaub, M.T. (2021), <i>"Outlier Detection for Trajectories via Flow-embeddings"</i>, In 2021 55th Asilomar Conference on Signals, Systems, and Computers., October, 2021. , pp. 1568-1572.
+    <td> [14] Frantzen, F.; Seby, J.-B. &amp; Schaub, M.T. (2021), <i>"Outlier Detection for Trajectories via Flow-embeddings"</i>, In 2021 55th Asilomar Conference on Signals, Systems, and Computers., October, 2021. , pp. 1568-1572.
         <p class="infolinks">[<a href="javascript:toggleInfo('Frantzen2021','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Frantzen2021','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1109/IEEECONF53345.2021.9723128" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2111.13235" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -326,7 +351,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Neuhaeuser2021a" class="entry">
-    <td> [14] Neuhäuser, L.; Schaub, M.T.; Mellor, A. &amp; Lambiotte, R. (2021), <i>"Opinion Dynamics with Multi-body Interactions"</i>, In Network Games, Control and Optimization. Cham, September, 2021. , pp. 261-271. Springer International Publishing.
+    <td> [15] Neuhäuser, L.; Schaub, M.T.; Mellor, A. &amp; Lambiotte, R. (2021), <i>"Opinion Dynamics with Multi-body Interactions"</i>, In Network Games, Control and Optimization. Cham, September, 2021. , pp. 261-271. Springer International Publishing.
         <p class="infolinks">[<a href="javascript:toggleInfo('Neuhaeuser2021a','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Neuhaeuser2021a','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1007/978-3-030-87473-5_23" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2004.00901" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -350,7 +375,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Yang2021" class="entry">
-    <td> [15] Yang, M.; Isufi, E.; Schaub, M.T. &amp; Leus, G. (2021), <i>"Finite Impulse Response Filters for Simplicial Complexes"</i>, In 29th European Signal Processing Conference (EUSIPCO)., August, 2021. , pp. 2005-2009.
+    <td> [16] Yang, M.; Isufi, E.; Schaub, M.T. &amp; Leus, G. (2021), <i>"Finite Impulse Response Filters for Simplicial Complexes"</i>, In 29th European Signal Processing Conference (EUSIPCO)., August, 2021. , pp. 2005-2009.
         <p class="infolinks">[<a href="javascript:toggleInfo('Yang2021','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Yang2021','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.23919/EUSIPCO54536.2021.9616185" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2103.12587" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -372,7 +397,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Scholkemper2021" class="entry">
-    <td> [16] Scholkemper, M. &amp; Schaub, M.T. (2021), <i>"Local, Global And Scale-Dependent Node Roles"</i>, In 2021 IEEE International Conference on Autonomous Systems (ICAS)., August, 2021. , pp. 1-5.
+    <td> [17] Scholkemper, M. &amp; Schaub, M.T. (2021), <i>"Local, Global And Scale-Dependent Node Roles"</i>, In 2021 IEEE International Conference on Autonomous Systems (ICAS)., August, 2021. , pp. 1-5.
         <p class="infolinks">[<a href="javascript:toggleInfo('Scholkemper2021','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Scholkemper2021','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1109/ICAS49788.2021.9551110" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2105.12598" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -394,7 +419,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Faccin2021" class="entry">
-    <td> [17] Faccin, M.; Schaub, M.T. &amp; Delvenne, J.-C. (2021), <i>"State aggregations in Markov chains and block models of networks"</i>, Physical Review Letters., August, 2021.  Vol. 127(7), pp. 078301. American Physical Society.
+    <td> [18] Faccin, M.; Schaub, M.T. &amp; Delvenne, J.-C. (2021), <i>"State aggregations in Markov chains and block models of networks"</i>, Physical Review Letters., August, 2021.  Vol. 127(7), pp. 078301. American Physical Society.
         <p class="infolinks">[<a href="javascript:toggleInfo('Faccin2021','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Faccin2021','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1103/PhysRevLett.127.078301" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2005.00337" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -417,25 +442,6 @@ A list of my publications is also available on [Google Scholar](https://scholar.
            doi = {10.1103/PhysRevLett.127.078301}
 }
     </pre></td>
-</tr>
-<tr id="Zhu2021" class="entry">
-	<td> [18] Zhu J, Jin J, Schaub MT and Koutra D (2021), <i>"Improving Robustness of Graph Neural Networks with Heterophily-Inspired Designs"</i>. June, 2021.
-	<p class="infolinks">[<a href="javascript:toggleInfo('Zhu2021','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Zhu2021','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2106.07767" target="_blank">URL</a>]</p>
-	</td>
-</tr>
-<tr id="abs_Zhu2021" class="abstract noshow">
-	<td><b>Abstract</b>: Recent studies have exposed that many graph neural networks (GNNs) are sensitive to adversarial attacks, and can suffer from performance loss if the graph structure is intentionally perturbed. A different line of research has shown that many GNN architectures implicitly assume that the underlying graph displays homophily, i.e., connected nodes are more likely to have similar features and class labels, and perform poorly if this assumption is not fulfilled. In this work, we formalize the relation between these two seemingly different issues. We theoretically show that in the standard scenario in which node features exhibit homophily, impactful structural attacks always lead to increased levels of heterophily. Then, inspired by GNN architectures that target heterophily, we present two designs -- (i) separate aggregators for ego- and neighbor-embeddings, and (ii) a reduced scope of aggregation -- that can significantly improve the robustness of GNNs. Our extensive<br>              empirical evaluations show that GNNs featuring merely these two designs can achieve significantly improved robustness compared to the best-performing unvaccinated model with 24.99% gain in average performance under targeted attacks, while having smaller computational overhead than existing defense mechanisms. Furthermore, these designs can be readily combined with explicit defense mechanisms to yield state-of-the-art robustness with up to 18.33% increase in performance under attacks compared to the best-performing vaccinated model.</td>
-</tr>
-<tr id="bib_Zhu2021" class="bibtex noshow">
-<td><b>BibTeX</b>:
-<pre>
-@misc{Zhu2021,
-  author = {Jiong Zhu and Junchen Jin and Michael T. Schaub and Danai Koutra},
-  title = {Improving Robustness of Graph Neural Networks with Heterophily-Inspired Designs},
-  year = {2021},
-  url = {https://arxiv.org/abs/2106.07767}
-}
-</pre></td>
 </tr>
 <tr id="Nagai2021" class="entry">
     <td> [19] Nagai, J.S.; Leimkühler, N.B.; Schaub, M.T.; Schneider, R.K. &amp; Costa, I.G. (2021), <i>"CrossTalkeR: analysis and visualization of ligand–receptorne tworks"</i>, Bioinformatics., 05, 2021. 
@@ -1274,5 +1280,5 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 </tbody>
 </table>
 <footer>
- <small>Created by <a href="http://jabref.sourceforge.net">JabRef</a> on 12/08/2022.</small>
+ <small>Created by <a href="http://jabref.sourceforge.net">JabRef</a> on 26/09/2022.</small>
 </footer>

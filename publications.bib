@@ -613,14 +613,22 @@ In the third part, we discuss how to use dynamical processes unfolding on the ne
   url       = {https://arxiv.org/abs/2109.04985},
 }
 
-@Misc{Zhu2021,
-  author   = {Jiong Zhu and Junchen Jin and Michael T. Schaub and Danai Koutra},
-  month    = jun,
-  title    = {Improving Robustness of Graph Neural Networks with Heterophily-Inspired Designs},
-  year     = {2021},
-  abstract = {Recent studies have exposed that many graph neural networks (GNNs) are sensitive to adversarial attacks, and can suffer from performance loss if the graph structure is intentionally perturbed. A different line of research has shown that many GNN architectures implicitly assume that the underlying graph displays homophily, i.e., connected nodes are more likely to have similar features and class labels, and perform poorly if this assumption is not fulfilled. In this work, we formalize the relation between these two seemingly different issues. We theoretically show that in the standard scenario in which node features exhibit homophily, impactful structural attacks always lead to increased levels of heterophily. Then, inspired by GNN architectures that target heterophily, we present two designs -- (i) separate aggregators for ego- and neighbor-embeddings, and (ii) a reduced scope of aggregation -- that can significantly improve the robustness of GNNs. Our extensive
-              empirical evaluations show that GNNs featuring merely these two designs can achieve significantly improved robustness compared to the best-performing unvaccinated model with 24.99\% gain in average performance under targeted attacks, while having smaller computational overhead than existing defense mechanisms. Furthermore, these designs can be readily combined with explicit defense mechanisms to yield state-of-the-art robustness with up to 18.33\% increase in performance under attacks compared to the best-performing vaccinated model.},
-  url      = {https://arxiv.org/abs/2106.07767},
+@InProceedings{Zhu2022,
+  author    = {Jiong Zhu and Junchen Jin and Michael T. Schaub and Danai Koutra and Zhu, Jiong and Jin, Junchen and Loveland, Donald and Schaub, Michael T. and Koutra, Danai},
+  booktitle = {Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+  title     = {Improving Robustness of Graph Neural Networks with Heterophily-Inspired Designs},
+  year      = {2022},
+  address   = {New York, NY, USA},
+  month     = aug,
+  pages     = {2637–2647},
+  publisher = {Association for Computing Machinery},
+  series    = {KDD '22},
+  abstract  = {We bridge two research directions on graph neural networks (GNNs), by formalizing the relation between heterophily of node labels (i.e., connected nodes tend to have dissimilar labels) and the robustness of GNNs to adversarial attacks. Our theoretical and empirical analyses show that for homophilous graph data, impactful structural attacks always lead to reduced homophily, while for heterophilous graph data the change in the homophily level depends on the node degrees. These insights have practical implications for defending against attacks on real-world graphs: we deduce that separate aggregators for ego- and neighbor-embeddings, a design principle which has been identified to significantly improve prediction for heterophilous graph data, can also offer increased robustness to GNNs. Our comprehensive experiments show that GNNs merely adopting this design achieve improved empirical and certifiable robustness compared to the best-performing unvaccinated model. Additionally, combining this design with explicit defense mechanisms against adversarial attacks leads to an improved robustness with up to 18.33% performance increase under attacks compared to the best-performing vaccinated model.},
+  doi       = {10.1145/3534678.3539418},
+  isbn      = {9781450393850},
+  location  = {Washington DC, USA},
+  numpages  = {11},
+  url       = {https://arxiv.org/abs/2106.07767},
 }
 
 @Article{Schaub2021,
@@ -724,14 +732,16 @@ In the third part, we discuss how to use dynamical processes unfolding on the ne
   url       = {https://arxiv.org/abs/2111.13235},
 }
 
-@Misc{Yang2022,
-  author       = {Maosheng Yang and Elvin Isufi and Michael T. Schaub and Geert Leus},
-  howpublished = {arxiv preprint},
-  month        = jan,
-  title        = {Simplicial Convolutional Filters},
-  year         = {2022},
-  abstract     = {We study linear filters for processing signals supported on abstract topological spaces modeled as simplicial complexes, which may be interpreted as generalizations of graphs that account for nodes, edges, triangular faces etc. To process such signals, we develop simplicial convolutional filters defined as matrix polynomials of the lower and upper Hodge Laplacians. First, we study the properties of these filters and show that they are linear and shift-invariant, as well as permutation and orientation equivariant. These filters can also be implemented in a distributed fashion with a low computational complexity, as they involve only (multiple rounds of) simplicial shifting between upper and lower adjacent simplices. Second, focusing on edge-flows, we study the frequency responses of these filters and examine how we can use the Hodge-decomposition to delineate gradient, curl and harmonic frequencies. We discuss how these frequencies correspond to the lower- and the upper-adjacent couplings and the kernel of the Hodge Laplacian, respectively, and can be tuned independently by our filter designs. Third, we study different procedures for designing simplicial convolutional filters and discuss their relative advantages. Finally, we corroborate our simplicial filters in several applications: to extract different frequency components of a simplicial signal, to denoise edge flows, and to analyze financial markets and traffic networks.},
-  url          = {https://arxiv.org/abs/2201.11720},
+@Article{Yang2022,
+  author   = {Maosheng Yang and Elvin Isufi and Michael T. Schaub and Geert Leus},
+  journal  = {IEEE Transactions on Signal Processing},
+  title    = {Simplicial Convolutional Filters},
+  year     = {2022},
+  month    = sep,
+  pages    = {1-16},
+  abstract = {We study linear filters for processing signals supported on abstract topological spaces modeled as simplicial complexes, which may be interpreted as generalizations of graphs that account for nodes, edges, triangular faces etc. To process such signals, we develop simplicial convolutional filters defined as matrix polynomials of the lower and upper Hodge Laplacians. First, we study the properties of these filters and show that they are linear and shift-invariant, as well as permutation and orientation equivariant. These filters can also be implemented in a distributed fashion with a low computational complexity, as they involve only (multiple rounds of) simplicial shifting between upper and lower adjacent simplices. Second, focusing on edge-flows, we study the frequency responses of these filters and examine how we can use the Hodge-decomposition to delineate gradient, curl and harmonic frequencies. We discuss how these frequencies correspond to the lower- and the upper-adjacent couplings and the kernel of the Hodge Laplacian, respectively, and can be tuned independently by our filter designs. Third, we study different procedures for designing simplicial convolutional filters and discuss their relative advantages. Finally, we corroborate our simplicial filters in several applications: to extract different frequency components of a simplicial signal, to denoise edge flows, and to analyze financial markets and traffic networks.},
+  doi      = {10.1109/TSP.2022.3207045},
+  url      = {https://arxiv.org/abs/2201.11720},
 }
 
 @InProceedings{Scholkemper2022,
