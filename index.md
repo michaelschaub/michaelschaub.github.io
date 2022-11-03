@@ -17,8 +17,8 @@ If you are interested, please get in contact.
 {: .notice--success}
 
 
-
 ### News and Events
+***October, 15, 2022*** -- Great paper with Felix Stamm, Michael Scholkemper, and Markus Strohmaier on using color refinement and configuration models to yield neighborhood preserving network models [here](https://arxiv.org/abs/2210.06843)     
 ***September, 19, 2022*** -- Paper with Maosheng Yang, Elvin Isufi and Geert Leus out now at IEEE TSP [here](https://doi.org/10.1109/TSP.2022.3207045)     
 ***August, 11, 2022*** -- New preprint with Leonie on the [arxiv](https://arxiv.org/abs/2208.03263) on interventions in network growth processes     
 ***July, 11, 2022*** -- New KDD workshop paper, out now on the [arxiv](https://arxiv.org/abs/2207.04376)      
