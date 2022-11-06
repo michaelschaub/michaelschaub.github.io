@@ -12,8 +12,8 @@ My research combines ‘bottom-up’ dynamical models, and ‘top-down’ data-d
 
 Fo more information about my group at RWTH see [here](https://www.netsci.rwth-aachen.de).
 
-There are PhD and PostDoc positions available in my group. 
-If you are interested, please get in contact.
+There are PhD and PostDoc positions available in my group.  If you are interested, please get in contact.
+In particular, we have a [PostDoc](./images/JobAdvert.pdf) position in the context of the collaborative research centre "[Sparsity and singular structures](https://www.sfb-s3.de/)"
 {: .notice--success}
 
 
