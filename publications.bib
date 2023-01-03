@@ -623,7 +623,8 @@ In the third part, we discuss how to use dynamical processes unfolding on the ne
   pages     = {2637–2647},
   publisher = {Association for Computing Machinery},
   series    = {KDD '22},
-  abstract  = {We bridge two research directions on graph neural networks (GNNs), by formalizing the relation between heterophily of node labels (i.e., connected nodes tend to have dissimilar labels) and the robustness of GNNs to adversarial attacks. Our theoretical and empirical analyses show that for homophilous graph data, impactful structural attacks always lead to reduced homophily, while for heterophilous graph data the change in the homophily level depends on the node degrees. These insights have practical implications for defending against attacks on real-world graphs: we deduce that separate aggregators for ego- and neighbor-embeddings, a design principle which has been identified to significantly improve prediction for heterophilous graph data, can also offer increased robustness to GNNs. Our comprehensive experiments show that GNNs merely adopting this design achieve improved empirical and certifiable robustness compared to the best-performing unvaccinated model. Additionally, combining this design with explicit defense mechanisms against adversarial attacks leads to an improved robustness with up to 18.33% performance increase under attacks compared to the best-performing vaccinated model.},
+  abstract  = {We bridge two research directions on graph neural networks (GNNs), by formalizing the relation between heterophily of node labels (i.e., connected nodes tend to have dissimilar labels) and the robustness of GNNs to adversarial attacks. Our theoretical and empirical analyses show that for homophilous graph data, impactful structural attacks always lead to reduced homophily, while for heterophilous graph data the change in the homophily level depends on the node degrees. These insights have practical implications for defending against attacks on real-world graphs: we deduce that separate aggregators for ego- and neighbor-embeddings, a design principle which has been identified to significantly improve prediction for heterophilous graph data, can also offer increased robustness to GNNs. Our comprehensive experiments show that GNNs merely adopting this design achieve improved empirical and certifiable robustness compared to the best-performing unvaccinated model.
+               Additionally, combining this design with explicit defense mechanisms against adversarial attacks leads to an improved robustness with up to 18.33 percent performance increase under attacks compared to the best-performing vaccinated model.},
   doi       = {10.1145/3534678.3539418},
   isbn      = {9781450393850},
   location  = {Washington DC, USA},
@@ -771,17 +772,18 @@ In the third part, we discuss how to use dynamical processes unfolding on the ne
   publisher = {Nature Publishing Group},
 }
 
-@Misc{Loveland2022,
-  author   = {Loveland, Donald and Zhu, Jiong and Heimann, Mark and Fish, Ben and Schaub, Michael T. and Koutra, Danai},
-  month    = jul,
-  title    = {On Graph Neural Network Fairness in the Presence of Heterophilous Neighborhoods},
-  year     = {2022},
-  abstract = {We study the task of node classification for graph neural networks (GNNs) and establish a connection between group fairness, as measured by statistical parity and equal opportunity, and local assortativity, i.e., the tendency of linked nodes to have similar attributes. Such assortativity is often induced by homophily, the tendency for nodes of similar properties to connect. Homophily can be common in social networks where systemic factors have forced individuals into communities which share a sensitive attribute. Through synthetic graphs, we study the interplay between locally occurring homophily and fair predictions, finding that not all node neighborhoods are equal in this respect -- neighborhoods dominated by one category of a sensitive attribute often struggle to obtain fair treatment, especially in the case of diverging local class and sensitive attribute homophily. After determining that a relationship between local homophily and fairness exists, we investigate if the issue of unfairness can be associated to the design of the applied GNN model. We show that by adopting heterophilous GNN designs capable of handling disassortative group labels, group fairness in locally heterophilous neighborhoods can be improved by up to 25% over homophilous designs in real and synthetic datasets.},
-  url      = {https://arxiv.org/abs/2207.04376},
+@InProceedings{Loveland2022,
+  author    = {Loveland, Donald and Zhu, Jiong and Heimann, Mark and Fish, Ben and Schaub, Michael T. and Koutra, Danai},
+  booktitle = {Deep Learning on Graphs Workshop, 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2022)},
+  title     = {On Graph Neural Network Fairness in the Presence of Heterophilous Neighborhoods},
+  year      = {2022},
+  month     = aug,
+  abstract  = {We study the task of node classification for graph neural networks (GNNs) and establish a connection between group fairness, as measured by statistical parity and equal opportunity, and local assortativity, i.e., the tendency of linked nodes to have similar attributes. Such assortativity is often induced by homophily, the tendency for nodes of similar properties to connect. Homophily can be common in social networks where systemic factors have forced individuals into communities which share a sensitive attribute. Through synthetic graphs, we study the interplay between locally occurring homophily and fair predictions, finding that not all node neighborhoods are equal in this respect -- neighborhoods dominated by one category of a sensitive attribute often struggle to obtain fair treatment, especially in the case of diverging local class and sensitive attribute homophily. After determining that a relationship between local homophily and fairness exists, we investigate if the issue of unfairness can be associated to the design of the applied GNN model. We show that by adopting heterophilous GNN designs capable of handling disassortative group labels, group fairness in locally heterophilous neighborhoods can be improved by up to 25 percent over homophilous designs in real and synthetic datasets.},
+  url       = {https://arxiv.org/abs/2207.04376},
 }
 
 @Misc{Neuhaeuser2022a,
-  author       = {Leonie Neuhäuser, Fariba Karimi, Jan Bachmann, Markus Strohmaier, Michael T. Schaub},
+  author       = {Leonie Neuhäuser and Fariba Karimi and Jan Bachmann and Markus Strohmaier and Michael T. Schaub},
   month        = aug,
   title        = {Improving the visibility of minorities through network growth interventions},
   year         = {2022},

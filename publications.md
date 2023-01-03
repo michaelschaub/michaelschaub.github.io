@@ -85,7 +85,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </td>
 </tr>
 <tr id="abs_Zhu2022" class="abstract noshow">
-    <td><b>Abstract</b>: We bridge two research directions on graph neural networks (GNNs), by formalizing the relation between heterophily of node labels (i.e., connected nodes tend to have dissimilar labels) and the robustness of GNNs to adversarial attacks. Our theoretical and empirical analyses show that for homophilous graph data, impactful structural attacks always lead to reduced homophily, while for heterophilous graph data the change in the homophily level depends on the node degrees. These insights have practical implications for defending against attacks on real-world graphs: we deduce that separate aggregators for ego- and neighbor-embeddings, a design principle which has been identified to significantly improve prediction for heterophilous graph data, can also offer increased robustness to GNNs. Our comprehensive experiments show that GNNs merely adopting this design achieve improved empirical and certifiable robustness compared to the best-performing unvaccinated model. Additionally, combining this design with explicit defense mechanisms against adversarial attacks leads to an improved robustness with up to 18.33% performance increase under attacks compared to the best-performing vaccinated model.</td>
+    <td><b>Abstract</b>: We bridge two research directions on graph neural networks (GNNs), by formalizing the relation between heterophily of node labels (i.e., connected nodes tend to have dissimilar labels) and the robustness of GNNs to adversarial attacks. Our theoretical and empirical analyses show that for homophilous graph data, impactful structural attacks always lead to reduced homophily, while for heterophilous graph data the change in the homophily level depends on the node degrees. These insights have practical implications for defending against attacks on real-world graphs: we deduce that separate aggregators for ego- and neighbor-embeddings, a design principle which has been identified to significantly improve prediction for heterophilous graph data, can also offer increased robustness to GNNs. Our comprehensive experiments show that GNNs merely adopting this design achieve improved empirical and certifiable robustness compared to the best-performing unvaccinated model.<br>               Additionally, combining this design with explicit defense mechanisms against adversarial attacks leads to an improved robustness with up to 18.33 percent performance increase under attacks compared to the best-performing vaccinated model.</td>
 </tr>
 <tr id="bib_Zhu2022" class="bibtex noshow">
     <td><b>BibTeX</b>:
@@ -114,7 +114,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 <td><b>BibTeX</b>:
 <pre>
 @misc{Neuhaeuser2022a,
-  author = {Leonie Neuhäuser, Fariba Karimi, Jan Bachmann, Markus Strohmaier, Michael T. Schaub},
+  author = {Leonie Neuhäuser and Fariba Karimi and Jan Bachmann and Markus Strohmaier and Michael T. Schaub},
   title = {Improving the visibility of minorities through network growth interventions},
   year = {2022},
   url = {https://arxiv.org/abs/2208.03263}
@@ -122,23 +122,24 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 </pre></td>
 </tr>
 <tr id="Loveland2022" class="entry">
-	<td> [5] Loveland D, Zhu J, Heimann M, Fish B, Schaub MT and Koutra D (2022), <i>"On Graph Neural Network Fairness in the Presence of Heterophilous Neighborhoods"</i>. July, 2022.
-	<p class="infolinks">[<a href="javascript:toggleInfo('Loveland2022','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Loveland2022','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2207.04376" target="_blank">URL</a>]</p>
-	</td>
+    <td> [5] Loveland, D.; Zhu, J.; Heimann, M.; Fish, B.; Schaub, M.T. &amp; Koutra, D. (2022), <i>"On Graph Neural Network Fairness in the Presence of Heterophilous Neighborhoods"</i>, In Deep Learning on Graphs Workshop, 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2022)., August, 2022. 
+        <p class="infolinks">[<a href="javascript:toggleInfo('Loveland2022','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Loveland2022','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2207.04376" target="_blank">URL</a>]</p>
+    </td>
 </tr>
 <tr id="abs_Loveland2022" class="abstract noshow">
-	<td><b>Abstract</b>: We study the task of node classification for graph neural networks (GNNs) and establish a connection between group fairness, as measured by statistical parity and equal opportunity, and local assortativity, i.e., the tendency of linked nodes to have similar attributes. Such assortativity is often induced by homophily, the tendency for nodes of similar properties to connect. Homophily can be common in social networks where systemic factors have forced individuals into communities which share a sensitive attribute. Through synthetic graphs, we study the interplay between locally occurring homophily and fair predictions, finding that not all node neighborhoods are equal in this respect -- neighborhoods dominated by one category of a sensitive attribute often struggle to obtain fair treatment, especially in the case of diverging local class and sensitive attribute homophily. After determining that a relationship between local homophily and fairness exists, we investigate if the issue of unfairness can be associated to the design of the applied GNN model. We show that by adopting heterophilous GNN designs capable of handling disassortative group labels, group fairness in locally heterophilous neighborhoods can be improved by up to 25% over homophilous designs in real and synthetic datasets.</td>
+    <td><b>Abstract</b>: We study the task of node classification for graph neural networks (GNNs) and establish a connection between group fairness, as measured by statistical parity and equal opportunity, and local assortativity, i.e., the tendency of linked nodes to have similar attributes. Such assortativity is often induced by homophily, the tendency for nodes of similar properties to connect. Homophily can be common in social networks where systemic factors have forced individuals into communities which share a sensitive attribute. Through synthetic graphs, we study the interplay between locally occurring homophily and fair predictions, finding that not all node neighborhoods are equal in this respect -- neighborhoods dominated by one category of a sensitive attribute often struggle to obtain fair treatment, especially in the case of diverging local class and sensitive attribute homophily. After determining that a relationship between local homophily and fairness exists, we investigate if the issue of unfairness can be associated to the design of the applied GNN model. We show that by adopting heterophilous GNN designs capable of handling disassortative group labels, group fairness in locally heterophilous neighborhoods can be improved by up to 25 percent over homophilous designs in real and synthetic datasets.</td>
 </tr>
 <tr id="bib_Loveland2022" class="bibtex noshow">
-<td><b>BibTeX</b>:
-<pre>
-@misc{Loveland2022,
-  author = {Loveland, Donald and Zhu, Jiong and Heimann, Mark and Fish, Ben and Schaub, Michael T. and Koutra, Danai},
-  title = {On Graph Neural Network Fairness in the Presence of Heterophilous Neighborhoods},
-  year = {2022},
-  url = {https://arxiv.org/abs/2207.04376}
+    <td><b>BibTeX</b>:
+        <pre>
+@inproceedings{Loveland2022,
+    author = {Loveland, Donald and Zhu, Jiong and Heimann, Mark and Fish, Ben and Schaub, Michael T. and Koutra, Danai},
+           title = {On Graph Neural Network Fairness in the Presence of Heterophilous Neighborhoods},
+           booktitle = {Deep Learning on Graphs Workshop, 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2022)},
+           year = {2022},
+           url = {https://arxiv.org/abs/2207.04376}
 }
-</pre></td>
+    </pre></td>
 </tr>
 <tr id="Scholkemper2022" class="entry">
     <td> [6] Scholkemper, M. &amp; Schaub, M.T. (2022), <i>"Blind Extraction of Equitable Partitions from Graph Signals"</i>, In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)., May, 2022. , pp. 5832-5836.
@@ -1299,5 +1300,5 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 </tbody>
 </table>
 <footer>
- <small>Created by <a href="http://jabref.sourceforge.net">JabRef</a> on 06/11/2022.</small>
+ <small>Created by <a href="http://jabref.sourceforge.net">JabRef</a> on 03/01/2023.</small>
 </footer>
