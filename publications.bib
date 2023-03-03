@@ -532,15 +532,20 @@ In the third part, we discuss how to use dynamical processes unfolding on the ne
   url       = {https://arxiv.org/abs/2010.11546},
 }
 
-@Misc{Klimm2021,
-  author       = {Florian Klimm and Nick S. Jones and Michael T. Schaub},
-  howpublished = {submitted},
-  month        = jan,
-  title        = {Modularity maximisation for graphons},
-  year         = {2021},
-  abstract     = {Networks are a widely-used tool to investigate the large-scale connectivity structure in complex systems and graphons have been proposed as an infinite size limit of dense networks. The detection of communities or other meso-scale structures is a prominent topic in network science as it allows the identification of functional building blocks in complex systems. When such building blocks may be present in graphons is an open question. In this paper, we define a graphon-modularity and demonstrate that it can be maximised to detect communities in graphons. We then investigate specific synthetic graphons and show that they may show a wide range of different community structures. We also reformulate the graphon-modularity maximisation as a continuous optimisation problem and so prove the optimal community structure or lack thereof for some graphons, something that is usually not possible for networks. Furthermore, we demonstrate that estimating a graphon from network data as an intermediate step can improve the detection of communities, in comparison with exclusively maximising the modularity of the network. While the choice of graphon-estimator may strongly influence the accord between the community structure of a network and its estimated graphon, we find that there is a substantial overlap if an appropriate estimator is used. Our study demonstrates that community detection for graphons is possible and may serve as a privacy-preserving way to cluster network data.},
-  timestamp    = {2021-01-12},
-  url          = {https://arxiv.org/abs/2101.00503},
+@Article{Klimm2022,
+  author    = {Florian Klimm and Nick S. Jones and Michael T. Schaub},
+  journal   = {SIAM Journal on Applied Mathematics},
+  title     = {{Modularity Maximization for Graphons}},
+  year      = {2022},
+  month     = dec,
+  number    = {6},
+  pages     = {1930--1952},
+  volume    = {82},
+  abstract  = {Networks are a widely-used tool to investigate the large-scale connectivity structure in complex systems and graphons have been proposed as an infinite size limit of dense networks. The detection of communities or other meso-scale structures is a prominent topic in network science as it allows the identification of functional building blocks in complex systems. When such building blocks may be present in graphons is an open question. In this paper, we define a graphon-modularity and demonstrate that it can be maximised to detect communities in graphons. We then investigate specific synthetic graphons and show that they may show a wide range of different community structures. We also reformulate the graphon-modularity maximisation as a continuous optimisation problem and so prove the optimal community structure or lack thereof for some graphons, something that is usually not possible for networks. Furthermore, we demonstrate that estimating a graphon from network data as an intermediate step can improve the detection of communities, in comparison with exclusively maximising the modularity of the network. While the choice of graphon-estimator may strongly influence the accord between the community structure of a network and its estimated graphon, we find that there is a substantial overlap if an appropriate estimator is used. Our study demonstrates that community detection for graphons is possible and may serve as a privacy-preserving way to cluster network data.},
+  doi       = {10.1137/22M1492003},
+  publisher = {SIAM},
+  timestamp = {2021-01-12},
+  url       = {https://arxiv.org/abs/2101.00503},
 }
 
 @InCollection{Schaub2022,
@@ -586,15 +591,16 @@ In the third part, we discuss how to use dynamical processes unfolding on the ne
   url       = {https://arxiv.org/abs/2103.12587},
 }
 
-@Misc{Bick2021,
-  author       = {Christian Bick and Elizabeth Gross and Heather A. Harrington and Michael T. Schaub},
-  howpublished = {submitted},
-  month        = apr,
-  title        = {What are higher-order networks?},
-  year         = {2021},
-  abstract     = {Modeling complex systems and data using the language of graphs and networks has become an essential topic across a range of different disciplines. Arguably, this network-based perspective derives is success from the relative simplicity of graphs: A graph consists of nothing more than a set of vertices and a set of edges, describing relationships between pairs of such vertices. This simple combinatorial structure makes graphs interpretable and flexible modeling tools. The simplicity of graphs as system models, however, has been scrutinized in the literature recently. Specifically, it has been argued from a variety of different angles that there is a need for higher-order networks, which go beyond the paradigm of modeling pairwise relationships, as encapsulated by graphs. In this survey article we take stock of these recent developments. Our goals are to clarify (i) what higher-order networks are, (ii) why these are interesting objects of study, and (iii) how they can be used in applications.},
-  timestamp    = {2021-04-29},
-  url          = {https://arxiv.org/abs/2104.11329},
+@Article{Bick2023,
+  author    = {Christian Bick and Elizabeth Gross and Heather A. Harrington and Michael T. Schaub},
+  journal   = {SIAM Review},
+  title     = {What are higher-order networks?},
+  year      = {2023},
+  month     = feb,
+  pages     = {-- in press},
+  abstract  = {Modeling complex systems and data using the language of graphs and networks has become an essential topic across a range of different disciplines. Arguably, this network-based perspective derives is success from the relative simplicity of graphs: A graph consists of nothing more than a set of vertices and a set of edges, describing relationships between pairs of such vertices. This simple combinatorial structure makes graphs interpretable and flexible modeling tools. The simplicity of graphs as system models, however, has been scrutinized in the literature recently. Specifically, it has been argued from a variety of different angles that there is a need for higher-order networks, which go beyond the paradigm of modeling pairwise relationships, as encapsulated by graphs. In this survey article we take stock of these recent developments. Our goals are to clarify (i) what higher-order networks are, (ii) why these are interesting objects of study, and (iii) how they can be used in applications.},
+  timestamp = {2021-04-29},
+  url       = {https://arxiv.org/abs/2104.11329},
 }
 
 @Article{Neuhaeuser2021b,
@@ -792,14 +798,38 @@ In the third part, we discuss how to use dynamical processes unfolding on the ne
   url          = {https://arxiv.org/abs/2208.03263},
 }
 
-@Misc{Stamm2022,
+@InProceedings{Stamm2023,
   author       = {Felix I. Stamm and Michael Scholkemper and Markus Strohmaier and Michael T. Schaub},
-  month        = oct,
+  booktitle    = {The Web Conference},
   title        = {Neighborhood Structure Configuration Models},
-  year         = {2022},
+  year         = {2023},
+  month        = feb,
+  pages        = {-- accepted for publication},
   abstract     = {We develop a new method to efficiently sample synthetic networks that preserve the d-hop neighborhood structure of a given network for any given d. The proposed algorithm trades off the diversity in network samples against the depth of the neighborhood structure that is preserved. Our key innovation is to employ a colored Configuration Model with colors derived from iterations of the so-called Color Refinement algorithm. We prove that with increasing iterations the preserved structural information increases: the generated synthetic networks and the original network become more and more similar, and are eventually indistinguishable in terms of centrality measures such as PageRank, HITS, Katz centrality and eigenvector centrality. Our work enables to efficiently generate samples with a precisely controlled similarity to the original network, especially for large networks.},
   creationdate = {2022-11-06T14:14:48},
   url          = {https://arxiv.org/abs/2210.06843},
+}
+
+@InProceedings{Calmon2022,
+  author       = {Lucille Calmon and Michael T. Schaub and Ginestra Bianconi},
+  booktitle    = {Asilomar Conference on Signals, Systems, and Computers},
+  title        = {Higher-order signal processing with the Dirac operator},
+  year         = {2022},
+  month        = dec,
+  note         = {in press},
+  abstract     = {The processing of signals on simplicial and cellular complexes defined by nodes, edges, and higher-order cells has recently emerged as a principled extension of graph signal processing for signals supported on more general topological spaces. However, most works so far have considered signal processing problems for signals associated to only a single type of cell such as the processing of node signals, or edge signals, by considering an appropriately defined shift operator, like the graph Laplacian or the Hodge Laplacian. Here we introduce the Dirac operator as a novel kind of shift operator for signal processing on complexes. We discuss how the Dirac operator has close relations but is distinct from the Hodge-Laplacian and examine its spectral properties. Importantly, the Dirac operator couples signals defined on cells of neighboring dimensions in a principled fashion. We demonstrate how this enables us, e.g., to leverage node signals for the processing of edge flows.},
+  creationdate = {2023-02-06T10:16:25},
+  url          = {https://arxiv.org/abs/2212.10196},
+}
+
+@Misc{Calmon2023,
+  author       = {Lucille Calmon and Michael T. Schaub and Ginestra Bianconi},
+  howpublished = {submitted},
+  month        = jan,
+  title        = {Dirac signal processing of higher-order topological signals},
+  year         = {2023},
+  abstract     = {We consider topological signals corresponding to variables supported on nodes, links and triangles of higher-order networks and simplicial complexes. So far such signals are typically processed independently of each other, and algorithms that can enforce a consistent processing of topological signals across different levels are largely lacking. Here we propose Dirac signal processing, an adaptive, unsupervised signal processing algorithm that learns to jointly filter topological signals supported on nodes, links and (filled) triangles of simplicial complexes in a consistent way. The proposed Dirac signal processing algorithm is rooted in algebraic topology and formulated in terms of the discrete Dirac operator which can be interpreted as ``square root" of a higher-order (Hodge) Laplacian matrix acting on nodes, links and triangles of simplicial complexes. We test our algorithms on noisy synthetic data and noisy data of drifters in the ocean and find that the algorithm can learn to efficiently reconstruct the true signals outperforming algorithms based exclusively on the Hodge Laplacian.},
+  creationdate = {2023-02-06T10:18:54},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
