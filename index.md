@@ -18,6 +18,8 @@ There are PhD and PostDoc positions available in my group.  If you are intereste
 
 
 ### News and Events
+***April, 2, 2023*** -- Two new papers on arxiv. The first together with my students Florian and Vincent on [signal processing on product spaces](https://arxiv.org/abs/2303.10495).
+The second paper, about [topological point cloud clustering](https://arxiv.org/abs/2303.16716), has been led by Vincent and tries to combine ideas from spectral clustering with topological data analysis.    
 ***March, 17, 2023*** -- New [preprint](https://arxiv.org/abs/2303.05385) on the arxiv     
 ***March, 3, 2023*** -- I will give an introduction to graph signal processing as part of the [school program](https://netsci2023.wixsite.com/netsci2023/school) at NetSci 2023 in Vienna     
 ***February, 1, 2023*** -- Forgot to add: two preprints with Lucille Calmon and Ginestra Bianconi out of the [arxiv](https://arxiv.org/abs/2212.10196)     

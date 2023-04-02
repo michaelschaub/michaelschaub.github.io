@@ -817,10 +817,11 @@ In the third part, we discuss how to use dynamical processes unfolding on the ne
   booktitle    = {Asilomar Conference on Signals, Systems, and Computers},
   title        = {Higher-order signal processing with the Dirac operator},
   year         = {2022},
-  month        = dec,
-  note         = {in press},
+  month        = nov,
+  pages        = {925-929},
   abstract     = {The processing of signals on simplicial and cellular complexes defined by nodes, edges, and higher-order cells has recently emerged as a principled extension of graph signal processing for signals supported on more general topological spaces. However, most works so far have considered signal processing problems for signals associated to only a single type of cell such as the processing of node signals, or edge signals, by considering an appropriately defined shift operator, like the graph Laplacian or the Hodge Laplacian. Here we introduce the Dirac operator as a novel kind of shift operator for signal processing on complexes. We discuss how the Dirac operator has close relations but is distinct from the Hodge-Laplacian and examine its spectral properties. Importantly, the Dirac operator couples signals defined on cells of neighboring dimensions in a principled fashion. We demonstrate how this enables us, e.g., to leverage node signals for the processing of edge flows.},
   creationdate = {2023-02-06T10:16:25},
+  doi          = {10.1109/IEEECONF56349.2022.10052062},
   url          = {https://arxiv.org/abs/2212.10196},
 }
 
@@ -836,7 +837,7 @@ In the third part, we discuss how to use dynamical processes unfolding on the ne
 }
 
 @Misc{Arnaudon2023,
-  author       = {Alexis Arnaudon, Dominik J Schindler, Robert L Peach, Adam Gosztolai, Maxwell Hodges, Michael T Schaub, Mauricio Barahona},
+  author       = {Alexis Arnaudon and Dominik J Schindler and Robert L Peach and Adam Gosztolai and Maxwell Hodges and Michael T Schaub and Mauricio Barahona},
   howpublished = {submitted},
   month        = mar,
   title        = {PyGenStability: Multiscale community detection with generalized Markov Stability},
@@ -844,6 +845,19 @@ In the third part, we discuss how to use dynamical processes unfolding on the ne
   abstract     = {We present PyGenStability, a general-use Python software package that provides a suite of analysis and visualisation tools for unsupervised multiscale community detection in graphs. PyGenStability finds optimized partitions of a graph at different levels of resolution by maximizing the generalized Markov Stability quality function with the Louvain or Leiden algorithms. The package includes automatic detection of robust graph partitions and allows the flexibility to choose quality functions for weighted undirected, directed and signed graphs, and to include other user-defined quality functions. The code and documentation are hosted on GitHub under a GNU General Public License at this https URL.},
   creationdate = {2023-03-15T20:16:03},
   url          = {https://arxiv.org/abs/2303.05385},
+}
+
+@InProceedings{Roddenberry2023,
+  author       = {T. Mitchell Roddenberry and Vincent P. Grande and Florian Frantzen and Michael T. Schaub and Santiago Segarra},
+  booktitle    = {IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  title        = {{Signal Processing on Product Spaces}},
+  year         = {2023},
+  month        = mar,
+  note         = {in press},
+  publisher    = {IEEE},
+  abstract     = {We establish a framework for signal processing on product spaces of simplicial and cellular complexes. For simplicity, we focus on the product of two complexes representing time and space, although our results generalize naturally to products of simplicial complexes of arbitrary dimension. Our framework leverages the structure of the eigenmodes of the Hodge Laplacian of the product space to jointly filter along time and space. To this end, we provide a decomposition theorem of the Hodge Laplacian of the product space, which highlights how the product structure induces a decomposition of each eigenmode into a spatial and temporal component. Finally, we apply our method to real world data, specifically for interpolating trajectories of buoys in the ocean from a limited set of observed trajectories.},
+  creationdate = {2023-03-24T14:15:31},
+  url          = {https://arxiv.org/abs/2303.10495},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
