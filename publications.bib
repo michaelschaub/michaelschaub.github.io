@@ -496,15 +496,20 @@ In the third part, we discuss how to use dynamical processes unfolding on the ne
   url      = {https://arxiv.org/abs/2001.10944},
 }
 
-@Misc{Schaub2020b,
-  author       = {Michael T. Schaub and Leto Peel},
-  howpublished = {submitted},
-  month        = sep,
-  title        = {Hierarchical community structure in networks},
-  year         = {2020},
-  abstract     = {Modular and hierarchical structures are pervasive in real-world complex systems. A great deal of effort has gone into trying to detect and study these structures. Important theoretical advances in the detection of modular, or "community", structures have included identifying fundamental limits of detectability by formally defining community structure using probabilistic generative models. Detecting hierarchical community structure introduces additional challenges alongside those inherited from community detection. Here we present a theoretical study on hierarchical community structure in networks, which has thus far not received the same rigorous attention. We address the following questions: 1)~How should we define a valid hierarchy of communities? 2)~How should we determine if a hierarchical structure exists in a network? and 3)~how can we detect hierarchical structure efficiently? We approach these questions by introducing a definition of hierarchy based on the concept of stochastic externally equitable partitions and their relation to probabilistic models, such as the popular stochastic block model. We enumerate the challenges involved in detecting hierarchies and, by studying the spectral properties of hierarchical structure, present an efficient and principled method for detecting them.},
-  timestamp    = {2020-09-23},
-  url          = {https://arxiv.org/abs/2009.07196},
+@Article{Schaub2023,
+  author    = {Schaub, Michael T. and Li, Jiaze and Peel, Leto},
+  journal   = {Phys. Rev. E},
+  title     = {Hierarchical community structure in networks},
+  year      = {2023},
+  month     = {May},
+  pages     = {054305},
+  volume    = {107},
+  abstract  = {Modular and hierarchical structures are pervasive in real-world complex systems. A great deal of effort has gone into trying to detect and study these structures. Important theoretical advances in the detection of modular, or "community", structures have included identifying fundamental limits of detectability by formally defining community structure using probabilistic generative models. Detecting hierarchical community structure introduces additional challenges alongside those inherited from community detection. Here we present a theoretical study on hierarchical community structure in networks, which has thus far not received the same rigorous attention. We address the following questions: 1)~How should we define a valid hierarchy of communities? 2)~How should we determine if a hierarchical structure exists in a network? and 3)~how can we detect hierarchical structure efficiently? We approach these questions by introducing a definition of hierarchy based on the concept of stochastic externally equitable partitions and their relation to probabilistic models, such as the popular stochastic block model. We enumerate the challenges involved in detecting hierarchies and, by studying the spectral properties of hierarchical structure, present an efficient and principled method for detecting them.},
+  doi       = {10.1103/PhysRevE.107.054305},
+  issue     = {5},
+  numpages  = {22},
+  publisher = {American Physical Society},
+  url       = {https://arxiv.org/abs/2009.07196},
 }
 
 @Misc{Peel2020,
@@ -858,6 +863,38 @@ In the third part, we discuss how to use dynamical processes unfolding on the ne
   abstract     = {We establish a framework for signal processing on product spaces of simplicial and cellular complexes. For simplicity, we focus on the product of two complexes representing time and space, although our results generalize naturally to products of simplicial complexes of arbitrary dimension. Our framework leverages the structure of the eigenmodes of the Hodge Laplacian of the product space to jointly filter along time and space. To this end, we provide a decomposition theorem of the Hodge Laplacian of the product space, which highlights how the product structure induces a decomposition of each eigenmode into a spatial and temporal component. Finally, we apply our method to real world data, specifically for interpolating trajectories of buoys in the ocean from a limited set of observed trajectories.},
   creationdate = {2023-03-24T14:15:31},
   url          = {https://arxiv.org/abs/2303.10495},
+}
+
+@Misc{Hajij2023,
+  author   = {Hajij, Mustafa and Zamzmi, Ghada and Papamarkou, Theodore and Miolane, Nina and Guzm{\'a}n-S{\'a}enz, Aldo and Ramamurthy, Karthikeyan Natesan and Birdal, Tolga and Dey, Tamal K and Mukherjee, Soham and Samaga, Shreyas N and others},
+  month    = apr,
+  title    = {Topological Deep Learning: Going Beyond Graph Data},
+  year     = {2023},
+  abstract = {Topological deep learning is a rapidly growing field that pertains to the development of deep learning models for data supported on topological domains such as simplicial complexes, cell complexes, and hypergraphs, which generalize many domains encountered in scientific computations. In this paper, we present a unifying deep learning framework built upon a richer data structure that includes widely adopted topological domains.
+Specifically, we first introduce combinatorial complexes, a novel type of topological domain. Combinatorial complexes can be seen as generalizations of graphs that maintain certain desirable properties. Similar to hypergraphs, combinatorial complexes impose no constraints on the set of relations. In addition, combinatorial complexes permit the construction of hierarchical higher-order relations, analogous to those found in simplicial and cell complexes. Thus, combinatorial complexes generalize and combine useful traits of both hypergraphs and cell complexes, which have emerged as two promising abstractions that facilitate the generalization of graph neural networks to topological spaces.
+Second, building upon combinatorial complexes and their rich combinatorial and algebraic structure, we develop a general class of message-passing combinatorial complex neural networks (CCNNs), focusing primarily on attention-based CCNNs. We characterize permutation and orientation equivariances of CCNNs, and discuss pooling and unpooling operations within CCNNs in detail.
+Third, we evaluate the performance of CCNNs on tasks related to mesh shape analysis and graph learning. Our experiments demonstrate that CCNNs have competitive performance as compared to state-of-the-art deep learning models specifically tailored to the same tasks. Our findings demonstrate the advantages of incorporating higher-order relations into deep learning models in different applications.},
+  url      = {https://arxiv.org/abs/2206.00606},
+}
+
+@InProceedings{Grande2023,
+  author    = {Grande, Vincent P and Schaub, Michael T},
+  booktitle = {International Conference of Machine Learning (ICML)},
+  title     = {Topological Point Cloud Clustering},
+  year      = {2023},
+  month     = jul,
+  abstract  = {We present Topological Point Cloud Clustering (TPCC), a new method to cluster points in an arbitrary point cloud based on their contribution to global topological features. TPCC synthesizes desirable features from spectral clustering and topological data analysis and is based on considering the spectral properties of a simplicial complex associated to the considered point cloud. As it is based on considering sparse eigenvector computations, TPCC is similarly easy to interpret and implement as spectral clustering. However, by focusing not just on a single matrix associated to a graph created from the point cloud data, but on a whole set of Hodge-Laplacians associated to an appropriately constructed simplicial complex, we can leverage a far richer set of topological features to characterize the data points within the point cloud and benefit from the relative robustness of topological techniques against noise. We test the performance of TPCC on both synthetic and real-world data and compare it with classical spectral clustering.},
+  url       = {https://arxiv.org/abs/2303.16716},
+}
+
+@Misc{Scholkemper2023,
+  author       = {Michael Scholkemper and Michael T. Schaub},
+  month        = jun,
+  title        = {An Optimization-based Approach To Node Role Discovery in Networks: Approximating Equitable Partitions},
+  year         = {2023},
+  abstract     = {Similar to community detection, partitioning the nodes of a network according to their structural roles aims to identify fundamental building blocks of a network. The found partitions can be used, e.g., to simplify descriptions of the network connectivity, to derive reduced order models for dynamical processes unfolding on processes, or as ingredients for various graph mining tasks. In this work, we offer a fresh look on the problem of role extraction and its differences to community detection and present a definition of node roles related to graph-isomorphism tests, the Weisfeiler-Leman algorithm and equitable partitions. We study two associated optimization problems (cost functions) grounded in ideas from graph isomorphism testing, and present theoretical guarantees associated to the solutions of these problems. Finally, we validate our approach via a novel "role-infused partition benchmark", a network model from which we can sample networks in which nodes are endowed with different roles in a stochastic way.},
+  creationdate = {2023-06-03T16:20:54},
+  url          = {https://arxiv.org/abs/2305.19087},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
