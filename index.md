@@ -18,6 +18,7 @@ There are PhD and PostDoc positions available in my group.  If you are intereste
 
 
 ### News and Events
+***June, 6, 2023*** -- New preprint with Leonie, Michael and Francesco Tudisco (GSSI, Italy) on learning models for dynamical hypernetworks [here](https://arxiv.org/abs/2306.01813).   
 ***May, 30, 2023*** -- New preprint with my student Michael on finding node roles by approximating equitable partitons [here](https://arxiv.org/abs/2305.19087).   
 ***April, 26, 2023*** -- New (long!) paper on arxiv on [topological deep learning](https://arxiv.org/abs/2206.00606). Further, Vincent's paper on topological point cloud clustering just got accepted to ICML.      
 ***April, 2, 2023*** -- Two new papers on arxiv. The first together with my students Florian and Vincent on [signal processing on product spaces](https://arxiv.org/abs/2303.10495).
