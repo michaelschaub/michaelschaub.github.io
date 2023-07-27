@@ -1430,7 +1430,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Schaub2012a" class="entry">
-    <td> [62] Schaub, M. &amp; Schultz, S. (2012), <i>"The Ising decoder: reading out the activity of large neural ensembles"</i>, Journal of Computational Neuroscience., February, 2012.  Vol. 32(1), pp. 101-118.
+    <td> [62] Schaub, M.T. &amp; Schultz, S. (2012), <i>"The Ising decoder: reading out the activity of large neural ensembles"</i>, Journal of Computational Neuroscience., February, 2012.  Vol. 32(1), pp. 101-118.
         <p class="infolinks">[<a href="javascript:toggleInfo('Schaub2012a','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Schaub2012a','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1007/s10827-011-0342-z" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/1009.1828" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -1441,7 +1441,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     <td><b>BibTeX</b>:
         <pre>
 @article{Schaub2012a,
-    author = {Schaub, Michael and Schultz, Simon},
+    author = {Schaub, Michael T. and Schultz, Simon},
            title = {The Ising decoder: reading out the activity of large neural ensembles},
            journal = {Journal of Computational Neuroscience},
            year = {2012},
@@ -1456,5 +1456,5 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 </tbody>
 </table>
 <footer>
- <small>Created by <a href="http://jabref.sourceforge.net">JabRef</a> on 03/06/2023.</small>
+ <small>Created by <a href="http://jabref.sourceforge.net">JabRef</a> on 27/07/2023.</small>
 </footer>
