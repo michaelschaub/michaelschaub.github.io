@@ -18,9 +18,9 @@ We are always looking for excellent PhD students and PostDocs.  If you are inter
 
 
 ### News and Events
-*** August, 21, 2023*** -- I will be in Tokyo this week at [ICIAM](https://iciam2023.org/) to talk about Hodge Laplacians and related things. If you are there, too, please feel free to get in touch.     
-*** August, 14, 2023*** -- Leonie Neuhäuser sucessfully defended her PhD today. Congratulations Dr. Neuhäuser!         
-*** July, 28, 2023*** -- [Mehdi Naima](https://busyweaver.github.io/), a PostDoctoral Researcher in our lab will leave our lab soon, as he is about to start a faculty position in France. Farewell Mehdi!    
+***August, 21, 2023*** -- I will be in Tokyo this week at [ICIAM](https://iciam2023.org/) to talk about Hodge Laplacians and related things. If you are there, too, please feel free to get in touch.     
+***August, 14, 2023*** -- Leonie Neuhäuser sucessfully defended her PhD today. Congratulations Dr. Neuhäuser!         
+***July, 28, 2023*** -- [Mehdi Naima](https://busyweaver.github.io/), a PostDoctoral Researcher in our lab will leave our lab soon, as he is about to start a faculty position in France. Farewell Mehdi!    
 ***July, 11, 2023*** -- I gave a school talk at Netsci 2023 on signal processing for graphs and complexes.    
 ***June, 6, 2023*** -- New preprint with Leonie, Michael and Francesco Tudisco (GSSI, Italy) on learning models for dynamical hypernetworks [here](https://arxiv.org/abs/2306.01813).   
 ***May, 30, 2023*** -- New preprint with my student Michael on finding node roles by approximating equitable partitons [here](https://arxiv.org/abs/2305.19087).   
