@@ -18,6 +18,7 @@ We are always looking for excellent PhD students and PostDocs.  If you are inter
 
 
 ### News and Events
+***September, 11, 2023*** -- Visiting Linkoping for the [ELLIIT focus period](https://elliit.se/news-and-events/focus-period-linkoping-2023/) on network dynamics and control. If you are there, too, please feel free to get in touch.     
 ***August, 21, 2023*** -- I will be in Tokyo this week at [ICIAM](https://iciam2023.org/) to talk about Hodge Laplacians and related things. If you are there, too, please feel free to get in touch.     
 ***August, 14, 2023*** -- Leonie Neuhäuser sucessfully defended her PhD today. Congratulations Dr. Neuhäuser!         
 ***July, 28, 2023*** -- [Mehdi Naima](https://busyweaver.github.io/), a PostDoctoral Researcher in our lab will leave our lab soon, as he is about to start a faculty position in France. Farewell Mehdi!    
