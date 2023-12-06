@@ -18,6 +18,12 @@ We are always looking for excellent PhD students and PostDocs.  If you are inter
 
 
 ### News and Events
+***December, 6, 2023*** -- Overdue update on our papers in the Learning on Graph conference. Very happy to got 3 papers accepted :) 
+First, some great work with Donald Loveland, Jiong Zhu, Mark Heimann, Ben Fish and Danai Koutra [\[arxiv\]](https://arxiv.org/abs/2306.05557v4). 
+Second, a paper on a great idea from Vincent using the metric dependence in persistent homology to reveal some new cool features about data [\[arxiv\]](https://arxiv.org/abs/2310.16437).
+Finally, Josef's first paper within his PhD about inferring sparse cell complexes from data [\[arxiv\]](https://arxiv.org/abs/2309.01632), which received the **best paper award**!     
+***December, 4, 2023*** -- Anton Savostianov is visiting us from GSSI, Italy, til the end of January -- welcome Anton!     
+***November, 25, 2023*** -- New [arxiv paper](https://arxiv.org/abs/2311.14427) with Vincent on spectral properties of the Hodge-Laplacian and on why not all small eigenvalues are of the same kind...      
 ***September, 11, 2023*** -- Visiting Linkoping for the [ELLIIT focus period](https://elliit.se/news-and-events/focus-period-linkoping-2023/) on network dynamics and control. If you are there, too, please feel free to get in touch.     
 ***August, 21, 2023*** -- I will be in Tokyo this week at [ICIAM](https://iciam2023.org/) to talk about Hodge Laplacians and related things. If you are there, too, please feel free to get in touch.     
 ***August, 14, 2023*** -- Leonie Neuhäuser sucessfully defended her PhD today. Congratulations Dr. Neuhäuser!         

@@ -819,7 +819,7 @@ In the third part, we discuss how to use dynamical processes unfolding on the ne
   month        = apr,
   pages        = {210–220},
   publisher    = {Association for Computing Machinery},
-  series       = {WWW '23},
+  series       = {WWW'23},
   abstract     = {We develop a new method to efficiently sample synthetic networks that preserve the d-hop neighborhood structure of a given network for any given d. The proposed algorithm trades off the diversity in network samples against the depth of the neighborhood structure that is preserved. Our key innovation is to employ a colored Configuration Model with colors derived from iterations of the so-called Color Refinement algorithm. We prove that with increasing iterations the preserved structural information increases: the generated synthetic networks and the original network become more and more similar, and are eventually indistinguishable in terms of centrality measures such as PageRank, HITS, Katz centrality and eigenvector centrality. Our work enables to efficiently generate samples with a precisely controlled similarity to the original network, especially for large networks.},
   creationdate = {2022-11-06T14:14:48},
   doi          = {10.1145/3543507.3583266},
@@ -897,7 +897,7 @@ Third, we evaluate the performance of CCNNs on tasks related to mesh shape analy
 
 @InProceedings{Grande2023,
   author    = {Grande, Vincent Peter and Schaub, Michael T},
-  booktitle = {Proceedings of the 40th International Conference on Machine Learning},
+  booktitle = {Proceedings of the 40th International Conference on Machine Learning (ICML 2023)},
   title     = {Topological Point Cloud Clustering},
   year      = {2023},
   editor    = {Krause, Andreas and Brunskill, Emma and Cho, Kyunghyun and Engelhardt, Barbara and Sabato, Sivan and Scarlett, Jonathan},
@@ -910,15 +910,15 @@ Third, we evaluate the performance of CCNNs on tasks related to mesh shape analy
   url       = {https://arxiv.org/abs/2303.16716},
 }
 
-@Misc{Scholkemper2023,
-  author       = {Michael Scholkemper and Michael T. Schaub},
-  howpublished = {submitted},
-  month        = jun,
-  title        = {An Optimization-based Approach To Node Role Discovery in Networks: Approximating Equitable Partitions},
-  year         = {2023},
-  abstract     = {Similar to community detection, partitioning the nodes of a network according to their structural roles aims to identify fundamental building blocks of a network. The found partitions can be used, e.g., to simplify descriptions of the network connectivity, to derive reduced order models for dynamical processes unfolding on processes, or as ingredients for various graph mining tasks. In this work, we offer a fresh look on the problem of role extraction and its differences to community detection and present a definition of node roles related to graph-isomorphism tests, the Weisfeiler-Leman algorithm and equitable partitions. We study two associated optimization problems (cost functions) grounded in ideas from graph isomorphism testing, and present theoretical guarantees associated to the solutions of these problems. Finally, we validate our approach via a novel "role-infused partition benchmark", a network model from which we can sample networks in which nodes are endowed with different roles in a stochastic way.},
-  creationdate = {2023-06-03T16:20:54},
-  url          = {https://arxiv.org/abs/2305.19087},
+@InProceedings{Scholkemper2023,
+  author    = {Michael Scholkemper and Michael T. Schaub},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS 2023)},
+  title     = {{An Optimization-based Approach To Node Role Discovery in Networks: Approximating Equitable Partitions}},
+  year      = {2023},
+  month     = oct,
+  note      = {accepted for publication},
+  abstract  = {Similar to community detection, partitioning the nodes of a network according to their structural roles aims to identify fundamental building blocks of a network. The found partitions can be used, e.g., to simplify descriptions of the network connectivity, to derive reduced order models for dynamical processes unfolding on processes, or as ingredients for various graph mining tasks. In this work, we offer a fresh look on the problem of role extraction and its differences to community detection and present a definition of node roles related to graph-isomorphism tests, the Weisfeiler-Leman algorithm and equitable partitions. We study two associated optimization problems (cost functions) grounded in ideas from graph isomorphism testing, and present theoretical guarantees associated to the solutions of these problems. Finally, we validate our approach via a novel "role-infused partition benchmark", a network model from which we can sample networks in which nodes are endowed with different roles in a stochastic way.},
+  url       = {https://arxiv.org/abs/2305.19087},
 }
 
 @Misc{Neuhaeuser2023,
@@ -931,14 +931,15 @@ Third, we evaluate the performance of CCNNs on tasks related to mesh shape analy
   url          = {https://arxiv.org/abs/2303.10495},
 }
 
-@Misc{Hoppe2023,
-  author       = {Josef Hoppe and Michael T. Schaub},
-  howpublished = {submitted},
-  month        = sep,
-  title        = {Representing Edge Flows on Graphs via Sparse Cell Complexes},
-  year         = {2023},
-  abstract     = {Obtaining sparse, interpretable representations of observable data is crucial in many machine learning and signal processing tasks. For data representing flows along the edges of a graph, an intuitively interpretable way to obtain such representations is to lift the graph structure to a simplicial complex: The eigenvectors of the associated Hodge-Laplacian, respectively the incidence matrices of the corresponding simplicial complex then induce a Hodge decomposition, which can be used to represent the observed data in terms of gradient, curl, and harmonic flows. In this paper, we generalize this approach to cellular complexes and introduce the cell inference optimization problem, i.e., the problem of augmenting the observed graph by a set of cells, such that the eigenvectors of the associated Hodge Laplacian provide a sparse, interpretable representation of the observed edge flows on the graph. We show that this problem is NP-hard and introduce an efficient approximation algorithm for its solution. Experiments on real-world and synthetic data demonstrate that our algorithm outperforms current state-of-the-art methods while being computationally efficient.},
-  url          = {https://arxiv.org/abs/2309.01632},
+@InProceedings{Hoppe2023,
+  author    = {Josef Hoppe and Michael T. Schaub},
+  booktitle = {Learning on Graphs 2023},
+  title     = {Representing Edge Flows on Graphs via Sparse Cell Complexes},
+  year      = {2023},
+  month     = sep,
+  note      = {accepted for publication},
+  abstract  = {Obtaining sparse, interpretable representations of observable data is crucial in many machine learning and signal processing tasks. For data representing flows along the edges of a graph, an intuitively interpretable way to obtain such representations is to lift the graph structure to a simplicial complex: The eigenvectors of the associated Hodge-Laplacian, respectively the incidence matrices of the corresponding simplicial complex then induce a Hodge decomposition, which can be used to represent the observed data in terms of gradient, curl, and harmonic flows. In this paper, we generalize this approach to cellular complexes and introduce the cell inference optimization problem, i.e., the problem of augmenting the observed graph by a set of cells, such that the eigenvectors of the associated Hodge Laplacian provide a sparse, interpretable representation of the observed edge flows on the graph. We show that this problem is NP-hard and introduce an efficient approximation algorithm for its solution. Experiments on real-world and synthetic data demonstrate that our algorithm outperforms current state-of-the-art methods while being computationally efficient.},
+  url       = {https://arxiv.org/abs/2309.01632},
 }
 
 @Misc{Nagai2023,
@@ -949,6 +950,44 @@ Third, we evaluate the performance of CCNNs on tasks related to mesh shape analy
   year         = {2023},
   abstract     = {Comparing graphs by means of optimal transport has recently gained significant attention, as the distances induced by optimal transport provide both a principled metric between graphs as well as an interpretable description of the associated changes between graphs in terms of a transport plan. As the lack of symmetry introduces challenges in the typically considered formulations, optimal transport distances for graphs have mostly been developed for undirected graphs. Here, we propose two distance measures to compare directed graphs based on variants of optimal transport: (i) an earth movers distance (Wasserstein) and (ii) a Gromov-Wasserstein (GW) distance. We evaluate these two distances and discuss their relative performance for both simulated graph data and real-world directed cell-cell communication graphs, inferred from single-cell RNA-seq data.},
   url          = {https://arxiv.org/abs/2309.07030},
+}
+
+@InProceedings{Papillon2023,
+  author    = {Papillon, Mathilde and Hajij, Mustafa and Myers, Audun and Frantzen, Florianand and Zamzmi, Ghada and Jenne, Helen and Mathe, Johan and Hoppe, Josef and Schaub, Michael and Papamarkou, Theodore and Guzm\'{a}n-S\'{a}enz, Aldo and Rieck, Bastian and Livesay, Neal and Dey, Tamal and Rabinowitz, Abraham and Brent, Aiden and Salatiello, Alessandro and Nikitin, Alexander and Zia, Ali and Battiloro, Claudio and Gavrilev, Dmitrii and B\''{o}kman, Georg and Magai, German and Bazhenov, Gleb and Bernardez, Guillermo and Spinelli, Indro and Agerberg, Jens and Nadimpalli, Kalyan and Telyatninkov, Lev and Scofano, Luca and Testa, Lucia and Lecha, Manuel and Yang, Maosheng and Hassanin, Mohammed and Gardaa, Odin Hoff and Zaghen, Olga and Hausner, Paul and Snopoff, Paul and Melnyk, Pavlo and Ballester, Rub\'{e}n and Barikbin, Sadrodin and Escalera, Sergio and Fiorellino, Simone and Kvinge, Henry and Meissner, Jan and Ramamurthy, Karthikeyan Natesan and Scholkemper, Michael and Rosen, Paul and Walters, Robin and Samaga, Shreyas N. and Mukherjee, Soham and Sanborn, Sophia and Emerson, Tegan and Doster, Timothy and Birdal, Tolga and Grande, Vincent and Khamis, Abdelwahed and Scardapane, Simone and Singh, Suraj and Malygina, Tatiana and Yue, Yixiao and Miolane, Nina},
+  booktitle = {Proceedings of 2nd Annual Workshop on Topology, Algebra, and Geometry in Machine Learning (TAG-ML)},
+  title     = {ICML 2023 Topological Deep Learning Challenge: Design and Results},
+  year      = {2023},
+  editor    = {Doster, Timothy and Emerson, Tegan and Kvinge, Henry and Miolane, Nina and Papillon, Mathilde and Rieck, Bastian and Sanborn, Sophia},
+  month     = jul,
+  pages     = {3--8},
+  publisher = {PMLR},
+  series    = {Proceedings of Machine Learning Research},
+  volume    = {221},
+  abstract  = {This paper presents the computational challenge on topological deep learning that was hosted within the ICML 2023 Workshop on Topology and Geometry in Machine Learning. The competition asked participants to provide open-source implementations of topological neural networks from the literature by contributing to the python packages TopoNetX (data processing) and TopoModelX (deep learning). The challenge attracted twenty-eight qualifying submissions in its two month duration. This paper describes the design of the challenge and summarizes its main findings.},
+  eprint    = {https://proceedings.mlr.press/v221/papillon23a/papillon23a.pdf},
+  url       = {https://arxiv.org/abs/2309.15188},
+}
+
+@InProceedings{grande2023non,
+  author    = {Grande, Vincent P and Schaub, Michael T},
+  booktitle = {Learning on Graphs 2023},
+  title     = {Non-isotropic Persistent Homology: Leveraging the Metric Dependency of PH},
+  year      = {2023},
+  month     = oct,
+  note      = {accepted for publication},
+  abstract  = {Persistent Homology is a widely used topological data analysis tool that creates a concise description of the topological properties of a point cloud based on a specified filtration. Most filtrations used for persistent homology depend (implicitly) on a chosen metric, which is typically agnostically chosen as the standard Euclidean metric on R^n. Recent work has tried to uncover the 'true' metric on the point cloud using distance-to-measure functions, in order to obtain more meaningful persistent homology results. Here we propose an alternative look at this problem: we posit that information on the point cloud is lost when restricting persistent homology to a single (correct) distance function. Instead, we show how by varying the distance function on the underlying space and analysing the corresponding shifts in the persistence diagrams, we can extract additional topological and geometrical information. Finally, we numerically show that non-isotropic persistent homology can extract information on orientation, orientational variance, and scaling of randomly generated point clouds with good accuracy and conduct some experiments on real-world data.},
+  url       = {https://arxiv.org/abs/2310.16437},
+}
+
+@InProceedings{Loveland2023,
+  author    = {Donald Loveland and Jiong Zhu and Mark Heimann and Benjamin Fish and Michael T Schaub and Danai Koutra},
+  booktitle = {Learning on Graphs 2023},
+  title     = {On Performance Discrepancies Across Local Homophily Levels in Graph Neural Networks},
+  year      = {2023},
+  month     = nov,
+  note      = {accepted},
+  abstract  = {Graph Neural Network (GNN) research has highlighted a relationship between high homophily (i.e., the tendency of nodes of the same class to connect) and strong predictive performance in node classification. However, recent work has found the relationship to be more nuanced, demonstrating that simple GNNs can learn in certain heterophilous settings. To resolve these conflicting findings and align closer to real-world datasets, we go beyond the assumption of a global graph homophily level and study the performance of GNNs when the local homophily level of a node deviates from the global homophily level. Through theoretical and empirical analysis, we systematically demonstrate how shifts in local homophily can introduce performance degradation, leading to performance discrepancies across local homophily levels. We ground the practical implications of this work through granular analysis on five real-world datasets with varying global homophily levels, demonstrating that (a) GNNs can fail to generalize to test nodes that deviate from the global homophily of a graph, and (b) high local homophily does not necessarily confer high performance for a node. We further show that GNNs designed for globally heterophilous graphs can alleviate performance discrepancy by improving performance across local homophily levels, offering a new perspective on how these GNNs achieve stronger global performance.},
+  url       = {https://arxiv.org/abs/2306.05557v3},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
