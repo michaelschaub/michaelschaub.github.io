@@ -18,6 +18,9 @@ We are always looking for excellent PhD students and PostDocs.  If you are inter
 
 
 ### News and Events
+<!--***December, 18, 2023*** -- We have a paper accepted at Asilomar 2023. You can find the preprint [here](arxiv).               -->
+***December, 15, 2023*** -- We have three papers accepted at ICASSP 2023.  A paper led by James Nagai with Ivan Costa [\[arxiv\]](https://arxiv.org/abs/2309.07030). 
+A second paper with Vincent  [\[arxiv\]](https://arxiv.org/abs/2311.14427). Last but not least, a paper with Damin Kuehn, Michael Scholkemper and some colleagues from Neuroscience (which will hopefully be on the arxiv soon).            
 ***December, 6, 2023*** -- Overdue update on our papers in the Learning on Graph conference. Very happy to got 3 papers accepted :) 
 First, some great work with Donald Loveland, Jiong Zhu, Mark Heimann, Ben Fish and Danai Koutra [\[arxiv\]](https://arxiv.org/abs/2306.05557v4). 
 Second, a paper on a great idea from Vincent using the metric dependence in persistent homology to reveal some new cool features about data [\[arxiv\]](https://arxiv.org/abs/2310.16437).
@@ -96,6 +99,7 @@ Following my PhD, I worked in Belgium, jointly at the [Université catholique de
 In November 2016, I moved to the [Massachusetts Institute of Technology](https://web.mit.edu/) (MIT) as a Postdoctoral Research Associate. 
 From July 2017 onwards I was a Marie Skłodowska Curie Fellow at [MIT](https://web.mit.edu/) and the [University of Oxford](http://www.ox.ac.uk/), before joining [RWTH Aachen University](https://www.rwth-aachen.de) in June 2020, supported by the [NRW Return Programme](https://www.mkw.nrw/hochschule-und-forschung/foerderungen/rueckkehrprogramm) (2019). I have been awarded an ERC Starting Grant in 2022.
 
+For more information on my ERC project see [HIGH-HOPeS]({{ site.baseurl }}{% link high-hopes.md %}).       
 For more information on my Marie Curie Project see [HIntNets]({{ site.baseurl }}{% link hintnets.md %})
 {: .notice--info}
 

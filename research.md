@@ -28,6 +28,10 @@ The modeling perspectives applied in these application areas can be quite differ
 My work may be partitioned into the following (overlapping) themes.
 For more details please also refer to [Publications]({{ site.baseurl }}{% link publications.md %}) and [Code]({{ site.baseurl }}{% link code.md %}).
 
+For more information on my ERC project see [HIGH-HOPeS]({{ site.baseurl }}{% link high-hopes.md %}).       
+For more information on my Marie Curie Project see [HIntNets]({{ site.baseurl }}{% link hintnets.md %})
+{: .notice--info}
+
 ### Interdisciplinary Applications
 One of the strengths of network models is their versatility: networks have become ubiquitous abstractions for social, physical, biological and engineered systems. 
 Facilitated by my multidisciplinary background, I have been fortunate to work with great collaborators on a range of applications.
