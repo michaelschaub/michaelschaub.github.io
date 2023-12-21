@@ -18,7 +18,7 @@ We are always looking for excellent PhD students and PostDocs.  If you are inter
 
 
 ### News and Events
-<!--***December, 18, 2023*** -- We have a paper accepted at Asilomar 2023. You can find the preprint [here](arxiv).               -->
+***December, 19, 2023*** -- We have a paper accepted at Asilomar 2023. You can find the preprint [here](https://arxiv.org/abs/2312.09504).               
 ***December, 15, 2023*** -- We have three papers accepted at ICASSP 2023.  A paper led by James Nagai with Ivan Costa [\[arxiv\]](https://arxiv.org/abs/2309.07030). 
 A second paper with Vincent  [\[arxiv\]](https://arxiv.org/abs/2311.14427). Last but not least, a paper with Damin Kuehn, Michael Scholkemper and some colleagues from Neuroscience (which will hopefully be on the arxiv soon).            
 ***December, 6, 2023*** -- Overdue update on our papers in the Learning on Graph conference. Very happy to got 3 papers accepted :) 

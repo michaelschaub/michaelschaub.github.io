@@ -38,56 +38,28 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 <!--BEGIN PUBLICATIOON INSERT HERE-->
 <table id="qs_table" border="1">
 <tbody>
-<tr id="Grande2023" class="entry">
-    <td> [1] Grande, V.P. &amp; Schaub, M.T. (2023), <i>"Topological Point Cloud Clustering"</i>, In Proceedings of the 40th International Conference on Machine Learning (ICML 2023).  Vol. 202, pp. 11683-11697. PMLR.
-        <p class="infolinks">[<a href="javascript:toggleInfo('Grande2023','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Grande2023','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2303.16716" target="_blank">URL</a>]</p>
-    </td>
+<tr id="Hajij2023a" class="entry">
+	<td> [1] Hajij M, Zamzmi G, Papamarkou T, Guzmán-Sáenz A, Birdal T and Schaub MT (2023), <i>"Combinatorial Complexes: Bridging the Gap Between Cell Complexes and Hypergraphs"</i>, arxiv. December, 2023.
+	<p class="infolinks">[<a href="javascript:toggleInfo('Hajij2023a','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Hajij2023a','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2312.09504" target="_blank">URL</a>]</p>
+	</td>
 </tr>
-<tr id="abs_Grande2023" class="abstract noshow">
-    <td><b>Abstract</b>: We present Topological Point Cloud Clustering (TPCC), a new method to cluster points in an arbitrary point cloud based on their contribution to global topological features. TPCC synthesizes desirable features from spectral clustering and topological data analysis and is based on considering the spectral properties of a simplicial complex associated to the considered point cloud. As it is based on considering sparse eigenvector computations, TPCC is similarly easy to interpret and implement as spectral clustering. However, by focusing not just on a single matrix associated to a graph created from the point cloud data, but on a whole set of Hodge-Laplacians associated to an appropriately constructed simplicial complex, we can leverage a far richer set of topological features to characterize the data points within the point cloud and benefit from the relative robustness of topological techniques against noise. We test the performance of TPCC on both synthetic and real-world data and compare it with classical spectral clustering.</td>
+<tr id="abs_Hajij2023a" class="abstract noshow">
+	<td><b>Abstract</b>: Graph-based signal processing techniques have become essential for handling data in non-Euclidean spaces. However, there is a growing awareness that these graph models might need to be expanded into `higher-order' domains to effectively represent the complex relations found in high-dimensional data. Such higher-order domains are typically modeled either as hypergraphs, or as simplicial, cubical or other cell complexes. In this context, cell complexes are often seen as a subclass of hypergraphs with additional algebraic structure that can be exploited, e.g., to develop a spectral theory. In this article, we promote an alternative perspective. We argue that hypergraphs and cell complexes emphasize <em>different</em> types of relations, which may have different utility depending on the application context. Whereas hypergraphs are effective in modeling set-type, multi-body relations between entities, cell complexes provide an effective means to model hierarchical, interior-to-boundary type relations. We discuss the relative advantages of these two choices and elaborate on the previously introduced concept of a combinatorial complex that enables co-existing set-type and hierarchical relations. Finally, we provide a brief numerical experiment to demonstrate that this modelling flexibility can be advantageous in learning tasks.</td>
 </tr>
-<tr id="bib_Grande2023" class="bibtex noshow">
-    <td><b>BibTeX</b>:
-        <pre>
-@inproceedings{Grande2023,
-    author = {Grande, Vincent Peter and Schaub, Michael T},
-           editor = {Krause, Andreas and Brunskill, Emma and Cho, Kyunghyun and Engelhardt, Barbara and Sabato, Sivan and Scarlett, Jonathan},
-           title = {Topological Point Cloud Clustering},
-           booktitle = {Proceedings of the 40th International Conference on Machine Learning (ICML 2023)},
-           publisher = {PMLR},
-           year = {2023},
-           volume = {202},
-           pages = {11683--11697},
-           url = {https://arxiv.org/abs/2303.16716}
+<tr id="bib_Hajij2023a" class="bibtex noshow">
+<td><b>BibTeX</b>:
+<pre>
+@misc{Hajij2023a,
+  author = {Mustafa Hajij and Ghada Zamzmi and Theodore Papamarkou and Aldo Guzmán-Sáenz and Tolga Birdal and Michael T. Schaub},
+  title = {Combinatorial Complexes: Bridging the Gap Between Cell Complexes and Hypergraphs},
+  howpublished = {arxiv},
+  year = {2023},
+  url = {https://arxiv.org/abs/2312.09504}
 }
-    </pre></td>
-</tr>
-<tr id="Bick2023" class="entry">
-    <td> [2] Bick, C.; Gross, E.; Harrington, H.A. &amp; Schaub, M.T. (2023), <i>"What are higher-order networks?"</i>, SIAM Review.  Vol. 65(3), pp. 686-731.
-        <p class="infolinks">[<a href="javascript:toggleInfo('Bick2023','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Bick2023','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1137/21M1414024" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2104.11329" target="_blank">URL</a>]</p>
-    </td>
-</tr>
-<tr id="abs_Bick2023" class="abstract noshow">
-    <td><b>Abstract</b>: Modeling complex systems and data using the language of graphs and networks has become an essential topic across a range of different disciplines. Arguably, this network-based perspective derives is success from the relative simplicity of graphs: A graph consists of nothing more than a set of vertices and a set of edges, describing relationships between pairs of such vertices. This simple combinatorial structure makes graphs interpretable and flexible modeling tools. The simplicity of graphs as system models, however, has been scrutinized in the literature recently. Specifically, it has been argued from a variety of different angles that there is a need for higher-order networks, which go beyond the paradigm of modeling pairwise relationships, as encapsulated by graphs. In this survey article we take stock of these recent developments. Our goals are to clarify (i) what higher-order networks are, (ii) why these are interesting objects of study, and (iii) how they can be used in applications.</td>
-</tr>
-<tr id="bib_Bick2023" class="bibtex noshow">
-    <td><b>BibTeX</b>:
-        <pre>
-@article{Bick2023,
-    author = {Christian Bick and Elizabeth Gross and Heather A. Harrington and Michael T. Schaub},
-           title = {What are higher-order networks?},
-           journal = {SIAM Review},
-           year = {2023},
-           volume = {65},
-           number = {3},
-           pages = {686-731},
-           url = {https://arxiv.org/abs/2104.11329},
-           doi = {10.1137/21M1414024}
-}
-    </pre></td>
+</pre></td>
 </tr>
 <tr id="Grande2023a" class="entry">
-    <td> [3] Grande, V. &amp; Schaub, M.T. (2023), <i>"Disentangling the Spectral Properties of the Hodge Laplacian: Not All Small Eigenvalues Are Equal"</i>, In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2024)., November, 2023. , pp. accepted.
+    <td> [2] Grande, V. &amp; Schaub, M.T. (2023), <i>"Disentangling the Spectral Properties of the Hodge Laplacian: Not All Small Eigenvalues Are Equal"</i>, In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2024)., November, 2023. , pp. accepted.
         <p class="infolinks">[<a href="javascript:toggleInfo('Grande2023a','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Grande2023a','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2311.14427" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -108,7 +80,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Loveland2023" class="entry">
-    <td> [4] Loveland, D.; Zhu, J.; Heimann, M.; Fish, B.; Schaub, M.T. &amp; Koutra, D. (2023), <i>"On Performance Discrepancies Across Local Homophily Levels in Graph Neural Networks"</i>, In Learning on Graphs 2023., November, 2023. 
+    <td> [3] Loveland, D.; Zhu, J.; Heimann, M.; Fish, B.; Schaub, M.T. &amp; Koutra, D. (2023), <i>"On Performance Discrepancies Across Local Homophily Levels in Graph Neural Networks"</i>, In Learning on Graphs 2023., November, 2023. 
         <p class="infolinks">[<a href="javascript:toggleInfo('Loveland2023','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Loveland2023','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2306.05557v3" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -129,7 +101,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Scholkemper2023" class="entry">
-    <td> [5] Scholkemper, M. &amp; Schaub, M.T. (2023), <i>"An Optimization-based Approach To Node Role Discovery in Networks: Approximating Equitable Partitions"</i>, In Advances in Neural Information Processing Systems (NeurIPS 2023)., October, 2023. 
+    <td> [4] Scholkemper, M. &amp; Schaub, M.T. (2023), <i>"An Optimization-based Approach To Node Role Discovery in Networks: Approximating Equitable Partitions"</i>, In Advances in Neural Information Processing Systems (NeurIPS 2023)., October, 2023. 
         <p class="infolinks">[<a href="javascript:toggleInfo('Scholkemper2023','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Scholkemper2023','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2305.19087" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -150,7 +122,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="grande2023non" class="entry">
-    <td> [6] Grande, V.P. &amp; Schaub, M.T. (2023), <i>"Non-isotropic Persistent Homology: Leveraging the Metric Dependency of PH"</i>, In Learning on Graphs 2023., October, 2023. 
+    <td> [5] Grande, V.P. &amp; Schaub, M.T. (2023), <i>"Non-isotropic Persistent Homology: Leveraging the Metric Dependency of PH"</i>, In Learning on Graphs 2023., October, 2023. 
         <p class="infolinks">[<a href="javascript:toggleInfo('grande2023non','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('grande2023non','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2310.16437" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -171,7 +143,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Calmon2023" class="entry">
-    <td> [7] Calmon, L.; Schaub, M.T. &amp; Bianconi, G. (2023), <i>"Dirac signal processing of higher-order topological signals"</i>, New Journal of Physics., September, 2023.  Vol. 25(9), pp. 093013.
+    <td> [6] Calmon, L.; Schaub, M.T. &amp; Bianconi, G. (2023), <i>"Dirac signal processing of higher-order topological signals"</i>, New Journal of Physics., September, 2023.  Vol. 25(9), pp. 093013.
         <p class="infolinks">[<a href="javascript:toggleInfo('Calmon2023','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Calmon2023','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1088/1367-2630/acf33c" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2301.10137" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -195,7 +167,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Nagai2023" class="entry">
-    <td> [8] Nagai, J.S.; Costa, I.G. &amp; Schaub, M.T. (2023), <i>"Optimal transport distances for directed, weighted graphs: a case study with cell-cell communication networks"</i>, In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2024)., submitted., September, 2023. , pp. accepted.
+    <td> [7] Nagai, J.S.; Costa, I.G. &amp; Schaub, M.T. (2023), <i>"Optimal transport distances for directed, weighted graphs: a case study with cell-cell communication networks"</i>, In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2024)., submitted., September, 2023. , pp. accepted.
         <p class="infolinks">[<a href="javascript:toggleInfo('Nagai2023','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Nagai2023','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2309.07030" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -216,7 +188,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Hoppe2023" class="entry">
-    <td> [9] Hoppe, J. &amp; Schaub, M.T. (2023), <i>"Representing Edge Flows on Graphs via Sparse Cell Complexes"</i>, In Learning on Graphs 2023., September, 2023. 
+    <td> [8] Hoppe, J. &amp; Schaub, M.T. (2023), <i>"Representing Edge Flows on Graphs via Sparse Cell Complexes"</i>, In Learning on Graphs 2023., September, 2023. 
         <p class="infolinks">[<a href="javascript:toggleInfo('Hoppe2023','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Hoppe2023','comment')">Comment</a>]  [<a href="javascript:toggleInfo('Hoppe2023','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2309.01632" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -239,27 +211,51 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 }
     </pre></td>
 </tr>
-<tr id="Papillon2023" class="entry">
-    <td> [10] Papillon, M.; Hajij, M.; Myers, A.; Frantzen, F.; Zamzmi, G.; Jenne, H.; Mathe, J.; Hoppe, J.; Schaub, M.; Papamarkou, T.; Guzm&aacute;n-S&aacute;enz, A.; Rieck, B.; Livesay, N.; Dey, T.; Rabinowitz, A.; Brent, A.; Salatiello, A.; Nikitin, A.; Zia, A.; Battiloro, C.; Gavrilev, D.; B&#148;okman, G.; Magai, G.; Bazhenov, G.; Bernardez, G.; Spinelli, I.; Agerberg, J.; Nadimpalli, K.; Telyatninkov, L.; Scofano, L.; Testa, L.; Lecha, M.; Yang, M.; Hassanin, M.; Gardaa, O.H.; Zaghen, O.; Hausner, P.; Snopoff, P.; Melnyk, P.; Ballester, R.; Barikbin, S.; Escalera, S.; Fiorellino, S.; Kvinge, H.; Meissner, J.; Ramamurthy, K.N.; Scholkemper, M.; Rosen, P.; Walters, R.; Samaga, S.N.; Mukherjee, S.; Sanborn, S.; Emerson, T.; Doster, T.; Birdal, T.; Grande, V.; Khamis, A.; Scardapane, S.; Singh, S.; Malygina, T.; Yue, Y. &amp; Miolane, N. (2023), <i>"ICML 2023 Topological Deep Learning Challenge: Design and Results"</i>, In Proceedings of 2nd Annual Workshop on Topology, Algebra, and Geometry in Machine Learning (TAG-ML)., July, 2023.  Vol. 221, pp. 3-8. PMLR.
-        <p class="infolinks">[<a href="javascript:toggleInfo('Papillon2023','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Papillon2023','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2309.15188" target="_blank">URL</a>]</p>
+<tr id="Bick2023" class="entry">
+    <td> [9] Bick, C.; Gross, E.; Harrington, H.A. &amp; Schaub, M.T. (2023), <i>"What are higher-order networks?"</i>, SIAM Review., August, 2023.  Vol. 65(3), pp. 686-731.
+        <p class="infolinks">[<a href="javascript:toggleInfo('Bick2023','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Bick2023','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1137/21M1414024" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2104.11329" target="_blank">URL</a>]</p>
     </td>
 </tr>
-<tr id="abs_Papillon2023" class="abstract noshow">
-    <td><b>Abstract</b>: This paper presents the computational challenge on topological deep learning that was hosted within the ICML 2023 Workshop on Topology and Geometry in Machine Learning. The competition asked participants to provide open-source implementations of topological neural networks from the literature by contributing to the python packages TopoNetX (data processing) and TopoModelX (deep learning). The challenge attracted twenty-eight qualifying submissions in its two month duration. This paper describes the design of the challenge and summarizes its main findings.</td>
+<tr id="abs_Bick2023" class="abstract noshow">
+    <td><b>Abstract</b>: Modeling complex systems and data using the language of graphs and networks has become an essential topic across a range of different disciplines. Arguably, this network-based perspective derives is success from the relative simplicity of graphs: A graph consists of nothing more than a set of vertices and a set of edges, describing relationships between pairs of such vertices. This simple combinatorial structure makes graphs interpretable and flexible modeling tools. The simplicity of graphs as system models, however, has been scrutinized in the literature recently. Specifically, it has been argued from a variety of different angles that there is a need for higher-order networks, which go beyond the paradigm of modeling pairwise relationships, as encapsulated by graphs. In this survey article we take stock of these recent developments. Our goals are to clarify (i) what higher-order networks are, (ii) why these are interesting objects of study, and (iii) how they can be used in applications.</td>
 </tr>
-<tr id="bib_Papillon2023" class="bibtex noshow">
+<tr id="bib_Bick2023" class="bibtex noshow">
     <td><b>BibTeX</b>:
         <pre>
-@inproceedings{Papillon2023,
-    author = {Papillon, Mathilde and Hajij, Mustafa and Myers, Audun and Frantzen, Florianand and Zamzmi, Ghada and Jenne, Helen and Mathe, Johan and Hoppe, Josef and Schaub, Michael and Papamarkou, Theodore and Guzm&aacute;n-S&aacute;enz, Aldo and Rieck, Bastian and Livesay, Neal and Dey, Tamal and Rabinowitz, Abraham and Brent, Aiden and Salatiello, Alessandro and Nikitin, Alexander and Zia, Ali and Battiloro, Claudio and Gavrilev, Dmitrii and B&#148;okman, Georg and Magai, German and Bazhenov, Gleb and Bernardez, Guillermo and Spinelli, Indro and Agerberg, Jens and Nadimpalli, Kalyan and Telyatninkov, Lev and Scofano, Luca and Testa, Lucia and Lecha, Manuel and Yang, Maosheng and Hassanin, Mohammed and Gardaa, Odin Hoff and Zaghen, Olga and Hausner, Paul and Snopoff, Paul and Melnyk, Pavlo and Ballester, Rub&eacute;n and Barikbin, Sadrodin and Escalera, Sergio and Fiorellino, Simone and Kvinge, Henry and Meissner, Jan and Ramamurthy, Karthikeyan Natesan and Scholkemper, Michael and Rosen, Paul and Walters, Robin and Samaga, Shreyas N. and Mukherjee, Soham and Sanborn, Sophia and Emerson, Tegan and Doster, Timothy and Birdal, Tolga and Grande, Vincent and Khamis, Abdelwahed and Scardapane, Simone and Singh, Suraj and Malygina, Tatiana and Yue, Yixiao and Miolane, Nina},
-           editor = {Doster, Timothy and Emerson, Tegan and Kvinge, Henry and Miolane, Nina and Papillon, Mathilde and Rieck, Bastian and Sanborn, Sophia},
-           title = {ICML 2023 Topological Deep Learning Challenge: Design and Results},
-           booktitle = {Proceedings of 2nd Annual Workshop on Topology, Algebra, and Geometry in Machine Learning (TAG-ML)},
+@article{Bick2023,
+    author = {Christian Bick and Elizabeth Gross and Heather A. Harrington and Michael T. Schaub},
+           title = {What are higher-order networks?},
+           journal = {SIAM Review},
+           year = {2023},
+           volume = {65},
+           number = {3},
+           pages = {686-731},
+           url = {https://arxiv.org/abs/2104.11329},
+           doi = {10.1137/21M1414024}
+}
+    </pre></td>
+</tr>
+<tr id="Grande2023" class="entry">
+    <td> [10] Grande, V.P. &amp; Schaub, M.T. (2023), <i>"Topological Point Cloud Clustering"</i>, In Proceedings of the 40th International Conference on Machine Learning (ICML 2023)., July, 2023.  Vol. 202, pp. 11683-11697. PMLR.
+        <p class="infolinks">[<a href="javascript:toggleInfo('Grande2023','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Grande2023','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2303.16716" target="_blank">URL</a>]</p>
+    </td>
+</tr>
+<tr id="abs_Grande2023" class="abstract noshow">
+    <td><b>Abstract</b>: We present Topological Point Cloud Clustering (TPCC), a new method to cluster points in an arbitrary point cloud based on their contribution to global topological features. TPCC synthesizes desirable features from spectral clustering and topological data analysis and is based on considering the spectral properties of a simplicial complex associated to the considered point cloud. As it is based on considering sparse eigenvector computations, TPCC is similarly easy to interpret and implement as spectral clustering. However, by focusing not just on a single matrix associated to a graph created from the point cloud data, but on a whole set of Hodge-Laplacians associated to an appropriately constructed simplicial complex, we can leverage a far richer set of topological features to characterize the data points within the point cloud and benefit from the relative robustness of topological techniques against noise. We test the performance of TPCC on both synthetic and real-world data and compare it with classical spectral clustering.</td>
+</tr>
+<tr id="bib_Grande2023" class="bibtex noshow">
+    <td><b>BibTeX</b>:
+        <pre>
+@inproceedings{Grande2023,
+    author = {Grande, Vincent Peter and Schaub, Michael T},
+           editor = {Krause, Andreas and Brunskill, Emma and Cho, Kyunghyun and Engelhardt, Barbara and Sabato, Sivan and Scarlett, Jonathan},
+           title = {Topological Point Cloud Clustering},
+           booktitle = {Proceedings of the 40th International Conference on Machine Learning (ICML 2023)},
            publisher = {PMLR},
            year = {2023},
-           volume = {221},
-           pages = {3--8},
-           url = {https://arxiv.org/abs/2309.15188}
+           volume = {202},
+           pages = {11683--11697},
+           url = {https://arxiv.org/abs/2303.16716}
 }
     </pre></td>
 </tr>
@@ -1629,5 +1625,5 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 </tbody>
 </table>
 <footer>
- <small>Created by <a href="http://jabref.sourceforge.net">JabRef</a> on 20/12/2023.</small>
+ <small>Created by <a href="http://jabref.sourceforge.net">JabRef</a> on 21/12/2023.</small>
 </footer>

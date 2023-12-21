@@ -601,6 +601,7 @@ In the third part, we discuss how to use dynamical processes unfolding on the ne
   journal   = {SIAM Review},
   title     = {What are higher-order networks?},
   year      = {2023},
+  month     = aug,
   number    = {3},
   pages     = {686-731},
   volume    = {65},
@@ -901,6 +902,7 @@ Third, we evaluate the performance of CCNNs on tasks related to mesh shape analy
   title     = {Topological Point Cloud Clustering},
   year      = {2023},
   editor    = {Krause, Andreas and Brunskill, Emma and Cho, Kyunghyun and Engelhardt, Barbara and Sabato, Sivan and Scarlett, Jonathan},
+  month     = jul,
   pages     = {11683--11697},
   publisher = {PMLR},
   series    = {Proceedings of Machine Learning Research},
@@ -955,22 +957,6 @@ Third, we evaluate the performance of CCNNs on tasks related to mesh shape analy
   url          = {https://arxiv.org/abs/2309.07030},
 }
 
-@InProceedings{Papillon2023,
-  author    = {Papillon, Mathilde and Hajij, Mustafa and Myers, Audun and Frantzen, Florianand and Zamzmi, Ghada and Jenne, Helen and Mathe, Johan and Hoppe, Josef and Schaub, Michael and Papamarkou, Theodore and Guzm\'{a}n-S\'{a}enz, Aldo and Rieck, Bastian and Livesay, Neal and Dey, Tamal and Rabinowitz, Abraham and Brent, Aiden and Salatiello, Alessandro and Nikitin, Alexander and Zia, Ali and Battiloro, Claudio and Gavrilev, Dmitrii and B\''{o}kman, Georg and Magai, German and Bazhenov, Gleb and Bernardez, Guillermo and Spinelli, Indro and Agerberg, Jens and Nadimpalli, Kalyan and Telyatninkov, Lev and Scofano, Luca and Testa, Lucia and Lecha, Manuel and Yang, Maosheng and Hassanin, Mohammed and Gardaa, Odin Hoff and Zaghen, Olga and Hausner, Paul and Snopoff, Paul and Melnyk, Pavlo and Ballester, Rub\'{e}n and Barikbin, Sadrodin and Escalera, Sergio and Fiorellino, Simone and Kvinge, Henry and Meissner, Jan and Ramamurthy, Karthikeyan Natesan and Scholkemper, Michael and Rosen, Paul and Walters, Robin and Samaga, Shreyas N. and Mukherjee, Soham and Sanborn, Sophia and Emerson, Tegan and Doster, Timothy and Birdal, Tolga and Grande, Vincent and Khamis, Abdelwahed and Scardapane, Simone and Singh, Suraj and Malygina, Tatiana and Yue, Yixiao and Miolane, Nina},
-  booktitle = {Proceedings of 2nd Annual Workshop on Topology, Algebra, and Geometry in Machine Learning (TAG-ML)},
-  title     = {ICML 2023 Topological Deep Learning Challenge: Design and Results},
-  year      = {2023},
-  editor    = {Doster, Timothy and Emerson, Tegan and Kvinge, Henry and Miolane, Nina and Papillon, Mathilde and Rieck, Bastian and Sanborn, Sophia},
-  month     = jul,
-  pages     = {3--8},
-  publisher = {PMLR},
-  series    = {Proceedings of Machine Learning Research},
-  volume    = {221},
-  abstract  = {This paper presents the computational challenge on topological deep learning that was hosted within the ICML 2023 Workshop on Topology and Geometry in Machine Learning. The competition asked participants to provide open-source implementations of topological neural networks from the literature by contributing to the python packages TopoNetX (data processing) and TopoModelX (deep learning). The challenge attracted twenty-eight qualifying submissions in its two month duration. This paper describes the design of the challenge and summarizes its main findings.},
-  eprint    = {https://proceedings.mlr.press/v221/papillon23a/papillon23a.pdf},
-  url       = {https://arxiv.org/abs/2309.15188},
-}
-
 @InProceedings{grande2023non,
   author    = {Grande, Vincent P and Schaub, Michael T},
   booktitle = {Learning on Graphs 2023},
@@ -1003,6 +989,16 @@ Third, we evaluate the performance of CCNNs on tasks related to mesh shape analy
   abstract     = {The rich spectral information of the graph Laplacian has been instrumental in graph theory, machine learning, and graph signal processing for applications such as graph classification, clustering, or eigenmode analysis. Recently, the Hodge Laplacian has come into focus as a generalisation of the ordinary Laplacian for higher-order graph models such as simplicial and cellular complexes. Akin to the traditional analysis of graph Laplacians, many authors analyse the smallest eigenvalues of the Hodge Laplacian, which are connected to important topological properties such as homology. However, small eigenvalues of the Hodge Laplacian can carry different information depending on whether they are related to curl or gradient eigenmodes, and thus may not be comparable. We therefore introduce the notion of persistent eigenvector similarity and provide a method to track individual harmonic, curl, and gradient eigenvectors/-values through the so-called persistence filtration, leveraging the full information contained in the Hodge-Laplacian spectrum across all possible scales of a point cloud. Finally, we use our insights (a) to introduce a novel form of topological spectral clustering and (b) to classify edges and higher-order simplices based on their relationship to the smallest harmonic, curl, and gradient eigenvectors.},
   creationdate = {2023-12-17T12:22:54},
   url          = {https://arxiv.org/abs/2311.14427},
+}
+
+@Misc{Hajij2023a,
+  author       = {Mustafa Hajij and Ghada Zamzmi and Theodore Papamarkou and Aldo Guzmán-Sáenz and Tolga Birdal and Michael T. Schaub},
+  howpublished = {arxiv},
+  month        = dec,
+  title        = {Combinatorial Complexes: Bridging the Gap Between Cell Complexes and Hypergraphs},
+  year         = {2023},
+  abstract     = {Graph-based signal processing techniques have become essential for handling data in non-Euclidean spaces. However, there is a growing awareness that these graph models might need to be expanded into `higher-order' domains to effectively represent the complex relations found in high-dimensional data. Such higher-order domains are typically modeled either as hypergraphs, or as simplicial, cubical or other cell complexes. In this context, cell complexes are often seen as a subclass of hypergraphs with additional algebraic structure that can be exploited, e.g., to develop a spectral theory. In this article, we promote an alternative perspective. We argue that hypergraphs and cell complexes emphasize \emph{different} types of relations, which may have different utility depending on the application context. Whereas hypergraphs are effective in modeling set-type, multi-body relations between entities, cell complexes provide an effective means to model hierarchical, interior-to-boundary type relations. We discuss the relative advantages of these two choices and elaborate on the previously introduced concept of a combinatorial complex that enables co-existing set-type and hierarchical relations. Finally, we provide a brief numerical experiment to demonstrate that this modelling flexibility can be advantageous in learning tasks.},
+  url          = {https://arxiv.org/abs/2312.09504},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
