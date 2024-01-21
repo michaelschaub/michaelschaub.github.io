@@ -18,6 +18,8 @@ We are always looking for excellent PhD students and PostDocs.  If you are inter
 
 
 ### News and Events
+***January, 22, 2024*** -- I will be giving a [virtual talk](https://www.c3s-frankfurt.de/what-we-do#whats-happening) at the Center for Critical Computational Studies at Frankfurt University.       
+***January, 12, 2024*** -- Two more papers out on arxiv. One about canonical microaggregation with Felix [here](https://arxiv.org/abs/2401.02381). The other one on optimal transport between embeddings as distance measures between networks with Michael and Damin [here](https://arxiv.org/abs/2401.03913).        
 ***December, 19, 2023*** -- We have a paper accepted at Asilomar 2023. You can find the preprint [here](https://arxiv.org/abs/2312.09504).               
 ***December, 15, 2023*** -- We have three papers accepted at ICASSP 2023.  A paper led by James Nagai with Ivan Costa [\[arxiv\]](https://arxiv.org/abs/2309.07030). 
 A second paper with Vincent  [\[arxiv\]](https://arxiv.org/abs/2311.14427). Last but not least, a paper with Damin Kuehn, Michael Scholkemper and some colleagues from Neuroscience (which will hopefully be on the arxiv soon).            
