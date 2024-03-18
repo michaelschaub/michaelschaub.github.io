@@ -18,7 +18,8 @@ We are always looking for excellent PhD students and PostDocs.  If you are inter
 
 
 ### News and Events
-***February, 2024*** --  I have joined the editorial board of Science Advances.      
+***March 11, 2024*** --  I will be giving a talk at this years Young European Probabilists meeting (YEP 2024) in Eindhoven.      
+***February 1, 2024*** --  I have joined the editorial board of Science Advances.      
 ***January, 22, 2024*** -- I will be giving a [virtual talk](https://www.c3s-frankfurt.de/what-we-do#whats-happening) at the Center for Critical Computational Studies at Frankfurt University.       
 ***January, 12, 2024*** -- Two more papers out on arxiv. One about canonical microaggregation with Felix [here](https://arxiv.org/abs/2401.02381). The other one on optimal transport between embeddings as distance measures between networks with Michael and Damin [here](https://arxiv.org/abs/2401.03913).        
 ***December, 19, 2023*** -- We have a paper accepted at Asilomar 2023. You can find the preprint [here](https://arxiv.org/abs/2312.09504).               
