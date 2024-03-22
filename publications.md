@@ -39,27 +39,73 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 <table id="qs_table" border="1">
 <tbody>
 <tr id="Scholkemper2024" class="entry">
-	<td> [1] Scholkemper M, K&uuml;hn D, Nabbefeld G, Musall S, Kampa B and Schaub MT (2024), <i>"A Wasserstein Graph Distance Based on Distributions of Probabilistic Node Embeddings"</i>, arxiv. January, 2024.
-	<p class="infolinks">[<a href="javascript:toggleInfo('Scholkemper2024','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Scholkemper2024','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2401.03913" target="_blank">URL</a>]</p>
-	</td>
+    <td> [1] Scholkemper, M.; K&uuml;hn, D.; Nabbefeld, G.; Musall, S.; Kampa, B. &amp; Schaub, M.T. (2024), <i>"A Wasserstein Graph Distance Based on Distributions of Probabilistic Node Embeddings"</i>, In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2024)., March, 2024. , pp. 9751-9755.
+        <p class="infolinks">[<a href="javascript:toggleInfo('Scholkemper2024','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Scholkemper2024','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1109/ICASSP48485.2024.10447922" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2401.03913" target="_blank">URL</a>]</p>
+    </td>
 </tr>
 <tr id="abs_Scholkemper2024" class="abstract noshow">
-	<td><b>Abstract</b>: Distance measures between graphs are important primitives for a variety of learning tasks. In this work, we describe an unsupervised, optimal transport based approach to define a distance between graphs. Our idea is to derive representations of graphs as Gaussian mixture models, fitted to distributions of sampled node embeddings over the same space. The Wasserstein distance between these Gaussian mixture distributions then yields an interpretable and easily computable distance measure, which can further be tailored for the comparison at hand by choosing appropriate embeddings. We propose two embeddings for this framework and show that under certain assumptions about the shape of the resulting Gaussian mixture components, further computational improvements of this Wasserstein distance can be achieved. An empirical validation of our findings on synthetic data and real-world Functional Brain Connectivity networks shows promising performance compared to existing embedding methods.</td>
+    <td><b>Abstract</b>: Distance measures between graphs are important primitives for a variety of learning tasks. In this work, we describe an unsupervised, optimal transport based approach to define a distance between graphs. Our idea is to derive representations of graphs as Gaussian mixture models, fitted to distributions of sampled node embeddings over the same space. The Wasserstein distance between these Gaussian mixture distributions then yields an interpretable and easily computable distance measure, which can further be tailored for the comparison at hand by choosing appropriate embeddings. We propose two embeddings for this framework and show that under certain assumptions about the shape of the resulting Gaussian mixture components, further computational improvements of this Wasserstein distance can be achieved. An empirical validation of our findings on synthetic data and real-world Functional Brain Connectivity networks shows promising performance compared to existing embedding methods.</td>
 </tr>
 <tr id="bib_Scholkemper2024" class="bibtex noshow">
-<td><b>BibTeX</b>:
-<pre>
-@misc{Scholkemper2024,
-  author = {Scholkemper, Michael and K&uuml;hn, Damin and Nabbefeld, Gerion and Musall, Simon and Kampa, Bj&ouml;rn and Schaub, Michael T},
-  title = {A Wasserstein Graph Distance Based on Distributions of Probabilistic Node Embeddings},
-  howpublished = {arxiv},
-  year = {2024},
-  url = {https://arxiv.org/abs/2401.03913}
+    <td><b>BibTeX</b>:
+        <pre>
+@inproceedings{Scholkemper2024,
+    author = {Scholkemper, Michael and K&uuml;hn, Damin and Nabbefeld, Gerion and Musall, Simon and Kampa, Bj&ouml;rn and Schaub, Michael T},
+           title = {A Wasserstein Graph Distance Based on Distributions of Probabilistic Node Embeddings},
+           booktitle = {IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2024)},
+           year = {2024},
+           pages = {9751-9755},
+           url = {https://arxiv.org/abs/2401.03913},
+           doi = {10.1109/ICASSP48485.2024.10447922}
 }
-</pre></td>
+    </pre></td>
+</tr>
+<tr id="Grande2024" class="entry">
+    <td> [2] Grande, V. &amp; Schaub, M.T. (2024), <i>"Disentangling the Spectral Properties of the Hodge Laplacian: Not All Small Eigenvalues Are Equal"</i>, In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2024)., March, 2024. , pp. 9896-9900.
+        <p class="infolinks">[<a href="javascript:toggleInfo('Grande2024','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Grande2024','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1109/ICASSP48485.2024.10446051" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2311.14427" target="_blank">URL</a>]</p>
+    </td>
+</tr>
+<tr id="abs_Grande2024" class="abstract noshow">
+    <td><b>Abstract</b>: The rich spectral information of the graph Laplacian has been instrumental in graph theory, machine learning, and graph signal processing for applications such as graph classification, clustering, or eigenmode analysis. Recently, the Hodge Laplacian has come into focus as a generalisation of the ordinary Laplacian for higher-order graph models such as simplicial and cellular complexes. Akin to the traditional analysis of graph Laplacians, many authors analyse the smallest eigenvalues of the Hodge Laplacian, which are connected to important topological properties such as homology. However, small eigenvalues of the Hodge Laplacian can carry different information depending on whether they are related to curl or gradient eigenmodes, and thus may not be comparable. We therefore introduce the notion of persistent eigenvector similarity and provide a method to track individual harmonic, curl, and gradient eigenvectors/-values through the so-called persistence filtration, leveraging the full information contained in the Hodge-Laplacian spectrum across all possible scales of a point cloud. Finally, we use our insights (a) to introduce a novel form of topological spectral clustering and (b) to classify edges and higher-order simplices based on their relationship to the smallest harmonic, curl, and gradient eigenvectors.</td>
+</tr>
+<tr id="bib_Grande2024" class="bibtex noshow">
+    <td><b>BibTeX</b>:
+        <pre>
+@inproceedings{Grande2024,
+    author = {Grande, Vincent and Schaub, Michael T.},
+           title = {Disentangling the Spectral Properties of the Hodge Laplacian: Not All Small Eigenvalues Are Equal},
+           booktitle = {IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2024)},
+           year = {2024},
+           pages = {9896-9900},
+           url = {https://arxiv.org/abs/2311.14427},
+           doi = {10.1109/ICASSP48485.2024.10446051}
+}
+    </pre></td>
+</tr>
+<tr id="Nagai2024" class="entry">
+    <td> [3] Nagai, J.S.; Costa, I.G. &amp; Schaub, M.T. (2024), <i>"Optimal transport distances for directed, weighted graphs: a case study with cell-cell communication networks"</i>, In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2024)., March, 2024. , pp. 9856-9860.
+        <p class="infolinks">[<a href="javascript:toggleInfo('Nagai2024','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Nagai2024','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1109/ICASSP48485.2024.10446503" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2309.07030" target="_blank">URL</a>]</p>
+    </td>
+</tr>
+<tr id="abs_Nagai2024" class="abstract noshow">
+    <td><b>Abstract</b>: Comparing graphs by means of optimal transport has recently gained significant attention, as the distances induced by optimal transport provide both a principled metric between graphs as well as an interpretable description of the associated changes between graphs in terms of a transport plan. As the lack of symmetry introduces challenges in the typically considered formulations, optimal transport distances for graphs have mostly been developed for undirected graphs. Here, we propose two distance measures to compare directed graphs based on variants of optimal transport: (i) an earth movers distance (Wasserstein) and (ii) a Gromov-Wasserstein (GW) distance. We evaluate these two distances and discuss their relative performance for both simulated graph data and real-world directed cell-cell communication graphs, inferred from single-cell RNA-seq data.</td>
+</tr>
+<tr id="bib_Nagai2024" class="bibtex noshow">
+    <td><b>BibTeX</b>:
+        <pre>
+@inproceedings{Nagai2024,
+    author = {James S. Nagai and Ivan G. Costa and Michael T. Schaub},
+           title = {Optimal transport distances for directed, weighted graphs: a case study with cell-cell communication networks},
+           booktitle = {IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2024)},
+           year = {2024},
+           pages = {9856-9860},
+           url = {https://arxiv.org/abs/2309.07030},
+           doi = {10.1109/ICASSP48485.2024.10446503}
+}
+    </pre></td>
 </tr>
 <tr id="Stamm2024" class="entry">
-	<td> [2] Stamm FI and Schaub MT (2024), <i>"Faster optimal univariate microgaggregation"</i>, arxiv. January, 2024.
+	<td> [4] Stamm FI and Schaub MT (2024), <i>"Faster optimal univariate microgaggregation"</i>, arxiv. January, 2024.
 	<p class="infolinks">[<a href="javascript:toggleInfo('Stamm2024','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Stamm2024','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2401.02381" target="_blank">URL</a>]</p>
 	</td>
 </tr>
@@ -79,7 +125,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 </pre></td>
 </tr>
 <tr id="Hajij2023a" class="entry">
-	<td> [3] Hajij M, Zamzmi G, Papamarkou T, Guzmán-Sáenz A, Birdal T and Schaub MT (2023), <i>"Combinatorial Complexes: Bridging the Gap Between Cell Complexes and Hypergraphs"</i>, arxiv. December, 2023.
+	<td> [5] Hajij M, Zamzmi G, Papamarkou T, Guzmán-Sáenz A, Birdal T and Schaub MT (2023), <i>"Combinatorial Complexes: Bridging the Gap Between Cell Complexes and Hypergraphs"</i>, arxiv. December, 2023.
 	<p class="infolinks">[<a href="javascript:toggleInfo('Hajij2023a','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Hajij2023a','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2312.09504" target="_blank">URL</a>]</p>
 	</td>
 </tr>
@@ -98,29 +144,8 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 }
 </pre></td>
 </tr>
-<tr id="Grande2023a" class="entry">
-    <td> [4] Grande, V. &amp; Schaub, M.T. (2023), <i>"Disentangling the Spectral Properties of the Hodge Laplacian: Not All Small Eigenvalues Are Equal"</i>, In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2024)., November, 2023. , pp. accepted.
-        <p class="infolinks">[<a href="javascript:toggleInfo('Grande2023a','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Grande2023a','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2311.14427" target="_blank">URL</a>]</p>
-    </td>
-</tr>
-<tr id="abs_Grande2023a" class="abstract noshow">
-    <td><b>Abstract</b>: The rich spectral information of the graph Laplacian has been instrumental in graph theory, machine learning, and graph signal processing for applications such as graph classification, clustering, or eigenmode analysis. Recently, the Hodge Laplacian has come into focus as a generalisation of the ordinary Laplacian for higher-order graph models such as simplicial and cellular complexes. Akin to the traditional analysis of graph Laplacians, many authors analyse the smallest eigenvalues of the Hodge Laplacian, which are connected to important topological properties such as homology. However, small eigenvalues of the Hodge Laplacian can carry different information depending on whether they are related to curl or gradient eigenmodes, and thus may not be comparable. We therefore introduce the notion of persistent eigenvector similarity and provide a method to track individual harmonic, curl, and gradient eigenvectors/-values through the so-called persistence filtration, leveraging the full information contained in the Hodge-Laplacian spectrum across all possible scales of a point cloud. Finally, we use our insights (a) to introduce a novel form of topological spectral clustering and (b) to classify edges and higher-order simplices based on their relationship to the smallest harmonic, curl, and gradient eigenvectors.</td>
-</tr>
-<tr id="bib_Grande2023a" class="bibtex noshow">
-    <td><b>BibTeX</b>:
-        <pre>
-@inproceedings{Grande2023a,
-    author = {Grande, Vincent and Schaub, Michael T.},
-           title = {Disentangling the Spectral Properties of the Hodge Laplacian: Not All Small Eigenvalues Are Equal},
-           booktitle = {IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2024)},
-           year = {2023},
-           pages = {accepted},
-           url = {https://arxiv.org/abs/2311.14427}
-}
-    </pre></td>
-</tr>
 <tr id="Loveland2023" class="entry">
-    <td> [5] Loveland, D.; Zhu, J.; Heimann, M.; Fish, B.; Schaub, M.T. &amp; Koutra, D. (2023), <i>"On Performance Discrepancies Across Local Homophily Levels in Graph Neural Networks"</i>, In Learning on Graphs 2023., November, 2023. 
+    <td> [6] Loveland, D.; Zhu, J.; Heimann, M.; Fish, B.; Schaub, M.T. &amp; Koutra, D. (2023), <i>"On Performance Discrepancies Across Local Homophily Levels in Graph Neural Networks"</i>, In Learning on Graphs 2023., November, 2023. 
         <p class="infolinks">[<a href="javascript:toggleInfo('Loveland2023','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Loveland2023','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2306.05557v3" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -141,7 +166,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Scholkemper2023" class="entry">
-    <td> [6] Scholkemper, M. &amp; Schaub, M.T. (2023), <i>"An Optimization-based Approach To Node Role Discovery in Networks: Approximating Equitable Partitions"</i>, In Advances in Neural Information Processing Systems (NeurIPS 2023)., October, 2023. 
+    <td> [7] Scholkemper, M. &amp; Schaub, M.T. (2023), <i>"An Optimization-based Approach To Node Role Discovery in Networks: Approximating Equitable Partitions"</i>, In Advances in Neural Information Processing Systems (NeurIPS 2023)., October, 2023. 
         <p class="infolinks">[<a href="javascript:toggleInfo('Scholkemper2023','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Scholkemper2023','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2305.19087" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -162,7 +187,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="grande2023non" class="entry">
-    <td> [7] Grande, V.P. &amp; Schaub, M.T. (2023), <i>"Non-isotropic Persistent Homology: Leveraging the Metric Dependency of PH"</i>, In Learning on Graphs 2023., October, 2023. 
+    <td> [8] Grande, V.P. &amp; Schaub, M.T. (2023), <i>"Non-isotropic Persistent Homology: Leveraging the Metric Dependency of PH"</i>, In Learning on Graphs 2023., October, 2023. 
         <p class="infolinks">[<a href="javascript:toggleInfo('grande2023non','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('grande2023non','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2310.16437" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -182,7 +207,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Calmon2023" class="entry">
-    <td> [8] Calmon, L.; Schaub, M.T. &amp; Bianconi, G. (2023), <i>"Dirac signal processing of higher-order topological signals"</i>, New Journal of Physics., September, 2023.  Vol. 25(9), pp. 093013.
+    <td> [9] Calmon, L.; Schaub, M.T. &amp; Bianconi, G. (2023), <i>"Dirac signal processing of higher-order topological signals"</i>, New Journal of Physics., September, 2023.  Vol. 25(9), pp. 093013.
         <p class="infolinks">[<a href="javascript:toggleInfo('Calmon2023','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Calmon2023','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1088/1367-2630/acf33c" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2301.10137" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -202,27 +227,6 @@ A list of my publications is also available on [Google Scholar](https://scholar.
            pages = {093013},
            url = {https://arxiv.org/abs/2301.10137},
            doi = {10.1088/1367-2630/acf33c}
-}
-    </pre></td>
-</tr>
-<tr id="Nagai2023" class="entry">
-    <td> [9] Nagai, J.S.; Costa, I.G. &amp; Schaub, M.T. (2023), <i>"Optimal transport distances for directed, weighted graphs: a case study with cell-cell communication networks"</i>, In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2024)., submitted., September, 2023. , pp. accepted.
-        <p class="infolinks">[<a href="javascript:toggleInfo('Nagai2023','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Nagai2023','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2309.07030" target="_blank">URL</a>]</p>
-    </td>
-</tr>
-<tr id="abs_Nagai2023" class="abstract noshow">
-    <td><b>Abstract</b>: Comparing graphs by means of optimal transport has recently gained significant attention, as the distances induced by optimal transport provide both a principled metric between graphs as well as an interpretable description of the associated changes between graphs in terms of a transport plan. As the lack of symmetry introduces challenges in the typically considered formulations, optimal transport distances for graphs have mostly been developed for undirected graphs. Here, we propose two distance measures to compare directed graphs based on variants of optimal transport: (i) an earth movers distance (Wasserstein) and (ii) a Gromov-Wasserstein (GW) distance. We evaluate these two distances and discuss their relative performance for both simulated graph data and real-world directed cell-cell communication graphs, inferred from single-cell RNA-seq data.</td>
-</tr>
-<tr id="bib_Nagai2023" class="bibtex noshow">
-    <td><b>BibTeX</b>:
-        <pre>
-@inproceedings{Nagai2023,
-    author = {James S. Nagai and Ivan G. Costa and Michael T. Schaub},
-           title = {Optimal transport distances for directed, weighted graphs: a case study with cell-cell communication networks},
-           booktitle = {IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2024)},
-           year = {2023},
-           pages = {accepted},
-           url = {https://arxiv.org/abs/2309.07030}
 }
     </pre></td>
 </tr>
@@ -1663,5 +1667,5 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 </tbody>
 </table>
 <footer>
- <small>Created by <a href="http://jabref.sourceforge.net">JabRef</a> on 27/02/2024.</small>
+ <small>Created by <a href="http://jabref.sourceforge.net">JabRef</a> on 22/03/2024.</small>
 </footer>

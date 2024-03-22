@@ -944,16 +944,16 @@ Third, we evaluate the performance of CCNNs on tasks related to mesh shape analy
   url       = {https://arxiv.org/abs/2309.01632},
 }
 
-@InProceedings{Nagai2023,
-  author       = {James S. Nagai and Ivan G. Costa and Michael T. Schaub},
-  booktitle    = {IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2024)},
-  title        = {Optimal transport distances for directed, weighted graphs: a case study with cell-cell communication networks},
-  year         = {2023},
-  month        = sep,
-  pages        = {accepted},
-  abstract     = {Comparing graphs by means of optimal transport has recently gained significant attention, as the distances induced by optimal transport provide both a principled metric between graphs as well as an interpretable description of the associated changes between graphs in terms of a transport plan. As the lack of symmetry introduces challenges in the typically considered formulations, optimal transport distances for graphs have mostly been developed for undirected graphs. Here, we propose two distance measures to compare directed graphs based on variants of optimal transport: (i) an earth movers distance (Wasserstein) and (ii) a Gromov-Wasserstein (GW) distance. We evaluate these two distances and discuss their relative performance for both simulated graph data and real-world directed cell-cell communication graphs, inferred from single-cell RNA-seq data.},
-  howpublished = {submitted},
-  url          = {https://arxiv.org/abs/2309.07030},
+@InProceedings{Nagai2024,
+  author    = {James S. Nagai and Ivan G. Costa and Michael T. Schaub},
+  booktitle = {IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2024)},
+  title     = {Optimal transport distances for directed, weighted graphs: a case study with cell-cell communication networks},
+  year      = {2024},
+  month     = mar,
+  pages     = {9856-9860},
+  abstract  = {Comparing graphs by means of optimal transport has recently gained significant attention, as the distances induced by optimal transport provide both a principled metric between graphs as well as an interpretable description of the associated changes between graphs in terms of a transport plan. As the lack of symmetry introduces challenges in the typically considered formulations, optimal transport distances for graphs have mostly been developed for undirected graphs. Here, we propose two distance measures to compare directed graphs based on variants of optimal transport: (i) an earth movers distance (Wasserstein) and (ii) a Gromov-Wasserstein (GW) distance. We evaluate these two distances and discuss their relative performance for both simulated graph data and real-world directed cell-cell communication graphs, inferred from single-cell RNA-seq data.},
+  doi       = {10.1109/ICASSP48485.2024.10446503},
+  url       = {https://arxiv.org/abs/2309.07030},
 }
 
 @InProceedings{grande2023non,
@@ -966,15 +966,16 @@ Third, we evaluate the performance of CCNNs on tasks related to mesh shape analy
   url       = {https://arxiv.org/abs/2310.16437},
 }
 
-@InProceedings{Grande2023a,
+@InProceedings{Grande2024,
   author       = {Grande, Vincent and Schaub, Michael T.},
   booktitle    = {IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2024)},
   title        = {Disentangling the Spectral Properties of the Hodge Laplacian: Not All Small Eigenvalues Are Equal},
-  year         = {2023},
-  month        = nov,
-  pages        = {accepted},
+  year         = {2024},
+  month        = mar,
+  pages        = {9896-9900},
   abstract     = {The rich spectral information of the graph Laplacian has been instrumental in graph theory, machine learning, and graph signal processing for applications such as graph classification, clustering, or eigenmode analysis. Recently, the Hodge Laplacian has come into focus as a generalisation of the ordinary Laplacian for higher-order graph models such as simplicial and cellular complexes. Akin to the traditional analysis of graph Laplacians, many authors analyse the smallest eigenvalues of the Hodge Laplacian, which are connected to important topological properties such as homology. However, small eigenvalues of the Hodge Laplacian can carry different information depending on whether they are related to curl or gradient eigenmodes, and thus may not be comparable. We therefore introduce the notion of persistent eigenvector similarity and provide a method to track individual harmonic, curl, and gradient eigenvectors/-values through the so-called persistence filtration, leveraging the full information contained in the Hodge-Laplacian spectrum across all possible scales of a point cloud. Finally, we use our insights (a) to introduce a novel form of topological spectral clustering and (b) to classify edges and higher-order simplices based on their relationship to the smallest harmonic, curl, and gradient eigenvectors.},
   creationdate = {2023-12-17T12:22:54},
+  doi          = {10.1109/ICASSP48485.2024.10446051},
   url          = {https://arxiv.org/abs/2311.14427},
 }
 
@@ -998,14 +999,16 @@ Third, we evaluate the performance of CCNNs on tasks related to mesh shape analy
   url          = {https://arxiv.org/abs/2401.02381},
 }
 
-@Misc{Scholkemper2024,
-  author       = {Scholkemper, Michael and K{\"u}hn, Damin and Nabbefeld, Gerion and Musall, Simon and Kampa, Bj{\"o}rn and Schaub, Michael T},
-  howpublished = {arxiv},
-  month        = jan,
-  title        = {A Wasserstein Graph Distance Based on Distributions of Probabilistic Node Embeddings},
-  year         = {2024},
-  abstract     = {Distance measures between graphs are important primitives for a variety of learning tasks. In this work, we describe an unsupervised, optimal transport based approach to define a distance between graphs. Our idea is to derive representations of graphs as Gaussian mixture models, fitted to distributions of sampled node embeddings over the same space. The Wasserstein distance between these Gaussian mixture distributions then yields an interpretable and easily computable distance measure, which can further be tailored for the comparison at hand by choosing appropriate embeddings. We propose two embeddings for this framework and show that under certain assumptions about the shape of the resulting Gaussian mixture components, further computational improvements of this Wasserstein distance can be achieved. An empirical validation of our findings on synthetic data and real-world Functional Brain Connectivity networks shows promising performance compared to existing embedding methods.},
-  url          = {https://arxiv.org/abs/2401.03913},
+@InProceedings{Scholkemper2024,
+  author    = {Scholkemper, Michael and K{\"u}hn, Damin and Nabbefeld, Gerion and Musall, Simon and Kampa, Bj{\"o}rn and Schaub, Michael T},
+  booktitle = {IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2024)},
+  title     = {A Wasserstein Graph Distance Based on Distributions of Probabilistic Node Embeddings},
+  year      = {2024},
+  month     = mar,
+  pages     = {9751-9755},
+  abstract  = {Distance measures between graphs are important primitives for a variety of learning tasks. In this work, we describe an unsupervised, optimal transport based approach to define a distance between graphs. Our idea is to derive representations of graphs as Gaussian mixture models, fitted to distributions of sampled node embeddings over the same space. The Wasserstein distance between these Gaussian mixture distributions then yields an interpretable and easily computable distance measure, which can further be tailored for the comparison at hand by choosing appropriate embeddings. We propose two embeddings for this framework and show that under certain assumptions about the shape of the resulting Gaussian mixture components, further computational improvements of this Wasserstein distance can be achieved. An empirical validation of our findings on synthetic data and real-world Functional Brain Connectivity networks shows promising performance compared to existing embedding methods.},
+  doi       = {10.1109/ICASSP48485.2024.10447922},
+  url       = {https://arxiv.org/abs/2401.03913},
 }
 
 @InProceedings{Loveland2023,
