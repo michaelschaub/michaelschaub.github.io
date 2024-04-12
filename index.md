@@ -18,6 +18,7 @@ We are always looking for excellent PhD students and PostDocs.  If you are inter
 
 
 ### News and Events
+***April 5, 2024*** -- New [paper](https://arxiv.org/abs/2404.03434) accepted at ICLR and available on arxiv as well.       
 ***March 11, 2024*** --  I have given an invited talk at this years Young European Probabilists meeting (YEP 2024) in Eindhoven.      
 ***February 1, 2024*** --  I have joined the editorial board of Science Advances.      
 ***January, 22, 2024*** -- I will be giving a [virtual talk](https://www.c3s-frankfurt.de/what-we-do#whats-happening) at the Center for Critical Computational Studies at Frankfurt University.       
