@@ -18,6 +18,7 @@ We are always looking for excellent PhD students and PostDocs.  If you are inter
 
 
 ### News and Events
+***May 9, 2024*** -- Our [paper](https://www.science.org/doi/10.1126/sciadv.adh4053) with Leonie, Michael Scholkemper and Francisco Tudisco on learning the dynamics on hypergraphs is now out in Science Advances!      
 ***April 5, 2024*** -- New [paper](https://arxiv.org/abs/2404.03434) accepted at ICLR and available on arxiv as well.       
 ***March 11, 2024*** --  I have given an invited talk at this years Young European Probabilists meeting (YEP 2024) in Eindhoven.      
 ***February 1, 2024*** --  I have joined the editorial board of Science Advances.      

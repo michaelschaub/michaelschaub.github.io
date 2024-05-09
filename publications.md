@@ -38,8 +38,32 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 <!--BEGIN PUBLICATIOON INSERT HERE-->
 <table id="qs_table" border="1">
 <tbody>
+<tr id="Neuhaeuser2024" class="entry">
+    <td> [1] Neuhäuser, L.; Scholkemper, M.; Tudisco, F. &amp; Schaub, M.T. (2024), <i>"Learning the effective order of a hypergraph dynamical system"</i>, Science Advances., May, 2024.  Vol. 10(19), pp. eadh4053.
+        <p class="infolinks">[<a href="javascript:toggleInfo('Neuhaeuser2024','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Neuhaeuser2024','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1126/sciadv.adh4053" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2306.01813" target="_blank">URL</a>]</p>
+    </td>
+</tr>
+<tr id="abs_Neuhaeuser2024" class="abstract noshow">
+    <td><b>Abstract</b>: Dynamical systems on hypergraphs can display a rich set of behaviors not observable for systems with pairwise interactions. Given a distributed dynamical system with a putative hypergraph structure, an interesting question is thus how much of this hypergraph structure is actually necessary to faithfully replicate the observed dynamical behavior. To answer this question, we propose a method to determine the minimum order of a hypergraph necessary to approximate the corresponding dynamics accurately. Specifically, we develop a mathematical framework that allows us to determine this order when the type of dynamics is known. We use these ideas in conjunction with a hypergraph neural network to directly learn the dynamics itself and the resulting order of the hypergraph from both synthetic and real datasets consisting of observed system trajectories.</td>
+</tr>
+<tr id="bib_Neuhaeuser2024" class="bibtex noshow">
+    <td><b>BibTeX</b>:
+        <pre>
+@article{Neuhaeuser2024,
+    author = {Leonie Neuhäuser and Michael Scholkemper and Francesco Tudisco and Michael T. Schaub},
+           title = {Learning the effective order of a hypergraph dynamical system},
+           journal = {Science Advances},
+           year = {2024},
+           volume = {10},
+           number = {19},
+           pages = {eadh4053},
+           url = {https://arxiv.org/abs/2306.01813},
+           doi = {10.1126/sciadv.adh4053}
+}
+    </pre></td>
+</tr>
 <tr id="Frantzen2024" class="entry">
-    <td> [1] Frantzen, F. &amp; Schaub, M.T. (2024), <i>"Learning From Simplicial Data Based on Random Walks and 1D Convolutions"</i>, In Interational Conference on Learning Representations., April, 2024. 
+    <td> [2] Frantzen, F. &amp; Schaub, M.T. (2024), <i>"Learning From Simplicial Data Based on Random Walks and 1D Convolutions"</i>, In Interational Conference on Learning Representations., April, 2024. 
         <p class="infolinks">[<a href="javascript:toggleInfo('Frantzen2024','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Frantzen2024','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2404.03434" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -59,7 +83,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Scholkemper2024" class="entry">
-    <td> [2] Scholkemper, M.; K&uuml;hn, D.; Nabbefeld, G.; Musall, S.; Kampa, B. &amp; Schaub, M.T. (2024), <i>"A Wasserstein Graph Distance Based on Distributions of Probabilistic Node Embeddings"</i>, In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2024)., March, 2024. , pp. 9751-9755.
+    <td> [3] Scholkemper, M.; K&uuml;hn, D.; Nabbefeld, G.; Musall, S.; Kampa, B. &amp; Schaub, M.T. (2024), <i>"A Wasserstein Graph Distance Based on Distributions of Probabilistic Node Embeddings"</i>, In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2024)., March, 2024. , pp. 9751-9755.
         <p class="infolinks">[<a href="javascript:toggleInfo('Scholkemper2024','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Scholkemper2024','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1109/ICASSP48485.2024.10447922" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2401.03913" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -81,7 +105,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Grande2024" class="entry">
-    <td> [3] Grande, V. &amp; Schaub, M.T. (2024), <i>"Disentangling the Spectral Properties of the Hodge Laplacian: Not All Small Eigenvalues Are Equal"</i>, In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2024)., March, 2024. , pp. 9896-9900.
+    <td> [4] Grande, V. &amp; Schaub, M.T. (2024), <i>"Disentangling the Spectral Properties of the Hodge Laplacian: Not All Small Eigenvalues Are Equal"</i>, In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2024)., March, 2024. , pp. 9896-9900.
         <p class="infolinks">[<a href="javascript:toggleInfo('Grande2024','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Grande2024','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1109/ICASSP48485.2024.10446051" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2311.14427" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -103,7 +127,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Nagai2024" class="entry">
-    <td> [4] Nagai, J.S.; Costa, I.G. &amp; Schaub, M.T. (2024), <i>"Optimal transport distances for directed, weighted graphs: a case study with cell-cell communication networks"</i>, In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2024)., March, 2024. , pp. 9856-9860.
+    <td> [5] Nagai, J.S.; Costa, I.G. &amp; Schaub, M.T. (2024), <i>"Optimal transport distances for directed, weighted graphs: a case study with cell-cell communication networks"</i>, In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2024)., March, 2024. , pp. 9856-9860.
         <p class="infolinks">[<a href="javascript:toggleInfo('Nagai2024','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Nagai2024','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1109/ICASSP48485.2024.10446503" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2309.07030" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -125,7 +149,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Papamarkou2024" class="entry">
-	<td> [5] Papamarkou T, Birdal T, Bronstein M, Carlsson G, Curry J, Gao Y, Hajij M, Kwitt R, Liò P, Lorenzo PD, Maroulas V, Miolane N, Nasrin F, Ramamurthy KN, Rieck B, Scardapane S, Schaub MT, Veličković P, Wang B, Wang Y, Wei G-W and Zamzmi G (2024), <i>"Position Paper: Challenges and Opportunities in Topological Deep Learning"</i>, arxiv. February, 2024.
+	<td> [6] Papamarkou T, Birdal T, Bronstein M, Carlsson G, Curry J, Gao Y, Hajij M, Kwitt R, Liò P, Lorenzo PD, Maroulas V, Miolane N, Nasrin F, Ramamurthy KN, Rieck B, Scardapane S, Schaub MT, Veličković P, Wang B, Wang Y, Wei G-W and Zamzmi G (2024), <i>"Position Paper: Challenges and Opportunities in Topological Deep Learning"</i>, arxiv. February, 2024.
 	<p class="infolinks">[<a href="javascript:toggleInfo('Papamarkou2024','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Papamarkou2024','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2402.08871" target="_blank">URL</a>]</p>
 	</td>
 </tr>
@@ -145,7 +169,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 </pre></td>
 </tr>
 <tr id="Hajij2024" class="entry">
-	<td> [6] Hajij M, Papillon M, Frantzen F, Agerberg J, AlJabea I, Ballester R, Battiloro C, Bernárdez G, Birdal T, Brent A, Chin P, Escalera S, Fiorellino S, Gardaa OH, Gopalakrishnan G, Govil D, Hoppe J, Karri MR, Khouja J, Lecha M, Livesay N, Meißner J, Mukherjee S, Nikitin A, Papamarkou T, Prílepok J, Ramamurthy KN, Rosen P, Guzmán-Sáenz A, Salatiello A, Samaga SN, Scardapane S, Schaub MT, Scofano L, Spinelli I, Telyatnikov L, Truong Q, Walters R, Yang M, Zaghen O, Zamzmi G, Zia A and Miolane N (2024), <i>"TopoX: A Suite of Python Packages for Machine Learning on Topological Domains"</i>, arxiv. February, 2024.
+	<td> [7] Hajij M, Papillon M, Frantzen F, Agerberg J, AlJabea I, Ballester R, Battiloro C, Bernárdez G, Birdal T, Brent A, Chin P, Escalera S, Fiorellino S, Gardaa OH, Gopalakrishnan G, Govil D, Hoppe J, Karri MR, Khouja J, Lecha M, Livesay N, Meißner J, Mukherjee S, Nikitin A, Papamarkou T, Prílepok J, Ramamurthy KN, Rosen P, Guzmán-Sáenz A, Salatiello A, Samaga SN, Scardapane S, Schaub MT, Scofano L, Spinelli I, Telyatnikov L, Truong Q, Walters R, Yang M, Zaghen O, Zamzmi G, Zia A and Miolane N (2024), <i>"TopoX: A Suite of Python Packages for Machine Learning on Topological Domains"</i>, arxiv. February, 2024.
 	<p class="infolinks">[<a href="javascript:toggleInfo('Hajij2024','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Hajij2024','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2402.02441" target="_blank">URL</a>]</p>
 	</td>
 </tr>
@@ -165,7 +189,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 </pre></td>
 </tr>
 <tr id="Stamm2024" class="entry">
-	<td> [7] Stamm FI and Schaub MT (2024), <i>"Faster optimal univariate microgaggregation"</i>, arxiv. January, 2024.
+	<td> [8] Stamm FI and Schaub MT (2024), <i>"Faster optimal univariate microgaggregation"</i>, arxiv. January, 2024.
 	<p class="infolinks">[<a href="javascript:toggleInfo('Stamm2024','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Stamm2024','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2401.02381" target="_blank">URL</a>]</p>
 	</td>
 </tr>
@@ -185,7 +209,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 </pre></td>
 </tr>
 <tr id="Scholkemper2023" class="entry">
-    <td> [8] Scholkemper, M. &amp; Schaub, M.T. (2023), <i>"An Optimization-based Approach To Node Role Discovery in Networks: Approximating Equitable Partitions"</i>, In Advances in Neural Information Processing Systems (NeurIPS 2023)., December, 2023.  Vol. 36, pp. 71358-71374.
+    <td> [9] Scholkemper, M. &amp; Schaub, M.T. (2023), <i>"An Optimization-based Approach To Node Role Discovery in Networks: Approximating Equitable Partitions"</i>, In Advances in Neural Information Processing Systems (NeurIPS 2023)., December, 2023.  Vol. 36, pp. 71358-71374.
         <p class="infolinks">[<a href="javascript:toggleInfo('Scholkemper2023','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Scholkemper2023','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2305.19087" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -207,7 +231,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Hajij2023a" class="entry">
-    <td> [9] Hajij, M.; Zamzmi, G.; Papamarkou, T.; Guzmán-Sáenz, A.; Birdal, T. &amp; Schaub, M.T. (2023), <i>"Combinatorial Complexes: Bridging the Gap Between Cell Complexes and Hypergraphs"</i>, In 57th Asilomar Conference on Signals, Systems, and Computers., December, 2023. , pp. 799-803.
+    <td> [10] Hajij, M.; Zamzmi, G.; Papamarkou, T.; Guzmán-Sáenz, A.; Birdal, T. &amp; Schaub, M.T. (2023), <i>"Combinatorial Complexes: Bridging the Gap Between Cell Complexes and Hypergraphs"</i>, In 57th Asilomar Conference on Signals, Systems, and Computers., December, 2023. , pp. 799-803.
         <p class="infolinks">[<a href="javascript:toggleInfo('Hajij2023a','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Hajij2023a','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1109/IEEECONF59524.2023.10477018" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2312.09504" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -228,28 +252,32 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 }
     </pre></td>
 </tr>
-<tr id="grande2023non" class="entry">
-    <td> [10] Grande, V.P. &amp; Schaub, M.T. (2023), <i>"Non-isotropic Persistent Homology: Leveraging the Metric Dependency of PH"</i>, In Learning on Graphs 2023., November, 2023. 
-        <p class="infolinks">[<a href="javascript:toggleInfo('grande2023non','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('grande2023non','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2310.16437" target="_blank">URL</a>]</p>
+<tr id="Grande2023a" class="entry">
+    <td> [11] Grande, V.P. &amp; Schaub, M.T. (2023), <i>"Non-Isotropic Persistent Homology: Leveraging the Metric Dependency of PH"</i>, In Proceedings of the Second Learning on Graphs Conference., November, 2023.  Vol. 231, pp. 17:1-17:19. PMLR.
+        <p class="infolinks">[<a href="javascript:toggleInfo('Grande2023a','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Grande2023a','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2310.16437" target="_blank">URL</a>]</p>
     </td>
 </tr>
-<tr id="abs_grande2023non" class="abstract noshow">
-    <td><b>Abstract</b>: Persistent Homology is a widely used topological data analysis tool that creates a concise description of the topological properties of a point cloud based on a specified filtration. Most filtrations used for persistent homology depend (implicitly) on a chosen metric, which is typically agnostically chosen as the standard Euclidean metric on R^n. Recent work has tried to uncover the 'true' metric on the point cloud using distance-to-measure functions, in order to obtain more meaningful persistent homology results. Here we propose an alternative look at this problem: we posit that information on the point cloud is lost when restricting persistent homology to a single (correct) distance function. Instead, we show how by varying the distance function on the underlying space and analysing the corresponding shifts in the persistence diagrams, we can extract additional topological and geometrical information. Finally, we numerically show that non-isotropic persistent homology can extract information on orientation, orientational variance, and scaling of randomly generated point clouds with good accuracy and conduct some experiments on real-world data.</td>
+<tr id="abs_Grande2023a" class="abstract noshow">
+    <td><b>Abstract</b>: Persistent Homology is a widely used topological data analysis tool that creates a concise description of the topological properties of a point cloud based on a specified filtration. Most filtrations used for persistent homology depend (implicitly) on a chosen metric, which is typically agnostically chosen as the standard Euclidean metric on textdollar &reals;&circ;ntextdollar . Recent work has tried to uncover the true metric on the point cloud using distance-to-measure functions, in order to obtain more meaningful persistent homology results. Here we propose an alternative look at this problem: we posit that information on the point cloud is lost when restricting persistent homology to a single (correct) distance function. Instead, we show how by varying the distance function on the underlying space and analysing the corresponding shifts in the persistence diagrams, we can extract additional topological and geometrical information. Finally, we numerically show that non-isotropic persistent homology can extract information on orientation, orientational variance, and scaling of randomly generated point clouds with good accuracy and conduct some experiments on real-world data.</td>
 </tr>
-<tr id="bib_grande2023non" class="bibtex noshow">
+<tr id="bib_Grande2023a" class="bibtex noshow">
     <td><b>BibTeX</b>:
         <pre>
-@inproceedings{grande2023non,
-    author = {Grande, Vincent P and Schaub, Michael T},
-           title = {Non-isotropic Persistent Homology: Leveraging the Metric Dependency of PH},
-           booktitle = {Learning on Graphs 2023},
+@inproceedings{Grande2023a,
+    author = {Grande, Vincent Peter and Schaub, Michael T},
+           editor = {Villar, Soledad and Chamberlain, Benjamin},
+           title = {Non-Isotropic Persistent Homology: Leveraging the Metric Dependency of PH},
+           booktitle = {Proceedings of the Second Learning on Graphs Conference},
+           publisher = {PMLR},
            year = {2023},
+           volume = {231},
+           pages = {17:1--17:19},
            url = {https://arxiv.org/abs/2310.16437}
 }
     </pre></td>
 </tr>
 <tr id="Loveland2023" class="entry">
-    <td> [11] Loveland, D.; Zhu, J.; Heimann, M.; Fish, B.; Schaub, M.T. &amp; Koutra, D. (2023), <i>"On Performance Discrepancies Across Local Homophily Levels in Graph Neural Networks"</i>, In Learning on Graphs 2023., November, 2023. 
+    <td> [12] Loveland, D.; Zhu, J.; Heimann, M.; Fish, B.; Schaub, M.T. &amp; Koutra, D. (2023), <i>"On Performance Discrepancies Across Local Homophily Levels in Graph Neural Networks"</i>, In Proceedings of the Second Learning on Graphs Conference., November, 2023.  Vol. 231, pp. 6:1-6:30. PMLR.
         <p class="infolinks">[<a href="javascript:toggleInfo('Loveland2023','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Loveland2023','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2306.05557v3" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -260,21 +288,25 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     <td><b>BibTeX</b>:
         <pre>
 @inproceedings{Loveland2023,
-    author = {Donald Loveland and Jiong Zhu and Mark Heimann and Benjamin Fish and Michael T Schaub and Danai Koutra},
+    author = {Loveland, Donald and Zhu, Jiong and Heimann, Mark and Fish, Benjamin and Schaub, Michael T and Koutra, Danai},
+           editor = {Villar, Soledad and Chamberlain, Benjamin},
            title = {On Performance Discrepancies Across Local Homophily Levels in Graph Neural Networks},
-           booktitle = {Learning on Graphs 2023},
+           booktitle = {Proceedings of the Second Learning on Graphs Conference},
+           publisher = {PMLR},
            year = {2023},
+           volume = {231},
+           pages = {6:1--6:30},
            url = {https://arxiv.org/abs/2306.05557v3}
 }
     </pre></td>
 </tr>
 <tr id="Hoppe2023" class="entry">
-    <td> [12] Hoppe, J. &amp; Schaub, M.T. (2023), <i>"Representing Edge Flows on Graphs via Sparse Cell Complexes"</i>, In Learning on Graphs 2023., November, 2023. 
+    <td> [13] Hoppe, J. &amp; Schaub, M.T. (2023), <i>"Representing Edge Flows on Graphs via Sparse Cell Complexes"</i>, In Proceedings of the Second Learning on Graphs Conference., November, 2023.  Vol. 231, pp. 1:1-1:22. PMLR.
         <p class="infolinks">[<a href="javascript:toggleInfo('Hoppe2023','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Hoppe2023','comment')">Comment</a>]  [<a href="javascript:toggleInfo('Hoppe2023','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2309.01632" target="_blank">URL</a>]</p>
     </td>
 </tr>
 <tr id="abs_Hoppe2023" class="abstract noshow">
-    <td><b>Abstract</b>: Obtaining sparse, interpretable representations of observable data is crucial in many machine learning and signal processing tasks. For data representing flows along the edges of a graph, an intuitively interpretable way to obtain such representations is to lift the graph structure to a simplicial complex: The eigenvectors of the associated Hodge-Laplacian, respectively the incidence matrices of the corresponding simplicial complex then induce a Hodge decomposition, which can be used to represent the observed data in terms of gradient, curl, and harmonic flows. In this paper, we generalize this approach to cellular complexes and introduce the cell inference optimization problem, i.e., the problem of augmenting the observed graph by a set of cells, such that the eigenvectors of the associated Hodge Laplacian provide a sparse, interpretable representation of the observed edge flows on the graph. We show that this problem is NP-hard and introduce an efficient approximation algorithm for its solution. Experiments on real-world and synthetic data demonstrate that our algorithm outperforms current state-of-the-art methods while being computationally efficient.</td>
+    <td><b>Abstract</b>: Obtaining sparse, interpretable representations of observable data is crucial in many machine learning and signal processing tasks. For data representing flows along the edges of a graph, an intuitively interpretable way to obtain such representations is to lift the graph structure to a simplicial complex: The eigenvectors of the associated Hodge-Laplacian, respectively the incidence matrices of the corresponding simplicial complex then induce a Hodge decomposition, which can be used to represent the observed data in terms of gradient, curl, and harmonic flows. In this paper, we generalize this approach to cellular complexes and introduce the flow representation learning problem, i.e., the problem of augmenting the observed graph by a set of cells, such that the eigenvectors of the associated Hodge Laplacian provide a sparse, interpretable representation of the observed edge flows on the graph. We show that this problem is NP-hard and introduce an efficient approximation algorithm for its solution. Experiments on real-world and synthetic data demonstrate that our algorithm outperforms state-of-the-art methods with respect to approximation error, while being computationally efficient.</td>
 </tr>
 <tr id="rev_Hoppe2023" class="comment noshow">
     <td><b>Comment</b>: Best paper Award</td>
@@ -283,16 +315,20 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     <td><b>BibTeX</b>:
         <pre>
 @inproceedings{Hoppe2023,
-    author = {Josef Hoppe and Michael T. Schaub},
+    author = {Hoppe, Josef and Schaub, Michael T},
+           editor = {Villar, Soledad and Chamberlain, Benjamin},
            title = {Representing Edge Flows on Graphs via Sparse Cell Complexes},
-           booktitle = {Learning on Graphs 2023},
+           booktitle = {Proceedings of the Second Learning on Graphs Conference},
+           publisher = {PMLR},
            year = {2023},
+           volume = {231},
+           pages = {1:1--1:22},
            url = {https://arxiv.org/abs/2309.01632}
 }
     </pre></td>
 </tr>
 <tr id="Calmon2023" class="entry">
-    <td> [13] Calmon, L.; Schaub, M.T. &amp; Bianconi, G. (2023), <i>"Dirac signal processing of higher-order topological signals"</i>, New Journal of Physics., September, 2023.  Vol. 25(9), pp. 093013.
+    <td> [14] Calmon, L.; Schaub, M.T. &amp; Bianconi, G. (2023), <i>"Dirac signal processing of higher-order topological signals"</i>, New Journal of Physics., September, 2023.  Vol. 25(9), pp. 093013.
         <p class="infolinks">[<a href="javascript:toggleInfo('Calmon2023','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Calmon2023','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1088/1367-2630/acf33c" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2301.10137" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -316,7 +352,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Bick2023" class="entry">
-    <td> [14] Bick, C.; Gross, E.; Harrington, H.A. &amp; Schaub, M.T. (2023), <i>"What are higher-order networks?"</i>, SIAM Review., August, 2023.  Vol. 65(3), pp. 686-731.
+    <td> [15] Bick, C.; Gross, E.; Harrington, H.A. &amp; Schaub, M.T. (2023), <i>"What are higher-order networks?"</i>, SIAM Review., August, 2023.  Vol. 65(3), pp. 686-731.
         <p class="infolinks">[<a href="javascript:toggleInfo('Bick2023','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Bick2023','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1137/21M1414024" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2104.11329" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -340,7 +376,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Grande2023" class="entry">
-    <td> [15] Grande, V.P. &amp; Schaub, M.T. (2023), <i>"Topological Point Cloud Clustering"</i>, In Proceedings of the 40th International Conference on Machine Learning (ICML 2023)., July, 2023.  Vol. 202, pp. 11683-11697. PMLR.
+    <td> [16] Grande, V.P. &amp; Schaub, M.T. (2023), <i>"Topological Point Cloud Clustering"</i>, In Proceedings of the 40th International Conference on Machine Learning (ICML 2023)., July, 2023.  Vol. 202, pp. 11683-11697. PMLR.
         <p class="infolinks">[<a href="javascript:toggleInfo('Grande2023','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Grande2023','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2303.16716" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -362,26 +398,6 @@ A list of my publications is also available on [Google Scholar](https://scholar.
            url = {https://arxiv.org/abs/2303.16716}
 }
     </pre></td>
-</tr>
-<tr id="Neuhaeuser2023" class="entry">
-	<td> [16] Neuhäuser L, Scholkemper M, Tudisco F and Schaub MT (2023), <i>"Learning the effective order of a hypergraph dynamical system"</i>, submitted. June, 2023.
-	<p class="infolinks">[<a href="javascript:toggleInfo('Neuhaeuser2023','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Neuhaeuser2023','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2306.01813" target="_blank">URL</a>]</p>
-	</td>
-</tr>
-<tr id="abs_Neuhaeuser2023" class="abstract noshow">
-	<td><b>Abstract</b>: Dynamical systems on hypergraphs can display a rich set of behaviours not observable for systems with pairwise interactions. Given a distributed dynamical system with a putative hypergraph structure, an interesting question is thus how much of this hypergraph structure is actually necessary to faithfully replicate the observed dynamical behaviour. To answer this question, we propose a method to determine the minimum order of a hypergraph necessary to approximate the corresponding dynamics accurately. Specifically, we develop an analytical framework that allows us to determine this order when the type of dynamics is known. We utilize these ideas in conjunction with a hypergraph neural network to directly learn the dynamics itself and the resulting order of the hypergraph from both synthetic and real data sets consisting of observed system trajectories.</td>
-</tr>
-<tr id="bib_Neuhaeuser2023" class="bibtex noshow">
-<td><b>BibTeX</b>:
-<pre>
-@misc{Neuhaeuser2023,
-  author = {Leonie Neuhäuser and Michael Scholkemper and Francesco Tudisco and Michael T. Schaub},
-  title = {Learning the effective order of a hypergraph dynamical system},
-  howpublished = {submitted},
-  year = {2023},
-  url = {https://arxiv.org/abs/2306.01813}
-}
-</pre></td>
 </tr>
 <tr id="Schaub2023" class="entry">
     <td> [17] Schaub, M.T.; Li, J. &amp; Peel, L. (2023), <i>"Hierarchical community structure in networks"</i>, Phys. Rev. E., May, 2023.  Vol. 107, pp. 054305. American Physical Society.
@@ -1729,5 +1745,5 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 </tbody>
 </table>
 <footer>
- <small>Created by <a href="http://jabref.sourceforge.net">JabRef</a> on 12/04/2024.</small>
+ <small>Created by <a href="http://jabref.sourceforge.net">JabRef</a> on 09/05/2024.</small>
 </footer>
