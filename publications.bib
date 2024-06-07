@@ -1078,4 +1078,51 @@ Third, we evaluate the performance of CCNNs on tasks related to mesh shape analy
   url          = {https://arxiv.org/abs/2402.08871},
 }
 
+@Misc{Fanuel2024,
+  author   = {Michaël Fanuel and Antoine Aspeel and Michael T. Schaub and Jean-Charles Delvenne},
+  month    = mar,
+  note     = {arXiv preprint},
+  title    = {Ellipsoidal embeddings of graphs},
+  year     = {2024},
+  abstract = {Due to their flexibility to represent almost any kind of relational data, graph-based models have enjoyed a tremendous success over the past decades. While graphs are inherently only combinatorial objects, however, many prominent analysis tools are based on the algebraic representation of graphs via matrices such as the graph Laplacian, or on associated graph embeddings. Such embeddings associate to each node a set of coordinates in a vector space, a representation which can then be employed for learning tasks such as the classification or alignment of the nodes of the graph. As the geometric picture provided by embedding methods enables the use of a multitude of methods developed for vector space data, embeddings have thus gained interest both from a theoretical as well as a practical perspective. Inspired by trace-optimization problems, often encountered in the analysis of graph-based data, here we present a method to derive ellipsoidal embeddings of the nodes of a graph, in which each node is assigned a set of coordinates on the surface of a hyperellipsoid. Our method may be seen as an alternative to popular spectral embedding techniques, to which it shares certain similarities we discuss. To illustrate the utility of the embedding we conduct a case study in which we analyse synthetic and real world networks with modular structure, and compare the results obtained with known methods in the literature.},
+  url      = {https://arxiv.org/abs/2403.15023},
+}
+
+@Misc{Hoppe2024,
+  author   = {Josef Hoppe and Michael T. Schaub},
+  month    = jun,
+  note     = {arxiv preprint},
+  title    = {Random Abstract Cell Complexes},
+  year     = {2024},
+  abstract = {We define a model for random (abstract) cell complexes (CCs), similiar to the well-known Erdős-Rényi model for graphs and its extensions for simplicial complexes. To build a random cell complex, we first draw from an Erdős-Rényi graph, and consecutively augment the graph with cells for each dimension with a specified probability. As the number of possible cells increases combinatorially -- e.g., 2-cells can be represented as cycles, or permutations -- we derive an approximate sampling algorithm for this model limited to two-dimensional abstract cell complexes. Since there is a large variance in the number of simple cycles on graphs drawn from the same configuration of ER, we also provide an efficient method to approximate that number, which is of independent interest. Moreover, it enables us to specify the expected number of 2-cells of each boundary length we want to sample. We provide some initial analysis into the properties of random CCs drawn from this model. We further showcase practical applications for our random CCs as null models, and in the context of (random) liftings of graphs to cell complexes. Both the sampling and cycle count estimation algorithms are available in the package `py-raccoon` on the Python Packaging Index.},
+  url      = {https://arxiv.org/abs/2406.01999},
+}
+
+@Misc{Epping2024,
+  author   = {Bastian Epping and Alexandre René and Moritz Helias and Michael T. Schaub},
+  month    = jun,
+  title    = {Graph Neural Networks Do Not Always Oversmooth},
+  year     = {2024},
+  abstract = {Graph neural networks (GNNs) have emerged as powerful tools for processing relational data in applications. However, GNNs suffer from the problem of oversmoothing, the property that the features of all nodes exponentially converge to the same vector over layers, prohibiting the design of deep GNNs. In this work we study oversmoothing in graph convolutional networks (GCNs) by using their Gaussian process (GP) equivalence in the limit of infinitely many hidden features. By generalizing methods from conventional deep neural networks (DNNs), we can describe the distribution of features at the output layer of deep GCNs in terms of a GP: as expected, we find that typical parameter choices from the literature lead to oversmoothing. The theory, however, allows us to identify a new, nonoversmoothing phase: if the initial weights of the network have sufficiently large variance, GCNs do not oversmooth, and node features remain informative even at large depth. We demonstrate the validity of this prediction in finite-size GCNs by training a linear classifier on their output. Moreover, using the linearization of the GCN GP, we generalize the concept of propagation depth of information from DNNs to GCNs. This propagation depth diverges at the transition between the oversmoothing and non-oversmoothing phase. We test the predictions of our approach and find good agreement with finite-size GCNs. Initializing GCNs near the transition to the non-oversmoothing phase, we obtain networks which are both deep and expressive.},
+  url      = {https://arxiv.org/abs/2406.02269},
+}
+
+@Misc{Grande2024a,
+  author   = {Vincent P. Grande and Michael T. Schaub},
+  month    = jun,
+  title    = {Node-Level Topological Representation Learning on Point Clouds},
+  year     = {2024},
+  abstract = {Topological Data Analysis (TDA) allows us to extract powerful topological and higher-order information on the global shape of a data set or point cloud. Tools like Persistent Homology or the Euler Transform give a single complex description of the global structure of the point cloud. However, common machine learning applications like classification require point-level information and features to be available. In this paper, we bridge this gap and propose a novel method to extract node-level topological features from complex point clouds using discrete variants of concepts from algebraic topology and differential geometry. We verify the effectiveness of these topological point features (TOPF) on both synthetic and real-world data and study their robustness under noise.},
+  url      = {https://arxiv.org/abs/2406.02300},
+}
+
+@Misc{Scholkemper2024a,
+  author   = {Michael Scholkemper and Xinyi Wu and Ali Jadbabaie and Michael Schaub},
+  month    = jun,
+  title    = {Residual Connections and Normalization Can Provably Prevent Oversmoothing in GNNs},
+  year     = {2024},
+  abstract = {Residual connections and normalization layers have become standard design choices for graph neural networks (GNNs), and were proposed as solutions to the mitigate the oversmoothing problem in GNNs. However, how exactly these methods help alleviate the oversmoothing problem from a theoretical perspective is not well understood. In this work, we provide a formal and precise characterization of (linearized) GNNs with residual connections and normalization layers. We establish that (a) for residual connections, the incorporation of the initial features at each layer can prevent the signal from becoming too smooth, and determines the subspace of possible node representations; (b) batch normalization prevents a complete collapse of the output embedding space to a one-dimensional subspace through the individual rescaling of each column of the feature matrix. This results in the convergence of node representations to the top-k eigenspace of the message-passing operator; (c) moreover, we show that the centering step of a normalization layer -- which can be understood as a projection -- alters the graph signal in message-passing in such a way that relevant information can become harder to extract. We therefore introduce a novel, principled normalization layer called GraphNormv2 in which the centering step is learned such that it does not distort the original graph signal in an undesirable way. Experimental results confirm the effectiveness of our method.},
+  url      = {https://arxiv.org/abs/2406.02997},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
