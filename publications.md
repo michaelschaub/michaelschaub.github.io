@@ -38,8 +38,28 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 <!--BEGIN PUBLICATIOON INSERT HERE-->
 <table id="qs_table" border="1">
 <tbody>
+<tr id="Papamarkou2024" class="entry">
+    <td> [1] Papamarkou, T.; Birdal, T.; Bronstein, M.; Carlsson, G.; Curry, J.; Gao, Y.; Hajij, M.; Kwitt, R.; Liò, P.; Lorenzo, P.D.; Maroulas, V.; Miolane, N.; Nasrin, F.; Ramamurthy, K.N.; Rieck, B.; Scardapane, S.; Schaub, M.T.; Veličković, P.; Wang, B.; Wang, Y.; Wei, G.-W. &amp; Zamzmi, G. (2024), <i>"Position: Topological Deep Learning is the New Frontier for Relational Learning"</i>, In Proceedings of the 41st International Conference on Machine Learning (ICML 2024)., July, 2024. 
+        <p class="infolinks">[<a href="javascript:toggleInfo('Papamarkou2024','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Papamarkou2024','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2402.08871" target="_blank">URL</a>]</p>
+    </td>
+</tr>
+<tr id="abs_Papamarkou2024" class="abstract noshow">
+    <td><b>Abstract</b>: Topological deep learning (TDL) is a rapidly evolving field that uses topological features to understand and design deep learning models. This paper posits that TDL is the new frontier for relational learning. TDL may complement graph representation learning and geometric deep learning by incorporating topological concepts, and can thus provide a natural choice for various machine learning settings. To this end, this paper discusses open problems in TDL, ranging from practical benefits to theoretical foundations. For each problem, it outlines potential solutions and future research opportunities. At the same time, this paper serves as an invitation to the scientific community to actively participate in TDL research to unlock the potential of this emerging field.</td>
+</tr>
+<tr id="bib_Papamarkou2024" class="bibtex noshow">
+    <td><b>BibTeX</b>:
+        <pre>
+@inproceedings{Papamarkou2024,
+    author = {Theodore Papamarkou and Tolga Birdal and Michael Bronstein and Gunnar Carlsson and Justin Curry and Yue Gao and Mustafa Hajij and Roland Kwitt and Pietro Liò and Paolo Di Lorenzo and Vasileios Maroulas and Nina Miolane and Farzana Nasrin and Karthikeyan Natesan Ramamurthy and Bastian Rieck and Simone Scardapane and Michael T. Schaub and Petar Veličković and Bei Wang and Yusu Wang and Guo-Wei Wei and Ghada Zamzmi},
+           title = {Position: Topological Deep Learning is the New Frontier for Relational Learning},
+           booktitle = {Proceedings of the 41st International Conference on Machine Learning (ICML 2024)},
+           year = {2024},
+           url = {https://arxiv.org/abs/2402.08871}
+}
+    </pre></td>
+</tr>
 <tr id="Arnaudon2024" class="entry">
-    <td> [1] Arnaudon, A.; Schindler, D.J.; Peach, R.L.; Gosztolai, A.; Hodges, M.; Schaub, M.T. &amp; Barahona, M. (2024), <i>"Algorithm 1044: PyGenStability: Multiscale community detection with generalized Markov Stability"</i>, ACM Transactions on Mathematical Software. New York, NY, USA, June, 2024.  Association for Computing Machinery.
+    <td> [2] Arnaudon, A.; Schindler, D.J.; Peach, R.L.; Gosztolai, A.; Hodges, M.; Schaub, M.T. &amp; Barahona, M. (2024), <i>"Algorithm 1044: PyGenStability: Multiscale community detection with generalized Markov Stability"</i>, ACM Transactions on Mathematical Software. New York, NY, USA, June, 2024.  Association for Computing Machinery.
         <p class="infolinks">[<a href="javascript:toggleInfo('Arnaudon2024','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Arnaudon2024','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1145/3651225" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2303.05385" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -61,7 +81,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Epping2024" class="entry">
-	<td> [2] Epping B, René A, Helias M and Schaub MT (2024), <i>"Graph Neural Networks Do Not Always Oversmooth"</i>. June, 2024.
+	<td> [3] Epping B, René A, Helias M and Schaub MT (2024), <i>"Graph Neural Networks Do Not Always Oversmooth"</i>. June, 2024.
 	<p class="infolinks">[<a href="javascript:toggleInfo('Epping2024','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Epping2024','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2406.02269" target="_blank">URL</a>]</p>
 	</td>
 </tr>
@@ -80,7 +100,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 </pre></td>
 </tr>
 <tr id="Grande2024a" class="entry">
-	<td> [3] Grande VP and Schaub MT (2024), <i>"Node-Level Topological Representation Learning on Point Clouds"</i>. June, 2024.
+	<td> [4] Grande VP and Schaub MT (2024), <i>"Node-Level Topological Representation Learning on Point Clouds"</i>. June, 2024.
 	<p class="infolinks">[<a href="javascript:toggleInfo('Grande2024a','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Grande2024a','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2406.02300" target="_blank">URL</a>]</p>
 	</td>
 </tr>
@@ -99,7 +119,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 </pre></td>
 </tr>
 <tr id="Hoppe2024" class="entry">
-	<td> [4] Hoppe J and Schaub MT (2024), <i>"Random Abstract Cell Complexes"</i>. June, 2024.
+	<td> [5] Hoppe J and Schaub MT (2024), <i>"Random Abstract Cell Complexes"</i>. June, 2024.
 	<p class="infolinks">[<a href="javascript:toggleInfo('Hoppe2024','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Hoppe2024','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2406.01999" target="_blank">URL</a>]</p>
 	</td>
 </tr>
@@ -119,7 +139,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 </pre></td>
 </tr>
 <tr id="Scholkemper2024a" class="entry">
-	<td> [5] Scholkemper M, Wu X, Jadbabaie A and Schaub M (2024), <i>"Residual Connections and Normalization Can Provably Prevent Oversmoothing in GNNs"</i>. June, 2024.
+	<td> [6] Scholkemper M, Wu X, Jadbabaie A and Schaub M (2024), <i>"Residual Connections and Normalization Can Provably Prevent Oversmoothing in GNNs"</i>. June, 2024.
 	<p class="infolinks">[<a href="javascript:toggleInfo('Scholkemper2024a','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Scholkemper2024a','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2406.02997" target="_blank">URL</a>]</p>
 	</td>
 </tr>
@@ -138,7 +158,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 </pre></td>
 </tr>
 <tr id="Telyatnikov2024" class="entry">
-	<td> [6] Telyatnikov L, Bernardez G, Montagna M, Vasylenko P, Zamzmi G, Hajij M, Schaub MT, Miolane N, Scardapane S and Papamarkou T (2024), <i>"TopoBenchmarkX: A Framework for Benchmarking Topological Deep Learning"</i>. June, 2024.
+	<td> [7] Telyatnikov L, Bernardez G, Montagna M, Vasylenko P, Zamzmi G, Hajij M, Schaub MT, Miolane N, Scardapane S and Papamarkou T (2024), <i>"TopoBenchmarkX: A Framework for Benchmarking Topological Deep Learning"</i>. June, 2024.
 	<p class="infolinks">[<a href="javascript:toggleInfo('Telyatnikov2024','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Telyatnikov2024','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2406.06642" target="_blank">URL</a>]</p>
 	</td>
 </tr>
@@ -158,7 +178,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 </pre></td>
 </tr>
 <tr id="Neuhaeuser2024" class="entry">
-    <td> [7] Neuhäuser, L.; Scholkemper, M.; Tudisco, F. &amp; Schaub, M.T. (2024), <i>"Learning the effective order of a hypergraph dynamical system"</i>, Science Advances., May, 2024.  Vol. 10(19), pp. eadh4053.
+    <td> [8] Neuhäuser, L.; Scholkemper, M.; Tudisco, F. &amp; Schaub, M.T. (2024), <i>"Learning the effective order of a hypergraph dynamical system"</i>, Science Advances., May, 2024.  Vol. 10(19), pp. eadh4053.
         <p class="infolinks">[<a href="javascript:toggleInfo('Neuhaeuser2024','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Neuhaeuser2024','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1126/sciadv.adh4053" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2306.01813" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -182,7 +202,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Frantzen2024" class="entry">
-    <td> [8] Frantzen, F. &amp; Schaub, M.T. (2024), <i>"Learning From Simplicial Data Based on Random Walks and 1D Convolutions"</i>, In Interational Conference on Learning Representations., April, 2024. 
+    <td> [9] Frantzen, F. &amp; Schaub, M.T. (2024), <i>"Learning From Simplicial Data Based on Random Walks and 1D Convolutions"</i>, In International Conference on Learning Representations., April, 2024. 
         <p class="infolinks">[<a href="javascript:toggleInfo('Frantzen2024','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Frantzen2024','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2404.03434" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -195,14 +215,14 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 @inproceedings{Frantzen2024,
     author = {Florian Frantzen and Michael T. Schaub},
            title = {Learning From Simplicial Data Based on Random Walks and 1D Convolutions},
-           booktitle = {Interational Conference on Learning Representations},
+           booktitle = {International Conference on Learning Representations},
            year = {2024},
            url = {https://arxiv.org/abs/2404.03434}
 }
     </pre></td>
 </tr>
 <tr id="Scholkemper2024" class="entry">
-    <td> [9] Scholkemper, M.; K&uuml;hn, D.; Nabbefeld, G.; Musall, S.; Kampa, B. &amp; Schaub, M.T. (2024), <i>"A Wasserstein Graph Distance Based on Distributions of Probabilistic Node Embeddings"</i>, In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2024)., March, 2024. , pp. 9751-9755.
+    <td> [10] Scholkemper, M.; K&uuml;hn, D.; Nabbefeld, G.; Musall, S.; Kampa, B. &amp; Schaub, M.T. (2024), <i>"A Wasserstein Graph Distance Based on Distributions of Probabilistic Node Embeddings"</i>, In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2024)., March, 2024. , pp. 9751-9755.
         <p class="infolinks">[<a href="javascript:toggleInfo('Scholkemper2024','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Scholkemper2024','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1109/ICASSP48485.2024.10447922" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2401.03913" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -224,7 +244,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Grande2024" class="entry">
-    <td> [10] Grande, V. &amp; Schaub, M.T. (2024), <i>"Disentangling the Spectral Properties of the Hodge Laplacian: Not All Small Eigenvalues Are Equal"</i>, In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2024)., March, 2024. , pp. 9896-9900.
+    <td> [11] Grande, V. &amp; Schaub, M.T. (2024), <i>"Disentangling the Spectral Properties of the Hodge Laplacian: Not All Small Eigenvalues Are Equal"</i>, In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2024)., March, 2024. , pp. 9896-9900.
         <p class="infolinks">[<a href="javascript:toggleInfo('Grande2024','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Grande2024','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1109/ICASSP48485.2024.10446051" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2311.14427" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -246,7 +266,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Fanuel2024" class="entry">
-	<td> [11] Fanuel M, Aspeel A, Schaub MT and Delvenne J-C (2024), <i>"Ellipsoidal embeddings of graphs"</i>. March, 2024.
+	<td> [12] Fanuel M, Aspeel A, Schaub MT and Delvenne J-C (2024), <i>"Ellipsoidal embeddings of graphs"</i>. March, 2024.
 	<p class="infolinks">[<a href="javascript:toggleInfo('Fanuel2024','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Fanuel2024','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2403.15023" target="_blank">URL</a>]</p>
 	</td>
 </tr>
@@ -266,7 +286,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 </pre></td>
 </tr>
 <tr id="Nagai2024" class="entry">
-    <td> [12] Nagai, J.S.; Costa, I.G. &amp; Schaub, M.T. (2024), <i>"Optimal transport distances for directed, weighted graphs: a case study with cell-cell communication networks"</i>, In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2024)., March, 2024. , pp. 9856-9860.
+    <td> [13] Nagai, J.S.; Costa, I.G. &amp; Schaub, M.T. (2024), <i>"Optimal transport distances for directed, weighted graphs: a case study with cell-cell communication networks"</i>, In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2024)., March, 2024. , pp. 9856-9860.
         <p class="infolinks">[<a href="javascript:toggleInfo('Nagai2024','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Nagai2024','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1109/ICASSP48485.2024.10446503" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2309.07030" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -286,26 +306,6 @@ A list of my publications is also available on [Google Scholar](https://scholar.
            doi = {10.1109/ICASSP48485.2024.10446503}
 }
     </pre></td>
-</tr>
-<tr id="Papamarkou2024" class="entry">
-	<td> [13] Papamarkou T, Birdal T, Bronstein M, Carlsson G, Curry J, Gao Y, Hajij M, Kwitt R, Liò P, Lorenzo PD, Maroulas V, Miolane N, Nasrin F, Ramamurthy KN, Rieck B, Scardapane S, Schaub MT, Veličković P, Wang B, Wang Y, Wei G-W and Zamzmi G (2024), <i>"Position Paper: Challenges and Opportunities in Topological Deep Learning"</i>, arxiv. February, 2024.
-	<p class="infolinks">[<a href="javascript:toggleInfo('Papamarkou2024','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Papamarkou2024','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2402.08871" target="_blank">URL</a>]</p>
-	</td>
-</tr>
-<tr id="abs_Papamarkou2024" class="abstract noshow">
-	<td><b>Abstract</b>: Topological deep learning (TDL) is a rapidly evolving field that uses topological features to understand and design deep learning models. This paper posits that TDL may complement graph representation learning and geometric deep learning by incorporating topological concepts, and can thus provide a natural choice for various machine learning settings. To this end, this paper discusses open problems in TDL, ranging from practical benefits to theoretical foundations. For each problem, it outlines potential solutions and future research opportunities. At the same time, this paper serves as an invitation to the scientific community to actively participate in TDL research to unlock the potential of this emerging field.</td>
-</tr>
-<tr id="bib_Papamarkou2024" class="bibtex noshow">
-<td><b>BibTeX</b>:
-<pre>
-@misc{Papamarkou2024,
-  author = {Theodore Papamarkou and Tolga Birdal and Michael Bronstein and Gunnar Carlsson and Justin Curry and Yue Gao and Mustafa Hajij and Roland Kwitt and Pietro Liò and Paolo Di Lorenzo and Vasileios Maroulas and Nina Miolane and Farzana Nasrin and Karthikeyan Natesan Ramamurthy and Bastian Rieck and Simone Scardapane and Michael T. Schaub and Petar Veličković and Bei Wang and Yusu Wang and Guo-Wei Wei and Ghada Zamzmi},
-  title = {Position Paper: Challenges and Opportunities in Topological Deep Learning},
-  howpublished = {arxiv},
-  year = {2024},
-  url = {https://arxiv.org/abs/2402.08871}
-}
-</pre></td>
 </tr>
 <tr id="Hajij2024" class="entry">
 	<td> [14] Hajij M, Papillon M, Frantzen F, Agerberg J, AlJabea I, Ballester R, Battiloro C, Bernárdez G, Birdal T, Brent A, Chin P, Escalera S, Fiorellino S, Gardaa OH, Gopalakrishnan G, Govil D, Hoppe J, Karri MR, Khouja J, Lecha M, Livesay N, Meißner J, Mukherjee S, Nikitin A, Papamarkou T, Prílepok J, Ramamurthy KN, Rosen P, Guzmán-Sáenz A, Salatiello A, Samaga SN, Scardapane S, Schaub MT, Scofano L, Spinelli I, Telyatnikov L, Truong Q, Walters R, Yang M, Zaghen O, Zamzmi G, Zia A and Miolane N (2024), <i>"TopoX: A Suite of Python Packages for Machine Learning on Topological Domains"</i>, arxiv. February, 2024.

@@ -913,6 +913,7 @@ Third, we evaluate the performance of CCNNs on tasks related to mesh shape analy
   volume    = {202},
   abstract  = {We present Topological Point Cloud Clustering (TPCC), a new method to cluster points in an arbitrary point cloud based on their contribution to global topological features. TPCC synthesizes desirable features from spectral clustering and topological data analysis and is based on considering the spectral properties of a simplicial complex associated to the considered point cloud. As it is based on considering sparse eigenvector computations, TPCC is similarly easy to interpret and implement as spectral clustering. However, by focusing not just on a single matrix associated to a graph created from the point cloud data, but on a whole set of Hodge-Laplacians associated to an appropriately constructed simplicial complex, we can leverage a far richer set of topological features to characterize the data points within the point cloud and benefit from the relative robustness of topological techniques against noise. We test the performance of TPCC on both synthetic and real-world data and compare it with classical spectral clustering.},
   eprint    = {https://proceedings.mlr.press/v202/grande23a.html},
+  groups    = {erc},
   url       = {https://arxiv.org/abs/2303.16716},
 }
 
@@ -940,6 +941,7 @@ Third, we evaluate the performance of CCNNs on tasks related to mesh shape analy
   volume   = {10},
   abstract = {Dynamical systems on hypergraphs can display a rich set of behaviors not observable for systems with pairwise interactions. Given a distributed dynamical system with a putative hypergraph structure, an interesting question is thus how much of this hypergraph structure is actually necessary to faithfully replicate the observed dynamical behavior. To answer this question, we propose a method to determine the minimum order of a hypergraph necessary to approximate the corresponding dynamics accurately. Specifically, we develop a mathematical framework that allows us to determine this order when the type of dynamics is known. We use these ideas in conjunction with a hypergraph neural network to directly learn the dynamics itself and the resulting order of the hypergraph from both synthetic and real datasets consisting of observed system trajectories.},
   doi      = {10.1126/sciadv.adh4053},
+  groups   = {erc},
   url      = {https://arxiv.org/abs/2306.01813},
 }
 
@@ -957,6 +959,7 @@ Third, we evaluate the performance of CCNNs on tasks related to mesh shape analy
   abstract  = {Obtaining sparse, interpretable representations of observable data is crucial in many machine learning and signal processing tasks. For data representing flows along the edges of a graph, an intuitively interpretable way to obtain such representations is to lift the graph structure to a simplicial complex: The eigenvectors of the associated Hodge-Laplacian, respectively the incidence matrices of the corresponding simplicial complex then induce a Hodge decomposition, which can be used to represent the observed data in terms of gradient, curl, and harmonic flows. In this paper, we generalize this approach to cellular complexes and introduce the flow representation learning problem, i.e., the problem of augmenting the observed graph by a set of cells, such that the eigenvectors of the associated Hodge Laplacian provide a sparse, interpretable representation of the observed edge flows on the graph. We show that this problem is NP-hard and introduce an efficient approximation algorithm for its solution. Experiments on real-world and synthetic data demonstrate that our algorithm outperforms state-of-the-art methods with respect to approximation error, while being computationally efficient.},
   comment   = {Best paper Award},
   eprint    = {https://proceedings.mlr.press/v231/hoppe24a/hoppe24a.pdf},
+  groups    = {erc},
   url       = {https://arxiv.org/abs/2309.01632},
 }
 
@@ -985,6 +988,7 @@ Third, we evaluate the performance of CCNNs on tasks related to mesh shape analy
   volume    = {231},
   abstract  = {Persistent Homology is a widely used topological data analysis tool that creates a concise description of the topological properties of a point cloud based on a specified filtration. Most filtrations used for persistent homology depend (implicitly) on a chosen metric, which is typically agnostically chosen as the standard Euclidean metric on \textdollar \mathbb{R}\^{}n\textdollar . Recent work has tried to uncover the true metric on the point cloud using distance-to-measure functions, in order to obtain more meaningful persistent homology results. Here we propose an alternative look at this problem: we posit that information on the point cloud is lost when restricting persistent homology to a single (correct) distance function. Instead, we show how by varying the distance function on the underlying space and analysing the corresponding shifts in the persistence diagrams, we can extract additional topological and geometrical information. Finally, we numerically show that non-isotropic persistent homology can extract information on orientation, orientational variance, and scaling of randomly generated point clouds with good accuracy and conduct some experiments on real-world data.},
   eprint    = {https://proceedings.mlr.press/v231/grande24a/grande24a.pdf},
+  groups    = {erc},
   url       = {https://arxiv.org/abs/2310.16437},
 }
 
@@ -998,6 +1002,7 @@ Third, we evaluate the performance of CCNNs on tasks related to mesh shape analy
   abstract     = {The rich spectral information of the graph Laplacian has been instrumental in graph theory, machine learning, and graph signal processing for applications such as graph classification, clustering, or eigenmode analysis. Recently, the Hodge Laplacian has come into focus as a generalisation of the ordinary Laplacian for higher-order graph models such as simplicial and cellular complexes. Akin to the traditional analysis of graph Laplacians, many authors analyse the smallest eigenvalues of the Hodge Laplacian, which are connected to important topological properties such as homology. However, small eigenvalues of the Hodge Laplacian can carry different information depending on whether they are related to curl or gradient eigenmodes, and thus may not be comparable. We therefore introduce the notion of persistent eigenvector similarity and provide a method to track individual harmonic, curl, and gradient eigenvectors/-values through the so-called persistence filtration, leveraging the full information contained in the Hodge-Laplacian spectrum across all possible scales of a point cloud. Finally, we use our insights (a) to introduce a novel form of topological spectral clustering and (b) to classify edges and higher-order simplices based on their relationship to the smallest harmonic, curl, and gradient eigenvectors.},
   creationdate = {2023-12-17T12:22:54},
   doi          = {10.1109/ICASSP48485.2024.10446051},
+  groups       = {erc},
   url          = {https://arxiv.org/abs/2311.14427},
 }
 
@@ -1010,6 +1015,7 @@ Third, we evaluate the performance of CCNNs on tasks related to mesh shape analy
   pages     = {799-803},
   abstract  = {Graph-based signal processing techniques have become essential for handling data in non-Euclidean spaces. However, there is a growing awareness that these graph models might need to be expanded into `higher-order' domains to effectively represent the complex relations found in high-dimensional data. Such higher-order domains are typically modeled either as hypergraphs, or as simplicial, cubical or other cell complexes. In this context, cell complexes are often seen as a subclass of hypergraphs with additional algebraic structure that can be exploited, e.g., to develop a spectral theory. In this article, we promote an alternative perspective. We argue that hypergraphs and cell complexes emphasize \emph{different} types of relations, which may have different utility depending on the application context. Whereas hypergraphs are effective in modeling set-type, multi-body relations between entities, cell complexes provide an effective means to model hierarchical, interior-to-boundary type relations. We discuss the relative advantages of these two choices and elaborate on the previously introduced concept of a combinatorial complex that enables co-existing set-type and hierarchical relations. Finally, we provide a brief numerical experiment to demonstrate that this modelling flexibility can be advantageous in learning tasks.},
   doi       = {10.1109/IEEECONF59524.2023.10477018},
+  groups    = {erc},
   url       = {https://arxiv.org/abs/2312.09504},
 }
 
@@ -1053,12 +1059,13 @@ Third, we evaluate the performance of CCNNs on tasks related to mesh shape analy
 
 @InProceedings{Frantzen2024,
   author       = {Florian Frantzen and Michael T. Schaub},
-  booktitle    = {Interational Conference on Learning Representations},
+  booktitle    = {International Conference on Learning Representations},
   title        = {Learning From Simplicial Data Based on Random Walks and 1D Convolutions},
   year         = {2024},
   month        = apr,
   abstract     = {Triggered by limitations of graph-based deep learning methods in terms of computational expressivity and model flexibility, recent years have seen a surge of interest in computational models that operate on higher-order topological domains such as hypergraphs and simplicial complexes. While the increased expressivity of these models can indeed lead to a better classification performance and a more faithful representation of the underlying system, the computational cost of these higher-order models can increase dramatically. To this end, we here explore a simplicial complex neural network learning architecture based on random walks and fast 1D convolutions (SCRaWl), in which we can adjust the increase in computational cost by varying the length and number of random walks considered while accounting for higher-order relationships. Importantly, due to the random walk-based design, the expressivity of the proposed architecture is provably incomparable to that of existing message-passing simplicial neural networks. We empirically evaluate SCRaWl on real-world datasets and show that it outperforms other simplicial neural networks.},
   creationdate = {2024-04-12T17:31:05},
+  groups       = {erc},
   url          = {https://arxiv.org/abs/2404.03434},
 }
 
@@ -1069,17 +1076,19 @@ Third, we evaluate the performance of CCNNs on tasks related to mesh shape analy
   title        = {TopoX: A Suite of Python Packages for Machine Learning on Topological Domains},
   year         = {2024},
   abstract     = {We introduce TopoX, a Python software suite that provides reliable and user-friendly building blocks for computing and machine learning on topological domains that extend graphs: hypergraphs, simplicial, cellular, path and combinatorial complexes. TopoX consists of three packages: TopoNetX facilitates constructing and computing on these domains, including working with nodes, edges and higher-order cells; TopoEmbedX provides methods to embed topological domains into vector spaces, akin to popular graph-based embedding algorithms such as node2vec; TopoModelx is built on top of PyTorch and offers a comprehensive toolbox of higher-order message passing functions for neural networks on topological domains. The extensively documented and unit-tested source code of TopoX is available under MIT license at this https URL.},
+  groups       = {erc},
   url          = {https://arxiv.org/abs/2402.02441},
 }
 
-@Misc{Papamarkou2024,
-  author       = {Theodore Papamarkou and Tolga Birdal and Michael Bronstein and Gunnar Carlsson and Justin Curry and Yue Gao and Mustafa Hajij and Roland Kwitt and Pietro Liò and Paolo Di Lorenzo and Vasileios Maroulas and Nina Miolane and Farzana Nasrin and Karthikeyan Natesan Ramamurthy and Bastian Rieck and Simone Scardapane and Michael T. Schaub and Petar Veličković and Bei Wang and Yusu Wang and Guo-Wei Wei and Ghada Zamzmi},
-  howpublished = {arxiv},
-  month        = feb,
-  title        = {Position Paper: Challenges and Opportunities in Topological Deep Learning},
-  year         = {2024},
-  abstract     = {Topological deep learning (TDL) is a rapidly evolving field that uses topological features to understand and design deep learning models. This paper posits that TDL may complement graph representation learning and geometric deep learning by incorporating topological concepts, and can thus provide a natural choice for various machine learning settings. To this end, this paper discusses open problems in TDL, ranging from practical benefits to theoretical foundations. For each problem, it outlines potential solutions and future research opportunities. At the same time, this paper serves as an invitation to the scientific community to actively participate in TDL research to unlock the potential of this emerging field.},
-  url          = {https://arxiv.org/abs/2402.08871},
+@InProceedings{Papamarkou2024,
+  author    = {Theodore Papamarkou and Tolga Birdal and Michael Bronstein and Gunnar Carlsson and Justin Curry and Yue Gao and Mustafa Hajij and Roland Kwitt and Pietro Liò and Paolo Di Lorenzo and Vasileios Maroulas and Nina Miolane and Farzana Nasrin and Karthikeyan Natesan Ramamurthy and Bastian Rieck and Simone Scardapane and Michael T. Schaub and Petar Veličković and Bei Wang and Yusu Wang and Guo-Wei Wei and Ghada Zamzmi},
+  booktitle = {Proceedings of the 41st International Conference on Machine Learning (ICML 2024)},
+  title     = {Position: Topological Deep Learning is the New Frontier for Relational Learning},
+  year      = {2024},
+  month     = jul,
+  abstract  = {Topological deep learning (TDL) is a rapidly evolving field that uses topological features to understand and design deep learning models. This paper posits that TDL is the new frontier for relational learning. TDL may complement graph representation learning and geometric deep learning by incorporating topological concepts, and can thus provide a natural choice for various machine learning settings. To this end, this paper discusses open problems in TDL, ranging from practical benefits to theoretical foundations. For each problem, it outlines potential solutions and future research opportunities. At the same time, this paper serves as an invitation to the scientific community to actively participate in TDL research to unlock the potential of this emerging field.},
+  groups    = {erc},
+  url       = {https://arxiv.org/abs/2402.08871},
 }
 
 @Misc{Fanuel2024,
@@ -1099,6 +1108,7 @@ Third, we evaluate the performance of CCNNs on tasks related to mesh shape analy
   title    = {Random Abstract Cell Complexes},
   year     = {2024},
   abstract = {We define a model for random (abstract) cell complexes (CCs), similiar to the well-known Erdős-Rényi model for graphs and its extensions for simplicial complexes. To build a random cell complex, we first draw from an Erdős-Rényi graph, and consecutively augment the graph with cells for each dimension with a specified probability. As the number of possible cells increases combinatorially -- e.g., 2-cells can be represented as cycles, or permutations -- we derive an approximate sampling algorithm for this model limited to two-dimensional abstract cell complexes. Since there is a large variance in the number of simple cycles on graphs drawn from the same configuration of ER, we also provide an efficient method to approximate that number, which is of independent interest. Moreover, it enables us to specify the expected number of 2-cells of each boundary length we want to sample. We provide some initial analysis into the properties of random CCs drawn from this model. We further showcase practical applications for our random CCs as null models, and in the context of (random) liftings of graphs to cell complexes. Both the sampling and cycle count estimation algorithms are available in the package `py-raccoon` on the Python Packaging Index.},
+  groups   = {erc},
   url      = {https://arxiv.org/abs/2406.01999},
 }
 
@@ -1108,6 +1118,7 @@ Third, we evaluate the performance of CCNNs on tasks related to mesh shape analy
   title    = {Graph Neural Networks Do Not Always Oversmooth},
   year     = {2024},
   abstract = {Graph neural networks (GNNs) have emerged as powerful tools for processing relational data in applications. However, GNNs suffer from the problem of oversmoothing, the property that the features of all nodes exponentially converge to the same vector over layers, prohibiting the design of deep GNNs. In this work we study oversmoothing in graph convolutional networks (GCNs) by using their Gaussian process (GP) equivalence in the limit of infinitely many hidden features. By generalizing methods from conventional deep neural networks (DNNs), we can describe the distribution of features at the output layer of deep GCNs in terms of a GP: as expected, we find that typical parameter choices from the literature lead to oversmoothing. The theory, however, allows us to identify a new, nonoversmoothing phase: if the initial weights of the network have sufficiently large variance, GCNs do not oversmooth, and node features remain informative even at large depth. We demonstrate the validity of this prediction in finite-size GCNs by training a linear classifier on their output. Moreover, using the linearization of the GCN GP, we generalize the concept of propagation depth of information from DNNs to GCNs. This propagation depth diverges at the transition between the oversmoothing and non-oversmoothing phase. We test the predictions of our approach and find good agreement with finite-size GCNs. Initializing GCNs near the transition to the non-oversmoothing phase, we obtain networks which are both deep and expressive.},
+  groups   = {erc},
   url      = {https://arxiv.org/abs/2406.02269},
 }
 
@@ -1117,6 +1128,7 @@ Third, we evaluate the performance of CCNNs on tasks related to mesh shape analy
   title    = {Node-Level Topological Representation Learning on Point Clouds},
   year     = {2024},
   abstract = {Topological Data Analysis (TDA) allows us to extract powerful topological and higher-order information on the global shape of a data set or point cloud. Tools like Persistent Homology or the Euler Transform give a single complex description of the global structure of the point cloud. However, common machine learning applications like classification require point-level information and features to be available. In this paper, we bridge this gap and propose a novel method to extract node-level topological features from complex point clouds using discrete variants of concepts from algebraic topology and differential geometry. We verify the effectiveness of these topological point features (TOPF) on both synthetic and real-world data and study their robustness under noise.},
+  groups   = {erc},
   url      = {https://arxiv.org/abs/2406.02300},
 }
 
