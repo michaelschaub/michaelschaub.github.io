@@ -38,8 +38,32 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 <!--BEGIN PUBLICATIOON INSERT HERE-->
 <table id="qs_table" border="1">
 <tbody>
+<tr id="Peel2024" class="entry">
+    <td> [1] Peel, L. &amp; Schaub, M.T. (2024), <i>"Detectability of hierarchical communities in networks"</i>, Phys. Rev. E., Sep, 2024.  Vol. 110, pp. 034306. American Physical Society.
+        <p class="infolinks">[<a href="javascript:toggleInfo('Peel2024','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Peel2024','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1103/PhysRevE.110.034306" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2009.07525" target="_blank">URL</a>]</p>
+    </td>
+</tr>
+<tr id="abs_Peel2024" class="abstract noshow">
+    <td><b>Abstract</b>: We study the problem of recovering a planted hierarchy of partitions in a network. The detectability of a single planted partition has previously been analyzed in detail and a phase transition has been identified below which the partition cannot be detected. Here we show that, in the hierarchical setting, there exist additional phases in which the presence of multiple consistent partitions can either help or hinder detection. Accordingly, the detectability limit for nonhierarchical partitions typically provides insufficient information about the detectability of the complete hierarchical structure, as we highlight with several constructive examples.</td>
+</tr>
+<tr id="bib_Peel2024" class="bibtex noshow">
+    <td><b>BibTeX</b>:
+        <pre>
+@article{Peel2024,
+    author = {Peel, Leto and Schaub, Michael T.},
+           title = {Detectability of hierarchical communities in networks},
+           journal = {Phys. Rev. E},
+           publisher = {American Physical Society},
+           year = {2024},
+           volume = {110},
+           pages = {034306},
+           url = {https://arxiv.org/abs/2009.07525},
+           doi = {10.1103/PhysRevE.110.034306}
+}
+    </pre></td>
+</tr>
 <tr id="Papamarkou2024" class="entry">
-    <td> [1] Papamarkou, T.; Birdal, T.; Bronstein, M.; Carlsson, G.; Curry, J.; Gao, Y.; Hajij, M.; Kwitt, R.; Liò, P.; Lorenzo, P.D.; Maroulas, V.; Miolane, N.; Nasrin, F.; Ramamurthy, K.N.; Rieck, B.; Scardapane, S.; Schaub, M.T.; Veličković, P.; Wang, B.; Wang, Y.; Wei, G.-W. &amp; Zamzmi, G. (2024), <i>"Position: Topological Deep Learning is the New Frontier for Relational Learning"</i>, In Proceedings of the 41st International Conference on Machine Learning (ICML 2024)., July, 2024. 
+    <td> [2] Papamarkou, T.; Birdal, T.; Bronstein, M.; Carlsson, G.; Curry, J.; Gao, Y.; Hajij, M.; Kwitt, R.; Liò, P.; Lorenzo, P.D.; Maroulas, V.; Miolane, N.; Nasrin, F.; Ramamurthy, K.N.; Rieck, B.; Scardapane, S.; Schaub, M.T.; Veličković, P.; Wang, B.; Wang, Y.; Wei, G.-W. &amp; Zamzmi, G. (2024), <i>"Position: Topological Deep Learning is the New Frontier for Relational Learning"</i>, In Proceedings of the 41st International Conference on Machine Learning (ICML 2024)., July, 2024. 
         <p class="infolinks">[<a href="javascript:toggleInfo('Papamarkou2024','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Papamarkou2024','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2402.08871" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -59,7 +83,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Arnaudon2024" class="entry">
-    <td> [2] Arnaudon, A.; Schindler, D.J.; Peach, R.L.; Gosztolai, A.; Hodges, M.; Schaub, M.T. &amp; Barahona, M. (2024), <i>"Algorithm 1044: PyGenStability: Multiscale community detection with generalized Markov Stability"</i>, ACM Transactions on Mathematical Software. New York, NY, USA, June, 2024.  Association for Computing Machinery.
+    <td> [3] Arnaudon, A.; Schindler, D.J.; Peach, R.L.; Gosztolai, A.; Hodges, M.; Schaub, M.T. &amp; Barahona, M. (2024), <i>"Algorithm 1044: PyGenStability: Multiscale community detection with generalized Markov Stability"</i>, ACM Transactions on Mathematical Software. New York, NY, USA, June, 2024.  Association for Computing Machinery.
         <p class="infolinks">[<a href="javascript:toggleInfo('Arnaudon2024','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Arnaudon2024','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1145/3651225" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2303.05385" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -81,7 +105,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Epping2024" class="entry">
-	<td> [3] Epping B, René A, Helias M and Schaub MT (2024), <i>"Graph Neural Networks Do Not Always Oversmooth"</i>. June, 2024.
+	<td> [4] Epping B, René A, Helias M and Schaub MT (2024), <i>"Graph Neural Networks Do Not Always Oversmooth"</i>. June, 2024.
 	<p class="infolinks">[<a href="javascript:toggleInfo('Epping2024','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Epping2024','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2406.02269" target="_blank">URL</a>]</p>
 	</td>
 </tr>
@@ -100,7 +124,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 </pre></td>
 </tr>
 <tr id="Grande2024a" class="entry">
-	<td> [4] Grande VP and Schaub MT (2024), <i>"Node-Level Topological Representation Learning on Point Clouds"</i>. June, 2024.
+	<td> [5] Grande VP and Schaub MT (2024), <i>"Node-Level Topological Representation Learning on Point Clouds"</i>. June, 2024.
 	<p class="infolinks">[<a href="javascript:toggleInfo('Grande2024a','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Grande2024a','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2406.02300" target="_blank">URL</a>]</p>
 	</td>
 </tr>
@@ -119,7 +143,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 </pre></td>
 </tr>
 <tr id="Hoppe2024" class="entry">
-	<td> [5] Hoppe J and Schaub MT (2024), <i>"Random Abstract Cell Complexes"</i>. June, 2024.
+	<td> [6] Hoppe J and Schaub MT (2024), <i>"Random Abstract Cell Complexes"</i>. June, 2024.
 	<p class="infolinks">[<a href="javascript:toggleInfo('Hoppe2024','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Hoppe2024','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2406.01999" target="_blank">URL</a>]</p>
 	</td>
 </tr>
@@ -139,7 +163,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 </pre></td>
 </tr>
 <tr id="Scholkemper2024a" class="entry">
-	<td> [6] Scholkemper M, Wu X, Jadbabaie A and Schaub M (2024), <i>"Residual Connections and Normalization Can Provably Prevent Oversmoothing in GNNs"</i>. June, 2024.
+	<td> [7] Scholkemper M, Wu X, Jadbabaie A and Schaub M (2024), <i>"Residual Connections and Normalization Can Provably Prevent Oversmoothing in GNNs"</i>. June, 2024.
 	<p class="infolinks">[<a href="javascript:toggleInfo('Scholkemper2024a','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Scholkemper2024a','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2406.02997" target="_blank">URL</a>]</p>
 	</td>
 </tr>
@@ -158,7 +182,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 </pre></td>
 </tr>
 <tr id="Telyatnikov2024" class="entry">
-	<td> [7] Telyatnikov L, Bernardez G, Montagna M, Vasylenko P, Zamzmi G, Hajij M, Schaub MT, Miolane N, Scardapane S and Papamarkou T (2024), <i>"TopoBenchmarkX: A Framework for Benchmarking Topological Deep Learning"</i>. June, 2024.
+	<td> [8] Telyatnikov L, Bernardez G, Montagna M, Vasylenko P, Zamzmi G, Hajij M, Schaub MT, Miolane N, Scardapane S and Papamarkou T (2024), <i>"TopoBenchmarkX: A Framework for Benchmarking Topological Deep Learning"</i>. June, 2024.
 	<p class="infolinks">[<a href="javascript:toggleInfo('Telyatnikov2024','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Telyatnikov2024','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2406.06642" target="_blank">URL</a>]</p>
 	</td>
 </tr>
@@ -178,7 +202,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 </pre></td>
 </tr>
 <tr id="Neuhaeuser2024" class="entry">
-    <td> [8] Neuhäuser, L.; Scholkemper, M.; Tudisco, F. &amp; Schaub, M.T. (2024), <i>"Learning the effective order of a hypergraph dynamical system"</i>, Science Advances., May, 2024.  Vol. 10(19), pp. eadh4053.
+    <td> [9] Neuhäuser, L.; Scholkemper, M.; Tudisco, F. &amp; Schaub, M.T. (2024), <i>"Learning the effective order of a hypergraph dynamical system"</i>, Science Advances., May, 2024.  Vol. 10(19), pp. eadh4053.
         <p class="infolinks">[<a href="javascript:toggleInfo('Neuhaeuser2024','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Neuhaeuser2024','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1126/sciadv.adh4053" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2306.01813" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -202,7 +226,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Frantzen2024" class="entry">
-    <td> [9] Frantzen, F. &amp; Schaub, M.T. (2024), <i>"Learning From Simplicial Data Based on Random Walks and 1D Convolutions"</i>, In International Conference on Learning Representations., April, 2024. 
+    <td> [10] Frantzen, F. &amp; Schaub, M.T. (2024), <i>"Learning From Simplicial Data Based on Random Walks and 1D Convolutions"</i>, In International Conference on Learning Representations., April, 2024. 
         <p class="infolinks">[<a href="javascript:toggleInfo('Frantzen2024','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Frantzen2024','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2404.03434" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -222,7 +246,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Scholkemper2024" class="entry">
-    <td> [10] Scholkemper, M.; K&uuml;hn, D.; Nabbefeld, G.; Musall, S.; Kampa, B. &amp; Schaub, M.T. (2024), <i>"A Wasserstein Graph Distance Based on Distributions of Probabilistic Node Embeddings"</i>, In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2024)., March, 2024. , pp. 9751-9755.
+    <td> [11] Scholkemper, M.; K&uuml;hn, D.; Nabbefeld, G.; Musall, S.; Kampa, B. &amp; Schaub, M.T. (2024), <i>"A Wasserstein Graph Distance Based on Distributions of Probabilistic Node Embeddings"</i>, In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2024)., March, 2024. , pp. 9751-9755.
         <p class="infolinks">[<a href="javascript:toggleInfo('Scholkemper2024','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Scholkemper2024','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1109/ICASSP48485.2024.10447922" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2401.03913" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -244,7 +268,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Grande2024" class="entry">
-    <td> [11] Grande, V. &amp; Schaub, M.T. (2024), <i>"Disentangling the Spectral Properties of the Hodge Laplacian: Not All Small Eigenvalues Are Equal"</i>, In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2024)., March, 2024. , pp. 9896-9900.
+    <td> [12] Grande, V. &amp; Schaub, M.T. (2024), <i>"Disentangling the Spectral Properties of the Hodge Laplacian: Not All Small Eigenvalues Are Equal"</i>, In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2024)., March, 2024. , pp. 9896-9900.
         <p class="infolinks">[<a href="javascript:toggleInfo('Grande2024','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Grande2024','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1109/ICASSP48485.2024.10446051" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2311.14427" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -266,7 +290,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Fanuel2024" class="entry">
-	<td> [12] Fanuel M, Aspeel A, Schaub MT and Delvenne J-C (2024), <i>"Ellipsoidal embeddings of graphs"</i>. March, 2024.
+	<td> [13] Fanuel M, Aspeel A, Schaub MT and Delvenne J-C (2024), <i>"Ellipsoidal embeddings of graphs"</i>. March, 2024.
 	<p class="infolinks">[<a href="javascript:toggleInfo('Fanuel2024','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Fanuel2024','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2403.15023" target="_blank">URL</a>]</p>
 	</td>
 </tr>
@@ -286,7 +310,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 </pre></td>
 </tr>
 <tr id="Nagai2024" class="entry">
-    <td> [13] Nagai, J.S.; Costa, I.G. &amp; Schaub, M.T. (2024), <i>"Optimal transport distances for directed, weighted graphs: a case study with cell-cell communication networks"</i>, In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2024)., March, 2024. , pp. 9856-9860.
+    <td> [14] Nagai, J.S.; Costa, I.G. &amp; Schaub, M.T. (2024), <i>"Optimal transport distances for directed, weighted graphs: a case study with cell-cell communication networks"</i>, In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2024)., March, 2024. , pp. 9856-9860.
         <p class="infolinks">[<a href="javascript:toggleInfo('Nagai2024','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Nagai2024','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1109/ICASSP48485.2024.10446503" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2309.07030" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -308,7 +332,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Hajij2024" class="entry">
-	<td> [14] Hajij M, Papillon M, Frantzen F, Agerberg J, AlJabea I, Ballester R, Battiloro C, Bernárdez G, Birdal T, Brent A, Chin P, Escalera S, Fiorellino S, Gardaa OH, Gopalakrishnan G, Govil D, Hoppe J, Karri MR, Khouja J, Lecha M, Livesay N, Meißner J, Mukherjee S, Nikitin A, Papamarkou T, Prílepok J, Ramamurthy KN, Rosen P, Guzmán-Sáenz A, Salatiello A, Samaga SN, Scardapane S, Schaub MT, Scofano L, Spinelli I, Telyatnikov L, Truong Q, Walters R, Yang M, Zaghen O, Zamzmi G, Zia A and Miolane N (2024), <i>"TopoX: A Suite of Python Packages for Machine Learning on Topological Domains"</i>, arxiv. February, 2024.
+	<td> [15] Hajij M, Papillon M, Frantzen F, Agerberg J, AlJabea I, Ballester R, Battiloro C, Bernárdez G, Birdal T, Brent A, Chin P, Escalera S, Fiorellino S, Gardaa OH, Gopalakrishnan G, Govil D, Hoppe J, Karri MR, Khouja J, Lecha M, Livesay N, Meißner J, Mukherjee S, Nikitin A, Papamarkou T, Prílepok J, Ramamurthy KN, Rosen P, Guzmán-Sáenz A, Salatiello A, Samaga SN, Scardapane S, Schaub MT, Scofano L, Spinelli I, Telyatnikov L, Truong Q, Walters R, Yang M, Zaghen O, Zamzmi G, Zia A and Miolane N (2024), <i>"TopoX: A Suite of Python Packages for Machine Learning on Topological Domains"</i>, arxiv. February, 2024.
 	<p class="infolinks">[<a href="javascript:toggleInfo('Hajij2024','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Hajij2024','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2402.02441" target="_blank">URL</a>]</p>
 	</td>
 </tr>
@@ -328,7 +352,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 </pre></td>
 </tr>
 <tr id="Stamm2024" class="entry">
-	<td> [15] Stamm FI and Schaub MT (2024), <i>"Faster optimal univariate microgaggregation"</i>, arxiv. January, 2024.
+	<td> [16] Stamm FI and Schaub MT (2024), <i>"Faster optimal univariate microgaggregation"</i>, arxiv. January, 2024.
 	<p class="infolinks">[<a href="javascript:toggleInfo('Stamm2024','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Stamm2024','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2401.02381" target="_blank">URL</a>]</p>
 	</td>
 </tr>
@@ -348,7 +372,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 </pre></td>
 </tr>
 <tr id="Scholkemper2023" class="entry">
-    <td> [16] Scholkemper, M. &amp; Schaub, M.T. (2023), <i>"An Optimization-based Approach To Node Role Discovery in Networks: Approximating Equitable Partitions"</i>, In Advances in Neural Information Processing Systems (NeurIPS 2023)., December, 2023.  Vol. 36, pp. 71358-71374.
+    <td> [17] Scholkemper, M. &amp; Schaub, M.T. (2023), <i>"An Optimization-based Approach To Node Role Discovery in Networks: Approximating Equitable Partitions"</i>, In Advances in Neural Information Processing Systems (NeurIPS 2023)., December, 2023.  Vol. 36, pp. 71358-71374.
         <p class="infolinks">[<a href="javascript:toggleInfo('Scholkemper2023','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Scholkemper2023','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2305.19087" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -370,7 +394,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Hajij2023a" class="entry">
-    <td> [17] Hajij, M.; Zamzmi, G.; Papamarkou, T.; Guzmán-Sáenz, A.; Birdal, T. &amp; Schaub, M.T. (2023), <i>"Combinatorial Complexes: Bridging the Gap Between Cell Complexes and Hypergraphs"</i>, In 57th Asilomar Conference on Signals, Systems, and Computers., December, 2023. , pp. 799-803.
+    <td> [18] Hajij, M.; Zamzmi, G.; Papamarkou, T.; Guzmán-Sáenz, A.; Birdal, T. &amp; Schaub, M.T. (2023), <i>"Combinatorial Complexes: Bridging the Gap Between Cell Complexes and Hypergraphs"</i>, In 57th Asilomar Conference on Signals, Systems, and Computers., December, 2023. , pp. 799-803.
         <p class="infolinks">[<a href="javascript:toggleInfo('Hajij2023a','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Hajij2023a','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1109/IEEECONF59524.2023.10477018" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2312.09504" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -392,7 +416,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Grande2023a" class="entry">
-    <td> [18] Grande, V.P. &amp; Schaub, M.T. (2023), <i>"Non-Isotropic Persistent Homology: Leveraging the Metric Dependency of PH"</i>, In Proceedings of the Second Learning on Graphs Conference., November, 2023.  Vol. 231, pp. 17:1-17:19. PMLR.
+    <td> [19] Grande, V.P. &amp; Schaub, M.T. (2023), <i>"Non-Isotropic Persistent Homology: Leveraging the Metric Dependency of PH"</i>, In Proceedings of the Second Learning on Graphs Conference., November, 2023.  Vol. 231, pp. 17:1-17:19. PMLR.
         <p class="infolinks">[<a href="javascript:toggleInfo('Grande2023a','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Grande2023a','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2310.16437" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -416,7 +440,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Loveland2023" class="entry">
-    <td> [19] Loveland, D.; Zhu, J.; Heimann, M.; Fish, B.; Schaub, M.T. &amp; Koutra, D. (2023), <i>"On Performance Discrepancies Across Local Homophily Levels in Graph Neural Networks"</i>, In Proceedings of the Second Learning on Graphs Conference., November, 2023.  Vol. 231, pp. 6:1-6:30. PMLR.
+    <td> [20] Loveland, D.; Zhu, J.; Heimann, M.; Fish, B.; Schaub, M.T. &amp; Koutra, D. (2023), <i>"On Performance Discrepancies Across Local Homophily Levels in Graph Neural Networks"</i>, In Proceedings of the Second Learning on Graphs Conference., November, 2023.  Vol. 231, pp. 6:1-6:30. PMLR.
         <p class="infolinks">[<a href="javascript:toggleInfo('Loveland2023','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Loveland2023','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2306.05557v3" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -440,7 +464,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Hoppe2023" class="entry">
-    <td> [20] Hoppe, J. &amp; Schaub, M.T. (2023), <i>"Representing Edge Flows on Graphs via Sparse Cell Complexes"</i>, In Proceedings of the Second Learning on Graphs Conference., November, 2023.  Vol. 231, pp. 1:1-1:22. PMLR.
+    <td> [21] Hoppe, J. &amp; Schaub, M.T. (2023), <i>"Representing Edge Flows on Graphs via Sparse Cell Complexes"</i>, In Proceedings of the Second Learning on Graphs Conference., November, 2023.  Vol. 231, pp. 1:1-1:22. PMLR.
         <p class="infolinks">[<a href="javascript:toggleInfo('Hoppe2023','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Hoppe2023','comment')">Comment</a>]  [<a href="javascript:toggleInfo('Hoppe2023','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2309.01632" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -467,7 +491,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Calmon2023" class="entry">
-    <td> [21] Calmon, L.; Schaub, M.T. &amp; Bianconi, G. (2023), <i>"Dirac signal processing of higher-order topological signals"</i>, New Journal of Physics., September, 2023.  Vol. 25(9), pp. 093013.
+    <td> [22] Calmon, L.; Schaub, M.T. &amp; Bianconi, G. (2023), <i>"Dirac signal processing of higher-order topological signals"</i>, New Journal of Physics., September, 2023.  Vol. 25(9), pp. 093013.
         <p class="infolinks">[<a href="javascript:toggleInfo('Calmon2023','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Calmon2023','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1088/1367-2630/acf33c" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2301.10137" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -491,7 +515,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Bick2023" class="entry">
-    <td> [22] Bick, C.; Gross, E.; Harrington, H.A. &amp; Schaub, M.T. (2023), <i>"What are higher-order networks?"</i>, SIAM Review., August, 2023.  Vol. 65(3), pp. 686-731.
+    <td> [23] Bick, C.; Gross, E.; Harrington, H.A. &amp; Schaub, M.T. (2023), <i>"What are higher-order networks?"</i>, SIAM Review., August, 2023.  Vol. 65(3), pp. 686-731.
         <p class="infolinks">[<a href="javascript:toggleInfo('Bick2023','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Bick2023','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1137/21M1414024" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2104.11329" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -515,7 +539,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Grande2023" class="entry">
-    <td> [23] Grande, V.P. &amp; Schaub, M.T. (2023), <i>"Topological Point Cloud Clustering"</i>, In Proceedings of the 40th International Conference on Machine Learning (ICML 2023)., July, 2023.  Vol. 202, pp. 11683-11697. PMLR.
+    <td> [24] Grande, V.P. &amp; Schaub, M.T. (2023), <i>"Topological Point Cloud Clustering"</i>, In Proceedings of the 40th International Conference on Machine Learning (ICML 2023)., July, 2023.  Vol. 202, pp. 11683-11697. PMLR.
         <p class="infolinks">[<a href="javascript:toggleInfo('Grande2023','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Grande2023','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2303.16716" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -539,7 +563,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Schaub2023" class="entry">
-    <td> [24] Schaub, M.T.; Li, J. &amp; Peel, L. (2023), <i>"Hierarchical community structure in networks"</i>, Phys. Rev. E., May, 2023.  Vol. 107, pp. 054305. American Physical Society.
+    <td> [25] Schaub, M.T.; Li, J. &amp; Peel, L. (2023), <i>"Hierarchical community structure in networks"</i>, Phys. Rev. E., May, 2023.  Vol. 107, pp. 054305. American Physical Society.
         <p class="infolinks">[<a href="javascript:toggleInfo('Schaub2023','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Schaub2023','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1103/PhysRevE.107.054305" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2009.07196" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -563,7 +587,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Neuhaeuser2022a" class="entry">
-    <td> [25] Neuhäuser, L.; Karimi, F.; Bachmann, J.; Strohmaier, M. &amp; Schaub, M.T. (2023), <i>"Improving the visibility of minorities through network growth interventions"</i>, Communication Physics., May, 2023.  Vol. 6(108)
+    <td> [26] Neuhäuser, L.; Karimi, F.; Bachmann, J.; Strohmaier, M. &amp; Schaub, M.T. (2023), <i>"Improving the visibility of minorities through network growth interventions"</i>, Communication Physics., May, 2023.  Vol. 6(108)
         <p class="infolinks">[<a href="javascript:toggleInfo('Neuhaeuser2022a','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Neuhaeuser2022a','comment')">Comment</a>]  [<a href="javascript:toggleInfo('Neuhaeuser2022a','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1038/s42005-023-01218-9" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2208.03263" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -589,7 +613,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Stamm2023" class="entry">
-    <td> [26] Stamm, F.I.; Scholkemper, M.; Strohmaier, M. &amp; Schaub, M.T. (2023), <i>"Neighborhood Structure Configuration Models"</i>, In The Web Conference. New York, NY, USA, April, 2023. , pp. 210–220. Association for Computing Machinery.
+    <td> [27] Stamm, F.I.; Scholkemper, M.; Strohmaier, M. &amp; Schaub, M.T. (2023), <i>"Neighborhood Structure Configuration Models"</i>, In The Web Conference. New York, NY, USA, April, 2023. , pp. 210–220. Association for Computing Machinery.
         <p class="infolinks">[<a href="javascript:toggleInfo('Stamm2023','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Stamm2023','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1145/3543507.3583266" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2210.06843" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -612,7 +636,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Hajij2023" class="entry">
-	<td> [27] Hajij M, Zamzmi G, Papamarkou T, Miolane N, Guzm&aacute;n-S&aacute;enz A, Ramamurthy KN, Birdal T, Dey TK, Mukherjee S, Samaga SN and others (2023), <i>"Topological Deep Learning: Going Beyond Graph Data"</i>. April, 2023.
+	<td> [28] Hajij M, Zamzmi G, Papamarkou T, Miolane N, Guzm&aacute;n-S&aacute;enz A, Ramamurthy KN, Birdal T, Dey TK, Mukherjee S, Samaga SN and others (2023), <i>"Topological Deep Learning: Going Beyond Graph Data"</i>. April, 2023.
 	<p class="infolinks">[<a href="javascript:toggleInfo('Hajij2023','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Hajij2023','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2206.00606" target="_blank">URL</a>]</p>
 	</td>
 </tr>
@@ -631,7 +655,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 </pre></td>
 </tr>
 <tr id="Roddenberry2023" class="entry">
-    <td> [28] Roddenberry, T.M.; Grande, V.P.; Frantzen, F.; Schaub, M.T. &amp; Segarra, S. (2023), <i>"Signal Processing on Product Spaces"</i>, In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)., March, 2023. , pp. 1-5. IEEE.
+    <td> [29] Roddenberry, T.M.; Grande, V.P.; Frantzen, F.; Schaub, M.T. &amp; Segarra, S. (2023), <i>"Signal Processing on Product Spaces"</i>, In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)., March, 2023. , pp. 1-5. IEEE.
         <p class="infolinks">[<a href="javascript:toggleInfo('Roddenberry2023','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Roddenberry2023','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1109/ICASSP49357.2023.10095735" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2303.10495" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -654,7 +678,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Klimm2022" class="entry">
-    <td> [29] Klimm, F.; Jones, N.S. &amp; Schaub, M.T. (2022), <i>"Modularity Maximization for Graphons"</i>, SIAM Journal on Applied Mathematics., December, 2022.  Vol. 82(6), pp. 1930-1952. SIAM.
+    <td> [30] Klimm, F.; Jones, N.S. &amp; Schaub, M.T. (2022), <i>"Modularity Maximization for Graphons"</i>, SIAM Journal on Applied Mathematics., December, 2022.  Vol. 82(6), pp. 1930-1952. SIAM.
         <p class="infolinks">[<a href="javascript:toggleInfo('Klimm2022','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Klimm2022','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1137/22M1492003" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2101.00503" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -679,7 +703,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Calmon2022" class="entry">
-    <td> [30] Calmon, L.; Schaub, M.T. &amp; Bianconi, G. (2022), <i>"Higher-order signal processing with the Dirac operator"</i>, In Asilomar Conference on Signals, Systems, and Computers., November, 2022. , pp. 925-929.
+    <td> [31] Calmon, L.; Schaub, M.T. &amp; Bianconi, G. (2022), <i>"Higher-order signal processing with the Dirac operator"</i>, In Asilomar Conference on Signals, Systems, and Computers., November, 2022. , pp. 925-929.
         <p class="infolinks">[<a href="javascript:toggleInfo('Calmon2022','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Calmon2022','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1109/IEEECONF56349.2022.10052062" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2212.10196" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -701,7 +725,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Yang2022" class="entry">
-    <td> [31] Yang, M.; Isufi, E.; Schaub, M.T. &amp; Leus, G. (2022), <i>"Simplicial Convolutional Filters"</i>, IEEE Transactions on Signal Processing., September, 2022. , pp. 1-16.
+    <td> [32] Yang, M.; Isufi, E.; Schaub, M.T. &amp; Leus, G. (2022), <i>"Simplicial Convolutional Filters"</i>, IEEE Transactions on Signal Processing., September, 2022. , pp. 1-16.
         <p class="infolinks">[<a href="javascript:toggleInfo('Yang2022','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Yang2022','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1109/TSP.2022.3207045" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2201.11720" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -723,7 +747,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Zhu2022" class="entry">
-    <td> [32] Zhu, J.; Jin, J.; Schaub, M.T.; Koutra, D.; Zhu, J.; Jin, J.; Loveland, D.; Schaub, M.T. &amp; Koutra, D. (2022), <i>"Improving Robustness of Graph Neural Networks with Heterophily-Inspired Designs"</i>, In Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining. New York, NY, USA, August, 2022. , pp. 2637–2647. Association for Computing Machinery.
+    <td> [33] Zhu, J.; Jin, J.; Schaub, M.T.; Koutra, D.; Zhu, J.; Jin, J.; Loveland, D.; Schaub, M.T. &amp; Koutra, D. (2022), <i>"Improving Robustness of Graph Neural Networks with Heterophily-Inspired Designs"</i>, In Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining. New York, NY, USA, August, 2022. , pp. 2637–2647. Association for Computing Machinery.
         <p class="infolinks">[<a href="javascript:toggleInfo('Zhu2022','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Zhu2022','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1145/3534678.3539418" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2106.07767" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -746,7 +770,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Loveland2022" class="entry">
-    <td> [33] Loveland, D.; Zhu, J.; Heimann, M.; Fish, B.; Schaub, M.T. &amp; Koutra, D. (2022), <i>"On Graph Neural Network Fairness in the Presence of Heterophilous Neighborhoods"</i>, In Deep Learning on Graphs Workshop, 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2022)., August, 2022. 
+    <td> [34] Loveland, D.; Zhu, J.; Heimann, M.; Fish, B.; Schaub, M.T. &amp; Koutra, D. (2022), <i>"On Graph Neural Network Fairness in the Presence of Heterophilous Neighborhoods"</i>, In Deep Learning on Graphs Workshop, 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2022)., August, 2022. 
         <p class="infolinks">[<a href="javascript:toggleInfo('Loveland2022','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Loveland2022','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2207.04376" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -766,7 +790,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Scholkemper2022" class="entry">
-    <td> [34] Scholkemper, M. &amp; Schaub, M.T. (2022), <i>"Blind Extraction of Equitable Partitions from Graph Signals"</i>, In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)., May, 2022. , pp. 5832-5836.
+    <td> [35] Scholkemper, M. &amp; Schaub, M.T. (2022), <i>"Blind Extraction of Equitable Partitions from Graph Signals"</i>, In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)., May, 2022. , pp. 5832-5836.
         <p class="infolinks">[<a href="javascript:toggleInfo('Scholkemper2022','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Scholkemper2022','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1109/ICASSP43922.2022.9746676" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2203.05407" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -788,7 +812,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Roddenberry2022" class="entry">
-    <td> [35] Roddenberry, T.M.; Frantzen, F.; Schaub, M.T. &amp; Segarra, S. (2022), <i>"Hodgelets: Localized Spectral Representations of Flows On Simplicial Complexes"</i>, In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)., May, 2022. , pp. 5922-5926.
+    <td> [36] Roddenberry, T.M.; Frantzen, F.; Schaub, M.T. &amp; Segarra, S. (2022), <i>"Hodgelets: Localized Spectral Representations of Flows On Simplicial Complexes"</i>, In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)., May, 2022. , pp. 5922-5926.
         <p class="infolinks">[<a href="javascript:toggleInfo('Roddenberry2022','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Roddenberry2022','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1109/ICASSP43922.2022.9747203" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2109.08728" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -810,7 +834,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Peisker2022" class="entry">
-    <td> [36] Peisker, F.; Halder, M.; Nagai, J.; Ziegler, S.; Kaesler, N.; Hoeft, K.; Li, R.; Bindels, E.M.J.; Kuppe, C.; Moellmann, J. &amp; others (2022), <i>"Mapping the cardiac vascular niche in heart failure"</i>, Nature Communications., May, 2022.  Vol. 13(1), pp. 1-20. Nature Publishing Group.
+    <td> [37] Peisker, F.; Halder, M.; Nagai, J.; Ziegler, S.; Kaesler, N.; Hoeft, K.; Li, R.; Bindels, E.M.J.; Kuppe, C.; Moellmann, J. &amp; others (2022), <i>"Mapping the cardiac vascular niche in heart failure"</i>, Nature Communications., May, 2022.  Vol. 13(1), pp. 1-20. Nature Publishing Group.
         <p class="infolinks">[<a href="javascript:toggleInfo('Peisker2022','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Peisker2022','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1038/s41467-022-30682-0" target="_blank">DOI</a>]</p>
     </td>
 </tr>
@@ -834,7 +858,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Roddenberry2022a" class="entry">
-    <td> [37] Roddenberry, T.M.; Schaub, M.T. &amp; Hajij, M. (2022), <i>"Signal Processing On Cell Complexes"</i>, In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)., May, 2022. , pp. 8852-8856.
+    <td> [38] Roddenberry, T.M.; Schaub, M.T. &amp; Hajij, M. (2022), <i>"Signal Processing On Cell Complexes"</i>, In IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)., May, 2022. , pp. 8852-8856.
         <p class="infolinks">[<a href="javascript:toggleInfo('Roddenberry2022a','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Roddenberry2022a','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1109/ICASSP43922.2022.9747233" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2110.05614" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -856,7 +880,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Neuhaeuser2022" class="entry">
-    <td> [38] Neuhäuser, L.; Lambiotte, R. &amp; Schaub, M.T. (2022), <i>"Consensus Dynamics and Opinion Formation on Hypergraphs"</i>, In Higher-Order Systems. Cham, April, 2022. , pp. 347-376. Springer International Publishing.
+    <td> [39] Neuhäuser, L.; Lambiotte, R. &amp; Schaub, M.T. (2022), <i>"Consensus Dynamics and Opinion Formation on Hypergraphs"</i>, In Higher-Order Systems. Cham, April, 2022. , pp. 347-376. Springer International Publishing.
         <p class="infolinks">[<a href="javascript:toggleInfo('Neuhaeuser2022','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Neuhaeuser2022','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1007/978-3-030-91374-8_14" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2105.01369" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -880,7 +904,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Schaub2022" class="entry">
-    <td> [39] Schaub, M.T.; Seby, J.-B.; Roddenberry, T.M.; Zhu, Y. &amp; Segarra, S. (2022), <i>"Signal processing on simplicial complexes"</i>, In Higher-Order Systems. Cham, April, 2022. , pp. 301-328. Springer International Publishing.
+    <td> [40] Schaub, M.T.; Seby, J.-B.; Roddenberry, T.M.; Zhu, Y. &amp; Segarra, S. (2022), <i>"Signal processing on simplicial complexes"</i>, In Higher-Order Systems. Cham, April, 2022. , pp. 301-328. Springer International Publishing.
         <p class="infolinks">[<a href="javascript:toggleInfo('Schaub2022','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Schaub2022','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1007/978-3-030-91374-8_12" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2106.07471" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -904,7 +928,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Neuhaeuser2021b" class="entry">
-    <td> [40] Neuh&auml;user, L.; Lambiotte, R. &amp; Schaub, M.T. (2021), <i>"Consensus dynamics on temporal hypergraphs"</i>, Phys. Rev. E., December, 2021.  Vol. 104(6), pp. 064305. American Physical Society.
+    <td> [41] Neuh&auml;user, L.; Lambiotte, R. &amp; Schaub, M.T. (2021), <i>"Consensus dynamics on temporal hypergraphs"</i>, Phys. Rev. E., December, 2021.  Vol. 104(6), pp. 064305. American Physical Society.
         <p class="infolinks">[<a href="javascript:toggleInfo('Neuhaeuser2021b','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Neuhaeuser2021b','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1103/PhysRevE.104.064305" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2109.04985" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -929,7 +953,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Lambiotte2021" class="entry">
-    <td> [41] Lambiotte, R. &amp; Schaub, M.T. (2021), <i>"Modularity and Dynamics on Complex Networks"</i>, December, 2021.  Cambridge University Press.
+    <td> [42] Lambiotte, R. &amp; Schaub, M.T. (2021), <i>"Modularity and Dynamics on Complex Networks"</i>, December, 2021.  Cambridge University Press.
         <p class="infolinks">[<a href="javascript:toggleInfo('Lambiotte2021','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Lambiotte2021','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1017/9781108774116" target="_blank">DOI</a>] [<a href="https://michaelschaub.github.io/ModularityAndDynamicsOnComplexNetworks.pdf" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -950,7 +974,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Stamm2021" class="entry">
-    <td> [42] Neuhäuser, L.; Stamm, F.I.; Lemmerich, F.; Schaub, M.T. &amp; Strohmaier, M. (2021), <i>"Simulating systematic edge uncertainty in attributed social networks and its effects on rankings of minority nodes"</i>, Applied Network Science., November, 2021.  Vol. 6(86)
+    <td> [43] Neuhäuser, L.; Stamm, F.I.; Lemmerich, F.; Schaub, M.T. &amp; Strohmaier, M. (2021), <i>"Simulating systematic edge uncertainty in attributed social networks and its effects on rankings of minority nodes"</i>, Applied Network Science., November, 2021.  Vol. 6(86)
         <p class="infolinks">[<a href="javascript:toggleInfo('Stamm2021','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Stamm2021','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1007/s41109-021-00425-z" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2010.11546" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -973,7 +997,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Frantzen2021" class="entry">
-    <td> [43] Frantzen, F.; Seby, J.-B. &amp; Schaub, M.T. (2021), <i>"Outlier Detection for Trajectories via Flow-embeddings"</i>, In 2021 55th Asilomar Conference on Signals, Systems, and Computers., October, 2021. , pp. 1568-1572.
+    <td> [44] Frantzen, F.; Seby, J.-B. &amp; Schaub, M.T. (2021), <i>"Outlier Detection for Trajectories via Flow-embeddings"</i>, In 2021 55th Asilomar Conference on Signals, Systems, and Computers., October, 2021. , pp. 1568-1572.
         <p class="infolinks">[<a href="javascript:toggleInfo('Frantzen2021','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Frantzen2021','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1109/IEEECONF53345.2021.9723128" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2111.13235" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -995,7 +1019,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Neuhaeuser2021a" class="entry">
-    <td> [44] Neuhäuser, L.; Schaub, M.T.; Mellor, A. &amp; Lambiotte, R. (2021), <i>"Opinion Dynamics with Multi-body Interactions"</i>, In Network Games, Control and Optimization. Cham, September, 2021. , pp. 261-271. Springer International Publishing.
+    <td> [45] Neuhäuser, L.; Schaub, M.T.; Mellor, A. &amp; Lambiotte, R. (2021), <i>"Opinion Dynamics with Multi-body Interactions"</i>, In Network Games, Control and Optimization. Cham, September, 2021. , pp. 261-271. Springer International Publishing.
         <p class="infolinks">[<a href="javascript:toggleInfo('Neuhaeuser2021a','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Neuhaeuser2021a','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1007/978-3-030-87473-5_23" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2004.00901" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -1019,7 +1043,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Yang2021" class="entry">
-    <td> [45] Yang, M.; Isufi, E.; Schaub, M.T. &amp; Leus, G. (2021), <i>"Finite Impulse Response Filters for Simplicial Complexes"</i>, In 29th European Signal Processing Conference (EUSIPCO)., August, 2021. , pp. 2005-2009.
+    <td> [46] Yang, M.; Isufi, E.; Schaub, M.T. &amp; Leus, G. (2021), <i>"Finite Impulse Response Filters for Simplicial Complexes"</i>, In 29th European Signal Processing Conference (EUSIPCO)., August, 2021. , pp. 2005-2009.
         <p class="infolinks">[<a href="javascript:toggleInfo('Yang2021','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Yang2021','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.23919/EUSIPCO54536.2021.9616185" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2103.12587" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -1041,7 +1065,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Scholkemper2021" class="entry">
-    <td> [46] Scholkemper, M. &amp; Schaub, M.T. (2021), <i>"Local, Global And Scale-Dependent Node Roles"</i>, In 2021 IEEE International Conference on Autonomous Systems (ICAS)., August, 2021. , pp. 1-5.
+    <td> [47] Scholkemper, M. &amp; Schaub, M.T. (2021), <i>"Local, Global And Scale-Dependent Node Roles"</i>, In 2021 IEEE International Conference on Autonomous Systems (ICAS)., August, 2021. , pp. 1-5.
         <p class="infolinks">[<a href="javascript:toggleInfo('Scholkemper2021','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Scholkemper2021','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1109/ICAS49788.2021.9551110" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2105.12598" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -1063,7 +1087,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Faccin2021" class="entry">
-    <td> [47] Faccin, M.; Schaub, M.T. &amp; Delvenne, J.-C. (2021), <i>"State aggregations in Markov chains and block models of networks"</i>, Physical Review Letters., August, 2021.  Vol. 127(7), pp. 078301. American Physical Society.
+    <td> [48] Faccin, M.; Schaub, M.T. &amp; Delvenne, J.-C. (2021), <i>"State aggregations in Markov chains and block models of networks"</i>, Physical Review Letters., August, 2021.  Vol. 127(7), pp. 078301. American Physical Society.
         <p class="infolinks">[<a href="javascript:toggleInfo('Faccin2021','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Faccin2021','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1103/PhysRevLett.127.078301" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2005.00337" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -1088,7 +1112,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Nagai2021" class="entry">
-    <td> [48] Nagai, J.S.; Leimkühler, N.B.; Schaub, M.T.; Schneider, R.K. &amp; Costa, I.G. (2021), <i>"CrossTalkeR: analysis and visualization of ligand–receptorne tworks"</i>, Bioinformatics., 05, 2021. 
+    <td> [49] Nagai, J.S.; Leimkühler, N.B.; Schaub, M.T.; Schneider, R.K. &amp; Costa, I.G. (2021), <i>"CrossTalkeR: analysis and visualization of ligand–receptorne tworks"</i>, Bioinformatics., 05, 2021. 
         <p class="infolinks">[<a href="javascript:toggleInfo('Nagai2021','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Nagai2021','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1093/bioinformatics/btab370" target="_blank">DOI</a>] [<a href="https://www.biorxiv.org/content/10.1101/2021.01.20.427390v2" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -1110,7 +1134,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Schaub2021" class="entry">
-    <td> [49] Schaub, M.T.; Zhu, Y.; Seby, J.-B.; Roddenberry, T.M. &amp; Segarra, S. (2021), <i>"Signal Processing on Higher-Order Networks: Livin' on the Edge ... and Beyond"</i>, Signal Processing., January, 2021.  Vol. 187, pp. 108149.
+    <td> [50] Schaub, M.T.; Zhu, Y.; Seby, J.-B.; Roddenberry, T.M. &amp; Segarra, S. (2021), <i>"Signal Processing on Higher-Order Networks: Livin' on the Edge ... and Beyond"</i>, Signal Processing., January, 2021.  Vol. 187, pp. 108149.
         <p class="infolinks">[<a href="javascript:toggleInfo('Schaub2021','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Schaub2021','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1016/j.sigpro.2021.108149" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2101.05510" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -1131,26 +1155,6 @@ A list of my publications is also available on [Google Scholar](https://scholar.
            doi = {10.1016/j.sigpro.2021.108149}
 }
     </pre></td>
-</tr>
-<tr id="Peel2020" class="entry">
-	<td> [50] Peel L and Schaub MT (2020), <i>"Detectability of hierarchical communities in networks"</i>, submitted. September, 2020.
-	<p class="infolinks">[<a href="javascript:toggleInfo('Peel2020','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Peel2020','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2009.07525" target="_blank">URL</a>]</p>
-	</td>
-</tr>
-<tr id="abs_Peel2020" class="abstract noshow">
-	<td><b>Abstract</b>: We study the problem of recovering a planted hierarchy of partitions in a network. The detectability of a single planted partition has previously been analysed in detail and a phase transition has been identified below which the partition cannot be detected. Here we show that, in the hierarchical setting, there exist additional phases in which the presence of multiple consistent partitions can either help or hinder detection. Accordingly, the detectability limit for non-hierarchical partitions typically provides insufficient information about the detectability of the complete hierarchical structure, as we highlight with several constructive examples.</td>
-</tr>
-<tr id="bib_Peel2020" class="bibtex noshow">
-<td><b>BibTeX</b>:
-<pre>
-@misc{Peel2020,
-  author = {Leto Peel and Michael T. Schaub},
-  title = {Detectability of hierarchical communities in networks},
-  howpublished = {submitted},
-  year = {2020},
-  url = {https://arxiv.org/abs/2009.07525}
-}
-</pre></td>
 </tr>
 <tr id="Roddenberry2020" class="entry">
     <td> [51] Roddenberry, T.M.; Schaub, M.T.; Wai, H.-T. &amp; Segarra, S. (2020), <i>"Exact Blind Community Detection from Signals on Multiple Graphs"</i>, IEEE Transactions on Signal Processing., August, 2020. 
@@ -1864,5 +1868,5 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 </tbody>
 </table>
 <footer>
- <small>Created by <a href="http://jabref.sourceforge.net">JabRef</a> on 28/07/2024.</small>
+ <small>Created by <a href="http://jabref.sourceforge.net">JabRef</a> on 15/12/2024.</small>
 </footer>
