@@ -954,9 +954,9 @@ Third, we evaluate the performance of CCNNs on tasks related to mesh shape analy
   author    = {Hoppe, Josef and Schaub, Michael T},
   booktitle = {Proceedings of the Second Learning on Graphs Conference},
   title     = {Representing Edge Flows on Graphs via Sparse Cell Complexes},
-  year      = {2023},
+  year      = {2024},
   editor    = {Villar, Soledad and Chamberlain, Benjamin},
-  month     = nov,
+  month     = jun,
   pages     = {1:1--1:22},
   publisher = {PMLR},
   series    = {Proceedings of Machine Learning Research},
@@ -984,9 +984,9 @@ Third, we evaluate the performance of CCNNs on tasks related to mesh shape analy
   author    = {Grande, Vincent Peter and Schaub, Michael T},
   booktitle = {Proceedings of the Second Learning on Graphs Conference},
   title     = {Non-Isotropic Persistent Homology: Leveraging the Metric Dependency of PH},
-  year      = {2023},
+  year      = {2024},
   editor    = {Villar, Soledad and Chamberlain, Benjamin},
-  month     = nov,
+  month     = jun,
   pages     = {17:1--17:19},
   publisher = {PMLR},
   series    = {Proceedings of Machine Learning Research},
@@ -1024,14 +1024,16 @@ Third, we evaluate the performance of CCNNs on tasks related to mesh shape analy
   url       = {https://arxiv.org/abs/2312.09504},
 }
 
-@Misc{Stamm2024,
-  author       = {Stamm, Felix I and Schaub, Michael T},
-  howpublished = {arxiv},
-  month        = jan,
-  title        = {Faster optimal univariate microgaggregation},
-  year         = {2024},
-  abstract     = {Microaggregation is a method to coarsen a dataset, by optimally clustering data points in groups of at least k points, thereby providing a k-anonymity type disclosure guarantee for each point in the dataset. Previous algorithms for univariate microaggregation had a O(kn) time complexity. By rephrasing microaggregation as an instance of the concave least weight subsequence problem, in this work we provide improved algorithms that provide an optimal univariate microaggregation on sorted data in O(n) time and space. We further show that our algorithms work not only for sum of squares cost functions, as typically considered, but seamlessly extend to many other cost functions used for univariate microaggregation tasks. In experiments we show that the presented algorithms lead to real world performance improvements.},
-  url          = {https://arxiv.org/abs/2401.02381},
+@Article{Stamm2024,
+  author   = {Stamm, Felix I and Schaub, Michael T},
+  journal  = {Transactions on Machine Learning Research},
+  title    = {Faster optimal univariate microgaggregation},
+  year     = {2024},
+  issn     = {2835-8856},
+  month    = oct,
+  abstract = {Microaggregation is a method to coarsen a dataset, by optimally clustering data points in groups of at least k points, thereby providing a k-anonymity type disclosure guarantee for each point in the dataset. Previous algorithms for univariate microaggregation had a O(kn) time complexity. By rephrasing microaggregation as an instance of the concave least weight subsequence problem, in this work we provide improved algorithms that provide an optimal univariate microaggregation on sorted data in O(n) time and space. We further show that our algorithms work not only for sum of squares cost functions, as typically considered, but seamlessly extend to many other cost functions used for univariate microaggregation tasks. In experiments we show that the presented algorithms lead to real world performance improvements.},
+  doi      = {10.48550/arXiv.2401.02381},
+  url      = {https://openreview.net/forum?id=s5lEUtyVly},
 }
 
 @InProceedings{Scholkemper2024,
@@ -1074,15 +1076,20 @@ Third, we evaluate the performance of CCNNs on tasks related to mesh shape analy
   url          = {https://arxiv.org/abs/2404.03434},
 }
 
-@Misc{Hajij2024,
+@Article{Hajij2024,
   author       = {Mustafa Hajij and Mathilde Papillon and Florian Frantzen and Jens Agerberg and Ibrahem AlJabea and Ruben Ballester and Claudio Battiloro and Guillermo Bernárdez and Tolga Birdal and Aiden Brent and Peter Chin and Sergio Escalera and Simone Fiorellino and Odin Hoff Gardaa and Gurusankar Gopalakrishnan and Devendra Govil and Josef Hoppe and Maneel Reddy Karri and Jude Khouja and Manuel Lecha and Neal Livesay and Jan Meißner and Soham Mukherjee and Alexander Nikitin and Theodore Papamarkou and Jaro Prílepok and Karthikeyan Natesan Ramamurthy and Paul Rosen and Aldo Guzmán-Sáenz and Alessandro Salatiello and Shreyas N. Samaga and Simone Scardapane and Michael T. Schaub and Luca Scofano and Indro Spinelli and Lev Telyatnikov and Quang Truong and Robin Walters and Maosheng Yang and Olga Zaghen and Ghada Zamzmi and Ali Zia and Nina Miolane},
-  howpublished = {arxiv},
-  month        = feb,
+  journal      = {Journal of Machine Learning Research},
   title        = {TopoX: A Suite of Python Packages for Machine Learning on Topological Domains},
   year         = {2024},
+  month        = dec,
+  number       = {374},
+  pages        = {1--8},
+  volume       = {25},
   abstract     = {We introduce TopoX, a Python software suite that provides reliable and user-friendly building blocks for computing and machine learning on topological domains that extend graphs: hypergraphs, simplicial, cellular, path and combinatorial complexes. TopoX consists of three packages: TopoNetX facilitates constructing and computing on these domains, including working with nodes, edges and higher-order cells; TopoEmbedX provides methods to embed topological domains into vector spaces, akin to popular graph-based embedding algorithms such as node2vec; TopoModelx is built on top of PyTorch and offers a comprehensive toolbox of higher-order message passing functions for neural networks on topological domains. The extensively documented and unit-tested source code of TopoX is available under MIT license at this https URL.},
+  doi          = {10.48550/arXiv.2402.02441},
   groups       = {erc},
-  url          = {https://arxiv.org/abs/2402.02441},
+  howpublished = {arxiv},
+  url          = {http://jmlr.org/papers/v25/24-0110.html},
 }
 
 @InProceedings{Papamarkou2024,
@@ -1099,7 +1106,7 @@ Third, we evaluate the performance of CCNNs on tasks related to mesh shape analy
 @Misc{Fanuel2024,
   author   = {Michaël Fanuel and Antoine Aspeel and Michael T. Schaub and Jean-Charles Delvenne},
   month    = mar,
-  note     = {arXiv preprint},
+  note     = {accepted for publication at SIAM Journal on Applied Mathematics},
   title    = {Ellipsoidal embeddings of graphs},
   year     = {2024},
   abstract = {Due to their flexibility to represent almost any kind of relational data, graph-based models have enjoyed a tremendous success over the past decades. While graphs are inherently only combinatorial objects, however, many prominent analysis tools are based on the algebraic representation of graphs via matrices such as the graph Laplacian, or on associated graph embeddings. Such embeddings associate to each node a set of coordinates in a vector space, a representation which can then be employed for learning tasks such as the classification or alignment of the nodes of the graph. As the geometric picture provided by embedding methods enables the use of a multitude of methods developed for vector space data, embeddings have thus gained interest both from a theoretical as well as a practical perspective. Inspired by trace-optimization problems, often encountered in the analysis of graph-based data, here we present a method to derive ellipsoidal embeddings of the nodes of a graph, in which each node is assigned a set of coordinates on the surface of a hyperellipsoid. Our method may be seen as an alternative to popular spectral embedding techniques, to which it shares certain similarities we discuss. To illustrate the utility of the embedding we conduct a case study in which we analyse synthetic and real world networks with modular structure, and compare the results obtained with known methods in the literature.},
@@ -1118,13 +1125,14 @@ Third, we evaluate the performance of CCNNs on tasks related to mesh shape analy
 }
 
 @Misc{Epping2024,
-  author   = {Bastian Epping and Alexandre René and Moritz Helias and Michael T. Schaub},
-  month    = jun,
-  title    = {Graph Neural Networks Do Not Always Oversmooth},
-  year     = {2024},
-  abstract = {Graph neural networks (GNNs) have emerged as powerful tools for processing relational data in applications. However, GNNs suffer from the problem of oversmoothing, the property that the features of all nodes exponentially converge to the same vector over layers, prohibiting the design of deep GNNs. In this work we study oversmoothing in graph convolutional networks (GCNs) by using their Gaussian process (GP) equivalence in the limit of infinitely many hidden features. By generalizing methods from conventional deep neural networks (DNNs), we can describe the distribution of features at the output layer of deep GCNs in terms of a GP: as expected, we find that typical parameter choices from the literature lead to oversmoothing. The theory, however, allows us to identify a new, nonoversmoothing phase: if the initial weights of the network have sufficiently large variance, GCNs do not oversmooth, and node features remain informative even at large depth. We demonstrate the validity of this prediction in finite-size GCNs by training a linear classifier on their output. Moreover, using the linearization of the GCN GP, we generalize the concept of propagation depth of information from DNNs to GCNs. This propagation depth diverges at the transition between the oversmoothing and non-oversmoothing phase. We test the predictions of our approach and find good agreement with finite-size GCNs. Initializing GCNs near the transition to the non-oversmoothing phase, we obtain networks which are both deep and expressive.},
-  groups   = {erc},
-  url      = {https://arxiv.org/abs/2406.02269},
+  author       = {Bastian Epping and Alexandre René and Moritz Helias and Michael T. Schaub},
+  howpublished = {accepted at NeurIPS 2024},
+  month        = jun,
+  title        = {Graph Neural Networks Do Not Always Oversmooth},
+  year         = {2024},
+  abstract     = {Graph neural networks (GNNs) have emerged as powerful tools for processing relational data in applications. However, GNNs suffer from the problem of oversmoothing, the property that the features of all nodes exponentially converge to the same vector over layers, prohibiting the design of deep GNNs. In this work we study oversmoothing in graph convolutional networks (GCNs) by using their Gaussian process (GP) equivalence in the limit of infinitely many hidden features. By generalizing methods from conventional deep neural networks (DNNs), we can describe the distribution of features at the output layer of deep GCNs in terms of a GP: as expected, we find that typical parameter choices from the literature lead to oversmoothing. The theory, however, allows us to identify a new, nonoversmoothing phase: if the initial weights of the network have sufficiently large variance, GCNs do not oversmooth, and node features remain informative even at large depth. We demonstrate the validity of this prediction in finite-size GCNs by training a linear classifier on their output. Moreover, using the linearization of the GCN GP, we generalize the concept of propagation depth of information from DNNs to GCNs. This propagation depth diverges at the transition between the oversmoothing and non-oversmoothing phase. We test the predictions of our approach and find good agreement with finite-size GCNs. Initializing GCNs near the transition to the non-oversmoothing phase, we obtain networks which are both deep and expressive.},
+  groups       = {erc},
+  url          = {https://arxiv.org/abs/2406.02269},
 }
 
 @Misc{Grande2024a,
@@ -1154,6 +1162,57 @@ Third, we evaluate the performance of CCNNs on tasks related to mesh shape analy
   year     = {2024},
   abstract = {This work introduces TopoBenchmarkX, a modular open-source library designed to standardize benchmarking and accelerate research in Topological Deep Learning (TDL). TopoBenchmarkX maps the TDL pipeline into a sequence of independent and modular components for data loading and processing, as well as model training, optimization, and evaluation. This modular organization provides flexibility for modifications and facilitates the adaptation and optimization of various TDL pipelines. A key feature of TopoBenchmarkX is that it allows for the transformation and lifting between topological domains. This enables, for example, to obtain richer data representations and more fine-grained analyses by mapping the topology and features of a graph to higher-order topological domains such as simplicial and cell complexes. The range of applicability of TopoBenchmarkX is demonstrated by benchmarking several TDL architectures for various tasks and datasets.},
   url      = {https://arxiv.org/abs/2406.06642},
+}
+
+@Misc{Grande2024b,
+  author   = {Grande, Vincent P and Hoppe, Josef and Frantzen, Florian and Schaub, Michael T},
+  month    = dec,
+  title    = {Topological Trajectory Classification and Landmark Inference on Simplicial Complexes},
+  year     = {2024},
+  abstract = {We consider the problem of classifying trajectories on a discrete or discretised 2-dimensional manifold modelled by a simplicial complex. Previous works have proposed to project the trajectories into the harmonic eigenspace of the Hodge Laplacian, and then cluster the resulting embeddings. However, if the considered space has vanishing homology (i.e., no "holes"), then the harmonic space of the 1-Hodge Laplacian is trivial and thus the approach fails. Here we propose to view this issue akin to a sensor placement problem and present an algorithm that aims to learn "optimal holes" to distinguish a set of given trajectory classes. Specifically, given a set of labelled trajectories, which we interpret as edge-flows on the underlying simplicial complex, we search for 2-simplices whose deletion results in an optimal separation of the trajectory labels according to the corresponding spectral embedding of the trajectories into the harmonic space. Finally, we generalise this approach to the unsupervised setting.},
+  groups   = {erc},
+  url      = {https://doi.org/10.48550/arXiv.2412.03145},
+}
+
+@Misc{Witthaut2024,
+  author   = {Witthaut, Dirk and Kistinger, Dorothea and Titz, Maurizio and B{\"o}ttcher, Philipp and Schaub, Michael and Venghaus, Sandra},
+  month    = dec,
+  title    = {Revealing drivers of green technology adoption through explainable AI},
+  year     = {2024},
+  abstract = {Effective governance of energy system transformations away from fossil resources requires a quantitative understanding of the diffusion of green technologies and its key influencing factors. In this article, we propose a novel machine learning approach to diffusion research focusing on actual decisions and spatial aspects complementing research on intentions and temporal dynamics. We develop machine learning models that predict regional differences in the accumulated peak power of household-scale photovoltaic systems and the share of battery electric vehicles from a large set of demographic, geographic, political, and socio-economic features. Tools from explainable artificial intelligence enable a consistent identification of the key influencing factors and quantify their impact. Focusing on data from German municipal associations, we identify common themes and differences in the diffusion of green technologies.},
+  url      = {https://doi.org/10.21203/rs.3.rs-5367657/v1},
+}
+
+@Misc{Heck2024,
+  author   = {Heck, Linus and Gelbrecht, Maximilian and Schaub, Michael T and Boers, Niklas},
+  month    = dec,
+  title    = {Improving the Noise Estimation of Latent Neural Stochastic Differential Equations},
+  year     = {2024},
+  abstract = {Latent neural stochastic differential equations (SDEs) have recently emerged as a promising approach for learning generative models from stochastic time series data. However, they systematically underestimate the noise level inherent in such data, limiting their ability to capture stochastic dynamics accurately. We investigate this underestimation in detail and propose a straightforward solution: by including an explicit additional noise regularization in the loss function, we are able to learn a model that accurately captures the diffusion component of the data. We demonstrate our results on a conceptual model system that highlights the improved latent neural SDE's capability to model stochastic bistable dynamics.},
+  url      = {https://doi.org/10.48550/arXiv.2412.17499},
+}
+
+@Article{,
+  creationdate = {2025-02-13T16:16:33},
+}
+
+@Misc{Savostianov2025,
+  author   = {Anton Savostianov and Michael T. Schaub and Nicola Guglielmi and Francesco Tudisco},
+  month    = feb,
+  title    = {Efficient Sparsification of Simplicial Complexes via Local Densities of States},
+  year     = {2025},
+  abstract = {Simplicial complexes (SCs), a generalization of graph models for relational data that account for higher-order relations between data items, have become a popular abstraction for analyzing complex data using tools from topological data analysis or topological signal processing. However, the analysis of many real-world datasets leads to dense SCs with a large number of higher-order interactions. Unfortunately, analyzing such large SCs often has a prohibitive cost in terms of computation time and memory consumption. The sparsification of such complexes, i.e., the approximation of an original SC with a sparser simplicial complex with only a log-linear number of high-order simplices while maintaining a spectrum close to the original SC, is of broad interest.
+In this work, we develop a novel method for a probabilistic sparsifaction of SCs. At its core lies the efficient computation of sparsifying sampling probability through local densities of states as functional descriptors of the spectral information. To avoid pathological structures in the spectrum of the corresponding Hodge Laplacian operators, we suggest a "kernel-ignoring" decomposition for approximating the sampling probability; additionally, we exploit error estimates to show asymptotically prevailing algorithmic complexity of the developed method. The performance of the framework is demonstrated on the family of Vietoris--Rips filtered simplicial complexes.},
+  url      = {https://arxiv.org/abs/2502.07558},
+}
+
+@Misc{Patel2025,
+  author   = {Dhiraj Patel and Anton Savostianov and Michael T. Schaub},
+  month    = jan,
+  title    = {Convergence of gradient based training for linear Graph Neural Networks},
+  year     = {2025},
+  abstract = {Graph Neural Networks (GNNs) are powerful tools for addressing learning problems on graph structures, with a wide range of applications in molecular biology and social networks. However, the theoretical foundations underlying their empirical performance are not well understood. In this article, we examine the convergence of gradient dynamics in the training of linear GNNs. Specifically, we prove that the gradient flow training of a linear GNN with mean squared loss converges to the global minimum at an exponential rate. The convergence rate depends explicitly on the initial weights and the graph shift operator, which we validate on synthetic datasets from well-known graph models and real-world datasets. Furthermore, we discuss the gradient flow that minimizes the total weights at the global minimum. In addition to the gradient flow, we study the convergence of linear GNNs under gradient descent training, an iterative scheme viewed as a discretization of gradient flow.},
+  url      = {https://arxiv.org/abs/2501.14440},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
