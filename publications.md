@@ -88,8 +88,33 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 }
 </pre></td>
 </tr>
+<tr id="Epping2024" class="entry">
+    <td> [4] Epping, B.; René, A.; Helias, M. &amp; Schaub, M.T. (2024), <i>"Graph Neural Networks Do Not Always Oversmooth"</i>, In Advances in Neural Information Processing Systems., December, 2024.  Vol. 37, pp. 48164-48188. Curran Associates, Inc..
+        <p class="infolinks">[<a href="javascript:toggleInfo('Epping2024','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Epping2024','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.48550/arXiv.2406.02269" target="_blank">DOI</a>] [<a href="https://proceedings.neurips.cc/paper_files/paper/2024/file/5623c35f3ab5e2c72aeb3abce27dc28f-Paper-Conference.pdf" target="_blank">URL</a>]</p>
+    </td>
+</tr>
+<tr id="abs_Epping2024" class="abstract noshow">
+    <td><b>Abstract</b>: Graph neural networks (GNNs) have emerged as powerful tools for processing relational data in applications. However, GNNs suffer from the problem of oversmoothing, the property that the features of all nodes exponentially converge to the same vector over layers, prohibiting the design of deep GNNs. In this work we study oversmoothing in graph convolutional networks (GCNs) by using their Gaussian process (GP) equivalence in the limit of infinitely many hidden features. By generalizing methods from conventional deep neural networks (DNNs), we can describe the distribution of features at the output layer of deep GCNs in terms of a GP: as expected, we find that typical parameter choices from the literature lead to oversmoothing. The theory, however, allows us to identify a new, nonoversmoothing phase: if the initial weights of the network have sufficiently large variance, GCNs do not oversmooth, and node features remain informative even at large depth. We demonstrate the validity of this prediction in finite-size GCNs by training a linear classifier on their output. Moreover, using the linearization of the GCN GP, we generalize the concept of propagation depth of information from DNNs to GCNs. This propagation depth diverges at the transition between the oversmoothing and non-oversmoothing phase. We test the predictions of our approach and find good agreement with finite-size GCNs. Initializing GCNs near the transition to the non-oversmoothing phase, we obtain networks which are both deep and expressive.</td>
+</tr>
+<tr id="bib_Epping2024" class="bibtex noshow">
+    <td><b>BibTeX</b>:
+        <pre>
+@inproceedings{Epping2024,
+    author = {Bastian Epping and Alexandre René and Moritz Helias and Michael T. Schaub},
+           editor = {A. Globerson and L. Mackey and D. Belgrave and A. Fan and U. Paquet and J. Tomczak and C. Zhang},
+           title = {Graph Neural Networks Do Not Always Oversmooth},
+           booktitle = {Advances in Neural Information Processing Systems},
+           publisher = {Curran Associates, Inc.},
+           year = {2024},
+           volume = {37},
+           pages = {48164--48188},
+           url = {https://proceedings.neurips.cc/paper_files/paper/2024/file/5623c35f3ab5e2c72aeb3abce27dc28f-Paper-Conference.pdf},
+           doi = {10.48550/arXiv.2406.02269}
+}
+    </pre></td>
+</tr>
 <tr id="Heck2024" class="entry">
-	<td> [4] Heck L, Gelbrecht M, Schaub MT and Boers N (2024), <i>"Improving the Noise Estimation of Latent Neural Stochastic Differential Equations"</i>. December, 2024.
+	<td> [5] Heck L, Gelbrecht M, Schaub MT and Boers N (2024), <i>"Improving the Noise Estimation of Latent Neural Stochastic Differential Equations"</i>. December, 2024.
 	<p class="infolinks">[<a href="javascript:toggleInfo('Heck2024','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Heck2024','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.48550/arXiv.2412.17499" target="_blank">URL</a>]</p>
 	</td>
 </tr>
@@ -108,7 +133,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 </pre></td>
 </tr>
 <tr id="Witthaut2024" class="entry">
-	<td> [5] Witthaut D, Kistinger D, Titz M, B&ouml;ttcher P, Schaub M and Venghaus S (2024), <i>"Revealing drivers of green technology adoption through explainable AI"</i>. December, 2024.
+	<td> [6] Witthaut D, Kistinger D, Titz M, B&ouml;ttcher P, Schaub M and Venghaus S (2024), <i>"Revealing drivers of green technology adoption through explainable AI"</i>. December, 2024.
 	<p class="infolinks">[<a href="javascript:toggleInfo('Witthaut2024','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Witthaut2024','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.21203/rs.3.rs-5367657/v1" target="_blank">URL</a>]</p>
 	</td>
 </tr>
@@ -127,26 +152,27 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 </pre></td>
 </tr>
 <tr id="Grande2024b" class="entry">
-	<td> [6] Grande VP, Hoppe J, Frantzen F and Schaub MT (2024), <i>"Topological Trajectory Classification and Landmark Inference on Simplicial Complexes"</i>. December, 2024.
-	<p class="infolinks">[<a href="javascript:toggleInfo('Grande2024b','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Grande2024b','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.48550/arXiv.2412.03145" target="_blank">URL</a>]</p>
-	</td>
+    <td> [7] Grande, V.P.; Hoppe, J.; Frantzen, F. &amp; Schaub, M.T. (2024), <i>"Topological Trajectory Classification and Landmark Inference on Simplicial Complexes"</i>, In 58th Annual Asilomar Conference on Signals, Systems, and Computers., December, 2024. 
+        <p class="infolinks">[<a href="javascript:toggleInfo('Grande2024b','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Grande2024b','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.48550/arXiv.2412.03145" target="_blank">URL</a>]</p>
+    </td>
 </tr>
 <tr id="abs_Grande2024b" class="abstract noshow">
-	<td><b>Abstract</b>: We consider the problem of classifying trajectories on a discrete or discretised 2-dimensional manifold modelled by a simplicial complex. Previous works have proposed to project the trajectories into the harmonic eigenspace of the Hodge Laplacian, and then cluster the resulting embeddings. However, if the considered space has vanishing homology (i.e., no "holes"), then the harmonic space of the 1-Hodge Laplacian is trivial and thus the approach fails. Here we propose to view this issue akin to a sensor placement problem and present an algorithm that aims to learn "optimal holes" to distinguish a set of given trajectory classes. Specifically, given a set of labelled trajectories, which we interpret as edge-flows on the underlying simplicial complex, we search for 2-simplices whose deletion results in an optimal separation of the trajectory labels according to the corresponding spectral embedding of the trajectories into the harmonic space. Finally, we generalise this approach to the unsupervised setting.</td>
+    <td><b>Abstract</b>: We consider the problem of classifying trajectories on a discrete or discretised 2-dimensional manifold modelled by a simplicial complex. Previous works have proposed to project the trajectories into the harmonic eigenspace of the Hodge Laplacian, and then cluster the resulting embeddings. However, if the considered space has vanishing homology (i.e., no "holes"), then the harmonic space of the 1-Hodge Laplacian is trivial and thus the approach fails. Here we propose to view this issue akin to a sensor placement problem and present an algorithm that aims to learn "optimal holes" to distinguish a set of given trajectory classes. Specifically, given a set of labelled trajectories, which we interpret as edge-flows on the underlying simplicial complex, we search for 2-simplices whose deletion results in an optimal separation of the trajectory labels according to the corresponding spectral embedding of the trajectories into the harmonic space. Finally, we generalise this approach to the unsupervised setting.</td>
 </tr>
 <tr id="bib_Grande2024b" class="bibtex noshow">
-<td><b>BibTeX</b>:
-<pre>
-@misc{Grande2024b,
-  author = {Grande, Vincent P and Hoppe, Josef and Frantzen, Florian and Schaub, Michael T},
-  title = {Topological Trajectory Classification and Landmark Inference on Simplicial Complexes},
-  year = {2024},
-  url = {https://doi.org/10.48550/arXiv.2412.03145}
+    <td><b>BibTeX</b>:
+        <pre>
+@inproceedings{Grande2024b,
+    author = {Grande, Vincent P and Hoppe, Josef and Frantzen, Florian and Schaub, Michael T},
+           title = {Topological Trajectory Classification and Landmark Inference on Simplicial Complexes},
+           booktitle = {58th Annual Asilomar Conference on Signals, Systems, and Computers},
+           year = {2024},
+           url = {https://doi.org/10.48550/arXiv.2412.03145}
 }
-</pre></td>
+    </pre></td>
 </tr>
 <tr id="Hajij2024" class="entry">
-    <td> [7] Hajij, M.; Papillon, M.; Frantzen, F.; Agerberg, J.; AlJabea, I.; Ballester, R.; Battiloro, C.; Bernárdez, G.; Birdal, T.; Brent, A.; Chin, P.; Escalera, S.; Fiorellino, S.; Gardaa, O.H.; Gopalakrishnan, G.; Govil, D.; Hoppe, J.; Karri, M.R.; Khouja, J.; Lecha, M.; Livesay, N.; Meißner, J.; Mukherjee, S.; Nikitin, A.; Papamarkou, T.; Prílepok, J.; Ramamurthy, K.N.; Rosen, P.; Guzmán-Sáenz, A.; Salatiello, A.; Samaga, S.N.; Scardapane, S.; Schaub, M.T.; Scofano, L.; Spinelli, I.; Telyatnikov, L.; Truong, Q.; Walters, R.; Yang, M.; Zaghen, O.; Zamzmi, G.; Zia, A. &amp; Miolane, N. (2024), <i>"TopoX: A Suite of Python Packages for Machine Learning on Topological Domains"</i>, Journal of Machine Learning Research., arxiv., December, 2024.  Vol. 25(374), pp. 1-8.
+    <td> [8] Hajij, M.; Papillon, M.; Frantzen, F.; Agerberg, J.; AlJabea, I.; Ballester, R.; Battiloro, C.; Bernárdez, G.; Birdal, T.; Brent, A.; Chin, P.; Escalera, S.; Fiorellino, S.; Gardaa, O.H.; Gopalakrishnan, G.; Govil, D.; Hoppe, J.; Karri, M.R.; Khouja, J.; Lecha, M.; Livesay, N.; Meißner, J.; Mukherjee, S.; Nikitin, A.; Papamarkou, T.; Prílepok, J.; Ramamurthy, K.N.; Rosen, P.; Guzmán-Sáenz, A.; Salatiello, A.; Samaga, S.N.; Scardapane, S.; Schaub, M.T.; Scofano, L.; Spinelli, I.; Telyatnikov, L.; Truong, Q.; Walters, R.; Yang, M.; Zaghen, O.; Zamzmi, G.; Zia, A. &amp; Miolane, N. (2024), <i>"TopoX: A Suite of Python Packages for Machine Learning on Topological Domains"</i>, Journal of Machine Learning Research., December, 2024.  Vol. 25(374), pp. 1-8.
         <p class="infolinks">[<a href="javascript:toggleInfo('Hajij2024','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Hajij2024','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.48550/arXiv.2402.02441" target="_blank">DOI</a>] [<a href="http://jmlr.org/papers/v25/24-0110.html" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -170,7 +196,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Stamm2024" class="entry">
-    <td> [8] Stamm, F.I. &amp; Schaub, M.T. (2024), <i>"Faster optimal univariate microgaggregation"</i>, Transactions on Machine Learning Research., October, 2024. 
+    <td> [9] Stamm, F.I. &amp; Schaub, M.T. (2024), <i>"Faster optimal univariate microgaggregation"</i>, Transactions on Machine Learning Research., October, 2024. 
         <p class="infolinks">[<a href="javascript:toggleInfo('Stamm2024','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Stamm2024','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.48550/arXiv.2401.02381" target="_blank">DOI</a>] [<a href="https://openreview.net/forum?id=s5lEUtyVly" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -191,7 +217,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Peel2024" class="entry">
-    <td> [9] Peel, L. &amp; Schaub, M.T. (2024), <i>"Detectability of hierarchical communities in networks"</i>, Phys. Rev. E., Sep, 2024.  Vol. 110, pp. 034306. American Physical Society.
+    <td> [10] Peel, L. &amp; Schaub, M.T. (2024), <i>"Detectability of hierarchical communities in networks"</i>, Phys. Rev. E., Sep, 2024.  Vol. 110, pp. 034306. American Physical Society.
         <p class="infolinks">[<a href="javascript:toggleInfo('Peel2024','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Peel2024','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1103/PhysRevE.110.034306" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2009.07525" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -215,7 +241,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Papamarkou2024" class="entry">
-    <td> [10] Papamarkou, T.; Birdal, T.; Bronstein, M.; Carlsson, G.; Curry, J.; Gao, Y.; Hajij, M.; Kwitt, R.; Liò, P.; Lorenzo, P.D.; Maroulas, V.; Miolane, N.; Nasrin, F.; Ramamurthy, K.N.; Rieck, B.; Scardapane, S.; Schaub, M.T.; Veličković, P.; Wang, B.; Wang, Y.; Wei, G.-W. &amp; Zamzmi, G. (2024), <i>"Position: Topological Deep Learning is the New Frontier for Relational Learning"</i>, In Proceedings of the 41st International Conference on Machine Learning (ICML 2024)., July, 2024. 
+    <td> [11] Papamarkou, T.; Birdal, T.; Bronstein, M.; Carlsson, G.; Curry, J.; Gao, Y.; Hajij, M.; Kwitt, R.; Liò, P.; Lorenzo, P.D.; Maroulas, V.; Miolane, N.; Nasrin, F.; Ramamurthy, K.N.; Rieck, B.; Scardapane, S.; Schaub, M.T.; Veličković, P.; Wang, B.; Wang, Y.; Wei, G.-W. &amp; Zamzmi, G. (2024), <i>"Position: Topological Deep Learning is the New Frontier for Relational Learning"</i>, In Proceedings of the 41st International Conference on Machine Learning (ICML 2024)., July, 2024. 
         <p class="infolinks">[<a href="javascript:toggleInfo('Papamarkou2024','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Papamarkou2024','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2402.08871" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -235,7 +261,7 @@ A list of my publications is also available on [Google Scholar](https://scholar.
     </pre></td>
 </tr>
 <tr id="Arnaudon2024" class="entry">
-    <td> [11] Arnaudon, A.; Schindler, D.J.; Peach, R.L.; Gosztolai, A.; Hodges, M.; Schaub, M.T. &amp; Barahona, M. (2024), <i>"Algorithm 1044: PyGenStability: Multiscale community detection with generalized Markov Stability"</i>, ACM Transactions on Mathematical Software. New York, NY, USA, June, 2024.  Association for Computing Machinery.
+    <td> [12] Arnaudon, A.; Schindler, D.J.; Peach, R.L.; Gosztolai, A.; Hodges, M.; Schaub, M.T. &amp; Barahona, M. (2024), <i>"Algorithm 1044: PyGenStability: Multiscale community detection with generalized Markov Stability"</i>, ACM Transactions on Mathematical Software. New York, NY, USA, June, 2024.  Association for Computing Machinery.
         <p class="infolinks">[<a href="javascript:toggleInfo('Arnaudon2024','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Arnaudon2024','bibtex')">BibTeX</a>] [<a href="https://doi.org/10.1145/3651225" target="_blank">DOI</a>] [<a href="https://arxiv.org/abs/2303.05385" target="_blank">URL</a>]</p>
     </td>
 </tr>
@@ -255,26 +281,6 @@ A list of my publications is also available on [Google Scholar](https://scholar.
            doi = {10.1145/3651225}
 }
     </pre></td>
-</tr>
-<tr id="Epping2024" class="entry">
-	<td> [12] Epping B, René A, Helias M and Schaub MT (2024), <i>"Graph Neural Networks Do Not Always Oversmooth"</i>, accepted at NeurIPS 2024. June, 2024.
-	<p class="infolinks">[<a href="javascript:toggleInfo('Epping2024','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Epping2024','bibtex')">BibTeX</a>] [<a href="https://arxiv.org/abs/2406.02269" target="_blank">URL</a>]</p>
-	</td>
-</tr>
-<tr id="abs_Epping2024" class="abstract noshow">
-	<td><b>Abstract</b>: Graph neural networks (GNNs) have emerged as powerful tools for processing relational data in applications. However, GNNs suffer from the problem of oversmoothing, the property that the features of all nodes exponentially converge to the same vector over layers, prohibiting the design of deep GNNs. In this work we study oversmoothing in graph convolutional networks (GCNs) by using their Gaussian process (GP) equivalence in the limit of infinitely many hidden features. By generalizing methods from conventional deep neural networks (DNNs), we can describe the distribution of features at the output layer of deep GCNs in terms of a GP: as expected, we find that typical parameter choices from the literature lead to oversmoothing. The theory, however, allows us to identify a new, nonoversmoothing phase: if the initial weights of the network have sufficiently large variance, GCNs do not oversmooth, and node features remain informative even at large depth. We demonstrate the validity of this prediction in finite-size GCNs by training a linear classifier on their output. Moreover, using the linearization of the GCN GP, we generalize the concept of propagation depth of information from DNNs to GCNs. This propagation depth diverges at the transition between the oversmoothing and non-oversmoothing phase. We test the predictions of our approach and find good agreement with finite-size GCNs. Initializing GCNs near the transition to the non-oversmoothing phase, we obtain networks which are both deep and expressive.</td>
-</tr>
-<tr id="bib_Epping2024" class="bibtex noshow">
-<td><b>BibTeX</b>:
-<pre>
-@misc{Epping2024,
-  author = {Bastian Epping and Alexandre René and Moritz Helias and Michael T. Schaub},
-  title = {Graph Neural Networks Do Not Always Oversmooth},
-  howpublished = {accepted at NeurIPS 2024},
-  year = {2024},
-  url = {https://arxiv.org/abs/2406.02269}
-}
-</pre></td>
 </tr>
 <tr id="Grande2024a" class="entry">
 	<td> [13] Grande VP and Schaub MT (2024), <i>"Node-Level Topological Representation Learning on Point Clouds"</i>. June, 2024.
@@ -1981,5 +1987,5 @@ A list of my publications is also available on [Google Scholar](https://scholar.
 </tbody>
 </table>
 <footer>
- <small>Created by <a href="http://jabref.sourceforge.net">JabRef</a> on 13/02/2025.</small>
+ <small>Created by <a href="http://jabref.sourceforge.net">JabRef</a> on 20/02/2025.</small>
 </footer>

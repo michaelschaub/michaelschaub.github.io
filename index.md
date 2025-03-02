@@ -18,7 +18,7 @@ Fo more information about my group at RWTH see [here](https://www.netsci.rwth-aa
 
 
 ### News and Events
-***February 12, 2025*** -- After some hiatus, there are many things that happened... There are also already two cool new preprints on the arxiv from 2025. One dealing with gradient descent training of GNNs [\[Paper1\]](https://arxiv.org/abs/2501.14440). Another one dealing with sparsification of simplicial complexes[\[Paper2\]](https://arxiv.org/abs/2501.14440)        
+***February 12, 2025*** -- After some hiatus, there are many things that happened... There are also already two cool new preprints on the arxiv from 2025. One dealing with gradient descent training of GNNs [\[Paper1\]](https://arxiv.org/abs/2501.14440). Another one dealing with sparsification of simplicial complexes [\[Paper2\]](https://arxiv.org/abs/2502.07558)        
 ***July 22-26, 2024*** -- I am attending the Newton Institute  workshop "Hypergraphs: Theory and Applications" at the Alan Turing Institute. If you are around, feel free to get in touch.     
 ***June 7, 2024*** -- Many cool new papers from my group uploaded to the arxiv in the last days -- check them out here: [\[Paper1\]](https://arxiv.org/abs/2406.02997)[\[Paper2\]](https://arxiv.org/abs/2406.02300)[\[Paper3\]](https://arxiv.org/abs/2406.02269)[\[Paper4\]](https://arxiv.org/abs/2406.01999).        
 ***June 3, 2024*** -- I am happy to announce that I have been selected as a member of the European Laboratory for Learning and Intelligent Systems (ELLIS).      

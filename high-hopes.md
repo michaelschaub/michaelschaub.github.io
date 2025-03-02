@@ -99,21 +99,25 @@ Research related to the present project was presented at the following places / 
 -------------
 ## Complete Publication list
 A list of all publications associated with this project is provided below:
-* Papamarkou, T.; Birdal, T.; Bronstein, M.; Carlsson, G.; Curry, J.; Gao, Y.; Hajij, M.; Kwitt, R.; Liò, P.; Lorenzo, P. D.; Maroulas, V.; Miolane, N.; Nasrin, F.; Ramamurthy, K. N.; Rieck, B.; Scardapane, S.; Schaub, M. T.; Veličković, P.; Wang, B.; Wang, Y.; Wei, G.-W. & Zamzmi, G., Position: Topological Deep Learning is the New Frontier for Relational Learning, *Proceedings of the 41st International Conference on Machine Learning (ICML 2024)*, 2024 
-* Neuhäuser, L.; Scholkemper, M.; Tudisco, F. & Schaub, M. T., Learning the effective order of a hypergraph dynamical system, *Science Advances*, 2024, 10, eadh4053 
-* Frantzen, F. & Schaub, M. T., Learning From Simplicial Data Based on Random Walks and 1D Convolutions, *International Conference on Learning Representations*, 2024
-* Grande, V. & Schaub, M. T., Disentangling the Spectral Properties of the Hodge Laplacian: Not All Small Eigenvalues Are Equal, *IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2024)*, 2024, 9896-9900 
-* Hajij, M.; Zamzmi, G.; Papamarkou, T.; Guzmán-Sáenz, A.; Birdal, T. & Schaub, M. T., Combinatorial Complexes: Bridging the Gap Between Cell Complexes and Hypergraphs, *57th Asilomar Conference on Signals, Systems, and Computers*, 2023, 799-803 
-* Hoppe, J. & Schaub, M. T., Representing Edge Flows on Graphs via Sparse Cell Complexes, *Proceedings of the Second Learning on Graphs Conference*, PMLR, 2023, 231, 1:1-1:22 (**Best Paper Award**)
-* Grande, V. P. & Schaub, M. T., Non-Isotropic Persistent Homology: Leveraging the Metric Dependency of PH, *Proceedings of the Second Learning on Graphs Conference*, PMLR, 2023, 231, 17:1-17:19  
-* Grande, V. P. & Schaub, M. T., Topological Point Cloud Clustering, *Proceedings of the 40th International Conference on Machine Learning (ICML 2023)*, PMLR, 2023, 202, 11683-11697 
+1. Epping, B.; René, A.; Helias, M. & Schaub, M. T., Graph Neural Networks Do Not Always Oversmooth, *Annual Conference on Neural Information Processing Systems (NeurIPS)*, 2024
+1. Hajij, M.; Papillon, M.; Frantzen, F.; Agerberg, J.; AlJabea, I.; Ballester, R.; Battiloro, C.; Bernárdez, G.; Birdal, T.; Brent, A.; Chin, P.; Escalera, S.; Fiorellino, S.; Gardaa, O. H.; Gopalakrishnan, G.; Govil, D.; Hoppe, J.; Karri, M. R.; Khouja, J.; Lecha, M.; Livesay, N.; Meißner, J.; Mukherjee, S.; Nikitin, A.; Papamarkou, T.; Prílepok, J.; Ramamurthy, K. N.; Rosen, P.; Guzmán-Sáenz, A.; Salatiello, A.; Samaga, S. N.; Scardapane, S.; Schaub, M. T.; Scofano, L.; Spinelli, I.; Telyatnikov, L.; Truong, Q.; Walters, R.; Yang, M.; Zaghen, O.; Zamzmi, G.; Zia, A. & Miolane, N., TopoX: A Suite of Python Packages for Machine Learning on Topological Domains, *Journal of Machine Learning Research (JMLR)*, 2024
+1.  Papamarkou, T.; Birdal, T.; Bronstein, M.; Carlsson, G.; Curry, J.; Gao, Y.; Hajij, M.; Kwitt, R.; Liò, P.; Lorenzo, P. D.; Maroulas, V.; Miolane, N.; Nasrin, F.; Ramamurthy, K. N.; Rieck, B.; Scardapane, S.; Schaub, M. T.; Veličković, P.; Wang, B.; Wang, Y.; Wei, G.-W. & Zamzmi, G., Position: Topological Deep Learning is the New Frontier for Relational Learning, *Proceedings of the 41st International Conference on Machine Learning (ICML 2024)*, 2024 
+1.  Neuhäuser, L.; Scholkemper, M.; Tudisco, F. & Schaub, M. T., Learning the effective order of a hypergraph dynamical system, *Science Advances*, 2024, 10, eadh4053 
+1.  Frantzen, F. & Schaub, M. T., Learning From Simplicial Data Based on Random Walks and 1D Convolutions, *International Conference on Learning Representations*, 2024
+1.  Grande, V. & Schaub, M. T., Disentangling the Spectral Properties of the Hodge Laplacian: Not All Small Eigenvalues Are Equal, *IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2024)*, 2024, 9896-9900 
+1.  Hajij, M.; Zamzmi, G.; Papamarkou, T.; Guzmán-Sáenz, A.; Birdal, T. & Schaub, M. T., Combinatorial Complexes: Bridging the Gap Between Cell Complexes and Hypergraphs, *57th Asilomar Conference on Signals, Systems, and Computers*, 2023, 799-803 
+1.  Hoppe, J. & Schaub, M. T., Representing Edge Flows on Graphs via Sparse Cell Complexes, *Proceedings of the Second Learning on Graphs Conference*, PMLR, 2023, 231, 1:1-1:22 (**Best Paper Award**)
+1.  Grande, V. P. & Schaub, M. T., Non-Isotropic Persistent Homology: Leveraging the Metric Dependency of PH, *Proceedings of the Second Learning on Graphs Conference*, PMLR, 2023, 231, 17:1-17:19  
+1.  Grande, V. P. & Schaub, M. T., Topological Point Cloud Clustering, *Proceedings of the 40th International Conference on Machine Learning (ICML 2023)*, PMLR, 2023, 202, 11683-11697 
 {: .text-justify}
 
 ### Preprints
 * Hoppe, J. & Schaub, M. T., Random Abstract Cell Complexes, 2024, [https://arxiv.org/abs/2406.01999](https://arxiv.org/abs/2406.01999)
-* Epping, B.; René, A.; Helias, M. & Schaub, M. T., Graph Neural Networks Do Not Always Oversmooth, 2024, [https://arxiv.org/abs/2406.02269](https://arxiv.org/abs/2406.02269)
 * Grande, V. P. & Schaub, M. T., Node-Level Topological Representation Learning on Point Clouds, 2024, [https://arxiv.org/abs/2406.02300](https://arxiv.org/abs/2406.02300) 
-* Hajij, M.; Papillon, M.; Frantzen, F.; Agerberg, J.; AlJabea, I.; Ballester, R.; Battiloro, C.; Bernárdez, G.; Birdal, T.; Brent, A.; Chin, P.; Escalera, S.; Fiorellino, S.; Gardaa, O. H.; Gopalakrishnan, G.; Govil, D.; Hoppe, J.; Karri, M. R.; Khouja, J.; Lecha, M.; Livesay, N.; Meißner, J.; Mukherjee, S.; Nikitin, A.; Papamarkou, T.; Prílepok, J.; Ramamurthy, K. N.; Rosen, P.; Guzmán-Sáenz, A.; Salatiello, A.; Samaga, S. N.; Scardapane, S.; Schaub, M. T.; Scofano, L.; Spinelli, I.; Telyatnikov, L.; Truong, Q.; Walters, R.; Yang, M.; Zaghen, O.; Zamzmi, G.; Zia, A. & Miolane, N., TopoX: A Suite of Python Packages for Machine Learning on Topological Domains 2024, [https://arxiv.org/abs/2402.02441](https://arxiv.org/abs/2402.02441)
+* Hajij, M.; Zamzmi, G.; Papamarkou, T.; Miolane, N.; Guzmán-Sáenz, A.; Ramamurthy, K. N.; Birdal, T.; Dey, T. K.; Mukherjee, S.; Samaga, S. N. & others
+Topological Deep Learning: Going Beyond Graph Data, 2024 [https://arxiv.org/abs/2206.00606](https://arxiv.org/abs/2206.00606)     
+* Savostianov, A.; Schaub, M. T.; Guglielmi, N. & Tudisco, F., Efficient Sparsification of Simplicial Complexes via Local Densities of States, 2025, [https://arxiv.org/abs/2502.07558](https://arxiv.org/abs/2502.07558)
+
 {: .text-justify}
 
 -------------

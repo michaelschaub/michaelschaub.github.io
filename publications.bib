@@ -902,6 +902,7 @@ In the third part, we discuss how to use dynamical processes unfolding on the ne
 Specifically, we first introduce combinatorial complexes, a novel type of topological domain. Combinatorial complexes can be seen as generalizations of graphs that maintain certain desirable properties. Similar to hypergraphs, combinatorial complexes impose no constraints on the set of relations. In addition, combinatorial complexes permit the construction of hierarchical higher-order relations, analogous to those found in simplicial and cell complexes. Thus, combinatorial complexes generalize and combine useful traits of both hypergraphs and cell complexes, which have emerged as two promising abstractions that facilitate the generalization of graph neural networks to topological spaces.
 Second, building upon combinatorial complexes and their rich combinatorial and algebraic structure, we develop a general class of message-passing combinatorial complex neural networks (CCNNs), focusing primarily on attention-based CCNNs. We characterize permutation and orientation equivariances of CCNNs, and discuss pooling and unpooling operations within CCNNs in detail.
 Third, we evaluate the performance of CCNNs on tasks related to mesh shape analysis and graph learning. Our experiments demonstrate that CCNNs have competitive performance as compared to state-of-the-art deep learning models specifically tailored to the same tasks. Our findings demonstrate the advantages of incorporating higher-order relations into deep learning models in different applications.},
+  groups   = {erc},
   url      = {https://arxiv.org/abs/2206.00606},
 }
 
@@ -1077,19 +1078,18 @@ Third, we evaluate the performance of CCNNs on tasks related to mesh shape analy
 }
 
 @Article{Hajij2024,
-  author       = {Mustafa Hajij and Mathilde Papillon and Florian Frantzen and Jens Agerberg and Ibrahem AlJabea and Ruben Ballester and Claudio Battiloro and Guillermo Bernárdez and Tolga Birdal and Aiden Brent and Peter Chin and Sergio Escalera and Simone Fiorellino and Odin Hoff Gardaa and Gurusankar Gopalakrishnan and Devendra Govil and Josef Hoppe and Maneel Reddy Karri and Jude Khouja and Manuel Lecha and Neal Livesay and Jan Meißner and Soham Mukherjee and Alexander Nikitin and Theodore Papamarkou and Jaro Prílepok and Karthikeyan Natesan Ramamurthy and Paul Rosen and Aldo Guzmán-Sáenz and Alessandro Salatiello and Shreyas N. Samaga and Simone Scardapane and Michael T. Schaub and Luca Scofano and Indro Spinelli and Lev Telyatnikov and Quang Truong and Robin Walters and Maosheng Yang and Olga Zaghen and Ghada Zamzmi and Ali Zia and Nina Miolane},
-  journal      = {Journal of Machine Learning Research},
-  title        = {TopoX: A Suite of Python Packages for Machine Learning on Topological Domains},
-  year         = {2024},
-  month        = dec,
-  number       = {374},
-  pages        = {1--8},
-  volume       = {25},
-  abstract     = {We introduce TopoX, a Python software suite that provides reliable and user-friendly building blocks for computing and machine learning on topological domains that extend graphs: hypergraphs, simplicial, cellular, path and combinatorial complexes. TopoX consists of three packages: TopoNetX facilitates constructing and computing on these domains, including working with nodes, edges and higher-order cells; TopoEmbedX provides methods to embed topological domains into vector spaces, akin to popular graph-based embedding algorithms such as node2vec; TopoModelx is built on top of PyTorch and offers a comprehensive toolbox of higher-order message passing functions for neural networks on topological domains. The extensively documented and unit-tested source code of TopoX is available under MIT license at this https URL.},
-  doi          = {10.48550/arXiv.2402.02441},
-  groups       = {erc},
-  howpublished = {arxiv},
-  url          = {http://jmlr.org/papers/v25/24-0110.html},
+  author   = {Mustafa Hajij and Mathilde Papillon and Florian Frantzen and Jens Agerberg and Ibrahem AlJabea and Ruben Ballester and Claudio Battiloro and Guillermo Bernárdez and Tolga Birdal and Aiden Brent and Peter Chin and Sergio Escalera and Simone Fiorellino and Odin Hoff Gardaa and Gurusankar Gopalakrishnan and Devendra Govil and Josef Hoppe and Maneel Reddy Karri and Jude Khouja and Manuel Lecha and Neal Livesay and Jan Meißner and Soham Mukherjee and Alexander Nikitin and Theodore Papamarkou and Jaro Prílepok and Karthikeyan Natesan Ramamurthy and Paul Rosen and Aldo Guzmán-Sáenz and Alessandro Salatiello and Shreyas N. Samaga and Simone Scardapane and Michael T. Schaub and Luca Scofano and Indro Spinelli and Lev Telyatnikov and Quang Truong and Robin Walters and Maosheng Yang and Olga Zaghen and Ghada Zamzmi and Ali Zia and Nina Miolane},
+  journal  = {Journal of Machine Learning Research},
+  title    = {TopoX: A Suite of Python Packages for Machine Learning on Topological Domains},
+  year     = {2024},
+  month    = dec,
+  number   = {374},
+  pages    = {1--8},
+  volume   = {25},
+  abstract = {We introduce TopoX, a Python software suite that provides reliable and user-friendly building blocks for computing and machine learning on topological domains that extend graphs: hypergraphs, simplicial, cellular, path and combinatorial complexes. TopoX consists of three packages: TopoNetX facilitates constructing and computing on these domains, including working with nodes, edges and higher-order cells; TopoEmbedX provides methods to embed topological domains into vector spaces, akin to popular graph-based embedding algorithms such as node2vec; TopoModelx is built on top of PyTorch and offers a comprehensive toolbox of higher-order message passing functions for neural networks on topological domains. The extensively documented and unit-tested source code of TopoX is available under MIT license at this https URL.},
+  doi      = {10.48550/arXiv.2402.02441},
+  groups   = {erc},
+  url      = {http://jmlr.org/papers/v25/24-0110.html},
 }
 
 @InProceedings{Papamarkou2024,
@@ -1124,15 +1124,20 @@ Third, we evaluate the performance of CCNNs on tasks related to mesh shape analy
   url      = {https://arxiv.org/abs/2406.01999},
 }
 
-@Misc{Epping2024,
-  author       = {Bastian Epping and Alexandre René and Moritz Helias and Michael T. Schaub},
-  howpublished = {accepted at NeurIPS 2024},
-  month        = jun,
-  title        = {Graph Neural Networks Do Not Always Oversmooth},
-  year         = {2024},
-  abstract     = {Graph neural networks (GNNs) have emerged as powerful tools for processing relational data in applications. However, GNNs suffer from the problem of oversmoothing, the property that the features of all nodes exponentially converge to the same vector over layers, prohibiting the design of deep GNNs. In this work we study oversmoothing in graph convolutional networks (GCNs) by using their Gaussian process (GP) equivalence in the limit of infinitely many hidden features. By generalizing methods from conventional deep neural networks (DNNs), we can describe the distribution of features at the output layer of deep GCNs in terms of a GP: as expected, we find that typical parameter choices from the literature lead to oversmoothing. The theory, however, allows us to identify a new, nonoversmoothing phase: if the initial weights of the network have sufficiently large variance, GCNs do not oversmooth, and node features remain informative even at large depth. We demonstrate the validity of this prediction in finite-size GCNs by training a linear classifier on their output. Moreover, using the linearization of the GCN GP, we generalize the concept of propagation depth of information from DNNs to GCNs. This propagation depth diverges at the transition between the oversmoothing and non-oversmoothing phase. We test the predictions of our approach and find good agreement with finite-size GCNs. Initializing GCNs near the transition to the non-oversmoothing phase, we obtain networks which are both deep and expressive.},
-  groups       = {erc},
-  url          = {https://arxiv.org/abs/2406.02269},
+@InProceedings{Epping2024,
+  author    = {Bastian Epping and Alexandre René and Moritz Helias and Michael T. Schaub},
+  booktitle = {Advances in Neural Information Processing Systems},
+  title     = {Graph Neural Networks Do Not Always Oversmooth},
+  year      = {2024},
+  editor    = {A. Globerson and L. Mackey and D. Belgrave and A. Fan and U. Paquet and J. Tomczak and C. Zhang},
+  month     = dec,
+  pages     = {48164--48188},
+  publisher = {Curran Associates, Inc.},
+  volume    = {37},
+  abstract  = {Graph neural networks (GNNs) have emerged as powerful tools for processing relational data in applications. However, GNNs suffer from the problem of oversmoothing, the property that the features of all nodes exponentially converge to the same vector over layers, prohibiting the design of deep GNNs. In this work we study oversmoothing in graph convolutional networks (GCNs) by using their Gaussian process (GP) equivalence in the limit of infinitely many hidden features. By generalizing methods from conventional deep neural networks (DNNs), we can describe the distribution of features at the output layer of deep GCNs in terms of a GP: as expected, we find that typical parameter choices from the literature lead to oversmoothing. The theory, however, allows us to identify a new, nonoversmoothing phase: if the initial weights of the network have sufficiently large variance, GCNs do not oversmooth, and node features remain informative even at large depth. We demonstrate the validity of this prediction in finite-size GCNs by training a linear classifier on their output. Moreover, using the linearization of the GCN GP, we generalize the concept of propagation depth of information from DNNs to GCNs. This propagation depth diverges at the transition between the oversmoothing and non-oversmoothing phase. We test the predictions of our approach and find good agreement with finite-size GCNs. Initializing GCNs near the transition to the non-oversmoothing phase, we obtain networks which are both deep and expressive.},
+  doi       = {10.48550/arXiv.2406.02269},
+  groups    = {erc},
+  url       = {https://proceedings.neurips.cc/paper_files/paper/2024/file/5623c35f3ab5e2c72aeb3abce27dc28f-Paper-Conference.pdf},
 }
 
 @Misc{Grande2024a,
@@ -1164,14 +1169,15 @@ Third, we evaluate the performance of CCNNs on tasks related to mesh shape analy
   url      = {https://arxiv.org/abs/2406.06642},
 }
 
-@Misc{Grande2024b,
-  author   = {Grande, Vincent P and Hoppe, Josef and Frantzen, Florian and Schaub, Michael T},
-  month    = dec,
-  title    = {Topological Trajectory Classification and Landmark Inference on Simplicial Complexes},
-  year     = {2024},
-  abstract = {We consider the problem of classifying trajectories on a discrete or discretised 2-dimensional manifold modelled by a simplicial complex. Previous works have proposed to project the trajectories into the harmonic eigenspace of the Hodge Laplacian, and then cluster the resulting embeddings. However, if the considered space has vanishing homology (i.e., no "holes"), then the harmonic space of the 1-Hodge Laplacian is trivial and thus the approach fails. Here we propose to view this issue akin to a sensor placement problem and present an algorithm that aims to learn "optimal holes" to distinguish a set of given trajectory classes. Specifically, given a set of labelled trajectories, which we interpret as edge-flows on the underlying simplicial complex, we search for 2-simplices whose deletion results in an optimal separation of the trajectory labels according to the corresponding spectral embedding of the trajectories into the harmonic space. Finally, we generalise this approach to the unsupervised setting.},
-  groups   = {erc},
-  url      = {https://doi.org/10.48550/arXiv.2412.03145},
+@InProceedings{Grande2024b,
+  author    = {Grande, Vincent P and Hoppe, Josef and Frantzen, Florian and Schaub, Michael T},
+  booktitle = {58th Annual Asilomar Conference on Signals, Systems, and Computers},
+  title     = {Topological Trajectory Classification and Landmark Inference on Simplicial Complexes},
+  year      = {2024},
+  month     = dec,
+  abstract  = {We consider the problem of classifying trajectories on a discrete or discretised 2-dimensional manifold modelled by a simplicial complex. Previous works have proposed to project the trajectories into the harmonic eigenspace of the Hodge Laplacian, and then cluster the resulting embeddings. However, if the considered space has vanishing homology (i.e., no "holes"), then the harmonic space of the 1-Hodge Laplacian is trivial and thus the approach fails. Here we propose to view this issue akin to a sensor placement problem and present an algorithm that aims to learn "optimal holes" to distinguish a set of given trajectory classes. Specifically, given a set of labelled trajectories, which we interpret as edge-flows on the underlying simplicial complex, we search for 2-simplices whose deletion results in an optimal separation of the trajectory labels according to the corresponding spectral embedding of the trajectories into the harmonic space. Finally, we generalise this approach to the unsupervised setting.},
+  groups    = {erc},
+  url       = {https://doi.org/10.48550/arXiv.2412.03145},
 }
 
 @Misc{Witthaut2024,
@@ -1203,6 +1209,7 @@ Third, we evaluate the performance of CCNNs on tasks related to mesh shape analy
   year     = {2025},
   abstract = {Simplicial complexes (SCs), a generalization of graph models for relational data that account for higher-order relations between data items, have become a popular abstraction for analyzing complex data using tools from topological data analysis or topological signal processing. However, the analysis of many real-world datasets leads to dense SCs with a large number of higher-order interactions. Unfortunately, analyzing such large SCs often has a prohibitive cost in terms of computation time and memory consumption. The sparsification of such complexes, i.e., the approximation of an original SC with a sparser simplicial complex with only a log-linear number of high-order simplices while maintaining a spectrum close to the original SC, is of broad interest.
 In this work, we develop a novel method for a probabilistic sparsifaction of SCs. At its core lies the efficient computation of sparsifying sampling probability through local densities of states as functional descriptors of the spectral information. To avoid pathological structures in the spectrum of the corresponding Hodge Laplacian operators, we suggest a "kernel-ignoring" decomposition for approximating the sampling probability; additionally, we exploit error estimates to show asymptotically prevailing algorithmic complexity of the developed method. The performance of the framework is demonstrated on the family of Vietoris--Rips filtered simplicial complexes.},
+  groups   = {erc},
   url      = {https://arxiv.org/abs/2502.07558},
 }
 
@@ -1216,3 +1223,8 @@ In this work, we develop a novel method for a probabilistic sparsifaction of SCs
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
+
+@Comment{jabref-meta: grouping:
+0 AllEntriesGroup:;
+1 KeywordGroup:erc\;0\;groups\;erc\;0\;0\;1\;0x0000ffff\;\;\;;
+}
