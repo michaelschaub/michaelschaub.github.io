@@ -1103,13 +1103,17 @@ Third, we evaluate the performance of CCNNs on tasks related to mesh shape analy
   url       = {https://arxiv.org/abs/2402.08871},
 }
 
-@Misc{Fanuel2024,
-  author   = {Michaël Fanuel and Antoine Aspeel and Michael T. Schaub and Jean-Charles Delvenne},
+@Article{Fanuel2025,
+  author   = {Fanuel, Micha\"{e}l and Aspeel, Antoine and Schaub, Michael T. and Delvenne, Jean-Charles},
+  journal  = {SIAM Journal on Applied Mathematics},
+  title    = {Ellipsoidal Embeddings of Graphs},
+  year     = {2025},
   month    = mar,
-  note     = {accepted for publication at SIAM Journal on Applied Mathematics},
-  title    = {Ellipsoidal embeddings of graphs},
-  year     = {2024},
-  abstract = {Due to their flexibility to represent almost any kind of relational data, graph-based models have enjoyed a tremendous success over the past decades. While graphs are inherently only combinatorial objects, however, many prominent analysis tools are based on the algebraic representation of graphs via matrices such as the graph Laplacian, or on associated graph embeddings. Such embeddings associate to each node a set of coordinates in a vector space, a representation which can then be employed for learning tasks such as the classification or alignment of the nodes of the graph. As the geometric picture provided by embedding methods enables the use of a multitude of methods developed for vector space data, embeddings have thus gained interest both from a theoretical as well as a practical perspective. Inspired by trace-optimization problems, often encountered in the analysis of graph-based data, here we present a method to derive ellipsoidal embeddings of the nodes of a graph, in which each node is assigned a set of coordinates on the surface of a hyperellipsoid. Our method may be seen as an alternative to popular spectral embedding techniques, to which it shares certain similarities we discuss. To illustrate the utility of the embedding we conduct a case study in which we analyse synthetic and real world networks with modular structure, and compare the results obtained with known methods in the literature.},
+  number   = {2},
+  pages    = {413-432},
+  volume   = {85},
+  abstract = {Abstract. Due to their flexibility to represent almost any kind of relational data, graph-based models have enjoyed tremendous success over the past decades. While graphs are inherently only combinatorial objects, however, many prominent analysis tools are based on the algebraic representation of graphs via matrices such as the graph Laplacian, or on associated graph embeddings. Such embeddings associate to each node a set of coordinates in a vector space, a representation that can then be employed for learning tasks such as the classification or alignment of the nodes of the graph. As the geometric picture provided by embedding methods enables the use of a multitude of methods developed for vector space data, embeddings have thus gained interest from a theoretical as well as a practical perspective. Inspired by trace optimization problems, often encountered in the analysis of graph-based data, here we present a method to derive ellipsoidal embeddings of the nodes of a graph, in which each node is assigned a set of coordinates in a hyperellipsoid. Our method may be seen as an alternative to popular spectral embedding techniques, with which it shares certain similarities we discuss. To illustrate the utility of the embedding we conduct a case study in which we analyze synthetic and real world networks with modular structure, and compare the results obtained with known methods in the literature.},
+  doi      = {10.1137/24M1648363},
   url      = {https://arxiv.org/abs/2403.15023},
 }
 
@@ -1216,6 +1220,27 @@ In this work, we develop a novel method for a probabilistic sparsifaction of SCs
   year     = {2025},
   abstract = {Graph Neural Networks (GNNs) are powerful tools for addressing learning problems on graph structures, with a wide range of applications in molecular biology and social networks. However, the theoretical foundations underlying their empirical performance are not well understood. In this article, we examine the convergence of gradient dynamics in the training of linear GNNs. Specifically, we prove that the gradient flow training of a linear GNN with mean squared loss converges to the global minimum at an exponential rate. The convergence rate depends explicitly on the initial weights and the graph shift operator, which we validate on synthetic datasets from well-known graph models and real-world datasets. Furthermore, we discuss the gradient flow that minimizes the total weights at the global minimum. In addition to the gradient flow, we study the convergence of linear GNNs under gradient descent training, an iterative scheme viewed as a discretization of gradient flow.},
   url      = {https://arxiv.org/abs/2501.14440},
+}
+
+@InProceedings{Rompelberg2025,
+  author    = {Rompelberg, Lennard and Schaub, Michael T.},
+  booktitle = {ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  title     = {A Bayesian Perspective on Uncertainty Quantification for Estimated Graph Signals},
+  year      = {2025},
+  month     = apr,
+  pages     = {1-5},
+  abstract  = {We present a Bayesian perspective on quantifying the uncertainty of graph signals estimated or reconstructed from imperfect observations. We show that many conventional methods of graph signal estimation, reconstruction and imputation, can be reinterpreted as finding the mean of a posterior Gaussian distribution, with a covariance matrix shaped by the graph structure. In this perspective, assumptions of signal smoothness as well as bandlimitedness are naturally expressible as the choice of certain prior distributions; noisy, noise-free or partial observations are expressible in terms of certain likelihood models. In addition to providing a point estimate, as most standard estimation strategies do, our probabilistic framework enables us to characterize the shape of the estimated signal distribution around the estimate in terms of the posterior covariance matrix.},
+  doi       = {10.1109/ICASSP49660.2025.10889783},
+  url       = {https://arxiv.org/abs/2502.12971},
+}
+
+@Misc{Cheng2025,
+  author   = {Cheng, Mingbo and Jansen, Jitske and Reimer, Katharina and Grande, Vincent and Nagai, James Shiniti and Li, Zhijian and Kie{\ss}ling, Paul and Grasshoff, Martin and Kuppe, Christoph and Schaub, Michael T. and Kramann, Rafael and Costa, Ivan G.},
+  month    = mar,
+  title    = {PHLOWER - Single cell trajectory analysis using Hodge Decomposition},
+  year     = {2025},
+  abstract = {Multi-modal single-cell sequencing, which captures changes in chromatin and gene expression in the same cells, is a game changer in the study of gene regulation in cellular differentiation processes. Computational trajectory analysis is a key computational task for inferring differentiation trees from this single-cell data, though current methods struggle with complex, multi-branching trees and multi-modal data. To address this, PHLOWER (decomPosition of the Hodge Laplacian for inferring trajectOries from floWs of cEll diffeRentiation) leverages the harmonic component of the Hodge decomposition on simplicial complexes to infer trajectory embeddings. These natural representations of cell differentiation facilitate the estimation of their underlying differentiation trees. We evaluate PHLOWER through benchmarking with multi-branching differentiation trees and using novel kidney organoid multi-modal and spatial single-cell data. These demonstrate the power of PHLOWER in both the inference of complex trees and the identification of transcription factors regulating off-target cells in kidney organoids.Competing Interest StatementThe authors have declared no competing interest.},
+  url      = {https://www.biorxiv.org/content/early/2025/03/04/2024.10.01.613179},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
