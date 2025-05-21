@@ -1073,8 +1073,9 @@ Third, we evaluate the performance of CCNNs on tasks related to mesh shape analy
   month        = apr,
   abstract     = {Triggered by limitations of graph-based deep learning methods in terms of computational expressivity and model flexibility, recent years have seen a surge of interest in computational models that operate on higher-order topological domains such as hypergraphs and simplicial complexes. While the increased expressivity of these models can indeed lead to a better classification performance and a more faithful representation of the underlying system, the computational cost of these higher-order models can increase dramatically. To this end, we here explore a simplicial complex neural network learning architecture based on random walks and fast 1D convolutions (SCRaWl), in which we can adjust the increase in computational cost by varying the length and number of random walks considered while accounting for higher-order relationships. Importantly, due to the random walk-based design, the expressivity of the proposed architecture is provably incomparable to that of existing message-passing simplicial neural networks. We empirically evaluate SCRaWl on real-world datasets and show that it outperforms other simplicial neural networks.},
   creationdate = {2024-04-12T17:31:05},
+  doi          = {10.48550/arXiv.2404.03434},
   groups       = {erc},
-  url          = {https://arxiv.org/abs/2404.03434},
+  url          = {https://openreview.net/forum?id=OsGUnYOzii},
 }
 
 @Article{Hajij2024,
@@ -1154,13 +1155,15 @@ Third, we evaluate the performance of CCNNs on tasks related to mesh shape analy
   url      = {https://arxiv.org/abs/2406.02300},
 }
 
-@Misc{Scholkemper2024a,
-  author   = {Michael Scholkemper and Xinyi Wu and Ali Jadbabaie and Michael Schaub},
-  month    = jun,
-  title    = {Residual Connections and Normalization Can Provably Prevent Oversmoothing in GNNs},
-  year     = {2024},
-  abstract = {Residual connections and normalization layers have become standard design choices for graph neural networks (GNNs), and were proposed as solutions to the mitigate the oversmoothing problem in GNNs. However, how exactly these methods help alleviate the oversmoothing problem from a theoretical perspective is not well understood. In this work, we provide a formal and precise characterization of (linearized) GNNs with residual connections and normalization layers. We establish that (a) for residual connections, the incorporation of the initial features at each layer can prevent the signal from becoming too smooth, and determines the subspace of possible node representations; (b) batch normalization prevents a complete collapse of the output embedding space to a one-dimensional subspace through the individual rescaling of each column of the feature matrix. This results in the convergence of node representations to the top-k eigenspace of the message-passing operator; (c) moreover, we show that the centering step of a normalization layer -- which can be understood as a projection -- alters the graph signal in message-passing in such a way that relevant information can become harder to extract. We therefore introduce a novel, principled normalization layer called GraphNormv2 in which the centering step is learned such that it does not distort the original graph signal in an undesirable way. Experimental results confirm the effectiveness of our method.},
-  url      = {https://arxiv.org/abs/2406.02997},
+@InProceedings{Scholkemper2025,
+  author    = {Michael Scholkemper and Xinyi Wu and Ali Jadbabaie and Michael Schaub},
+  booktitle = {International Conference on Learning Representations (ICLR 2025)},
+  title     = {Residual Connections and Normalization Can Provably Prevent Oversmoothing in GNNs},
+  year      = {2025},
+  month     = apr,
+  abstract  = {Residual connections and normalization layers have become standard design choices for graph neural networks (GNNs), and were proposed as solutions to the mitigate the oversmoothing problem in GNNs. However, how exactly these methods help alleviate the oversmoothing problem from a theoretical perspective is not well understood. In this work, we provide a formal and precise characterization of (linearized) GNNs with residual connections and normalization layers. We establish that (a) for residual connections, the incorporation of the initial features at each layer can prevent the signal from becoming too smooth, and determines the subspace of possible node representations; (b) batch normalization prevents a complete collapse of the output embedding space to a one-dimensional subspace through the individual rescaling of each column of the feature matrix. This results in the convergence of node representations to the top-k eigenspace of the message-passing operator; (c) moreover, we show that the centering step of a normalization layer -- which can be understood as a projection -- alters the graph signal in message-passing in such a way that relevant information can become harder to extract. We therefore introduce a novel, principled normalization layer called GraphNormv2 in which the centering step is learned such that it does not distort the original graph signal in an undesirable way. Experimental results confirm the effectiveness of our method.},
+  doi       = {10.48550/arXiv.2406.02997},
+  url       = {https://openreview.net/forum?id=i8vPRlsrYu},
 }
 
 @Misc{Telyatnikov2024,
@@ -1178,9 +1181,12 @@ Third, we evaluate the performance of CCNNs on tasks related to mesh shape analy
   booktitle = {58th Annual Asilomar Conference on Signals, Systems, and Computers},
   title     = {Topological Trajectory Classification and Landmark Inference on Simplicial Complexes},
   year      = {2024},
-  month     = dec,
+  month     = oct,
+  pages     = {44-48},
   abstract  = {We consider the problem of classifying trajectories on a discrete or discretised 2-dimensional manifold modelled by a simplicial complex. Previous works have proposed to project the trajectories into the harmonic eigenspace of the Hodge Laplacian, and then cluster the resulting embeddings. However, if the considered space has vanishing homology (i.e., no "holes"), then the harmonic space of the 1-Hodge Laplacian is trivial and thus the approach fails. Here we propose to view this issue akin to a sensor placement problem and present an algorithm that aims to learn "optimal holes" to distinguish a set of given trajectory classes. Specifically, given a set of labelled trajectories, which we interpret as edge-flows on the underlying simplicial complex, we search for 2-simplices whose deletion results in an optimal separation of the trajectory labels according to the corresponding spectral embedding of the trajectories into the harmonic space. Finally, we generalise this approach to the unsupervised setting.},
+  doi       = {10.1109/IEEECONF60004.2024.10942887},
   groups    = {erc},
+  issn      = {2576-2303},
   url       = {https://doi.org/10.48550/arXiv.2412.03145},
 }
 
@@ -1241,6 +1247,30 @@ In this work, we develop a novel method for a probabilistic sparsifaction of SCs
   year     = {2025},
   abstract = {Multi-modal single-cell sequencing, which captures changes in chromatin and gene expression in the same cells, is a game changer in the study of gene regulation in cellular differentiation processes. Computational trajectory analysis is a key computational task for inferring differentiation trees from this single-cell data, though current methods struggle with complex, multi-branching trees and multi-modal data. To address this, PHLOWER (decomPosition of the Hodge Laplacian for inferring trajectOries from floWs of cEll diffeRentiation) leverages the harmonic component of the Hodge decomposition on simplicial complexes to infer trajectory embeddings. These natural representations of cell differentiation facilitate the estimation of their underlying differentiation trees. We evaluate PHLOWER through benchmarking with multi-branching differentiation trees and using novel kidney organoid multi-modal and spatial single-cell data. These demonstrate the power of PHLOWER in both the inference of complex trees and the identification of transcription factors regulating off-target cells in kidney organoids.Competing Interest StatementThe authors have declared no competing interest.},
   url      = {https://www.biorxiv.org/content/early/2025/03/04/2024.10.01.613179},
+}
+
+@Article{Nagai2025,
+  author   = {Nagai, James S and Maié, Tiago and Schaub, Michael T and Costa, Ivan G},
+  journal  = {Bioinformatics},
+  title    = {scACCorDiON: A clustering approach for explainable patient level cell-cell communication graph analysis},
+  year     = {2025},
+  issn     = {1367-4811},
+  month    = {05},
+  pages    = {btaf288},
+  abstract = {Combining single-cell sequencing with ligand-receptor analysis paves the way for the characterization of cell communication events in complex tissues. In particular, directed weighted graphs naturally represent cell-cell communication events. However, current computational methods cannot yet analyze sample-specific cell-cell communication events, as measured in single-cell data produced in large patient cohorts. Cohort-based cell-cell communication analysis presents many challenges, such as the non-linear nature of cell-cell communication and the high variability given by the patient-specific single-cell RNAseq datasets.Here, we present scACCorDiON (single-cell Analysis of Cell-Cell Communication in Disease clusters using Optimal transport in Directed Networks), an optimal transport algorithm exploring node distances on the Markov Chain as the ground metric between directed weighted graphs. Benchmarking indicates that scACCorDiON performs a better clustering of samples according to their disease status than competing methods that use undirected graphs. We provide a case study of pancreas adenocarcinoma, where scACCorDion detects a sub-cluster of disease samples associated with changes in the tumor microenvironment. Our study case corroborates that clusters provide a robust and explainable representation of cell-cell communication events and that the expression of detected ligand-receptor pairs is predictive of pancreatic cancer survival.The code of scACCorDiON is available at https://scaccordion.readthedocs.io/en/latest/. and https://doi.org/10.5281/zenodo.15267648. The survival analysis package can be found at https://github.com/CostaLab/scACCorDiON.suSupplementary data are available at Bioinformatics online.},
+  doi      = {10.1093/bioinformatics/btaf288},
+  url      = {https://www.biorxiv.org/content/10.1101/2024.08.07.606989v1},
+}
+
+@InProceedings{Stamm2025,
+  author    = {Felix I. Stamm and Mehdi Naima and Michael T. Schaub},
+  booktitle = {Proceedings of the 2025 SIAM International Conference on Data Mining (SDM)},
+  title     = {Efficient Sampling of Temporal Networks with Preserved Causality Structure},
+  year      = {2025},
+  pages     = {171-180},
+  abstract  = {Abstract In this paper, we extend the classical Color Refinement algorithm for static networks to temporal (undirected and directed) networks. This enables us to design an algorithm to sample synthetic networks that preserves the d-hop neighborhood structure of a given temporal network. The higher d is chosen, the better the temporal neighborhood structure of the original network is preserved. Specifically, we provide efficient algorithms that preserve time-respecting (”causal”) paths in the networks up to length d, and scale to real-world network sizes. We validate our approach theoretically (for Degree and Katz centrality) and experimentally (for edge persistence, causal triangles, and burstiness). An experimental comparison shows that our method retains these key temporal characteristics more effectively than existing randomization methods.},
+  doi       = {10.1137/1.9781611978520.16},
+  url       = {https://arxiv.org/abs/2501.09856},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
