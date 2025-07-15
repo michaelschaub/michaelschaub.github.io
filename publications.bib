@@ -1148,7 +1148,7 @@ Third, we evaluate the performance of CCNNs on tasks related to mesh shape analy
 @Misc{Grande2024a,
   author   = {Vincent P. Grande and Michael T. Schaub},
   month    = jun,
-  title    = {Node-Level Topological Representation Learning on Point Clouds},
+  title    = {Point-Level Topological Representation Learning on Point Clouds},
   year     = {2024},
   abstract = {Topological Data Analysis (TDA) allows us to extract powerful topological and higher-order information on the global shape of a data set or point cloud. Tools like Persistent Homology or the Euler Transform give a single complex description of the global structure of the point cloud. However, common machine learning applications like classification require point-level information and features to be available. In this paper, we bridge this gap and propose a novel method to extract node-level topological features from complex point clouds using discrete variants of concepts from algebraic topology and differential geometry. We verify the effectiveness of these topological point features (TOPF) on both synthetic and real-world data and study their robustness under noise.},
   groups   = {erc},
@@ -1173,6 +1173,7 @@ Third, we evaluate the performance of CCNNs on tasks related to mesh shape analy
   title    = {TopoBenchmarkX: A Framework for Benchmarking Topological Deep Learning},
   year     = {2024},
   abstract = {This work introduces TopoBenchmarkX, a modular open-source library designed to standardize benchmarking and accelerate research in Topological Deep Learning (TDL). TopoBenchmarkX maps the TDL pipeline into a sequence of independent and modular components for data loading and processing, as well as model training, optimization, and evaluation. This modular organization provides flexibility for modifications and facilitates the adaptation and optimization of various TDL pipelines. A key feature of TopoBenchmarkX is that it allows for the transformation and lifting between topological domains. This enables, for example, to obtain richer data representations and more fine-grained analyses by mapping the topology and features of a graph to higher-order topological domains such as simplicial and cell complexes. The range of applicability of TopoBenchmarkX is demonstrated by benchmarking several TDL architectures for various tasks and datasets.},
+  groups   = {erc},
   url      = {https://arxiv.org/abs/2406.06642},
 }
 
@@ -1199,12 +1200,18 @@ Third, we evaluate the performance of CCNNs on tasks related to mesh shape analy
   url      = {https://doi.org/10.21203/rs.3.rs-5367657/v1},
 }
 
-@Misc{Heck2024,
-  author   = {Heck, Linus and Gelbrecht, Maximilian and Schaub, Michael T and Boers, Niklas},
-  month    = dec,
-  title    = {Improving the Noise Estimation of Latent Neural Stochastic Differential Equations},
-  year     = {2024},
-  abstract = {Latent neural stochastic differential equations (SDEs) have recently emerged as a promising approach for learning generative models from stochastic time series data. However, they systematically underestimate the noise level inherent in such data, limiting their ability to capture stochastic dynamics accurately. We investigate this underestimation in detail and propose a straightforward solution: by including an explicit additional noise regularization in the loss function, we are able to learn a model that accurately captures the diffusion component of the data. We demonstrate our results on a conceptual model system that highlights the improved latent neural SDE's capability to model stochastic bistable dynamics.},
+@Article{Heck2025,
+  author   = {Heck, L. and Gelbrecht, M. and Schaub, M. T. and Boers, N.},
+  journal  = {Chaos: An Interdisciplinary Journal of Nonlinear Science},
+  title    = {Improving the noise estimation of latent neural stochastic differential equations},
+  year     = {2025},
+  issn     = {1054-1500},
+  month    = jun,
+  number   = {6},
+  pages    = {063139},
+  volume   = {35},
+  abstract = {Latent neural stochastic differential equations (SDEs) have recently emerged as a promising approach for learning generative models from stochastic time series data. However, they systematically underestimate the noise level inherent in such data, limiting their ability to capture stochastic dynamics accurately. We investigate this underestimation in detail and propose a straightforward solution; by including an explicit additional noise regularization in the loss function, we are able to learn a model that accurately captures the diffusion component of the data. We demonstrate our results on a conceptual model system that highlights the improved latent neural SDE’s capability to model stochastic bistable dynamics.},
+  doi      = {10.1063/5.0257224},
   url      = {https://doi.org/10.48550/arXiv.2412.17499},
 }
 
@@ -1237,6 +1244,7 @@ In this work, we develop a novel method for a probabilistic sparsifaction of SCs
   pages     = {1-5},
   abstract  = {We present a Bayesian perspective on quantifying the uncertainty of graph signals estimated or reconstructed from imperfect observations. We show that many conventional methods of graph signal estimation, reconstruction and imputation, can be reinterpreted as finding the mean of a posterior Gaussian distribution, with a covariance matrix shaped by the graph structure. In this perspective, assumptions of signal smoothness as well as bandlimitedness are naturally expressible as the choice of certain prior distributions; noisy, noise-free or partial observations are expressible in terms of certain likelihood models. In addition to providing a point estimate, as most standard estimation strategies do, our probabilistic framework enables us to characterize the shape of the estimated signal distribution around the estimate in terms of the posterior covariance matrix.},
   doi       = {10.1109/ICASSP49660.2025.10889783},
+  groups    = {erc},
   url       = {https://arxiv.org/abs/2502.12971},
 }
 
@@ -1246,6 +1254,7 @@ In this work, we develop a novel method for a probabilistic sparsifaction of SCs
   title    = {PHLOWER - Single cell trajectory analysis using Hodge Decomposition},
   year     = {2025},
   abstract = {Multi-modal single-cell sequencing, which captures changes in chromatin and gene expression in the same cells, is a game changer in the study of gene regulation in cellular differentiation processes. Computational trajectory analysis is a key computational task for inferring differentiation trees from this single-cell data, though current methods struggle with complex, multi-branching trees and multi-modal data. To address this, PHLOWER (decomPosition of the Hodge Laplacian for inferring trajectOries from floWs of cEll diffeRentiation) leverages the harmonic component of the Hodge decomposition on simplicial complexes to infer trajectory embeddings. These natural representations of cell differentiation facilitate the estimation of their underlying differentiation trees. We evaluate PHLOWER through benchmarking with multi-branching differentiation trees and using novel kidney organoid multi-modal and spatial single-cell data. These demonstrate the power of PHLOWER in both the inference of complex trees and the identification of transcription factors regulating off-target cells in kidney organoids.Competing Interest StatementThe authors have declared no competing interest.},
+  groups   = {erc},
   url      = {https://www.biorxiv.org/content/early/2025/03/04/2024.10.01.613179},
 }
 
@@ -1282,7 +1291,20 @@ In this work, we develop a novel method for a probabilistic sparsifaction of SCs
   year         = {2025},
   abstract     = {Cell complexes (CCs) are a higher-order network model deeply rooted in algebraic topology that has gained interest in signal processing and network science recently. However, while the processing of signals supported on CCs can be described in terms of easily-accessible algebraic or combinatorial notions, the commonly presented definition of CCs is grounded in abstract concepts from topology and remains disconnected from the signal processing methods developed for CCs. In this paper, we aim to bridge this gap by providing a simplified definition of CCs that is accessible to a wider audience and can be used in practical applications. Specifically, we first introduce a simplified notion of abstract regular cell complexes (ARCCs). These ARCCs only rely on notions from algebra and can be shown to be equivalent to regular cell complexes for most practical applications. Second, using this new definition we provide an accessible introduction to (abstract) cell complexes from a perspective of network science and signal processing. Furthermore, as many practical applications work with CCs of dimension 2 and below, we provide an even simpler definition for this case that significantly simplifies understanding and working with CCs in practice.},
   doi          = {10.48550/arXiv.2506.09726},
+  groups       = {erc},
   url          = {https://doi.org/10.48550/arXiv.2506.09726},
+}
+
+@InProceedings{Frantzen2025,
+  author    = {Frantzen, Florian and Schaub, Michael T},
+  booktitle = {Proceedings of the 31st ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD 2025)},
+  title     = {HLSAD: Hodge Laplacian-based Simplicial Anomaly Detection},
+  year      = {2025},
+  month     = aug,
+  abstract  = {In this paper, we propose HLSAD, a novel method for detecting anomalies in time-evolving simplicial complexes. While traditional graph anomaly detection techniques have been extensively studied, they often fail to capture changes in higher-order interactions that are crucial for identifying complex structural anomalies. These higher-order interactions can arise either directly from the underlying data itself or through graph lifting techniques. Our approach leverages the spectral properties of Hodge Laplacians of simplicial complexes to effectively model multi-way interactions among data points. By incorporating higher-dimensional simplicial structures into our method, our method enhances both detection accuracy and computational efficiency. Through comprehensive experiments on both synthetic and real-world datasets, we demonstrate that our approach outperforms existing graph methods in detecting both events and change points.},
+  doi       = {10.1145/3711896.3736998},
+  groups    = {erc},
+  url       = {https://doi.org/10.48550/arXiv.2505.24534},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
