@@ -18,6 +18,7 @@ Fo more information about my group at RWTH see [here](https://www.netsci.rwth-aa
 
 
 ### News and Events
+***July, 2025*** -- Happy to announce that I have become director of the center of computational life science at RWTH Aachen University.          
 ***June, 2025*** -- New preprint "Don't be afraid of cell complexes" out on [arxiv](https://arxiv.org/abs/2506.09726). Check it out!     
 ***April, 2025*** -- We welcome Marco Nurisso and Fatimah Razak as visitors. Marco stays with us as visiting PhD student, Fatimah is a Georg Forster Fellow of the Alexander von Humboldt Foundation.            
 ***February 12, 2025*** -- After some hiatus, there are many things that happened... There are also already two cool new preprints on the arxiv from 2025. One dealing with gradient descent training of GNNs [\[Paper1\]](https://arxiv.org/abs/2501.14440). Another one dealing with sparsification of simplicial complexes [\[Paper2\]](https://arxiv.org/abs/2502.07558)        
