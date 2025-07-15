@@ -80,8 +80,8 @@ The goal of this project is to develop methods that can utilize such higher-orde
 
 ---------------
 ## Presentations and Communication 
-Research related to the present project was presented at the following places / events.
-
+Research related to the present project was presented by M. Schaub  at the following places / events.
+* Lake Como Spring School 2025 on Complex Networks, Como, Italy, May 2025
 * Newton Institute Workshop "Hypergraphs: Theory and Applications", London, UK, July 2024
 * Nordita WINQ Workshop on Dynamics and Topology of Complex Network Systems, Stockholm, Sweden, May 2024
 * SIAM Conference on Applied Linear Algebra (LA 24), Paris, France, May 2024
@@ -114,15 +114,14 @@ A list of all publications associated with this project is provided below:
 1.  Grande, V. P. & Schaub, M. T., Topological Point Cloud Clustering, *Proceedings of the 40th International Conference on Machine Learning (ICML 2023)*, PMLR, 2023, 202, 11683-11697 
 {: .text-justify}
 
-### Preprintsa
+### Preprints
 * Hoppe, J.; Grande, V. P. & Schaub, M. T.  Don't be Afraid of Cell Complexes! An Introduction from an Applied Perspective, 2025 [https://doi.org/10.48550/arXiv.2506.09726](https://doi.org/10.48550/arXiv.2506.09726)  
 * Savostianov, A.; Schaub, M. T.; Guglielmi, N. & Tudisco, F., Efficient Sparsification of Simplicial Complexes via Local Densities of States, 2025, [https://arxiv.org/abs/2502.07558](https://arxiv.org/abs/2502.07558)
 * Cheng, M.; Jansen, J.; Reimer, K.; Grande, V.; Nagai, J. S.; Li, Z.; Kießling, P.; Grasshoff, M.; Kuppe, C.; Schaub, M. T.; Kramann, R. & Costa, I. G.  PHLOWER - Single cell trajectory analysis using Hodge Decomposition, 2025 [https://www.biorxiv.org/content/early/2025/03/04/2024.10.01.613179](https://www.biorxiv.org/content/early/2025/03/04/2024.10.01.613179)  
 * Telyatnikov, L.; Bernardez, G.; Montagna, M.; Vasylenko, P.; Zamzmi, G.; Hajij, M.; Schaub, M. T.; Miolane, N; Scardapane, S. & Papamarkou, T.  TopoBenchmarkX: A Framework for Benchmarking Topological Deep Learning 2024, [https://arxiv.org/abs/2406.06642](https://arxiv.org/abs/2406.06642)   
 * Hoppe, J. & Schaub, M. T., Random Abstract Cell Complexes, 2024, [https://arxiv.org/abs/2406.01999](https://arxiv.org/abs/2406.01999)
-* Grande, V. P. & Schaub, M. T., Node-Level Topological Representation Learning on Point Clouds, 2024, [https://arxiv.org/abs/2406.02300](https://arxiv.org/abs/2406.02300) 
-Topological Deep Learning: Going Beyond Graph Data, 2024 [https://arxiv.org/abs/2206.00606](https://arxiv.org/abs/2206.00606)     
-* Hajij, M.; Zamzmi, G.; Papamarkou, T.; Miolane, N.; Guzmán-Sáenz, A.; Ramamurthy, K. N.; Birdal, T.; Dey, T. K.; Mukherjee, S.; Samaga, S. N. & others
+* Grande, V. P. & Schaub, M. T., Point-Level Topological Representation Learning on Point Clouds, 2024, [https://arxiv.org/abs/2406.02300](https://arxiv.org/abs/2406.02300) 
+* Hajij, M.; Zamzmi, G.; Papamarkou, T.; Miolane, N.; Guzmán-Sáenz, A.; Ramamurthy, K. N.; Birdal, T.; Dey, T. K.; Mukherjee, S.; Samaga, S. N. & others Topological Deep Learning: Going Beyond Graph Data, 2024 [https://arxiv.org/abs/2206.00606](https://arxiv.org/abs/2206.00606)     
 {: .text-justify}
 
 -------------
