@@ -30,7 +30,7 @@ After a MSc in Biomedical Engineering at [Imperial College London](https://www.i
 Following my PhD, I worked in Belgium, jointly at the [Université catholique de Louvain](https://uclouvain.be/en/index.html) and at the University of [Namur](https://www.unamur.be/en), as a Postdoctoral Research Fellow. 
 In November 2016, I moved to the [Massachusetts Institute of Technology](https://web.mit.edu/) (MIT) as a Postdoctoral Research Associate. 
 From July 2017 onwards I was a Marie Skłodowska Curie Fellow at [MIT](https://web.mit.edu/) and the [University of Oxford](http://www.ox.ac.uk/), before joining [RWTH Aachen University](https://www.rwth-aachen.de) as an assistant professor in June 2020, supported by the [NRW Return Programme](https://www.mkw.nrw/hochschule-und-forschung/foerderungen/rueckkehrprogramm) (2019). I have been awarded an ERC Starting Grant in 2022 and was a member of the Junges Kolleg at North-Rhine Westphalian Academy of the Sciences and the Arts, as well as a Juniorfellow of the German Informatics Society. Since September 2025 I am a full professor for Computional Network Science at the Department of Computer Science and the Department of Biology. Since summer 2025 I am also a co-director of the Center for Computational Life Sciences at RWTH Aachen University.
-{: .news }
+<!--{: .news }-->
 
 <details markdown="1">
 <summary>Third person Bio</summary>
@@ -46,7 +46,7 @@ Michael Schaub was awarded an ERC Starting Grant in 2022 and has been a member o
 
 ## Contact Address
 Michael Schaub   
-Department of Computer Science & Department of Biology
+Department of Computer Science & Department of Biology      
 RWTH Aachen University  
 Ahornstraße 55, Building E2
 D-52074 Aachen  
