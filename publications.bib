@@ -1145,14 +1145,16 @@ Third, we evaluate the performance of CCNNs on tasks related to mesh shape analy
   url       = {https://proceedings.neurips.cc/paper_files/paper/2024/file/5623c35f3ab5e2c72aeb3abce27dc28f-Paper-Conference.pdf},
 }
 
-@Misc{Grande2024a,
-  author   = {Vincent P. Grande and Michael T. Schaub},
-  month    = jun,
-  title    = {Point-Level Topological Representation Learning on Point Clouds},
-  year     = {2024},
-  abstract = {Topological Data Analysis (TDA) allows us to extract powerful topological and higher-order information on the global shape of a data set or point cloud. Tools like Persistent Homology or the Euler Transform give a single complex description of the global structure of the point cloud. However, common machine learning applications like classification require point-level information and features to be available. In this paper, we bridge this gap and propose a novel method to extract node-level topological features from complex point clouds using discrete variants of concepts from algebraic topology and differential geometry. We verify the effectiveness of these topological point features (TOPF) on both synthetic and real-world data and study their robustness under noise.},
-  groups   = {erc},
-  url      = {https://arxiv.org/abs/2406.02300},
+@InProceedings{Grande2025,
+  author    = {Vincent P. Grande and Michael T. Schaub},
+  booktitle = {International Conference on Machine Learning (ICML 2025)},
+  title     = {Point-Level Topological Representation Learning on Point Clouds},
+  year      = {2025},
+  month     = may,
+  abstract  = {Topological Data Analysis (TDA) allows us to extract powerful topological and higher-order information on the global shape of a data set or point cloud. Tools like Persistent Homology or the Euler Transform give a single complex description of the global structure of the point cloud. However, common machine learning applications like classification require point-level information and features to be available. In this paper, we bridge this gap and propose a novel method to extract node-level topological features from complex point clouds using discrete variants of concepts from algebraic topology and differential geometry. We verify the effectiveness of these topological point features (TOPF) on both synthetic and real-world data and study their robustness under noise and heterogeneous sampling.},
+  doi       = {10.48550/arXiv.2406.02300},
+  groups    = {erc},
+  url       = {https://openreview.net/pdf?id=zkGfPYAM5D},
 }
 
 @InProceedings{Scholkemper2025,
@@ -1191,13 +1193,17 @@ Third, we evaluate the performance of CCNNs on tasks related to mesh shape analy
   url       = {https://doi.org/10.48550/arXiv.2412.03145},
 }
 
-@Misc{Witthaut2024,
-  author   = {Witthaut, Dirk and Kistinger, Dorothea and Titz, Maurizio and B{\"o}ttcher, Philipp and Schaub, Michael and Venghaus, Sandra},
-  month    = dec,
-  title    = {Revealing drivers of green technology adoption through explainable AI},
-  year     = {2024},
-  abstract = {Effective governance of energy system transformations away from fossil resources requires a quantitative understanding of the diffusion of green technologies and its key influencing factors. In this article, we propose a novel machine learning approach to diffusion research focusing on actual decisions and spatial aspects complementing research on intentions and temporal dynamics. We develop machine learning models that predict regional differences in the accumulated peak power of household-scale photovoltaic systems and the share of battery electric vehicles from a large set of demographic, geographic, political, and socio-economic features. Tools from explainable artificial intelligence enable a consistent identification of the key influencing factors and quantify their impact. Focusing on data from German municipal associations, we identify common themes and differences in the diffusion of green technologies.},
-  url      = {https://doi.org/10.21203/rs.3.rs-5367657/v1},
+@Article{Kistinger2025,
+  author   = {Dorothea Kistinger and Maurizio Titz and Philipp C. Böttcher and Michael T. Schaub and Sandra Venghaus and Dirk Witthaut},
+  journal  = {Advances in Applied Energy},
+  title    = {Revealing drivers of green technology adoption through explainable Artificial Intelligence},
+  year     = {2025},
+  issn     = {2666-7924},
+  pages    = {100242},
+  volume   = {20},
+  abstract = {Effective governance of energy system transformation away from fossil resources requires a quantitative understanding of the diffusion of green technologies and its key influencing factors. In this article, we propose a novel machine learning approach to diffusion research focusing on actual decisions and spatial aspects complementing research on intentions and temporal dynamics. We develop machine learning models that predict regional differences in the accumulated peak power of household-scale photovoltaic systems and the share of battery electric vehicles from a large set of demographic, geographic, political, and socio-economic features. Tools from explainable artificial intelligence enable a consistent identification of the key influencing factors and quantify their impact. Focusing on data from German municipal associations, we identify common themes and differences in the adoption of green technologies. Specifically, the adoption of battery electric vehicles is strongly associated with income and election results, while the adoption of photovoltaic systems correlates with the prevalence of large dwellings and levels of global solar radiation.},
+  doi      = {https://doi.org/10.1016/j.adapen.2025.100242},
+  url      = {https://www.sciencedirect.com/science/article/pii/S2666792425000368},
 }
 
 @Article{Heck2025,
@@ -1248,14 +1254,18 @@ In this work, we develop a novel method for a probabilistic sparsifaction of SCs
   url       = {https://arxiv.org/abs/2502.12971},
 }
 
-@Misc{Cheng2025,
-  author   = {Cheng, Mingbo and Jansen, Jitske and Reimer, Katharina and Grande, Vincent and Nagai, James Shiniti and Li, Zhijian and Kie{\ss}ling, Paul and Grasshoff, Martin and Kuppe, Christoph and Schaub, Michael T. and Kramann, Rafael and Costa, Ivan G.},
-  month    = mar,
-  title    = {PHLOWER - Single cell trajectory analysis using Hodge Decomposition},
-  year     = {2025},
-  abstract = {Multi-modal single-cell sequencing, which captures changes in chromatin and gene expression in the same cells, is a game changer in the study of gene regulation in cellular differentiation processes. Computational trajectory analysis is a key computational task for inferring differentiation trees from this single-cell data, though current methods struggle with complex, multi-branching trees and multi-modal data. To address this, PHLOWER (decomPosition of the Hodge Laplacian for inferring trajectOries from floWs of cEll diffeRentiation) leverages the harmonic component of the Hodge decomposition on simplicial complexes to infer trajectory embeddings. These natural representations of cell differentiation facilitate the estimation of their underlying differentiation trees. We evaluate PHLOWER through benchmarking with multi-branching differentiation trees and using novel kidney organoid multi-modal and spatial single-cell data. These demonstrate the power of PHLOWER in both the inference of complex trees and the identification of transcription factors regulating off-target cells in kidney organoids.Competing Interest StatementThe authors have declared no competing interest.},
-  groups   = {erc},
-  url      = {https://www.biorxiv.org/content/early/2025/03/04/2024.10.01.613179},
+@Article{Cheng2025,
+  author    = {Cheng, Mingbo and Jansen, Jitske and Reimer, Katharina C and Grande, Vincent P and Nagai, James S and Li, Zhijian and Kie{\ss}ling, Paul and Grasshoff, Martin and Kuppe, Christoph and Schaub, Michael T and Kramann, Rafael and Costa, Ivan G.},
+  journal   = {Nature Methods},
+  title     = {PHLOWER leverages single-cell multimodal data to infer complex, multi-branching cell differentiation trajectories},
+  year      = {2025},
+  month     = oct,
+  pages     = {1--9},
+  abstract  = {Multi-modal single-cell sequencing, which captures changes in chromatin and gene expression in the same cells, is a game changer in the study of gene regulation in cellular differentiation processes. Computational trajectory analysis is a key computational task for inferring differentiation trees from this single-cell data, though current methods struggle with complex, multi-branching trees and multi-modal data. To address this, PHLOWER (decomPosition of the Hodge Laplacian for inferring trajectOries from floWs of cEll diffeRentiation) leverages the harmonic component of the Hodge decomposition on simplicial complexes to infer trajectory embeddings. These natural representations of cell differentiation facilitate the estimation of their underlying differentiation trees. We evaluate PHLOWER through benchmarking with multi-branching differentiation trees and using novel kidney organoid multi-modal and spatial single-cell data. These demonstrate the power of PHLOWER in both the inference of complex trees and the identification of transcription factors regulating off-target cells in kidney organoids.Competing Interest StatementThe authors have declared no competing interest.},
+  doi       = {10.1038/s41592-025-02870-5},
+  groups    = {erc},
+  publisher = {Nature Publishing Group US New York},
+  url       = {https://www.biorxiv.org/content/early/2025/03/04/2024.10.01.613179},
 }
 
 @Article{Nagai2025,
@@ -1305,6 +1315,51 @@ In this work, we develop a novel method for a probabilistic sparsifaction of SCs
   doi       = {10.1145/3711896.3736998},
   groups    = {erc},
   url       = {https://doi.org/10.48550/arXiv.2505.24534},
+}
+
+@InProceedings{Kuehn2025,
+  author    = {K{\"u}hn, Damin and Schaub, Michael T},
+  booktitle = {Proceedings of The 28th International Conference on Artificial Intelligence and Statistics},
+  title     = {Global Ground Metric Learning with Applications to scRNA data},
+  year      = {2025},
+  editor    = {Li, Yingzhen and Mandt, Stephan and Agrawal, Shipra and Khan, Emtiyaz},
+  month     = may,
+  pages     = {3295--3303},
+  publisher = {PMLR},
+  series    = {Proceedings of Machine Learning Research},
+  volume    = {258},
+  abstract  = {Optimal transport (OT) provides a robust framework for comparing probability distributions. Its effectiveness is significantly influenced by the choice of the underlying ground metric. Traditionally, the ground metric has either been (i) predefined, e.g., as a Euclidean metric, or (ii) learned in a supervised way, by utilizing labeled data to learn a suitable ground metric for enhanced task-specific performance. Yet, predefined metrics typically cannot account for the inherent structure and varying significance of different features in the data, and existing supervised ground metric learning methods often fail to generalize across multiple classes or are limited to distributions with shared supports.   To address this issue, this paper introduces a novel approach for learning metrics for arbitrary distributions over a shared metric space. Our method provides a distance between individual points (samples) like a global metric, but requires only class labels on a distribution-level for training. The resulting learned global ground metric enables more accurate OT distances, which can significantly improve clustering and classification tasks. Further, we can create task-specific shared embeddings for elements (samples) from different distributions, including unseen data.},
+  doi       = {10.48550/arXiv.2506.15383},
+  url       = {https://proceedings.mlr.press/v258/kuhn25a.html},
+}
+
+@Misc{Spreuer2025,
+  author   = {Spreuer, Til and Hoppe, Josef and Schaub, Michael T},
+  month    = aug,
+  title    = {Faster Inference of Cell Complexes from Flows via Matrix Factorization},
+  year     = {2025},
+  abstract = {We consider the following inference problem: Given a set of edge-flow signals observed on a graph, lift the graph to a cell complex, such that the observed edge-flow signals can be represented as a sparse combination of gradient and curl flows on the cell complex. Specifically, we aim to augment the observed graph by a set of 2-cells (polygons encircled by closed, non-intersecting paths), such that the eigenvectors of the Hodge Laplacian of the associated cell complex provide a sparse, interpretable representation of the observed edge flows on the graph. As it has been shown that the general problem is NP-hard in prior work, we here develop a novel matrix-factorization-based heuristic to solve the problem. Using computational experiments, we demonstrate that our new approach is significantly less computationally expensive than prior heuristics, while achieving only marginally worse performance in most settings. In fact, we find that for specifically noisy settings, our new approach outperforms the previous state of the art in both solution quality and computational speed.},
+  url      = {https://arxiv.org/abs/2508.21372},
+}
+
+@Article{Schraeder2025,
+  author    = {Schr{\"a}der, Julia and Kellermann, Thilo and K{\"u}hn, Damin and Rompelberg, Lennard and Schaub, Michael T. and Wagels, Lisa},
+  title     = {Unconscious Elevated Bottom-Up Processing in Depression: Insights from Dynamic Causal Modeling with EEG and fMRI},
+  year      = {2025},
+  month     = may,
+  abstract  = {Introduction: MRI compatible EEG systems enable simultaneous EEG-fMRI data assessment, which provides high spatial and high temporal resolution of neural signaling data. Functional connectivity analyses suggest altered fronto-limbic emotion regulation in patients with major depressive disorder (MDD). Methods: Sixty patients with MDD an 66 healthy controls (HC) performed a priming task using unconsciously and consciously presented emotional facial expressions (happy, sad, neutral) performed a priming task using unconsciously and consciously presented emotional facial expressions. Effective connectivity of simultaneously recorded EEG-fMRI data between cortical (bilateral dorsolateral prefrontal cortex and fusiform gyrus) and subcortical regions (bilateral amygdala) was captured using dynamic causal modeling (DCM). Delineate stimulus- related changes in bottom-up and top-down neurophysiological networks across both EEG and fMRI data were estimated in models of unconscious and conscious processing, defined for both groups. Results: Bayesian model selection favored a bottom-up processing model for both groups and input conditions (conscious and unconscious) in EEG-DCMs. Mixed top-down and bottom-up processing models best represented conscious and unconscious stimulus processing in HC fMRI-DCM, while bottom-up models were most representative for MDD fMRI data. Amygdala activity leads to higher DLPFC activity in conscious, and lower DLPFC activity in unconscious conditions in both groups. Conclusion: This study demonstrates the distinct capabilities of EEG and fMRI data through, showing that EEG captures early and fast processing (bottom-up) while fMRI reflect both, bottom-up and top-down regulation. Activity reduction of DLPFC through FFA bottom-up connectivity in early processing (EEG-DCM) might inhibit later top-down emotion regulation through the DLPFC in MDD (fMRI-DCM).},
+  publisher = {PsychArchives},
+  url       = {https://doi.org/10.23668/psycharchives.16417},
+}
+
+@Misc{Bacic2025,
+  author   = {Ba{\v{c}}i{\'c}, Iva and Schaub, Michael T and Kurths, J{\"u}rgen and Witthaut, Dirk},
+  month    = oct,
+  title    = {Phase locking and multistability in the topological Kuramoto model on cell complexes},
+  year     = {2025},
+  abstract = {The topological Kuramoto model generalizes classical synchronization models by including higher-order interactions, with oscillator dynamics defined on cells of arbitrary dimension within simplicial or cell complexes. In this article, we demonstrate multistability in the topological Kuramoto model and develop the topological nonlinear Kirchhoff conditions algorithm to identify all phase-locked states on arbitrary cell complexes. The algorithm is based on a generalization of Kirchhoff's laws to cell complexes of arbitrary dimension and nonlinear interactions between cells. By applying this framework to rings, Platonic solids, and simplexes, as minimal representative motifs of larger networks, we derive explicit bounds (based on winding number constraints) that determine the number of coexisting stable states. We uncover structural cascades of multistability, inherited from both lower and higher dimensions and demonstrate that cell complexes can generate richer multistability patterns than simplicial complexes of the same dimension. Moreover, we find that multistability patterns in cell complexes appear to be determined by the number of boundary cells, hinting a possible universal pattern.},
+  journal  = {arXiv preprint arXiv:2510.05831},
+  url      = {https://arxiv.org/abs/2510.05831},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
