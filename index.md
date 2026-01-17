@@ -10,12 +10,9 @@ My research deals with the analysis of complex systems that can be abstracted as
 A central methodological issue underlying my research is how we can study and integrate the multiple levels of organization that are commonly found in a range of systems. 
 My research combines ‘bottom-up’ dynamical models, and ‘top-down’ data-driven approaches, and uses a blend of tools from control theory, dynamical systems, stochastic processes, machine learning and statistics.
 
-More information about my group at RWTH can be found [here](https://www.netsci.rwth-aachen.de).
+My research group at RWTH can be found [here](https://www.netsci.rwth-aachen.de).
 {: .notice--success}
 
-For more information on my ERC project see [HIGH-HOPeS]({{ site.baseurl }}{% link high-hopes.md %}).       
-For more information on my Marie Curie Project see [HIntNets]({{ site.baseurl }}{% link hintnets.md %})
-{: .notice--info}
 <!--We are always looking for excellent PhD students and PostDocs.  If you are interested, please get in contact.-->
 <!--{: .notice--success}-->
 <!--In particular, we have a [PostDoc](./images/JobAdvert.pdf) position in the context of the collaborative research centre "[Sparsity and singular structures](https://www.sfb-s3.de/)"-->
@@ -42,6 +39,9 @@ Michael Schaub was awarded an ERC Starting Grant in 2022 and has been a member o
 </details>
 
 
+For more information on my ERC project see [HIGH-HOPeS](https://netsci.rwth-aachen.de/research/high-hopes/).       
+For more information on my Marie Curie Project see [HIntNets]({{ site.baseurl }}{% link hintnets.md %})
+{: .notice--info}
 <!--CV available upon request.-->
 
 ## Contact Address
