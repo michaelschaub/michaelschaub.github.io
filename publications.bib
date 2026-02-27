@@ -1168,15 +1168,16 @@ Third, we evaluate the performance of CCNNs on tasks related to mesh shape analy
   url       = {https://openreview.net/forum?id=i8vPRlsrYu},
 }
 
-@Misc{Telyatnikov2024,
+@Article{Telyatnikov2025,
   author   = {Lev Telyatnikov and Guillermo Bernardez and Marco Montagna and Pavlo Vasylenko and Ghada Zamzmi and Mustafa Hajij and Michael T Schaub and Nina Miolane and Simone Scardapane and Theodore Papamarkou},
-  month    = jun,
-  note     = {arxiv preprint},
-  title    = {TopoBenchmarkX: A Framework for Benchmarking Topological Deep Learning},
-  year     = {2024},
+  journal  = {Journal of Data-centric Machine Learning Research},
+  title    = {TopoBench: A Framework for Benchmarking Topological Deep Learning},
+  year     = {2025},
+  month    = aug,
   abstract = {This work introduces TopoBenchmarkX, a modular open-source library designed to standardize benchmarking and accelerate research in Topological Deep Learning (TDL). TopoBenchmarkX maps the TDL pipeline into a sequence of independent and modular components for data loading and processing, as well as model training, optimization, and evaluation. This modular organization provides flexibility for modifications and facilitates the adaptation and optimization of various TDL pipelines. A key feature of TopoBenchmarkX is that it allows for the transformation and lifting between topological domains. This enables, for example, to obtain richer data representations and more fine-grained analyses by mapping the topology and features of a graph to higher-order topological domains such as simplicial and cell complexes. The range of applicability of TopoBenchmarkX is demonstrated by benchmarking several TDL architectures for various tasks and datasets.},
+  doi      = {10.48550/arXiv.2406.06642},
   groups   = {erc},
-  url      = {https://arxiv.org/abs/2406.06642},
+  url      = {https://openreview.net/forum?id=07sTzyEVtY},
 }
 
 @InProceedings{Grande2024b,
@@ -1391,7 +1392,40 @@ In this work, we develop a novel method for a probabilistic sparsifaction of SCs
   title        = {Higher order trade-offs in hypergraph community detection},
   year         = {2026},
   abstract     = {Extending community detection from pairwise networks to hypergraphs introduces fundamental theoretical challenges. Hypergraphs exhibit structural heterogeneity with no direct graph analogue: hyperedges of varying orders can connect nodes across communities in diverse configurations, introducing new trade-offs in defining and detecting community structure. We address these challenges by developing a unified framework for community detection in non-uniform hypergraphs under the Hypergraph Stochastic Block Model. We introduce a general signal-to-noise ratio that enables a quantitative analysis of trade-offs unique to higher-order networks, such as which hypergedges we choose to split across communities and how we choose to split them. Building on this framework, we derive a Bethe Hessian operator for non-uniform hypergraphs that provides efficient spectral clustering with principled model selection. We characterize the resulting spectral detectability threshold and compare it to belief propagation limits, showing the methods coincide for uniform hypergraphs but diverge in non-uniform settings. Synthetic experiments confirm our analytical predictions and reveal systematic biases toward preserving higher-order and balanced-shape hyperedges. Application to empirical data demonstrates the practical relevance of these higher-order detectability trade-offs in real-world systems.},
+  groups       = {erc},
   url          = {https://arxiv.org/abs/2601.10502},
+}
+
+@Article{Abiad,
+  author   = {Abiad, Aida and Arenas, Alex and Backhausz, Agnes and Balogh, Jozsef and Banerji, Christopher RS and Barbarossa, Sergio and Bianconi, Ginestra and Bick, Christian and Botnan, Magnus Bakke B and Carletti, Timoteo and others},
+  journal  = {Journal of Physics: Complexity},
+  title    = {Hypergraphs and simplicial complexes in focus: A roadmap for future research in higher-order interactions},
+  year     = {2026},
+  month    = jan,
+  abstract = {Higher-order interactions are increasingly being recognised as fundamental to our understanding of complex systems, networks, and the development of the next generation of AI algorithms. However, modelling higher-order interactions requires us to go beyond graphs and networks, which can only encode pairwise interactions, and so demands a new theory. Hypergraphs and simplicial complexes (also called higher-order networks), which arise as natural mathematical representations of higher-order complex systems, are therefore attracting increasing attention. The mathematics of higher-order networks is already providing important insights, yet many fundamental mathematical questions remain unsolved; for instance, in spectral graph theory, discrete topology, and higher-order network dynamics. This roadmap summarizes the scientific discussions that took place on these topics between pure mathematicians, theoretical physicists, computer and network scientists at the Newton Institute Satellite meeting on `Hypergraphs: Theory and Applications'. We survey the current state-of-the-art in higher-order network research, and propose some trajectories for future research, including in areas such as extremal and spectral hypergraph theory, discrete topology, higher-order dynamics, higher-order machine learning, and applications in the brain and social sciences.},
+  doi      = {10.1088/2632-072X/ae3c4e},
+  groups   = {erc},
+}
+
+@Misc{Vasileiou2026,
+  author   = {Vasileiou, Antonis and Cervino, Juan and Frossard, Pascal and Kanatsoulis, Charilaos I and Morris, Christopher and Schaub, Michael T and Vandergheynst, Pierre and Wang, Zhiyang and Wolf, Guy and Levie, Ron},
+  month    = feb,
+  title    = {Position: Message-passing and spectral GNNs are two sides of the same coin},
+  year     = {2026},
+  abstract = {Graph neural networks (GNNs) are commonly divided into message-passing neural networks (MPNNs) and spectral graph neural networks, reflecting two largely separate research traditions in machine learning and signal processing. This paper argues that this divide is mostly artificial, hindering progress in the field. We propose a viewpoint in which both MPNNs and spectral GNNs are understood as different parametrizations of permutation-equivariant operators acting on graph signals. From this perspective, many popular architectures are equivalent in expressive power, while genuine gaps arise only in specific regimes. We further argue that MPNNs and spectral GNNs offer complementary strengths. That is, MPNNs provide a natural language for discrete structure and expressivity analysis using tools from logic and graph isomorphism research, while the spectral perspective provides principled tools for understanding smoothing, bottlenecks, stability, and community structure. Overall, we posit that progress in graph learning will be accelerated by clearly understanding the key similarities and differences between these two types of GNNs, and by working towards unifying these perspectives within a common theoretical and conceptual framework rather than treating them as competing paradigms.},
+  url      = {https://arxiv.org/abs/2602.10031},
+}
+
+@Article{Schaub2026,
+  author    = {Schaub, Michael T and Boor, Peter},
+  journal   = {Nature Reviews Nephrology},
+  title     = {Graph neural networks for computational nephrology},
+  year      = {2026},
+  month     = feb,
+  pages     = {1--2},
+  abstract  = {Graph neural networks offer a unifying artificial intelligence framework to model related objects, ranging from tissue architecture and geometrical relationships to patient similarity and multi-organ networks. Applications of this technology in nephrology include computational representation of kidney histopathology and modelling of the complex interactions between organs in kidney diseases.},
+  doi       = {10.1038/s41581-026-01059-z},
+  publisher = {Nature Publishing Group UK London},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
