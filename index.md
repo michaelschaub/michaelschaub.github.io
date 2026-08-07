@@ -48,7 +48,6 @@ For more information on my Marie Curie Project see [HIntNets]({{ site.baseurl }}
 Michael Schaub   
 Department of Computer Science & Department of Biology      
 RWTH Aachen University  
-Ahornstraße 55, Building E2
 D-52074 Aachen  
 Germany  
 
