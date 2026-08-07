@@ -1365,16 +1365,6 @@ In this work, we develop a novel method for a probabilistic sparsifaction of SCs
   url       = {https://doi.org/10.23668/psycharchives.16417},
 }
 
-@Misc{Bacic2025,
-  author       = {Ba\v{c}i{\'c}, Iva and Schaub, Michael T and Kurths, J{\"u}rgen and Witthaut, Dirk},
-  howpublished = {arXiv preprint},
-  month        = oct,
-  title        = {Phase locking and multistability in the topological Kuramoto model on cell complexes},
-  year         = {2025},
-  abstract     = {The topological Kuramoto model generalizes classical synchronization models by including higher-order interactions, with oscillator dynamics defined on cells of arbitrary dimension within simplicial or cell complexes. In this article, we demonstrate multistability in the topological Kuramoto model and develop the topological nonlinear Kirchhoff conditions algorithm to identify all phase-locked states on arbitrary cell complexes. The algorithm is based on a generalization of Kirchhoff's laws to cell complexes of arbitrary dimension and nonlinear interactions between cells. By applying this framework to rings, Platonic solids, and simplexes, as minimal representative motifs of larger networks, we derive explicit bounds (based on winding number constraints) that determine the number of coexisting stable states. We uncover structural cascades of multistability, inherited from both lower and higher dimensions and demonstrate that cell complexes can generate richer multistability patterns than simplicial complexes of the same dimension. Moreover, we find that multistability patterns in cell complexes appear to be determined by the number of boundary cells, hinting a possible universal pattern.},
-  url          = {https://arxiv.org/abs/2510.05831},
-}
-
 @Misc{Savostianov2025a,
   author       = {Anton Savostianov and Michael T. Schaub and Benjamin Stamm},
   howpublished = {arXiv},
@@ -1407,15 +1397,6 @@ In this work, we develop a novel method for a probabilistic sparsifaction of SCs
   groups   = {erc},
 }
 
-@Misc{Vasileiou2026,
-  author   = {Vasileiou, Antonis and Cervino, Juan and Frossard, Pascal and Kanatsoulis, Charilaos I and Morris, Christopher and Schaub, Michael T and Vandergheynst, Pierre and Wang, Zhiyang and Wolf, Guy and Levie, Ron},
-  month    = feb,
-  title    = {Position: Message-passing and spectral GNNs are two sides of the same coin},
-  year     = {2026},
-  abstract = {Graph neural networks (GNNs) are commonly divided into message-passing neural networks (MPNNs) and spectral graph neural networks, reflecting two largely separate research traditions in machine learning and signal processing. This paper argues that this divide is mostly artificial, hindering progress in the field. We propose a viewpoint in which both MPNNs and spectral GNNs are understood as different parametrizations of permutation-equivariant operators acting on graph signals. From this perspective, many popular architectures are equivalent in expressive power, while genuine gaps arise only in specific regimes. We further argue that MPNNs and spectral GNNs offer complementary strengths. That is, MPNNs provide a natural language for discrete structure and expressivity analysis using tools from logic and graph isomorphism research, while the spectral perspective provides principled tools for understanding smoothing, bottlenecks, stability, and community structure. Overall, we posit that progress in graph learning will be accelerated by clearly understanding the key similarities and differences between these two types of GNNs, and by working towards unifying these perspectives within a common theoretical and conceptual framework rather than treating them as competing paradigms.},
-  url      = {https://arxiv.org/abs/2602.10031},
-}
-
 @Article{Schaub2026,
   author    = {Schaub, Michael T and Boor, Peter},
   journal   = {Nature Reviews Nephrology},
@@ -1426,6 +1407,105 @@ In this work, we develop a novel method for a probabilistic sparsifaction of SCs
   abstract  = {Graph neural networks offer a unifying artificial intelligence framework to model related objects, ranging from tissue architecture and geometrical relationships to patient similarity and multi-organ networks. Applications of this technology in nephrology include computational representation of kidney histopathology and modelling of the complex interactions between organs in kidney diseases.},
   doi       = {10.1038/s41581-026-01059-z},
   publisher = {Nature Publishing Group UK London},
+}
+
+@Article{Bacic2026,
+  author   = {Ba{\v{c}}i{\'c}, Iva and Schaub, Michael T and Kurths, J{\"u}rgen and Witthaut, Dirk},
+  journal  = {Nature Communications},
+  title    = {Phase locking and multistability in the topological Kuramoto model on cell complexes},
+  year     = {2026},
+  month    = jul,
+  number   = {1},
+  pages    = {7409},
+  volume   = {17},
+  abstract = {Higher-order interactions fundamentally shape collective dynamics in oscillator networks. The topological Kuramoto model captures these effects by extending synchronization models to include interactions between cells of arbitrary dimension within simplicial and cell complexes. We introduce the topological nonlinear Kirchhoff conditions to characterize all phase-locked states of the topological Kuramoto model. These states are organized by winding numbers associated with generalized independent cycles, which quantify how phases wind around these cycles. Using rings, Platonic solids, and regular simplices as illustrative examples, we uncover a universal rule: boundaries must have at least five elements for multistability to arise. We further find that independent winding numbers associated with lower- and higher-dimensional boundaries generate cascades of multistability across dimensions. These results show how the topology and boundary structure of cell complexes influence phase locking and multistability, and provide a general framework for collective dynamics on cell complexes.},
+  doi      = {10.1038/s41467-026-75565-w},
+  groups   = {erc},
+}
+
+@Misc{Porcedda2026,
+  author       = {Riccardo Porcedda and Giuseppe Squillace and Bastian Epping and Andrea Vandin and Michael Schaub and Mirco Tribastone and Francesca Chiaromonte},
+  howpublished = {arxiv},
+  month        = may,
+  title        = {RAwR: Role-Aware Rewiring via Approximate Equitable Partition},
+  year         = {2026},
+  abstract     = {While Graph Neural Networks (GNNs) have demonstrated significant efficacy in node classification tasks, where predictions rely on local neighborhood information, the performance of GNNs often drops when prediction tasks depend on long-range interactions. These limitations are attributed to phenomena such as oversquashing, where structural bottlenecks restrict signal propagation across the network topology. To address this challenge, we introduce RAwR, a computationally efficient rewiring framework that augments the input graph with a quotient graph derived from equitable partitions. This approach facilitates accelerated communication between nodes that share identical structural roles, as identified by the Weisfeiler-Leman graph coloring, and thereby reduces the total effective resistance of the system. Furthermore, by employing an approximate definition of the equitable partition, RAwR enables a controllable reduction of the quotient graph, which, in its most condensed state, recovers the conventional Master Node rewiring technique. Empirical evaluations across a diverse suite of benchmarks -- including homophilic, heterophilic, and synthetic long-range datasets -- demonstrate that RAwR achieves state-of-the-art results. Our contribution is further supported by an analytical investigation using a teacher-student model of linear GNNs, which elucidates the theoretical foundations of role-based rewiring. This analysis leads to the formulation of Spectral Role Lift (SRL), a metric designed to identify the optimal approximate equitable partition for maximizing predictive performance.},
+  url          = {https://arxiv.org/abs/2605.09457},
+}
+
+@Misc{Hoppe2026,
+  author       = {Josef Hoppe and Sarra Bouchkati and Farah Nasr and Jonathan Krapp and Alexander Och and Maximilian Wirth and Jan Schiefelbein-Lach and Oliver Pohl and Andreas Ulbig and Michael T. Schaub},
+  howpublished = {arxiv},
+  month        = jul,
+  title        = {Robustness of Reinforcement Learning-Based Congestion Management in Low-Voltage Grids},
+  year         = {2026},
+  abstract     = {Increases in photovoltaic generation, charging of electric vehicles and heat-pump demand challenge operating limits in low-voltage distribution grids. This requires curative curtailment methods that can operate under sparse observability, noisy measurements, and imperfect grid models. Unlike prior end-to-end reinforcement-learning approaches for partially observable curtailment, this work decouples congestion detection and control by combining a random-forest violation pre-classifier with an actor-critic controller, and evaluates its robustness to measurement noise and grid-parameter mismatch. The framework is tested on a real low-voltage grid using synthetic future operating scenarios with low observability and controllability. With accurate grid parameters, the controller reduces total violation magnitude by 98.9\%, and this performance remains nearly unchanged under the tested measurement-noise settings. Grid-model mismatch proves to be more challenging, but the controller still mitigates most violations under the tested mismatch assumptions.},
+  url          = {https://arxiv.org/abs/2607.16004},
+}
+
+@Misc{Vigano2026,
+  author       = {Francesco Viganò and Tolga Birdal and Michael T. Schaub and Mauricio Barahona},
+  howpublished = {arxiv},
+  month        = apr,
+  title        = {Root-to-Leaf Path Random Walks, Normalized Hodge Laplacians, and Cheeger Inequalities on Simplicial Complexes},
+  year         = {2026},
+  abstract     = {We introduce root-to-leaf path random walks on double covers of graded signed graphs and analyze their behavior in a general setting. Viewing simplicial complexes within this framework, we show that these walks induce the natural normalization of the coboundary operator and of the Hodge Laplacians while preserving the basic structural features of combinatorial Hodge theory. We then derive Cheeger inequalities for the upper side of the normalized Hodge spectrum, identify the coherent structures governing these bounds, and combine the up- and down-cases into sharper estimates.},
+  groups       = {erc},
+  url          = {https://arxiv.org/abs/2604.27241},
+}
+
+@Misc{Xing2026,
+  author       = {Yu Xing and Aneesh Raghavan and Michael T. Schaub and Karl H. Johansson},
+  howpublished = {arxiv},
+  month        = jul,
+  title        = {Approximate Simulation-Based Verification of Compatibility of the Friedkin-Johnsen Model with Binary Observations},
+  year         = {2026},
+  abstract     = {We consider a verification problem for opinion dynamics based on binary observations. The opinion dynamics is governed by a Friedkin-Johnsen (FJ) model, where only a sequence of binary outputs is available instead of the agents' continuous opinions. At every time-step we observe a binarized output for each agent depending on whether the opinion exceeds a fixed threshold. The objective is to verify whether an FJ model with a given set of stubbornness parameters and initial opinions can generate the observed binary outputs up to a small error. The FJ model is formulated as a transition system, and an approximate simulation relation of two transition systems is defined in terms of the proximity of their opinion trajectories and output sequences. We then construct a finite set of abstract FJ models by simplifying the influence matrix and discretizing the stubbornness parameters and the initial opinions. It is shown that the abstraction approximately simulates any concrete FJ model with continuous parameters and initial opinions, and is itself approximately simulated by some concrete FJ model. These results ensure that consistency verification can be performed over the finite abstraction. Specifically, by checking whether an abstract model satisfies the observation constraints, we can conclude whether the corresponding family of concrete FJ models is consistent with the binary observations. Finally, numerical experiments are presented to illustrate the proposed verification framework.},
+  url          = {https://arxiv.org/abs/2604.05196},
+}
+
+@Misc{Vasileiou2026,
+  author       = {Antonis Vasileiou and Juan Cervino and Pascal Frossard and Charilaos I. Kanatsoulis and Christopher Morris and Michael T. Schaub and Pierre Vandergheynst and Zhiyang Wang and Guy Wolf and Ron Levie},
+  howpublished = {arxiv},
+  month        = jun,
+  title        = {Graph Learning Should Move Beyond Restrictive Views of Spectral and Message-Passing GNNs},
+  year         = {2026},
+  abstract     = {Graph neural networks (GNNs) are commonly divided into message-passing neural networks (MPNNs) and spectral GNNs, reflecting two largely separate research traditions in machine learning and signal processing. While MPNNs have a precise definition, there is no widely accepted criterion for what makes a mapping a spectral GNN. Most existing work restricts spectral GNNs to layered architectures based on linear spectral filters. Under this restriction, we show that spectral and spatial GNNs have largely equivalent expressive power. To promote progress in the field, we propose a precise definition of spectral GNNs based on eigenbasis symmetries, in contrast to the definition of MPNNs via neighborhood permutation symmetries. We further argue that the two perspectives offer complementary strengths. MPNNs provide a natural language for discrete structure and expressivity analysis through tools from logic and graph isomorphism, while the spectral perspective offers principled tools for understanding smoothing, bottlenecks, stability, and community structure. Overall, we argue that progress in graph learning will be accelerated by clarifying the similarities and differences between these perspectives and by moving toward a unified theoretical framework.},
+  url          = {https://arxiv.org/abs/2602.10031},
+}
+
+@Misc{Kiessling2026,
+  author       = {Kiessling, Paul and Joodaki, Mehdi and Pikulska, Daryna and Scheidereit, Emilia and Cesaro, Giulia and Ruiz, Mayra and K{\"u}hn, Damin and Peng, Kai and Goni, Osman and Foecking, Sebastian and Samiei, Samaneh and Liao, Xian and Li, Kai and Feng, Zihao and Wang, Delin and Mavrommatis, Lampros and Vllaho, Anna-Maria and Rombach, Merwan and Cucinella, Giulia and Cheng, Mingbo and Lautenschl{\"a}ger, Till and Morales, David Rodriguez and Veltrop, Rogier J. A. and Schurgers, Leon J. and von Scheidt, Moritz and Klinkhammer, Barbara Mara and Kahles, Florian and Kranz, Jennifer and Aguirre, Aitor and Loft, Anne and Kl{\"u}mper, Niklas and Eckstein, Markus and Seidel, Thomas and Forte, Giancarlo and Westland, Rik and Zhang, Man and Zhao, Heng and Ren, Feng and Hayat, Sikander and Amrute, Junedh and Kopecky, Benjamin and Schneider, Rebekka K. and Medyouf, Hind and Tharaux, Pierre-Louis and Boor, Peter and Kramann, Rafael and van Laake, Linda W. and Vos, Annelotte and Bakker, Bernadette S. de and Hanemaaijer-van der Veer, Jermo and Lavine, Kory and Marx, Nikolaus and Klingel, Karin and Schaub, Michael T. and Dimmeler, Stefanie and Zhavoronkov, Alex and Milting, Hendrik and Costa, Ivan G. and Kuppe, Christoph},
+  howpublished = {bioRxiv},
+  month        = feb,
+  title        = {Polyploid cardiomyocytes define disease-specific transcriptional states in the mammalian heart},
+  year         = {2026},
+  abstract     = {The adult mammalian heart has a limited regenerative capacity. Following injury, cardiomyocytes undergo a hypertrophic response accompanied by polyploidization, which has been described as a barrier to proliferation and regeneration of the heart1,2. However, the unique molecular programs of polyploidy, or genome multiplied cardiomyocytes, and their influence on the disease-related myocardial remodelling process remains unclear. Here, we integrate single-nuclei and high-resolution spatial multi-omics across human, rat, and mouse hearts to define novel cardiac cell states and their tissue niches in ischemic and non-ischemic heart disease. Computational analysis across scales allowed us to generate detailed networks of the cardiac tissue remodelling process as well as tissue and sub-cellular environments uniquely enriched in polyploid cardiomyocytes or their diploid origins. We identify a conserved, dichotomous transcriptional program distinguishing diploid from polyploid cardiomyocytes. Polyploid cardiomyocytes demonstrated rewired metabolic and chromatin-remodeling transcriptional programs and recapitulate the gene signature of immature human fetal cardiomyocytes. Notably, we observe that polyploid cardiomyocytes{\textemdash}rather than the general myocyte population{\textemdash}are the primary sites of enrichment for major heart-failure drug targets, including the mineralocorticoid, β1-adrenergic, and glucagon-like peptide-1 receptors. Based on our cross-species dataset we further identified TNIK, a Wnt-pathway regulator expressed in polyploid cardiomyocytes across species, as a potential therapeutic target and demonstrate that pharmacological TNIK inhibition improves cardiac function after myocardial infarction in rats. Together, this species-spanning, disease-resolved study redefines cardiomyocyte heterogeneity in heart disease and suggests a therapeutic path to heart failure treatment by targeting polyploid cardiomyocytes.Competing Interest StatementCK received honoria from within the last 2 years from BAYER and received research funding from Insilico for this study to perform rat snRNA-sequencing experiments. RK acknowledges the following outside of the submitted work, he is founder and board member of Sequantrix GmbH, received honoraria from Bayer, Chugai, Pfizer, Roche, Genentech, Eli Lilly, and GSK, AMGEN, Sobi, Hybridize Therapeutic, Valerio Therapeutics, Exigent Therapeutics for advisory board meetings and received research funding from Travere Therapeutics, Galapagos, Chugai, Novo Nordisk, and Ask Bio. F.R., H.Z., M.Z., and A.Z. are employees of Insilico Medicine, which develops generative artificial intelligence and related technologies for drug discovery, drug development, and aging research. Insilico Medicine has ongoing therapeutic programs, including rentosertib (INS018_055) in fibrotic and other disease areas. The remaining authors declare no competing interests. Deutsche Forschungsgemeinschaft, https://ror.org/018mejw64, 459969915, 545524314, 445703531European Research Group on Environment and Health in the Transport Sector, 101040726Else Kr{\"o}ner-Fresenius-Stiftung, https://ror.org/03zcxha54, 2022.EKCS.08Bundesministerium f{\"u}r Forschung, Technologie und Raumfahrt, https://ror.org/04pz7b180, 031L0307ADeutsche Herzstiftung, https://ror.org/02hq6wv21, Cardio-KI},
+  url          = {https://www.biorxiv.org/content/early/2026/02/14/2026.01.31.701472},
+}
+
+@Article{Pennekamp2026,
+  author    = {Pennekamp, Jan and Lohm{\"o}ller, Johannes and Wu, Zhuojun and Lehmann, Kjong-Van and Hoos, Holger and Jankowski, Joachim and Kobbelt, Leif and Wehrle, Klaus and Schaub, Michael T.},
+  journal   = {ACM Trans. Comput. Healthcare},
+  title     = {The Challenge of Multi-Organ Crosstalk Research},
+  year      = {2026},
+  month     = jul,
+  abstract  = {The prevalence of multimorbid patients (i.e., one person with two or more diseases) is critical for patients, medical doctors, and society alike since it complicates treatment and results in high (treatment) costs. However, contemporary medicine mainly specializes in single-organ approaches, frequently overlooking the interactions between different organs causing multimorbidities. Recent research on bilateral organ crosstalk (OCT) reveals the complex interplay between organs and the importance of studying OCT, especially involving more than two organs. Tackling the challenges associated with multi-organ crosstalk requires fundamental methodological advances in computer science, specifically related to handling multi-modal data, the combinatorial explosion of complexity, and data sensitivity. Thus, research should generally be directed toward (i) methods for identifying affected organs, (ii) concepts for discovering disease progression, and (iii) models for validation in clinical studies. When addressing these challenges interdisciplinarily, computer science and medicine will jointly improve the understanding of OCT and multimorbidity, resulting in novel treatment options for multimorbid patients, reduced healthcare costs, and broad benefits for society.},
+  address   = {New York, NY, USA},
+  doi       = {10.1145/3833379},
+  publisher = {Association for Computing Machinery},
+  url       = {https://doi.org/10.1145/3833379},
+}
+
+@Misc{Frantzen2026,
+  author       = {Florian Frantzen and Michael T. Schaub},
+  howpublished = {axiv},
+  month        = aug,
+  title        = {A repository for discovery and reuse of higher-order network datasets},
+  year         = {2026},
+  abstract     = {Higher-order network datasets are dispersed across publications, institutional archives, and software-specific collections, making them difficult to discover, compare, and reuse. We introduce the Aachen Higher-Order Repository of Networks (AHORN), a curated repository of standardized higher-order network datasets derived from publicly released sources. Each dataset entry links a converted dataset to its source, metadata, citation guidance, conversion code, and version history. The repository supports browsable and machine-readable discovery, revision-specific downloads, format validation, and exports for interoperable reuse. We describe the repository architecture, curation workflow, access tools, and the coverage and limitations of the catalog snapshot analyzed in this article.},
+  groups       = {erc},
+  url          = {https://arxiv.org/abs/2608.03491},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
